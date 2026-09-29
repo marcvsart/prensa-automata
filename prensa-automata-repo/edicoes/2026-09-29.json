@@ -1,0 +1,408 @@
+{
+  "data": "2026-09-29",
+  "numero": 0,
+  "aviso": "Edição de teste. Fechada à meia-noite de segunda com o noticiário do dia 28.",
+  "manchete": {
+    "titulo": "A seis dias da urna, Lula abre cinco pontos no primeiro turno e empata com Flávio no segundo",
+    "texto": [
+      "A última Quaest antes da eleição dá 39% a Lula e 34% a Flávio Bolsonaro no primeiro turno; na simulação de segundo turno, os dois ficam com 42%. Há uma semana eram 37% a 33%, com Flávio um ponto à frente no confronto direto. Foi a primeira rodada depois do anúncio da proibição das bets. A BTG/Nexus, divulgada no mesmo dia, aponta 42% a 37% e 46% a 44%. O retrato é de vantagem de Lula na largada e disputa aberta na chegada."
+    ],
+    "fontes": [
+      {
+        "nome": "JOTA",
+        "url": "https://www.jota.info/eleicoes/eleicoes-2026/lula-abre-vantagem-no-1o-turno-e-empata-com-flavio-bolsonaro-no-2o-diz-quaest"
+      },
+      {
+        "nome": "TVT News",
+        "url": "https://tvtnews.com.br/quaest-pesquisa-presidente-28-setembro-2026/"
+      },
+      {
+        "nome": "Forbes (BTG/Nexus)",
+        "url": "https://forbes.com.br/forbes-money/2026/09/ibovespa-fecha-estavel-dolar-alta-pesquisas-eleitorais/"
+      }
+    ],
+    "nota": "Quaest: campo de 24 a 27/9, 2.004 entrevistas, margem de 2 pontos, registro BR-06520/2026"
+  },
+  "brasil": [
+    {
+      "titulo": "Lula deve faltar ao debate da Globo e falar a um podcast no mesmo horário",
+      "texto": [
+        "Segundo o Brasil 247, o presidente avisou a coordenação da campanha que não irá ao debate de quinta, 1º de outubro, e dará entrevista ao vivo a um podcast ainda não nomeado. Flávio confirmou presença e desafiou Lula a comparecer, o que desenha a cadeira vazia na TV aberta três dias antes da votação."
+      ],
+      "fontes": [
+        {
+          "nome": "Brasil 247",
+          "url": "https://www.brasil247.com/brasilia/lula-informa-a-coordenacao-de-campanha-que-nao-vai-ao-debate-da-globo/"
+        },
+        {
+          "nome": "Agenda do Poder",
+          "url": "https://agendadopoder.com.br/lula-deve-faltar-ao-debate-da-globo-e-dar-entrevista-a-podcast-no-mesmo-horario/"
+        }
+      ]
+    },
+    {
+      "titulo": "Dólar vai ao maior nível em seis meses, puxado por eleição e petróleo",
+      "texto": [
+        "A moeda subiu 0,83% e fechou a R$ 5,2264, o valor mais alto desde 30 de março; o Ibovespa recuou 0,26%, para 182.991 pontos. Pesaram as pesquisas e o exterior: o petróleo disparou depois que Trump rejeitou a proposta iraniana para Ormuz. O mercado espera volatilidade até domingo."
+      ],
+      "fontes": [
+        {
+          "nome": "Forbes Brasil",
+          "url": "https://forbes.com.br/forbes-money/2026/09/ibovespa-fecha-estavel-dolar-alta-pesquisas-eleitorais/"
+        },
+        {
+          "nome": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-28-setembro-2026/"
+        }
+      ]
+    },
+    {
+      "titulo": "Nossa Senhora Aparecida vira campo de batalha na reta final",
+      "texto": [
+        "Lula disse na TV que mexer com a padroeira não é aceitável. O boato de que Flávio tiraria o título de Aparecida nasceu de uma informação da GloboNews depois corrigida; o projeto citado é de 2007, de outro deputado, e foi arquivado. Flávio nega e acusa o PT de espalhar desinformação. O voto religioso virou território central de uma disputa apertada."
+      ],
+      "fontes": [
+        {
+          "nome": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/mexer-com-nossa-senhora-aparecida-nao-e-aceitavel-diz-lula"
+        },
+        {
+          "nome": "O Tempo",
+          "url": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/9/27/mexer-com-nossa-senhora-aparecida-nao-e-aceitavel-afirma-lula"
+        }
+      ]
+    },
+    {
+      "titulo": "Reprovação do STF bate recorde e chega a 47%, diz Datafolha",
+      "texto": [
+        "É a pior avaliação da série iniciada em 2019; só 18% aprovam a corte. O recorte é partidário (69% de reprovação entre eleitores de Flávio, 24% entre os de Lula) e pesa o caso Banco Master. A maioria apoia um código de ética para os ministros."
+      ],
+      "fontes": [
+        {
+          "nome": "Notícias ao Minuto",
+          "url": "https://www.noticiasaominuto.com.br/politica/2415938/avaliacao-negativa-do-stf-sobe-para-47-e-bate-recorde-aponta-datafolha"
+        },
+        {
+          "nome": "Ric",
+          "url": "https://ric.com.br/justica/datafolha-pesquisa-stf-avaliacao-negativa-pior-da-serie-historica/"
+        }
+      ]
+    },
+    {
+      "titulo": "Anatel diz ao STF que internet móvel grátis na eleição pode derrubar a rede",
+      "texto": [
+        "CNTE e PV pedem dados móveis liberados antes e depois de cada turno, para que usuários de pré-pago não fiquem sem informação. A agência responde que os picos de tráfego podem derrubar redes perto dos locais de votação. A decisão pode sair antes de domingo."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-09/internet-gratis-pode-derrubar-rede-movel-na-eleicao-diz-anatel-ao-stf"
+        }
+      ]
+    }
+  ],
+  "momento": {
+    "titulo": "Biografia do Abismo",
+    "autor": "Felipe Nunes e Thomas Traumann · HarperCollins Brasil, 2023",
+    "texto": [
+      "Um dos autores é o fundador da Quaest, a pesquisa da manchete de hoje. O livro parte de entrevistas domiciliares e mais de 150 grupos focais feitos entre 2021 e 2023 para mostrar como a disputa entre lulistas e bolsonaristas deixou de ser só eleitoral e virou choque de identidades, com efeito em amizades, famílias e consumo. Ajuda a ler por que um empate no segundo turno se mexe tão pouco, e por que temas como a padroeira pesam tanto numa campanha calcificada."
+    ],
+    "fontes": [
+      {
+        "nome": "Sobre o livro (finalista do Jabuti 2024)",
+        "url": "https://ofator.com.br/?p=17020"
+      }
+    ]
+  },
+  "mundo": {
+    "titulo": "Trump rejeita plano iraniano para reabrir Ormuz, e o petróleo passa de US$ 105",
+    "texto": [
+      "O Irã propôs, via mediadores do Catar, reabrir o estreito em sete dias em troca do fim do bloqueio americano a seus portos. Trump recusou, e o Brent chegou a US$ 107 na Ásia. Teerã diz que ainda espera a posição oficial por meio dos mediadores. É o fator que mais mexe com preços no mundo hoje."
+    ],
+    "fontes": [
+      {
+        "nome": "O Povo (AFP)",
+        "url": "https://www.opovo.com.br/noticias/mundo/2026/09/28/preco-do-petroleo-dispara-apos-trump-rejeitar-oferta-iraniana-de-tregua.html"
+      },
+      {
+        "nome": "Times of Israel",
+        "url": "https://www.timesofisrael.com/liveblog-september-26-2026/"
+      }
+    ]
+  },
+  "ia": {
+    "titulo": "Nvidia lança plataforma para isolar agentes de IA, com Anthropic e mais de 100 empresas a bordo",
+    "texto": [
+      "Depois de semanas de casos de agentes que furaram controles, a Nvidia apresentou a Open Agent Safety Platform: um runtime aberto que prende cada agente numa sandbox com acessos autorizados, e um vigia que roda fora da máquina do agente e pode colocá-lo em quarentena em milissegundos. A ideia de fundo é que um agente desviado não pode fiscalizar a si mesmo. Microsoft, SAP e Salesforce também apoiam. A indústria tenta mostrar freio próprio às vésperas do encontro dos executivos do setor com Trump."
+    ],
+    "fontes": [
+      {
+        "nome": "Nvidia",
+        "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform"
+      },
+      {
+        "nome": "The Next Web",
+        "url": "https://thenextweb.com/news/nvidia-open-agent-safety-platform"
+      },
+      {
+        "nome": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html"
+      }
+    ]
+  },
+  "giro": [
+    {
+      "regiao": "América do Sul",
+      "itens": [
+        {
+          "titulo": "JP Morgan prevê recessão na Argentina após atividade cair 2,9% em julho",
+          "url": "https://eldespertador.substack.com/p/el-despertador-28-de-septiembre-2026"
+        },
+        {
+          "titulo": "Milei diz ter deportado 30 mil \"terroristas\"; oposição pede dados",
+          "url": "https://www.infobae.com/america/agencias/2026/09/28/milei-asegura-que-argentina-ha-deportado-a-30000-terroristas-en-dos-anos/"
+        },
+        {
+          "titulo": "Colômbia raciona gás após falha em usina, com El Niño à vista",
+          "url": "https://www.riotimesonline.com/latin-american-pulse-for-monday-september-28-2026"
+        }
+      ]
+    },
+    {
+      "regiao": "América do Norte e Central",
+      "itens": [
+        {
+          "titulo": "Furacão Polo, categoria 3, atinge a Baixa Califórnia do Sul",
+          "url": "https://www.riotimesonline.com/latam-expat-nomad-daily-guide-for-monday-september-28-2026"
+        },
+        {
+          "titulo": "Câmara do México aprova vetar cargos máximos a quem tem dupla cidadania",
+          "url": "https://www.riotimesonline.com/latin-american-pulse-for-monday-september-28-2026"
+        },
+        {
+          "titulo": "Juro do título de 10 anos dos EUA sobe a 5,23%",
+          "url": "https://forbes.com.br/forbes-money/2026/09/ibovespa-fecha-estavel-dolar-alta-pesquisas-eleitorais/"
+        }
+      ]
+    },
+    {
+      "regiao": "África",
+      "itens": [
+        {
+          "titulo": "Dois massacres a tiros matam ao menos 27 na África do Sul",
+          "url": "https://allafrica.com/stories/202609280267.html"
+        },
+        {
+          "titulo": "Epidemia de ebola no Congo passa de 8 mil casos",
+          "url": "https://www.riotimesonline.com/africa-intelligence-brief-monday-september-28-2026"
+        },
+        {
+          "titulo": "Fuga do Sudão para o Chade corre a 20 vezes o ritmo de 2025",
+          "url": "https://www.riotimesonline.com/africa-intelligence-brief-monday-september-28-2026"
+        }
+      ]
+    },
+    {
+      "regiao": "Europa",
+      "itens": [
+        {
+          "titulo": "Drones russos atingem a Academia de Ciências em Kiev",
+          "url": "https://www.ksat.com/news/world/2026/09/28/russian-drones-pound-civilian-areas-as-ukraine-claims-battlefield-breakthroughs/"
+        },
+        {
+          "titulo": "Vučić renuncia à Presidência da Sérvia para disputar o cargo de premiê",
+          "url": "https://www.france24.com/en/europe/20260927-serbian-president-aleksandar-vucic-resigns-expected-to-run-for-prime-minister"
+        },
+        {
+          "titulo": "Reino Unido investiga elo iraniano em plano de atentado contra base usada pelos EUA",
+          "url": "https://www.npr.org/2026/09/28/g-s1-145245/britain-us-base-suspected-foiled-attack"
+        }
+      ]
+    },
+    {
+      "regiao": "Oriente Médio",
+      "itens": [
+        {
+          "titulo": "Netanyahu faz viagem secreta a Abu Dhabi",
+          "url": "https://www.timesofisrael.com/liveblog-september-28-2026/"
+        },
+        {
+          "titulo": "Mortos em Gaza passam de 74 mil desde o início da guerra",
+          "url": "https://www.britannica.com/event/2026-Iran-war"
+        },
+        {
+          "titulo": "Autoridade Palestina abre inscrição de chapas para eleição de 28 de novembro",
+          "url": "https://www.timesofisrael.com/liveblog-september-26-2026/"
+        }
+      ]
+    },
+    {
+      "regiao": "Ásia",
+      "itens": [
+        {
+          "titulo": "Bangkok segue em estado de calamidade por enchentes",
+          "url": "https://www.riotimesonline.com/asia-intelligence-brief-monday-september-28-2026"
+        },
+        {
+          "titulo": "Afeganistão diz ter matado 28 combatentes vindos do Paquistão",
+          "url": "https://www.riotimesonline.com/asia-intelligence-brief-monday-september-28-2026"
+        },
+        {
+          "titulo": "China expulsa dois generais do alto escalão, entre eles Zhang Youxia",
+          "url": "https://www.riotimesonline.com/asia-intelligence-brief-monday-september-28-2026"
+        }
+      ]
+    }
+  ],
+  "ciencia": {
+    "titulo": "Proteínas de 160 milhões de anos são ressuscitadas e vencem superbactérias",
+    "texto": [
+      "Cientistas reconstruíram peptídeos antimicrobianos, pequenas proteínas de defesa do sistema imune, de mamíferos que viveram há milhões de anos. Alguns deles se mostraram mais potentes contra bactérias resistentes a medicamentos do que as versões que o corpo humano produz hoje. É uma aposta curiosa contra um dos maiores problemas da medicina: procurar no passado evolutivo armas que a evolução recente deixou para trás."
+    ],
+    "fontes": [
+      {
+        "nome": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/news/"
+      }
+    ]
+  },
+  "disco": {
+    "artista": "Walter Franco",
+    "titulo": "Ou Não",
+    "ficha": "1973 · o \"disco da mosca\"",
+    "texto": [
+      "A capa é quase toda branca, com uma mosca pousada. Dentro, Walter Franco leva a canção brasileira ao limite da poesia concreta: palavras repetidas até virarem som, silêncios longos, vozes sobrepostas, ruído de estúdio tratado como instrumento. O disco nasceu da mesma pesquisa de \"Cabeça\", vaiada no Festival Internacional da Canção de 1972, e soou radical demais para o rádio da época. Hoje é um segredo mal guardado da MPB: pouca gente ouviu, e quem ouve se pergunta como ficou esquecido. Comece por \"Me Deixe Mudo\" e deixe o resto correr sem pular faixa."
+    ]
+  },
+  "poema": {
+    "autor": "Olavo Bilac",
+    "titulo": "Língua portuguesa",
+    "ficha": "Soneto publicado em Tarde (1919)",
+    "texto": "Última flor do Lácio, inculta e bela,\nÉs, a um tempo, esplendor e sepultura:\nOuro nativo, que na ganga impura\nA bruta mina entre os cascalhos vela...\n\nAmo-te assim, desconhecida e obscura,\nTuba de alto clangor, lira singela,\nQue tens o trom e o silvo da procela\nE o arrolo da saudade e da ternura!\n\nAmo o teu viço agreste e o teu aroma\nDe virgens selvas e de oceano largo!\nAmo-te, ó rude e doloroso idioma,\n\nEm que da voz materna ouvi: \"meu filho!\"\nE em que Camões chorou, no exílio amargo,\nO gênio sem ventura e o amor sem brilho!",
+    "comentario": [
+      "Bilac trata a língua como minério: ouro ainda misturado ao cascalho, bruto e precioso ao mesmo tempo. Para a primeira tiragem de um jornal escrito por máquina, é um bom lembrete de que o material de trabalho aqui é o português, com toda a sua história, da voz materna a Camões."
+    ]
+  },
+  "entender_brasil": {
+    "titulo": "Raízes do Brasil",
+    "autor": "Sérgio Buarque de Holanda · 1936",
+    "texto": [
+      "O livro que abriu a coleção Documentos Brasileiros, da José Olympio, e um dos pilares do chamado pensamento social brasileiro. Sérgio Buarque parte da herança ibérica para explicar um país em que o privado sempre invadiu o público: o gosto pela aventura em vez do trabalho paciente, o apreço pelo título e pelo diploma, a dificuldade de separar o Estado da família e dos amigos.",
+      "É daqui a ideia do \"homem cordial\", quase sempre mal lida. Cordial vem de coração, não de gentileza: é o brasileiro que resolve tudo pela afeição e pela intimidade, na simpatia ou na raiva, e que tem dificuldade com regras impessoais. Quase noventa anos depois, continua sendo uma chave para ler campanhas feitas de fé, lealdade e ressentimento pessoal, como a desta semana."
+    ],
+    "fontes": []
+  },
+  "bitcoin": {
+    "painel": [
+      [
+        "BTC/USD",
+        "US$ 83.309"
+      ],
+      [
+        "BTC/BRL",
+        "R$ 430.100"
+      ],
+      [
+        "24h (USD)",
+        "−1,1%"
+      ],
+      [
+        "7d / 30d (USD)",
+        "+2,5% / +4,5%"
+      ]
+    ],
+    "texto": [
+      "O bitcoin devolveu parte do fim de semana: caiu cerca de 1% em dólar e voltou para perto de US$ 83 mil, depois de abrir a segunda perto de US$ 84,5 mil e perder terreno quando Trump rejeitou o plano iraniano para Ormuz. A semana e o mês ainda são positivos, e o motivo está nos fundos: os ETFs à vista americanos captaram US$ 2,4 bilhões líquidos na semana encerrada em 25 de setembro, a maior entrada desde outubro de 2025, e viraram para o positivo o saldo de 2026.",
+      "O que observar: o preço não acompanhou a força dos fluxos, sinal de oferta vendedora pesada perto dos US$ 84–85 mil. Petróleo e Ormuz seguem como o principal risco. Em base anual, o BTC está cerca de 27% abaixo de um ano atrás e longe da máxima de US$ 126,2 mil, de 6 de outubro de 2025. Informativo, não é recomendação."
+    ],
+    "fontes": [
+      {
+        "nome": "Coinbase",
+        "url": "https://www.coinbase.com/price/bitcoin"
+      },
+      {
+        "nome": "CoinDesk",
+        "url": "https://www.coindesk.com/price/bitcoin"
+      },
+      {
+        "nome": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-09-26-bitcoin-etfs-turn-positive-for-2026-with-2-4-billion-weekly-inflow-their-largest-since-october-416944"
+      },
+      {
+        "nome": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-september-28-2026-bitcoin-loses-ground-after-trump-rejects-irans-7-day-plan-113444329.html"
+      }
+    ]
+  },
+  "esporte": {
+    "titulo": "Fim das bets abre rombo no futebol, e governo vai chamar clubes da Série A",
+    "texto": [
+      "A medida provisória publicada em 25 de setembro proíbe as apostas de cota fixa e sua publicidade em todo o país. Os patrocínios precisam sair das camisas em até dez dias, e os sites saem do ar a partir de 6 de outubro. Treze dos 20 clubes da Série A têm uma bet como patrocinadora máster, e o setor repassou R$ 1,14 bilhão aos maiores clubes em 2025, cerca de um terço da receita de marketing. Até o Brasileirão e a Copa do Brasil levam o nome da Betano. O governo prepara uma reunião com os dirigentes nesta semana; a MP precisa passar pelo Congresso em até 120 dias para não caducar."
+    ],
+    "fontes": [
+      {
+        "nome": "Máquina do Esporte",
+        "url": "https://maquinadoesporte.com.br/apostas/da-liberdade-a-proibicao-o-caminho-das-bets-no-mercado-brasileiro/"
+      },
+      {
+        "nome": "CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/esportes/futebol/proibicao-das-bets-confira-os-valores-de-patrocinios-dos-clubes-afetados/"
+      },
+      {
+        "nome": "JB",
+        "url": "https://www.jb.com.br/brasil/politica/2026/09/1061047-governo-estuda-acabar-com-operacao-das-bets-no-brasil.html"
+      }
+    ]
+  },
+  "tempo": {
+    "dia": "terça, 29",
+    "regioes": [
+      {
+        "regiao": "Norte",
+        "texto": "Chuva com trovoadas no oeste da região; sol e tempo seco no Tocantins, com alerta de baixa umidade. Máximas de 37 °C em Porto Velho e Boa Vista e 39 °C em Palmas."
+      },
+      {
+        "regiao": "Nordeste",
+        "texto": "Nuvens no litoral norte e leste, com chuva isolada; interior quente e ensolarado. Teresina chega a 39 °C, Fortaleza e São Luís a 33 °C, Salvador fica em 28 °C."
+      },
+      {
+        "regiao": "Centro-Oeste",
+        "texto": "Primeira onda de calor da primavera, com alerta do Inmet até quarta. Cuiabá pode bater 40 °C, Campo Grande 39 °C, Goiânia 37 °C e Brasília 34 °C, com pancadas isoladas à tarde."
+      },
+      {
+        "regiao": "Sudeste",
+        "texto": "Calor extremo até quarta em SP e no sul de MG e do RJ, com máximas perto de 37 °C. A frente fria chega a São Paulo à noite, e o Inmet alerta para tempestades com granizo e ventos de até 60 km/h em todo o estado."
+      },
+      {
+        "regiao": "Sul",
+        "texto": "Depois dos temporais de segunda no RS e em SC, a terça tem chuva e queda de temperatura em parte da região."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Inmet",
+        "url": "https://portal.inmet.gov.br/noticias/previs%C3%A3o-para-ter%C3%A7a-feira-29-e-quarta-feira-30"
+      },
+      {
+        "nome": "Cultivar",
+        "url": "https://revistacultivar.com.br/noticias/inmet-previsao-do-tempo-para-terca-29-9-e-quarta-feira-30-9"
+      },
+      {
+        "nome": "Brasil 61",
+        "url": "https://brasil61.com/n/o-tempo-e-a-temperatura-centro-oeste-segue-com-calor-intenso-nesta-terca-feira-29-ptco264595"
+      },
+      {
+        "nome": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-09/inmet-emite-alerta-de-grande-perigo-por-onda-de-calor-no-fim-de-semana"
+      },
+      {
+        "nome": "Rio Times (SP)",
+        "url": "https://www.riotimesonline.com/sao-paulo-daily-brief-for-monday-september-28-2026/"
+      },
+      {
+        "nome": "CGE-SP",
+        "url": "https://www.cgesp.org/v3/noticias.jsp"
+      }
+    ]
+  }
+}
