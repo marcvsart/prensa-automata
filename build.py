@@ -94,6 +94,7 @@ def cabeca(titulo, descricao, css):
 <style>
 {css}
 </style>
+<script data-goatcounter="https://prensaautomata.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>"""
 
 RODAPE = """<footer>

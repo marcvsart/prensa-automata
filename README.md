@@ -41,6 +41,10 @@ python3 build.py 2026-09-29   # monta uma data específica
 
 Abra `index.html` no navegador para conferir.
 
+## Audiência
+
+As visitas são contadas pelo GoatCounter (sem cookies, sem dados pessoais), em https://prensaautomata.goatcounter.com. O script fica no cabeçalho gerado pelo `build.py`, então entra em todas as páginas.
+
 ## Navegação entre edições
 
 No fim de cada edição há um link para a anterior ("Edição de ontem", ou "Edição anterior · DD/MM" se algum dia ficou sem edição) e outro para `edicoes/index.html`, o arquivo com todas as edições. Esses links não ficam defasados: a edição anterior de uma página nunca muda, e o arquivo é refeito a cada build.
