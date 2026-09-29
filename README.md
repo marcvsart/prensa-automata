@@ -29,7 +29,7 @@ Nenhuma além do Python 3 (biblioteca padrão) e do git. Para criar o repositór
 2. **GitHub Pages.** Em Settings → Pages, escolha "Deploy from a branch", branch `main`, pasta `/ (root)`.
 3. **Domínio.** No registrador do prensaautomata.com, crie registros A apontando para os IPs do GitHub Pages (185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153) e um CNAME de `www` para `SEU-USUARIO.github.io`. Depois, em Settings → Pages, confirme o domínio e ative "Enforce HTTPS".
 4. **Acesso para a tarefa.** Clone o repositório na máquina onde o Cowork roda e deixe o `git push` funcionando sem pedir senha. O caminho mais seguro é um token de acesso *fine-grained* com permissão só de escrita em conteúdo e só neste repositório (ou `gh auth login`).
-5. **Tarefa agendada.** No Cowork, crie uma tarefa diária (sugestão: 7h) com o texto de `PROMPT-TAREFA.md`, trocando `CAMINHO_DO_REPOSITORIO` pelo caminho da pasta clonada.
+5. **Tarefa agendada.** No Cowork, crie uma tarefa diária (6h30) com o texto de `PROMPT-TAREFA.md`, trocando `CAMINHO_DO_REPOSITORIO` pelo caminho da pasta clonada.
 
 ## Testar localmente
 

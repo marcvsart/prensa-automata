@@ -1,7 +1,7 @@
 # Prensa Autômata — tarefa diária
 
 Cole o texto abaixo (a partir de "Você é a redação") como instrução da tarefa agendada no Cowork.
-Sugestão de horário: todo dia às 7h (São Paulo), depois da edição da manhã do Jornal do Marcvs.
+Horário: todo dia às 6h30 (São Paulo), depois da edição da manhã do Jornal do Marcvs.
 Troque `CAMINHO_DO_REPOSITORIO` pelo caminho real da pasta clonada.
 
 ---
