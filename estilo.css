@@ -74,6 +74,12 @@ p{margin:0 0 12px}
 .ticker div{border-top:1px solid var(--accent);padding-top:7px}
 .ticker b{display:block;font:500 1.12rem/1.25 var(--mono)}
 .ticker span{font:10.5px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+/* mercados: Ibovespa e Bitcoin lado a lado */
+.mercados{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px 32px}
+.mercado h3{margin:0 0 12px;font-size:1.35rem}
+.mercado .ticker{grid-template-columns:1fr 1fr}
+.mercado p:not(.src){font-size:.98rem;line-height:1.55}
+.aviso{margin-top:4px}
 .regioes{margin:0 0 16px;display:grid;gap:0}
 .regioes div{display:grid;grid-template-columns:7.5rem 1fr;gap:0 14px;padding:9px 0;border-bottom:1px solid var(--rule)}
 .regioes dt{font:500 12px/1.9 var(--mono);letter-spacing:.04em;color:var(--accent)}

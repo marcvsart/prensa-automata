@@ -51,6 +51,14 @@ def leitura(l):
     return (f'<div class="leitura">\n<h3>{e(l["titulo"])}</h3>\n'
             f'<p class="autor">{e(l["autor"])}</p>\n{paragrafos(l["texto"])}\n{fontes(l.get("fontes"))}\n</div>')
 
+def ticker(painel):
+    celulas = "\n".join(f"<div><span>{e(k)}</span><b>{e(v)}</b></div>" for k, v in painel)
+    return f'<div class="ticker">\n{celulas}\n</div>'
+
+def mercado(nome, m):
+    return (f'<div class="mercado">\n<h3>{e(nome)}</h3>\n{ticker(m["painel"])}\n'
+            f'{paragrafos(m["texto"])}\n{fontes(m.get("fontes"))}\n</div>')
+
 REG = ('<svg class="reg {lado}" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="5.5" '
        'fill="none" stroke="currentColor"/><path d="M10 0v20M0 10h20" stroke="currentColor"/></svg>')
 
@@ -92,10 +100,15 @@ def montar(ed, arquivo):
 
     partes.append(secao("brasil-fundo", "Para entender o Brasil", leitura(ed["entender_brasil"])))
 
-    b = ed["bitcoin"]
-    celulas = "\n".join(f"<div><span>{e(k)}</span><b>{e(v)}</b></div>" for k, v in b["painel"])
-    partes.append(secao("bitcoin", "Bitcoin",
-        f'<div class="ticker">\n{celulas}\n</div>\n{paragrafos(b["texto"])}\n{fontes(b.get("fontes"))}'))
+    if "ibovespa" in ed:
+        blocos_m = [mercado("Ibovespa", ed["ibovespa"]), mercado("Bitcoin", ed["bitcoin"])]
+        partes.append(secao("mercados", "Mercados",
+            '<div class="mercados">\n' + "\n".join(blocos_m) + '\n</div>\n'
+            '<p class="src aviso">Informativo, não é recomendação.</p>'))
+    else:
+        b = ed["bitcoin"]
+        partes.append(secao("bitcoin", "Bitcoin",
+            f'{ticker(b["painel"])}\n{paragrafos(b["texto"])}\n{fontes(b.get("fontes"))}'))
 
     partes.append(secao("esporte", "Esporte", noticia(ed["esporte"])))
 
