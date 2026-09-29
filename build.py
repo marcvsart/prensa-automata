@@ -101,9 +101,13 @@ def montar(ed, arquivo):
     partes.append(secao("brasil-fundo", "Para entender o Brasil", leitura(ed["entender_brasil"])))
 
     if "ibovespa" in ed:
-        blocos_m = [mercado("Ibovespa", ed["ibovespa"]), mercado("Bitcoin", ed["bitcoin"])]
+        blocos_m = [mercado(nome, ed[chave]) for chave, nome in
+                    [("ibovespa", "Ibovespa"), ("dolar", "Dólar"), ("bitcoin", "Bitcoin")] if chave in ed]
+        resumo = ed.get("mercado")
+        topo = (f'<div class="resumo">\n{paragrafos(resumo["texto"])}\n{fontes(resumo.get("fontes"))}\n</div>\n'
+                if resumo else "")
         partes.append(secao("mercados", "Mercados",
-            '<div class="mercados">\n' + "\n".join(blocos_m) + '\n</div>\n'
+            topo + '<div class="mercados">\n' + "\n".join(blocos_m) + '\n</div>\n'
             '<p class="src aviso">Informativo, não é recomendação.</p>'))
     else:
         b = ed["bitcoin"]
@@ -128,6 +132,7 @@ def montar(ed, arquivo):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
 <title>Prensa Autômata · {e(data_extenso(ed['data']))}</title>
 <meta name="description" content="{e(m['titulo'])}">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🗞️%3C/text%3E%3C/svg%3E">

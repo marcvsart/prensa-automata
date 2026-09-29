@@ -1,4 +1,4 @@
-/* Prensa Autômata — tema claro azul, sóbrio (set/2026)
+/* Prensa Autômata — tema claro azul, sóbrio (set/2026). Só modo claro.
    Fontes (no <head>):
    https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Geist+Mono:wght@400;500&display=swap */
 :root{
@@ -7,11 +7,10 @@
   --serif:"Newsreader",Georgia,"Times New Roman",serif;
   --mono:"Geist Mono",ui-monospace,Menlo,monospace;
   box-sizing:border-box;
+  color-scheme:light;
   padding-top:env(safe-area-inset-top,0px);
   padding-bottom:env(safe-area-inset-bottom,0px);
 }
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b111c;--paper:#111a29;--ink:#e4e9f2;--muted:#95a1b7;--rule:#243149;--grid:#162034;--accent:#8fa9f2;--accent-soft:#8fa9f212;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#0b111c;--paper:#111a29;--ink:#e4e9f2;--muted:#95a1b7;--rule:#243149;--grid:#162034;--accent:#8fa9f2;--accent-soft:#8fa9f212;color-scheme:dark}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 *,*::before,*::after{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:18.5px/1.6 var(--serif);font-optical-sizing:auto;padding:28px 16px 64px;-webkit-font-smoothing:antialiased}
@@ -74,12 +73,17 @@ p{margin:0 0 12px}
 .ticker div{border-top:1px solid var(--accent);padding-top:7px}
 .ticker b{display:block;font:500 1.12rem/1.25 var(--mono)}
 .ticker span{font:10.5px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-/* mercados: Ibovespa e Bitcoin lado a lado */
-.mercados{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px 32px}
-.mercado h3{margin:0 0 12px;font-size:1.35rem}
-.mercado .ticker{grid-template-columns:1fr 1fr}
-.mercado p:not(.src){font-size:.98rem;line-height:1.55}
-.aviso{margin-top:4px}
+/* mercados: resumo + Ibovespa, dólar e bitcoin lado a lado */
+.resumo{margin:0 0 22px}
+.resumo p:not(.src){font-size:1.02rem}
+.mercados{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:26px 28px}
+.mercado h3{margin:0 0 10px;font-size:1.3rem}
+.mercado .ticker{display:block;margin:0 0 12px}
+.mercado .ticker div{display:flex;justify-content:space-between;align-items:baseline;gap:10px;border-top:1px solid var(--rule);padding:6px 0}
+.mercado .ticker div:first-child{border-top-color:var(--accent)}
+.mercado .ticker b{display:inline;font-size:.98rem}
+.mercado p:not(.src){font-size:.95rem;line-height:1.5}
+.aviso{margin-top:6px}
 .regioes{margin:0 0 16px;display:grid;gap:0}
 .regioes div{display:grid;grid-template-columns:7.5rem 1fr;gap:0 14px;padding:9px 0;border-bottom:1px solid var(--rule)}
 .regioes dt{font:500 12px/1.9 var(--mono);letter-spacing:.04em;color:var(--accent)}

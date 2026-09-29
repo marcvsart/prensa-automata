@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
 <title>Prensa Autômata · Terça-feira, 29 de setembro de 2026</title>
 <meta name="description" content="A cinco dias da eleição, três pesquisas mostram retratos diferentes da disputa">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🗞️%3C/text%3E%3C/svg%3E">
@@ -10,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Geist+Mono:wght@400;500&display=swap">
 <style>
-/* Prensa Autômata — tema claro azul, sóbrio (set/2026)
+/* Prensa Autômata — tema claro azul, sóbrio (set/2026). Só modo claro.
    Fontes (no <head>):
    https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Geist+Mono:wght@400;500&display=swap */
 :root{
@@ -19,11 +20,10 @@
   --serif:"Newsreader",Georgia,"Times New Roman",serif;
   --mono:"Geist Mono",ui-monospace,Menlo,monospace;
   box-sizing:border-box;
+  color-scheme:light;
   padding-top:env(safe-area-inset-top,0px);
   padding-bottom:env(safe-area-inset-bottom,0px);
 }
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b111c;--paper:#111a29;--ink:#e4e9f2;--muted:#95a1b7;--rule:#243149;--grid:#162034;--accent:#8fa9f2;--accent-soft:#8fa9f212;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#0b111c;--paper:#111a29;--ink:#e4e9f2;--muted:#95a1b7;--rule:#243149;--grid:#162034;--accent:#8fa9f2;--accent-soft:#8fa9f212;color-scheme:dark}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 *,*::before,*::after{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:18.5px/1.6 var(--serif);font-optical-sizing:auto;padding:28px 16px 64px;-webkit-font-smoothing:antialiased}
@@ -86,12 +86,17 @@ p{margin:0 0 12px}
 .ticker div{border-top:1px solid var(--accent);padding-top:7px}
 .ticker b{display:block;font:500 1.12rem/1.25 var(--mono)}
 .ticker span{font:10.5px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-/* mercados: Ibovespa e Bitcoin lado a lado */
-.mercados{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px 32px}
-.mercado h3{margin:0 0 12px;font-size:1.35rem}
-.mercado .ticker{grid-template-columns:1fr 1fr}
-.mercado p:not(.src){font-size:.98rem;line-height:1.55}
-.aviso{margin-top:4px}
+/* mercados: resumo + Ibovespa, dólar e bitcoin lado a lado */
+.resumo{margin:0 0 22px}
+.resumo p:not(.src){font-size:1.02rem}
+.mercados{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:26px 28px}
+.mercado h3{margin:0 0 10px;font-size:1.3rem}
+.mercado .ticker{display:block;margin:0 0 12px}
+.mercado .ticker div{display:flex;justify-content:space-between;align-items:baseline;gap:10px;border-top:1px solid var(--rule);padding:6px 0}
+.mercado .ticker div:first-child{border-top-color:var(--accent)}
+.mercado .ticker b{display:inline;font-size:.98rem}
+.mercado p:not(.src){font-size:.95rem;line-height:1.5}
+.aviso{margin-top:6px}
 .regioes{margin:0 0 16px;display:grid;gap:0}
 .regioes div{display:grid;grid-template-columns:7.5rem 1fr;gap:0 14px;padding:9px 0;border-bottom:1px solid var(--rule)}
 .regioes dt{font:500 12px/1.9 var(--mono);letter-spacing:.04em;color:var(--accent)}
@@ -288,27 +293,42 @@ Escarra nessa boca que te beija!</p>
 
 <section id="mercados">
 <h2>Mercados</h2>
+<div class="resumo">
+<p>Dia de alívio moderado no Brasil e de cautela lá fora. A bolsa brasileira sobe perto de 0,4% no fim da tarde e o dólar recua levemente, depois de fechar a segunda no maior nível em seis meses. Nos EUA, o S&amp;P 500 cai 0,2% e o juro do título de 10 anos segue em 5,26%, perto das máximas do ano, o que limita o apetite por risco no mundo todo. Até domingo, as pesquisas eleitorais e a negociação sobre Ormuz devem continuar ditando o ritmo.</p>
+<p class="src"><a href="https://finance.yahoo.com/markets/">Yahoo Finance</a> · <a href="https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-29-setembro-2026/">CNN Brasil</a></p>
+</div>
 <div class="mercados">
 <div class="mercado">
 <h3>Ibovespa</h3>
 <div class="ticker">
-<div><span>Ibovespa (17h)</span><b>183.888 pts</b></div>
-<div><span>Dia</span><b>+0,5%</b></div>
-<div><span>Mês / ano</span><b>+3,6% / +14,1%</b></div>
-<div><span>Dólar</span><b>R$ 5,21</b></div>
+<div><span>Pontos (17h)</span><b>183.787</b></div>
+<div><span>Dia</span><b>+0,4%</b></div>
+<div><span>Mês</span><b>+3,6%</b></div>
+<div><span>Ano</span><b>+14,1%</b></div>
 </div>
-<p>A bolsa sobe perto de 0,5% no fim da tarde e ensaia interromper quatro pregões seguidos de queda. As petroleiras puxam a alta, com PRIO e Brava subindo mais de 3% na esteira do petróleo; a Vale, que cai 2%, segura o índice. Pesquisas eleitorais e os juros americanos em alta seguem ditando o humor.</p>
+<p>A bolsa ensaia interromper quatro pregões de queda. As petroleiras puxam a alta, com PRIO e Brava subindo mais de 3%; a Vale, que cai 2%, segura o índice.</p>
 <p class="src"><a href="https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-29092026/">InfoMoney</a> · <a href="https://finance.yahoo.com/quote/%5EBVSP/">Yahoo Finance</a></p>
+</div>
+<div class="mercado">
+<h3>Dólar</h3>
+<div class="ticker">
+<div><span>R$ (17h)</span><b>5,21</b></div>
+<div><span>Dia</span><b>−0,2%</b></div>
+<div><span>Mês</span><b>+0,6%</b></div>
+<div><span>Ano</span><b>−4,8%</b></div>
+</div>
+<p>Depois de fechar a segunda a R$ 5,23, o maior valor desde março, a moeda americana devolve um pouco. A incerteza eleitoral e os juros altos nos EUA mantêm o real pressionado, mas no ano ele ainda se valoriza.</p>
+<p class="src"><a href="https://forbes.com.br/forbes-money/2026/09/ibovespa-fecha-estavel-dolar-alta-pesquisas-eleitorais/">Forbes Brasil</a> · <a href="https://finance.yahoo.com/quote/BRL%3DX/">Yahoo Finance</a></p>
 </div>
 <div class="mercado">
 <h3>Bitcoin</h3>
 <div class="ticker">
-<div><span>BTC/USD</span><b>US$ 83.582</b></div>
-<div><span>BTC/BRL</span><b>R$ 435.790</b></div>
-<div><span>24h (USD)</span><b>−0,3%</b></div>
-<div><span>7d / 30d (USD)</span><b>−3,5% / +5,8%</b></div>
+<div><span>US$</span><b>83.582</b></div>
+<div><span>R$</span><b>435.790</b></div>
+<div><span>24h</span><b>−0,3%</b></div>
+<div><span>7d / 30d</span><b>−3,5% / +5,8%</b></div>
 </div>
-<p>O bitcoin passa a terça quase parado, perto de US$ 83,6 mil, e acumula queda de 3,5% na semana. Petróleo em alta e juros americanos elevados pesam sobre ativos de risco, mesmo com os ETFs à vista captando cerca de US$ 2,4 bilhões na semana até 25/9. A faixa de US$ 85 mil segue como teto.</p>
+<p>Quase parado na terça, perto de US$ 83,6 mil, e em queda de 3,5% na semana. Juros americanos altos pesam, mesmo com os ETFs captando cerca de US$ 2,4 bilhões na semana até 25/9. US$ 85 mil segue como teto.</p>
 <p class="src"><a href="https://www.coingecko.com/pt/moedas/bitcoin">CoinGecko</a> · <a href="https://www.cryptotimes.io/2026/09/29/bitcoin-etfs-draw-2-39-billion-despite-weekly-btc-decline/">The Crypto Times</a> · <a href="https://www.riotimesonline.com/crypto-markets-bitcoin-majors-tuesday-september-29-2026/">Rio Times</a></p>
 </div>
 </div>
