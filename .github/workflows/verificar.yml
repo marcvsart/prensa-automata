@@ -1,7 +1,8 @@
 name: Verificar edição
 
 # Confere, a cada push, se todos os JSON de edição são válidos,
-# se a edição mais recente monta sem erro e se o HTML publicado bate com ela.
+# se a edição mais recente monta sem erro e se o HTML publicado (capa, edição
+# e arquivo de edições) bate com ela.
 on:
   push:
   pull_request:
@@ -21,4 +22,4 @@ jobs:
       - name: HTML publicado está atualizado
         run: |
           ultima=$(ls edicoes/*.json | sort | tail -1)
-          git diff --exit-code -- index.html "${ultima%.json}.html"
+          git diff --exit-code -- index.html edicoes/index.html "${ultima%.json}.html"

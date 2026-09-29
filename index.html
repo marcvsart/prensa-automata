@@ -107,8 +107,19 @@ footer{border-top:1px solid var(--accent);padding-top:12px;font:11.5px/1.65 var(
 .arq ol{list-style:none;padding:0;margin:0;font:12.5px/1.6 var(--mono)}
 .arq li{border-bottom:1px solid var(--rule);padding:5px 0}
 .arq a{text-decoration:none}
+.arq section{margin:0 0 32px}
+.arq section>h2::before{content:none}
+.arq li a{display:grid;grid-template-columns:9.5rem 3.5rem 1fr;gap:0 12px;align-items:baseline}
+.arq .d,.arq .n{color:var(--muted)}
+.arq .t{font:1rem/1.4 var(--serif);color:var(--ink)}
+.arq li a:hover .t{color:var(--accent)}
+.mast a{color:inherit;text-decoration:none}
+.nav-ed{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px;margin:40px 0 20px;padding:12px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);font:500 12px/1.5 var(--mono);letter-spacing:.04em}
+.nav-ed a{text-decoration:none;color:var(--accent)}
+.nav-ed a:last-child{margin-left:auto}
+.nav-ed a:only-child{margin-left:0}
 
-@media (max-width:480px){body{font-size:17.5px}.reg{display:none}.regioes div{grid-template-columns:1fr}}
+@media (max-width:480px){body{font-size:17.5px}.reg{display:none}.regioes div{grid-template-columns:1fr}.arq li a{grid-template-columns:auto 1fr}.arq .t{grid-column:1/-1}}
 
 @media print{
   :root{--bg:#fff;--paper:#fff;--ink:#000;--muted:#333;--rule:#bbb;--grid:#fff}
@@ -353,6 +364,10 @@ Escarra nessa boca que te beija!</p>
 </dl>
 <p class="src"><a href="https://revistacultivar.com.br/noticias/inmet-previsao-do-tempo-para-terca-29-9-e-quarta-feira-30-9">Inmet (via Cultivar)</a> · <a href="https://www.climatempo.com.br/noticia/primavera/previsao-brasil-29-09-frente-fria-avanca-e-favorece-chuva-volumosa-e-temporais-na-regiao-sul">Climatempo</a> · <a href="https://ciram.epagri.sc.gov.br/index.php/2026/09/28/segunda-e-terca-feira-com-risco-de-temporais-e-tempestade-severa/">Epagri/Ciram</a></p>
 </section>
+
+<nav class="nav-ed" aria-label="Outras edições">
+<a href="edicoes/index.html">Todas as edições →</a>
+</nav>
 
 <footer>
   Prensa Autômata · jornal diário produzido por IA · os textos são resumos com link para as fontes originais; erros podem acontecer, confira sempre a fonte.

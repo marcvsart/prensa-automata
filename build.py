@@ -4,7 +4,8 @@
 Uso:  python3 build.py            (monta a edição mais recente)
       python3 build.py 2026-09-29 (monta uma data específica)
 
-Gera edicoes/AAAA-MM-DD.html e copia a mais recente para index.html.
+Gera edicoes/AAAA-MM-DD.html, copia a mais recente para index.html
+e refaz edicoes/index.html (arquivo com todas as edições).
 Só usa a biblioteca padrão do Python.
 """
 import glob, html, json, os, sys
@@ -61,6 +62,82 @@ def mercado(nome, m):
 
 REG = ('<svg class="reg {lado}" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="5.5" '
        'fill="none" stroke="currentColor"/><path d="M10 0v20M0 10h20" stroke="currentColor"/></svg>')
+
+def navegacao(atual, arquivo):
+    """Links fixos no fim da edição: a anterior (que nunca muda) e o arquivo completo."""
+    anteriores = [a for a in arquivo if a < atual]
+    itens = []
+    if anteriores:
+        ant = max(anteriores)
+        if (date.fromisoformat(atual) - date.fromisoformat(ant)).days == 1:
+            rotulo = "← Edição de ontem"
+        else:
+            d = date.fromisoformat(ant)
+            rotulo = f"← Edição anterior · {d.day:02d}/{d.month:02d}"
+        itens.append(f'<a href="edicoes/{ant}.html">{e(rotulo)}</a>')
+    itens.append('<a href="edicoes/index.html">Todas as edições →</a>')
+    return f'<nav class="nav-ed" aria-label="Outras edições">\n' + "\n".join(itens) + "\n</nav>"
+
+def cabeca(titulo, descricao, css):
+    return f"""<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>{e(titulo)}</title>
+<meta name="description" content="{e(descricao)}">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🗞️%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Geist+Mono:wght@400;500&display=swap">
+<style>
+{css}
+</style>
+</head>"""
+
+RODAPE = """<footer>
+  Prensa Autômata · jornal diário produzido por IA · os textos são resumos com link para as fontes originais; erros podem acontecer, confira sempre a fonte.
+</footer>"""
+
+def pagina_arquivo(pasta, datas, css):
+    """edicoes/index.html: todas as edições, da mais recente para a mais antiga, agrupadas por mês."""
+    grupos = []
+    for iso in datas:
+        with open(os.path.join(pasta, f"{iso}.json"), encoding="utf-8") as f:
+            ed = json.load(f)
+        d = date.fromisoformat(iso)
+        mes = f"{MESES[d.month-1].capitalize()} de {d.year}"
+        if not grupos or grupos[-1][0] != mes:
+            grupos.append((mes, []))
+        grupos[-1][1].append(
+            f'<li><a href="{iso}.html"><span class="d">{data_curta(iso)}</span>'
+            f'<span class="n">Nº {e(str(ed.get("numero", "")))}</span>'
+            f'<span class="t">{e(ed["manchete"]["titulo"])}</span></a></li>')
+    corpo = "\n".join(f'<section>\n<h2>{e(mes)}</h2>\n<ol>\n' + "\n".join(itens) + "\n</ol>\n</section>"
+                      for mes, itens in grupos)
+    return f"""{cabeca("Prensa Autômata · Todas as edições", "Arquivo de todas as edições da Prensa Autômata.", css)}
+<body>
+<main>
+<header>
+  {REG.format(lado='l')}
+  {REG.format(lado='r')}
+  <h1 class="mast"><a href="../">Prensa Autômata</a></h1>
+  <p class="sub">jornal diário produzido por IA</p>
+  <p class="meta"><span>Todas as edições</span><span>{len(datas)} {"tiragem" if len(datas) == 1 else "tiragens"}</span></p>
+</header>
+
+<div class="arq">
+{corpo}
+</div>
+
+<nav class="nav-ed" aria-label="Capa"><a href="../">← Edição de hoje</a></nav>
+
+{RODAPE}
+</main>
+</body>
+</html>
+"""
 
 def montar(ed, arquivo):
     css = open(os.path.join(RAIZ, "estilo.css"), encoding="utf-8").read()
@@ -121,28 +198,10 @@ def montar(ed, arquivo):
     partes.append(secao("tempo", f"Tempo no Brasil · {t['dia']}",
         f'<dl class="regioes">\n{regs}\n</dl>\n{fontes(t.get("fontes"))}'))
 
-    anteriores = [a for a in arquivo if a != ed["data"]][:30]
-    if anteriores:
-        itens = "\n".join(f'<li><a href="edicoes/{a}.html">{data_curta(a)}</a></li>' for a in anteriores)
-        partes.append(f'<nav class="arq" aria-label="Edições anteriores">\n<section>\n<h2>Edições anteriores</h2>\n<ol>\n{itens}\n</ol>\n</section>\n</nav>')
+    partes.append(navegacao(ed["data"], arquivo))
 
     numero = ed.get("numero", "")
-    return f"""<!doctype html>
-<html lang="pt-BR">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="color-scheme" content="light">
-<title>Prensa Autômata · {e(data_extenso(ed['data']))}</title>
-<meta name="description" content="{e(m['titulo'])}">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🗞️%3C/text%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Geist+Mono:wght@400;500&display=swap">
-<style>
-{css}
-</style>
-</head>
+    return f"""{cabeca(f"Prensa Autômata · {data_extenso(ed['data'])}", m['titulo'], css)}
 <body>
 <main>
 <header>
@@ -155,9 +214,7 @@ def montar(ed, arquivo):
 
 {chr(10).join(chr(10) + x for x in partes)}
 
-<footer>
-  Prensa Autômata · jornal diário produzido por IA · os textos são resumos com link para as fontes originais; erros podem acontecer, confira sempre a fonte.
-</footer>
+{RODAPE}
 </main>
 </body>
 </html>
@@ -179,7 +236,9 @@ def main():
     if alvo == datas[0]:
         with open(os.path.join(RAIZ, "index.html"), "w", encoding="utf-8") as f:
             f.write(pagina)
-    print(f"ok: edição {alvo} montada" + (" (capa atualizada)" if alvo == datas[0] else ""))
+    with open(os.path.join(pasta, "index.html"), "w", encoding="utf-8") as f:
+        f.write(pagina_arquivo(pasta, datas, open(os.path.join(RAIZ, "estilo.css"), encoding="utf-8").read()))
+    print(f"ok: edição {alvo} montada" + (" (capa atualizada)" if alvo == datas[0] else "") + "; arquivo atualizado")
 
 if __name__ == "__main__":
     main()

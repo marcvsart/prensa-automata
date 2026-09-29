@@ -49,7 +49,7 @@ Ordem da edição e o que vai em cada bloco:
 
 1. Se já existir `edicoes/AAAA-MM-DD.json` com a data de hoje, pare e avise: a edição do dia já saiu. Senão, escreva `edicoes/AAAA-MM-DD.json` seguindo exatamente a estrutura da edição anterior. `numero` é a última tiragem de `registro.json` mais 1. Não inclua o campo `aviso` (ele só existe na edição de teste).
 2. Atualize `registro.json`: acrescente o disco, o poema, as duas leituras (indique se é livro ou texto) e atualize `tiragem`.
-3. Rode `python3 build.py`. Ele gera `edicoes/AAAA-MM-DD.html` e atualiza `index.html`.
+3. Rode `python3 build.py`. Ele gera `edicoes/AAAA-MM-DD.html`, atualiza `index.html` e refaz o arquivo `edicoes/index.html`.
 4. Se o build der erro, corrija o JSON e rode de novo. Não publique uma edição quebrada.
 5. Publique: `git add -A && git commit -m "Tiragem Nº N — AAAA-MM-DD" && git push`. Depois confira com `gh run list --limit 2` se o workflow "Verificar edição" passou.
 6. Se qualquer etapa falhar (apuração, build ou push), não force: avise Marcus com o motivo e onde parou.

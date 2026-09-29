@@ -9,6 +9,7 @@ Jornal diário produzido por IA. Cada edição é um arquivo JSON em `edicoes/`;
 | `edicoes/AAAA-MM-DD.json` | Conteúdo de cada edição (a tarefa diária escreve este arquivo) |
 | `edicoes/AAAA-MM-DD.html` | Página de cada edição, gerada pelo build |
 | `index.html` | Capa do site: sempre a edição mais recente |
+| `edicoes/index.html` | Arquivo com todas as edições, refeito a cada build |
 | `build.py` | Monta a página a partir do JSON. Só Python padrão, sem instalar nada |
 | `estilo.css` | Visual do jornal (layout, fontes, cores, modo escuro) |
 | `registro.json` | Discos, poemas e leituras já publicados, para não repetir |
@@ -39,6 +40,10 @@ python3 build.py 2026-09-29   # monta uma data específica
 ```
 
 Abra `index.html` no navegador para conferir.
+
+## Navegação entre edições
+
+No fim de cada edição há um link para a anterior ("Edição de ontem", ou "Edição anterior · DD/MM" se algum dia ficou sem edição) e outro para `edicoes/index.html`, o arquivo com todas as edições. Esses links não ficam defasados: a edição anterior de uma página nunca muda, e o arquivo é refeito a cada build.
 
 ## Mudar o visual
 
