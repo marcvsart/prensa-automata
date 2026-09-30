@@ -1,0 +1,355 @@
+{
+  "data": "2026-09-30",
+  "numero": 2,
+  "manchete": {
+    "titulo": "Sem Lula, debate da Globo terá Flávio, Caiado, Cury e Zema; Renan Santos vai ao TSE por vaga",
+    "texto": [
+      "O último debate antes do primeiro turno, nesta quinta (1º), deve reunir Flávio Bolsonaro (PL), Ronaldo Caiado (PSD), Augusto Cury (Avante) e Romeu Zema (Novo), com a cadeira de Lula (PT) vazia. Zema entrou por decisão do presidente do TSE, Nunes Marques, que considerou que o Novo tinha cinco deputados federais filiados antes do marco de 20 de julho e por isso cumpre a exigência de bancada. Renan Santos (Missão), que aparecia como possível substituto de Lula, não foi chamado e pediu ao TSE uma decisão urgente para participar; seu partido tem hoje um deputado federal. Renan disse acreditar que a emissora prefere garantir a presença de Flávio, cuja campanha havia sinalizado que não iria se ele fosse incluído."
+    ],
+    "fontes": [
+      {
+        "nome": "CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/renan-santos-aciona-tse-para-participar-de-debate-na-globo/"
+      },
+      {
+        "nome": "Correio Braziliense",
+        "url": "https://www.correiobraziliense.com.br/politica/2026/09/7510981-decisao-de-nunes-marques-obriga-globo-a-chamar-zema-para-debate.html"
+      },
+      {
+        "nome": "O Antagonista",
+        "url": "https://oantagonista.com.br/brasil/eles-preferem-que-va-o-flavio-diz-renan-santos-sobre-debate-da-globo/"
+      }
+    ]
+  },
+  "brasil": [
+    {
+      "titulo": "TSE tem 3 votos a 1 para manter remoção de posts falsos sobre Flávio e Aparecida",
+      "texto": [
+        "No plenário virtual, André Mendonça, Nunes Marques e Dias Toffoli votaram para manter a retirada de publicações que afirmam, como fato, que Flávio Bolsonaro propôs tirar de Aparecida o título de padroeira, com multa de R$ 50 mil por descumprimento. Ricardo Villas Bôas Cueva divergiu em parte: para ele, sátiras e opiniões sobre o que o candidato poderia fazer não deveriam ser removidas. São necessários quatro votos, e a votação vai até as 23h59."
+      ],
+      "fontes": [
+        {
+          "nome": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/julgamento-tse-fake-news-nossa-senhora-aparecida/"
+        },
+        {
+          "nome": "SBT News",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/tse-julgamento-posts-flavio-nossa-senhora"
+        }
+      ]
+    },
+    {
+      "titulo": "Contas públicas têm déficit de R$ 10 bilhões em agosto, e dívida bruta chega a 82,9% do PIB",
+      "texto": [
+        "O setor público consolidado fechou agosto com déficit primário de R$ 10 bilhões, menor que os R$ 17,3 bilhões de um ano antes; o governo central respondeu por um rombo de R$ 14,7 bilhões. Em 12 meses, o déficit soma R$ 82,1 bilhões. A dívida bruta subiu 0,3 ponto em um mês, para 82,9% do PIB (R$ 11,1 trilhões), puxada sobretudo pelos juros."
+      ],
+      "fontes": [
+        {
+          "nome": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/bc-divida-bruta-do-governo-geral-avanca-para-829-do-pib-em-agosto/"
+        },
+        {
+          "nome": "Correio Braziliense",
+          "url": "https://www.correiobraziliense.com.br/economia/2026/09/7511244-setor-publico-tem-deficit-de-rs-10-bilhoes-em-agosto.html"
+        }
+      ]
+    },
+    {
+      "titulo": "Senadores democratas cobram de Rubio compromisso de reconhecer o resultado da eleição brasileira",
+      "texto": [
+        "Em carta ao secretário de Estado dos EUA, Jeanne Shaheen, Peter Welch e Tim Kaine pedem garantia de que o governo Trump vai reconhecer o resultado oficial e manter relações normais com quem vencer. Eles citam como interferência as tarifas e sanções contra o Brasil e o encontro de Trump com Flávio Bolsonaro na Casa Branca. Não houve resposta pública de Rubio."
+      ],
+      "fontes": [
+        {
+          "nome": "Metrópoles",
+          "url": "https://www.metropoles.com/mundo/senadores-cobram-governo-trump-resultado-eleitoral-brasil"
+        },
+        {
+          "nome": "Diário do Centro do Mundo",
+          "url": "https://www.diariodocentrodomundo.com.br/senadores-eua-trump-eleicao-brasil-carta-rubio"
+        }
+      ]
+    }
+  ],
+  "momento": {
+    "titulo": "Sobre a liberdade",
+    "autor": "John Stuart Mill · 1859",
+    "texto": [
+      "O julgamento de hoje no TSE pôs frente a frente duas preocupações legítimas: impedir que uma mentira sobre um candidato circule como fato às vésperas da votação e evitar que a Justiça decida o que pode ser dito sobre política. O próprio placar mostra a tensão: a maioria quer remover publicações que afirmam um fato falso, e o voto divergente quer proteger sátiras e opiniões. Poucos textos ajudam tanto a pensar esse dilema quanto o ensaio de John Stuart Mill.",
+      "O segundo capítulo, sobre a liberdade de pensamento e discussão, traz o argumento mais citado a favor da expressão livre: uma opinião silenciada pode ser verdadeira; se for falsa, pode conter parte da verdade; e mesmo uma verdade inteira, se nunca for contestada, vira dogma que as pessoas repetem sem entender. Para Mill, o remédio contra a ideia errada é mais debate, não censura.",
+      "Mill também oferece o limite, o princípio do dano, apresentado logo no primeiro capítulo: a liberdade de cada um vai até onde começa o prejuízo a outros. No terceiro, ele admite que a mesma frase pode ser opinião legítima num jornal e incitação diante de uma multidão enfurecida. É esse o terreno em que o TSE se move ao separar afirmação de fato e crítica. O ensaio é de 1859 e não conheceu redes sociais nem desinformação em escala, e seus críticos apontam que ele supõe um público capaz de pesar argumentos com calma, o que a velocidade das plataformas desafia.",
+      "Comece pelo capítulo 1, curto, onde está o princípio do dano, e siga para o capítulo 2, sobre a liberdade de pensamento e discussão. O texto está em domínio público; a edição do Projeto Gutenberg é em inglês, e há traduções em português em edições de bolso."
+    ],
+    "fontes": [
+      {
+        "nome": "Texto integral em inglês (Project Gutenberg)",
+        "url": "https://www.gutenberg.org/files/34901/34901-h/34901-h.htm"
+      }
+    ]
+  },
+  "mundo": {
+    "titulo": "EUA concluem retirada das tropas do Iraque depois de 12 anos de missão contra o Estado Islâmico",
+    "texto": [
+      "Os últimos militares americanos deixaram nesta quarta a base aérea de Erbil, na região curda, cumprindo o acordo firmado com Bagdá em 2024. O primeiro-ministro iraquiano, Ali al-Zaidi, falou em uma nova fase de soberania, enquanto o ministério dos peshmerga curdos disse que a saída sem um sistema de defesa preocupa, depois de mais de mil ataques de drones e mísseis na guerra entre EUA e Irã. Trump chamou a retirada de vitória."
+    ],
+    "fontes": [
+      {
+        "nome": "PBS NewsHour",
+        "url": "https://www.pbs.org/newshour/world/u-s-military-says-its-withdrawal-of-troops-from-iraq-for-islamic-state-fight-is-complete"
+      },
+      {
+        "nome": "ABC News (Austrália)",
+        "url": "https://www.abc.net.au/news/2026-09-30/us-military-completes-iraq-withdrawal/107214128"
+      }
+    ]
+  },
+  "ia": {
+    "titulo": "Big techs assinam acordo voluntário com a Casa Branca, e Trump manda chamar IA de \"superinteligência\"",
+    "texto": [
+      "Anthropic, Google, Meta, Nvidia, OpenAI e SpaceX AI assinaram um compromisso de uma página que prevê revisões de risco e avaliação dos sistemas por terceiros, sem mecanismo de fiscalização; Trump disse que o acordo é \"moralmente vinculante\". Uma ordem executiva também determina que órgãos federais troquem \"inteligência artificial\" por \"superinteligência\" (SI) em documentos e comunicações oficiais."
+    ],
+    "fontes": [
+      {
+        "nome": "Benton Institute (resumo, com link ao NYT)",
+        "url": "https://www.benton.org/newsletter/daily-digest-9302026-super-intelligence"
+      },
+      {
+        "nome": "Casa Branca (ordem executiva)",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/"
+      }
+    ]
+  },
+  "giro": [
+    {
+      "regiao": "América do Sul",
+      "itens": [
+        {
+          "titulo": "Banco central da Colômbia surpreende e sobe juros para 12,25%",
+          "url": "https://www.infobae.com/colombia/2026/09/30/banco-de-la-republica-subio-las-tasas-de-interes-en-colombia-pasaron-del-12-al-1225/"
+        }
+      ]
+    },
+    {
+      "regiao": "América do Norte e Central",
+      "itens": [
+        {
+          "titulo": "EUA endurecem sanções contra Cuba e restringem viagens e operações bancárias",
+          "url": "https://www.jamaicaobserver.com/2026/09/29/us-tightens-sanctions-cuba/"
+        }
+      ]
+    },
+    {
+      "regiao": "África",
+      "itens": [
+        {
+          "titulo": "Dangote e Ruto lançam pedra fundamental de refinaria de US$ 16 bilhões no Quênia",
+          "url": "https://ntvkenya.co.ke/news/dangote-ruto-break-ground-on-sh2trn-oil-refinery-in-lamu/"
+        }
+      ]
+    },
+    {
+      "regiao": "Europa",
+      "itens": [
+        {
+          "titulo": "Líder da extrema direita francesa, Bardella nega mensagens antissemitas atribuídas a ele",
+          "url": "https://www.jta.org/2026/09/30/global/french-far-right-leader-accused-of-antisemitism-defended-by-israeli-ministe"
+        }
+      ]
+    },
+    {
+      "regiao": "Oriente Médio",
+      "itens": [
+        {
+          "titulo": "Ataques israelenses matam ao menos sete pessoas em Gaza, entre elas um jornalista",
+          "url": "https://www.rte.ie/news/middle-east/2026/0930/1593560-gaza-israel-attacks/"
+        }
+      ]
+    },
+    {
+      "regiao": "Ásia",
+      "itens": [
+        {
+          "titulo": "Zelensky diz que Coreia do Norte prepara mais 10 mil soldados para a Rússia",
+          "url": "https://www.koreatimes.co.kr/world/20260929/ukraines-zelenskyy-says-north-korea-prepares-to-deploy-another-10000-troops-to-russia"
+        }
+      ]
+    }
+  ],
+  "ciencia": {
+    "titulo": "Morcegos surgiram na Europa há cerca de 65 milhões de anos, indica estudo na Nature",
+    "texto": [
+      "Um consórcio de 137 pesquisadores analisou 103 genomas, de todas as 21 famílias de morcegos, e 44 fósseis para reconstruir a origem do único mamífero capaz de voar. O resultado aponta a Europa, entre 65 e 60 milhões de anos atrás, e não a África, a Ásia ou a América do Norte, como se discutia, e indica que o voo e a ecolocalização surgiram logo no início da linhagem."
+    ],
+    "fontes": [
+      {
+        "nome": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260929053531.htm"
+      },
+      {
+        "nome": "UCD (universidade líder)",
+        "url": "https://www.ucd.ie/research/news/2026/batsoriginatedandtookfirstflightineuropenewucd-ledresearchsuggests/"
+      }
+    ]
+  },
+  "entender_brasil": {
+    "titulo": "Os Sertões",
+    "autor": "Euclides da Cunha · 1902",
+    "texto": [
+      "Euclides da Cunha foi a Canudos, no sertão da Bahia, como correspondente de O Estado de S. Paulo em 1897, para cobrir a campanha do Exército contra o arraial de Antônio Conselheiro. Partiu acreditando que ia testemunhar a derrota de um foco monarquista contra a República; voltou com a certeza de que tinha visto um crime. Cinco anos depois, publicou o livro que mistura geografia, ciência, história e reportagem.",
+      "A obra se divide em três partes, \"A terra\", \"O homem\" e \"A luta\", e termina com a destruição completa de Canudos, que \"não se rendeu\". A ideia central é que o Brasil do litoral, que se via moderno, não conhecia o país do interior e respondeu a ele com canhões. Daí a frase mais famosa, de que o sertanejo é, antes de tudo, um forte.",
+      "Muito do livro envelheceu. Euclides usou as teorias raciais da época, que tratavam a mestiçagem como degeneração, e boa parte da sua explicação sobre o sertanejo se apoia nessas ideias, hoje descartadas. Historiadores também mostraram que Canudos era uma comunidade organizada, e não só o fanatismo que o livro descreve.",
+      "O que continua valendo é a denúncia do abismo entre o Brasil oficial e o Brasil profundo, e a coragem de um jornalista que mudou de ideia diante do que viu. O texto está em domínio público e pode ser lido de graça na edição da Biblioteca Virtual de Ciências Humanas, no SciELO Livros. Se a parte sobre a terra parecer árida, comece por \"A luta\"."
+    ],
+    "fontes": [
+      {
+        "nome": "Texto integral (SciELO Livros)",
+        "url": "https://static.scielo.org/scielobooks/tw4bm/pdf/cunha-9788579820076.pdf"
+      },
+      {
+        "nome": "Artigo sobre o livro (Revista Brasileira de História, SciELO)",
+        "url": "https://www.scielo.br/j/rbh/a/QGgVdsncR3FwRdf6tLLhZwy/?lang=pt"
+      }
+    ]
+  },
+  "mercado": {
+    "texto": [
+      "A bolsa fechou setembro com a maior alta em semanas: o Ibovespa chegou a subir cerca de 4 mil pontos ao longo do dia e terminou em alta de 1,37%, com bancos à frente. A inflação americana (PCE) abaixo do esperado reduziu as apostas de nova alta de juros do Fed em outubro, e o dólar caiu para perto de R$ 5,18. No acumulado de setembro, a bolsa subiu 5%."
+    ],
+    "fontes": [
+      {
+        "nome": "Seu Dinheiro",
+        "url": "https://www.seudinheiro.com/2026/bolsa-dolar/o-vento-a-favor-que-fez-o-ibovespa-decolar-4-mil-pontos-inverter-o-sinal-e-fechar-setembro-no-azul-ccgg/"
+      },
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-30092026/"
+      }
+    ]
+  },
+  "ibovespa": {
+    "painel": [
+      [
+        "Fechamento",
+        "186.340"
+      ],
+      [
+        "Dia",
+        "+1,37%"
+      ],
+      [
+        "Mês",
+        "+5,0%"
+      ],
+      [
+        "Ano",
+        "+15,6%"
+      ]
+    ],
+    "texto": [
+      "Fechou a 186.340 pontos. Itaú subiu quase 5% e Magazine Luiza, mais de 12%; Santander, Cury e Totvs caíram."
+    ],
+    "fontes": [
+      {
+        "nome": "Seu Dinheiro",
+        "url": "https://www.seudinheiro.com/2026/bolsa-dolar/o-vento-a-favor-que-fez-o-ibovespa-decolar-4-mil-pontos-inverter-o-sinal-e-fechar-setembro-no-azul-ccgg/"
+      },
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-30092026/"
+      }
+    ]
+  },
+  "dolar": {
+    "painel": [
+      [
+        "Fechamento",
+        "R$ 5,18"
+      ],
+      [
+        "Dia",
+        "−0,81%"
+      ],
+      [
+        "Mês",
+        "−0,1%"
+      ],
+      [
+        "Ano",
+        "−5,7%"
+      ]
+    ],
+    "texto": [
+      "Fechou a R$ 5,1750 e terminou setembro praticamente estável, depois de ter batido o maior nível desde março na segunda."
+    ],
+    "fontes": [
+      {
+        "nome": "Seu Dinheiro",
+        "url": "https://www.seudinheiro.com/2026/bolsa-dolar/o-vento-a-favor-que-fez-o-ibovespa-decolar-4-mil-pontos-inverter-o-sinal-e-fechar-setembro-no-azul-ccgg/"
+      },
+      {
+        "nome": "Investidor10",
+        "url": "https://investidor10.com.br/noticias/ibovespa-sobe-e-dolar-cai-no-ultimo-pregao-de-setembro-122923/"
+      }
+    ]
+  },
+  "bitcoin": {
+    "painel": [
+      [
+        "US$",
+        "83.705"
+      ],
+      [
+        "R$",
+        "433.283"
+      ],
+      [
+        "24h",
+        "+0,2%"
+      ],
+      [
+        "7d / 30d",
+        "−0,6% / +6,2%"
+      ]
+    ],
+    "texto": [
+      "Estável no fim do dia, perto de US$ 83,7 mil. Cotação às 18h10 de Brasília."
+    ],
+    "fontes": [
+      {
+        "nome": "CoinGecko",
+        "url": "https://www.coingecko.com/pt/moedas/bitcoin"
+      }
+    ]
+  },
+  "tempo": {
+    "dia": "amanhã, quinta, 1",
+    "regioes": [
+      {
+        "regiao": "Norte",
+        "texto": "Chuva com trovoadas em boa parte do Amazonas e de Rondônia, com aviso amarelo de tempestade também no Acre e em Roraima; calor de até 39 °C em Palmas e Boa Vista."
+      },
+      {
+        "regiao": "Nordeste",
+        "texto": "Tempo firme e quente na maior parte da região, com chuva isolada no leste da Paraíba, de Pernambuco e de Alagoas; até 38 °C em Teresina."
+      },
+      {
+        "regiao": "Centro-Oeste",
+        "texto": "Outubro começa com chuva e trovoadas em Mato Grosso, Goiás e no nordeste de Mato Grosso do Sul, com aviso laranja de tempestade no sul de MT, sudoeste de GO e norte de MS."
+      },
+      {
+        "regiao": "Sudeste",
+        "texto": "A frente fria deixa o dia chuvoso, com trovoadas, em Minas, no Rio, no Espírito Santo e em boa parte de São Paulo, com aviso laranja; a temperatura cai bastante em São Paulo."
+      },
+      {
+        "regiao": "Sul",
+        "texto": "A alta pressão firma o tempo e esfria: mínimas perto de 13 °C em Porto Alegre e Curitiba e possibilidade de geada na serra catarinense e no sul gaúcho."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Inmet (via Cultivar)",
+        "url": "https://revistacultivar.com.br/noticias/inmet-previsao-do-tempo-para-quarta-30-9-e-quinta-feira-1-10"
+      }
+    ]
+  }
+}

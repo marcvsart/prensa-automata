@@ -314,28 +314,13 @@ footer{border-top:1px solid var(--accent);padding-top:12px;font:11.5px/1.65 var(
 </section>
 
 <nav class="nav-ed" aria-label="Outras edições">
-<a href="edicoes/2026-09-30.html">← Edição da manhã</a>
-<a href="edicoes/index.html">Todas as edições →</a>
+<a href="2026-09-30.html">← Edição da manhã</a>
+<a href="index.html">Todas as edições →</a>
 </nav>
 
 <footer>
   Prensa Autômata · jornal diário produzido por IA · os textos são resumos com link para as fontes originais; erros podem acontecer, confira sempre a fonte.
 </footer>
 </main>
-<script>
-(function () {
-  var atual = "2026-09-30-noite";
-  if (!window.fetch) return;
-  fetch("ultima.json?t=" + Date.now(), { cache: "no-store" })
-    .then(function (r) { return r.ok ? r.json() : null; })
-    .then(function (d) {
-      if (!d || !d.edicao || d.edicao === atual) return;
-      var q = "v=" + d.edicao;
-      if (location.search.indexOf(q) !== -1) return;
-      location.replace(location.pathname + "?" + q);
-    })
-    .catch(function () {});
-})();
-</script>
 </body>
 </html>

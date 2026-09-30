@@ -44,6 +44,10 @@
     {
       "data": "2026-09-30",
       "item": "Antonio Candido — Dialética da malandragem (texto)"
+    },
+    {
+      "data": "2026-09-30",
+      "item": "Euclides da Cunha — Os Sertões (livro, noite)"
     }
   ],
   "momento": [
@@ -62,8 +66,12 @@
     {
       "data": "2026-09-30",
       "item": "Alberto Carlos Almeida — A cabeça do eleitor"
+    },
+    {
+      "data": "2026-09-30",
+      "item": "John Stuart Mill — Sobre a liberdade (noite)"
     }
   ],
   "tiragem": 2,
-  "tiragem_noite": 1
+  "tiragem_noite": 2
 }
