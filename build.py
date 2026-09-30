@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Prensa Autômata — monta a edição a partir de edicoes/AAAA-MM-DD.json.
 
-Uso:  python3 build.py            (monta a edição mais recente)
-      python3 build.py 2026-09-29 (monta uma data específica)
+Uso:  python3 build.py                  (monta a edição mais recente)
+      python3 build.py 2026-09-29       (monta a edição da manhã de uma data)
+      python3 build.py 2026-09-29-noite (monta a edição da noite de uma data)
 
 Gera edicoes/AAAA-MM-DD.html, copia a mais recente para index.html
 e refaz edicoes/index.html (arquivo com todas as edições).
@@ -63,17 +64,27 @@ def mercado(nome, m):
 REG = ('<svg class="reg {lado}" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="5.5" '
        'fill="none" stroke="currentColor"/><path d="M10 0v20M0 10h20" stroke="currentColor"/></svg>')
 
+def dia(slug):
+    """'2026-09-30-noite' -> '2026-09-30'."""
+    return slug[:10]
+
+def noturna(slug):
+    return slug.endswith("-noite")
+
 def navegacao(atual, arquivo):
     """Links fixos no fim da edição: a anterior (que nunca muda) e o arquivo completo."""
     anteriores = [a for a in arquivo if a < atual]
     itens = []
     if anteriores:
         ant = max(anteriores)
-        if (date.fromisoformat(atual) - date.fromisoformat(ant)).days == 1:
-            rotulo = "← Edição de ontem"
+        dias = (date.fromisoformat(dia(atual)) - date.fromisoformat(dia(ant))).days
+        if dias == 0:
+            rotulo = "← Edição da manhã"
+        elif dias == 1:
+            rotulo = "← Edição de ontem à noite" if noturna(ant) else "← Edição de ontem"
         else:
-            d = date.fromisoformat(ant)
-            rotulo = f"← Edição anterior · {d.day:02d}/{d.month:02d}"
+            d = date.fromisoformat(dia(ant))
+            rotulo = f"← Edição anterior · {d.day:02d}/{d.month:02d}" + (" · noite" if noturna(ant) else "")
         itens.append(f'<a href="edicoes/{ant}.html">{e(rotulo)}</a>')
     itens.append('<a href="edicoes/index.html">Todas as edições →</a>')
     return f'<nav class="nav-ed" aria-label="Outras edições">\n' + "\n".join(itens) + "\n</nav>"
@@ -101,22 +112,33 @@ RODAPE = """<footer>
   Prensa Autômata · jornal diário produzido por IA · os textos são resumos com link para as fontes originais; erros podem acontecer, confira sempre a fonte.
 </footer>"""
 
-def pagina_arquivo(pasta, datas, css):
-    """edicoes/index.html: todas as edições, da mais recente para a mais antiga, agrupadas por mês."""
+def lista_turno(pasta, slugs):
+    """Edições de um turno, da mais recente para a mais antiga, agrupadas por mês."""
     grupos = []
-    for iso in datas:
-        with open(os.path.join(pasta, f"{iso}.json"), encoding="utf-8") as f:
+    for slug in slugs:
+        with open(os.path.join(pasta, f"{slug}.json"), encoding="utf-8") as f:
             ed = json.load(f)
-        d = date.fromisoformat(iso)
+        d = date.fromisoformat(dia(slug))
         mes = f"{MESES[d.month-1].capitalize()} de {d.year}"
         if not grupos or grupos[-1][0] != mes:
             grupos.append((mes, []))
         grupos[-1][1].append(
-            f'<li><a href="{iso}.html"><span class="d">{data_curta(iso)}</span>'
+            f'<li><a href="{slug}.html"><span class="d">{data_curta(dia(slug))}</span>'
             f'<span class="n">Nº {e(str(ed.get("numero", "")))}</span>'
             f'<span class="t">{e(ed["manchete"]["titulo"])}</span></a></li>')
-    corpo = "\n".join(f'<section>\n<h2>{e(mes)}</h2>\n<ol>\n' + "\n".join(itens) + "\n</ol>\n</section>"
-                      for mes, itens in grupos)
+    return "\n".join(f'<section>\n<h2>{e(mes)}</h2>\n<ol>\n' + "\n".join(itens) + "\n</ol>\n</section>"
+                     for mes, itens in grupos)
+
+def pagina_arquivo(pasta, datas, css):
+    """edicoes/index.html: todas as edições, separadas em manhã e noite."""
+    turnos = [("manha", "☀︎ Edições da manhã", [x for x in datas if not noturna(x)]),
+              ("noite", "☾ Edições da noite", [x for x in datas if noturna(x)])]
+    turnos = [t for t in turnos if t[2]]
+    atalhos = ""
+    if len(turnos) > 1:
+        atalhos = '<p class="turnos">' + "".join(f'<a href="#{id_}">{e(rot)}</a>' for id_, rot, _ in turnos) + "</p>\n"
+    corpo = atalhos + "\n".join(f'<div class="turno" id="{id_}">\n<p class="turno-t">{e(rot)}</p>\n'
+                                 f'{lista_turno(pasta, slugs)}\n</div>' for id_, rot, slugs in turnos)
     return f"""{cabeca("Prensa Autômata · Todas as edições", "Arquivo de todas as edições da Prensa Autômata.", css)}
 <body>
 <main>
@@ -140,7 +162,7 @@ def pagina_arquivo(pasta, datas, css):
 </html>
 """
 
-def montar(ed, arquivo):
+def montar(ed, arquivo, slug):
     css = open(os.path.join(RAIZ, "estilo.css"), encoding="utf-8").read()
     partes = []
 
@@ -154,29 +176,37 @@ def montar(ed, arquivo):
         "manchete"))
 
     partes.append(secao("brasil", "Brasil", "\n\n".join(noticia(n) for n in ed["brasil"])))
-    partes.append(secao("leitura", "Para entender o momento", leitura(ed["momento"])))
-    partes.append(secao("mundo", "Mundo", noticia(ed["mundo"])))
-    partes.append(secao("ia", "Inteligência artificial", noticia(ed["ia"])))
+    if "momento" in ed:
+        partes.append(secao("leitura", "Para entender o momento", leitura(ed["momento"])))
+    if "mundo" in ed:
+        partes.append(secao("mundo", "Mundo", noticia(ed["mundo"])))
+    if "ia" in ed:
+        partes.append(secao("ia", "Inteligência artificial", noticia(ed["ia"])))
 
     blocos = []
-    for r in ed["giro"]:
+    for r in ed.get("giro", []):
         itens = "\n".join(f'<li><a href="{e(i["url"], quote=True)}">{e(i["titulo"])}</a></li>' for i in r["itens"])
         blocos.append(f"<div>\n<h4>{e(r['regiao'])}</h4>\n<ul>\n{itens}\n</ul>\n</div>")
-    partes.append(secao("giro", "Giro pelo mundo", '<div class="giro">\n' + "\n".join(blocos) + "\n</div>"))
+    if blocos:
+        partes.append(secao("giro", "Giro pelo mundo", '<div class="giro">\n' + "\n".join(blocos) + "\n</div>"))
 
-    partes.append(secao("ciencia", "Ciência", noticia(ed["ciencia"])))
+    if "ciencia" in ed:
+        partes.append(secao("ciencia", "Ciência", noticia(ed["ciencia"])))
 
-    d = ed["disco"]
-    partes.append(secao("disco", "Um disco",
-        f'<div class="album">\n<h3>{e(d["artista"])} — {e(d["titulo"])}</h3>\n'
-        f'<p class="y">{e(d["ficha"])}</p>\n{paragrafos(d["texto"])}\n{fontes(d.get("fontes"))}\n</div>'))
+    if "disco" in ed:
+        d = ed["disco"]
+        partes.append(secao("disco", "Um disco",
+            f'<div class="album">\n<h3>{e(d["artista"])} — {e(d["titulo"])}</h3>\n'
+            f'<p class="y">{e(d["ficha"])}</p>\n{paragrafos(d["texto"])}\n{fontes(d.get("fontes"))}\n</div>'))
 
-    p = ed["poema"]
-    partes.append(secao("poema", "Poema",
-        f'<h3>{e(p["autor"])}, "{e(p["titulo"])}"</h3>\n<p class="y src">{e(p["ficha"])}</p>\n'
-        f'<p class="poem">{e(p["texto"])}</p>\n{paragrafos(p["comentario"])}\n{fontes(p.get("fontes"))}'))
+    if "poema" in ed:
+        p = ed["poema"]
+        partes.append(secao("poema", "Poema",
+            f'<h3>{e(p["autor"])}, "{e(p["titulo"])}"</h3>\n<p class="y src">{e(p["ficha"])}</p>\n'
+            f'<p class="poem">{e(p["texto"])}</p>\n{paragrafos(p["comentario"])}\n{fontes(p.get("fontes"))}'))
 
-    partes.append(secao("brasil-fundo", "Para entender o Brasil", leitura(ed["entender_brasil"])))
+    if "entender_brasil" in ed:
+        partes.append(secao("brasil-fundo", "Para entender o Brasil", leitura(ed["entender_brasil"])))
 
     if "ibovespa" in ed:
         blocos_m = [mercado(nome, ed[chave]) for chave, nome in
@@ -187,22 +217,30 @@ def montar(ed, arquivo):
         partes.append(secao("mercados", "Mercados",
             topo + '<div class="mercados">\n' + "\n".join(blocos_m) + '\n</div>\n'
             '<p class="src aviso">Informativo, não é recomendação.</p>'))
-    else:
+    elif "bitcoin" in ed:
         b = ed["bitcoin"]
         partes.append(secao("bitcoin", "Bitcoin",
             f'{ticker(b["painel"])}\n{paragrafos(b["texto"])}\n{fontes(b.get("fontes"))}'))
 
-    partes.append(secao("esporte", "Esporte", noticia(ed["esporte"])))
+    if "esporte" in ed:
+        partes.append(secao("esporte", "Esporte", noticia(ed["esporte"])))
 
-    t = ed["tempo"]
-    regs = "\n".join(f"<div><dt>{e(r['regiao'])}</dt><dd>{e(r['texto'])}</dd></div>" for r in t["regioes"])
-    partes.append(secao("tempo", f"Tempo no Brasil · {t['dia']}",
-        f'<dl class="regioes">\n{regs}\n</dl>\n{fontes(t.get("fontes"))}'))
+    if "tempo" in ed:
+        t = ed["tempo"]
+        regs = "\n".join(f"<div><dt>{e(r['regiao'])}</dt><dd>{e(r['texto'])}</dd></div>" for r in t["regioes"])
+        partes.append(secao("tempo", f"Tempo no Brasil · {t['dia']}",
+            f'<dl class="regioes">\n{regs}\n</dl>\n{fontes(t.get("fontes"))}'))
 
-    partes.append(navegacao(ed["data"], arquivo))
+    partes.append(navegacao(slug, arquivo))
 
-    numero = ed.get("numero", "")
-    return f"""{cabeca(f"Prensa Autômata · {data_extenso(ed['data'])}", m['titulo'], css)}
+    numero = e(str(ed.get("numero", "")))
+    if noturna(slug):
+        titulo = f"Prensa Autômata · Edição da noite · {data_extenso(ed['data'])}"
+        meta = f"<span>{e(data_extenso(ed['data']))}</span><span>Edição da noite</span><span>Noturna Nº {numero}</span>"
+    else:
+        titulo = f"Prensa Autômata · {data_extenso(ed['data'])}"
+        meta = f"<span>{e(data_extenso(ed['data']))}</span><span>Tiragem Nº {numero}</span>"
+    return f"""{cabeca(titulo, m['titulo'], css)}
 <body>
 <main>
 <header>
@@ -210,7 +248,7 @@ def montar(ed, arquivo):
   {REG.format(lado='r')}
   <h1 class="mast">Prensa Autômata</h1>
   <p class="sub">jornal diário produzido por IA</p>
-  <p class="meta"><span>{e(data_extenso(ed['data']))}</span><span>Tiragem Nº {e(str(numero))}</span></p>
+  <p class="meta">{meta}</p>
 </header>
 
 {chr(10).join(chr(10) + x for x in partes)}
@@ -229,8 +267,8 @@ def main():
     alvo = sys.argv[1] if len(sys.argv) > 1 else datas[0]
     with open(os.path.join(pasta, f"{alvo}.json"), encoding="utf-8") as f:
         ed = json.load(f)
-    ed.setdefault("data", alvo)
-    pagina = montar(ed, datas)
+    ed.setdefault("data", dia(alvo))
+    pagina = montar(ed, datas, alvo)
     # links do arquivo apontam para edicoes/…; dentro de edicoes/ o caminho relativo muda
     with open(os.path.join(pasta, f"{alvo}.html"), "w", encoding="utf-8") as f:
         f.write(pagina.replace('href="edicoes/', 'href="'))

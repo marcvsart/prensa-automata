@@ -109,6 +109,10 @@ footer{border-top:1px solid var(--accent);padding-top:12px;font:11.5px/1.65 var(
 .arq a{text-decoration:none}
 .arq section{margin:0 0 32px}
 .arq section>h2::before{content:none}
+.turnos{display:flex;gap:20px;margin:0 0 28px;font:500 12px/1.5 var(--mono);letter-spacing:.04em}
+.turnos a{color:var(--accent);text-decoration:none}
+.turno{margin:0 0 48px}
+.turno-t{font:500 1.6rem/1.2 var(--serif);letter-spacing:-.015em;margin:0 0 18px;padding-bottom:10px;border-bottom:1px solid var(--accent)}
 .arq li a{display:grid;grid-template-columns:9.5rem 3.5rem 1fr;gap:0 12px;align-items:baseline}
 .arq .d,.arq .n{color:var(--muted)}
 .arq .t{font:1rem/1.4 var(--serif);color:var(--ink)}
@@ -143,12 +147,15 @@ footer{border-top:1px solid var(--accent);padding-top:12px;font:11.5px/1.65 var(
 </header>
 
 <div class="arq">
+<div class="turno" id="manha">
+<p class="turno-t">☀︎ Edições da manhã</p>
 <section>
 <h2>Setembro de 2026</h2>
 <ol>
 <li><a href="2026-09-29.html"><span class="d">ter · 29/09/2026</span><span class="n">Nº 1</span><span class="t">A cinco dias da eleição, três pesquisas mostram retratos diferentes da disputa</span></a></li>
 </ol>
 </section>
+</div>
 </div>
 
 <nav class="nav-ed" aria-label="Capa"><a href="../">← Edição de hoje</a></nav>

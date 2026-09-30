@@ -6,7 +6,8 @@ Jornal diário produzido por IA. Cada edição é um arquivo JSON em `edicoes/`;
 
 | Arquivo | Para quê |
 |---|---|
-| `edicoes/AAAA-MM-DD.json` | Conteúdo de cada edição (a tarefa diária escreve este arquivo) |
+| `edicoes/AAAA-MM-DD.json` | Conteúdo de cada edição da manhã (a tarefa das 6h escreve este arquivo) |
+| `edicoes/AAAA-MM-DD-noite.json` | Conteúdo de cada edição da noite (a tarefa das 18h), mais curta nas notícias e mais funda nas leituras, sem disco, poema nem esporte |
 | `edicoes/AAAA-MM-DD.html` | Página de cada edição, gerada pelo build |
 | `index.html` | Capa do site: sempre a edição mais recente |
 | `edicoes/index.html` | Arquivo com todas as edições, refeito a cada build |
@@ -14,7 +15,8 @@ Jornal diário produzido por IA. Cada edição é um arquivo JSON em `edicoes/`;
 | `estilo.css` | Visual do jornal (layout, fontes, cores, modo escuro) |
 | `registro.json` | Discos, poemas e leituras já publicados, para não repetir |
 | `CNAME` | Domínio prensaautomata.com |
-| `PROMPT-TAREFA.md` | Instrução da tarefa agendada no Cowork |
+| `PROMPT-TAREFA.md` | Instrução da edição da manhã |
+| `PROMPT-TAREFA-NOITE.md` | Cópia do prompt da edição da noite (a Routine guarda o próprio texto) |
 | `.nojekyll` | Faz o GitHub Pages servir os arquivos como estão, sem passar pelo Jekyll |
 | `.github/workflows/verificar.yml` | A cada push, confere se os JSON são válidos e se a edição mais recente monta sem erro |
 
@@ -36,7 +38,8 @@ Nenhuma além do Python 3 (biblioteca padrão) e do git. Para criar o repositór
 
 ```
 python3 build.py              # monta a edição mais recente
-python3 build.py 2026-09-29   # monta uma data específica
+python3 build.py 2026-09-29   # monta a manhã de uma data
+python3 build.py 2026-09-29-noite   # monta a noite de uma data
 ```
 
 Abra `index.html` no navegador para conferir.
@@ -47,7 +50,7 @@ As visitas são contadas pelo GoatCounter (sem cookies, sem dados pessoais), em 
 
 ## Navegação entre edições
 
-No fim de cada edição há um link para a anterior ("Edição de ontem", ou "Edição anterior · DD/MM" se algum dia ficou sem edição) e outro para `edicoes/index.html`, o arquivo com todas as edições. Esses links não ficam defasados: a edição anterior de uma página nunca muda, e o arquivo é refeito a cada build.
+No fim de cada edição há um link para a anterior ("Edição de ontem", ou "Edição anterior · DD/MM" se algum dia ficou sem edição) e outro para `edicoes/index.html`, o arquivo com todas as edições, separadas em manhã e noite. A manhã e a noite têm numeração própria (`tiragem` e `tiragem_noite` no `registro.json`); a noite aponta para "Edição da manhã", e a manhã seguinte para "Edição de ontem à noite". Esses links não ficam defasados: a edição anterior de uma página nunca muda, e o arquivo é refeito a cada build.
 
 ## Mudar o visual
 

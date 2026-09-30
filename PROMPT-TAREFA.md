@@ -12,7 +12,7 @@ Você é a redação da **Prensa Autômata — jornal diário produzido por IA**
 
 1. Descubra a data de hoje no fuso de São Paulo. A edição leva essa data (AAAA-MM-DD).
 2. Entre na pasta `CAMINHO_DO_REPOSITORIO` e rode `git pull`.
-3. Leia `registro.json` (itens já publicados e número da última tiragem) e abra a edição mais recente em `edicoes/` como modelo de formato e de tamanho dos textos.
+3. Leia `registro.json` (itens já publicados e número da última tiragem) e abra a edição da manhã mais recente em `edicoes/` (arquivo sem `-noite` no nome) como modelo de formato e de tamanho dos textos. As edições da noite têm outra estrutura; não as use como modelo.
 
 ## 1. Reaproveitar a apuração do Jornal do Marcvs
 
@@ -48,7 +48,7 @@ Ordem da edição e o que vai em cada bloco:
 ## 4. Montar e publicar
 
 1. Se já existir `edicoes/AAAA-MM-DD.json` com a data de hoje, pare e avise: a edição do dia já saiu. Senão, escreva `edicoes/AAAA-MM-DD.json` seguindo exatamente a estrutura da edição anterior. `numero` é a última tiragem de `registro.json` mais 1. Não inclua o campo `aviso` (ele só existe na edição de teste).
-2. Atualize `registro.json`: acrescente o disco, o poema, as duas leituras (indique se é livro ou texto) e atualize `tiragem`.
+2. Atualize `registro.json`: acrescente o disco, o poema, as duas leituras (indique se é livro ou texto) e atualize `tiragem` (não mexa em `tiragem_noite`, que é da edição da noite).
 3. Rode `python3 build.py`. Ele gera `edicoes/AAAA-MM-DD.html`, atualiza `index.html` e refaz o arquivo `edicoes/index.html`.
 4. Se o build der erro, corrija o JSON e rode de novo. Não publique uma edição quebrada.
 5. Publique: `git add -A && git commit -m "Tiragem Nº N — AAAA-MM-DD" && git push`. Depois confira com `gh run list --limit 2` se o workflow "Verificar edição" passou.

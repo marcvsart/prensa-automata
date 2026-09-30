@@ -1,5 +1,5 @@
 {
-  "_sobre": "Itens já publicados, para não repetir. A tarefa diária lê e atualiza este arquivo.",
+  "_sobre": "Itens já publicados, para não repetir. As tarefas da manhã e da noite leem e atualizam este arquivo. `tiragem` numera as edições da manhã; `tiragem_noite`, as da noite.",
   "discos": [
     {
       "data": "2026-09-29",
@@ -40,5 +40,6 @@
       "item": "Juliano Spyer — Povo de Deus"
     }
   ],
-  "tiragem": 1
+  "tiragem": 1,
+  "tiragem_noite": 0
 }
