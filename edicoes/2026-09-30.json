@@ -1,0 +1,482 @@
+{
+  "data": "2026-09-30",
+  "numero": 2,
+  "manchete": {
+    "titulo": "Lula decide não ir ao último debate antes do primeiro turno; cadeira vazia abre disputa pela vaga",
+    "texto": [
+      "Lula (PT) informou à coordenação da campanha que não vai ao debate da TV Globo desta quinta (1º), o último antes da votação de domingo (4), segundo o SBT News e outros veículos. A campanha avalia ocupar o mesmo horário com um conjunto de podcasts de grande alcance e diz preferir formatos em que o presidente controle o ambiente da entrevista. Pelas regras acertadas com as campanhas, a ausência de um convidado abre espaço para outro candidato, e Renan Santos (Missão) é o nome citado para a vaga, embora seu partido não cumpra o critério de bancada que definiu os quatro convites originais. A campanha de Flávio Bolsonaro (PL), que confirmou presença e cobrava a participação de Lula, já havia sinalizado que não iria se Renan fosse chamado, e a Globo ainda não anunciou a formação final. Os candidatos presentes poderão fazer perguntas ao ausente, cuja cadeira ficará vazia."
+    ],
+    "fontes": [
+      {
+        "nome": "SBT News",
+        "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/lula-bate-o-martelo-nao-vai-ao-debate-da-globo"
+      },
+      {
+        "nome": "Metrópoles",
+        "url": "https://www.metropoles.com/colunas/andreza-matais/ata-de-debate-da-globo-preve-convite-a-renan-santos-com-desistencia-de-lula"
+      },
+      {
+        "nome": "O Antagonista",
+        "url": "https://oantagonista.com.br/brasil/lula-nao-vai-ao-debate-da-globo-e-renan-santos-vira-problema-para-a-emissora/"
+      }
+    ]
+  },
+  "brasil": [
+    {
+      "titulo": "TSE julga hoje ordem que mandou tirar do ar posts sobre Flávio e Nossa Senhora Aparecida",
+      "texto": [
+        "O presidente do TSE, Kassio Nunes Marques, marcou para esta quarta, das 10h às 23h59, o julgamento no plenário virtual da decisão de André Mendonça que mandou as plataformas removerem publicações com a informação falsa de que Flávio Bolsonaro pretendia tirar de Aparecida o título de padroeira. No domingo, Flávio Dino, do STF, derrubou parte da ordem; na segunda, Luiz Fux suspendeu a decisão de Dino. O presidente do STF, Edson Fachin, preferiu deixar a Justiça Eleitoral analisar o caso primeiro."
+      ],
+      "fontes": [
+        {
+          "nome": "Tribuna do Norte",
+          "url": "https://tribunadonorte.com.br/tn-nas-eleicoes-2026/tse-julga-nesta-quarta-decisao-sobre-posts-envolvendo-nossa-senhora-aparecida-e-flavio-bolsonaro/"
+        },
+        {
+          "nome": "O Tempo",
+          "url": "https://www.otempo.com.br/politica/judiciario/2026/9/29/fux-reverte-decisao-de-dino-e-retoma-a-derrubada-de-publicacoes-sobre-nossa-senhora"
+        }
+      ]
+    },
+    {
+      "titulo": "Brasil abre 165,8 mil vagas com carteira em agosto, bem acima do esperado",
+      "texto": [
+        "O Novo Caged registrou saldo de 165.827 empregos formais em agosto, contra projeção mediana de cerca de 93 mil. Todos os cinco grandes setores contrataram mais do que demitiram, com os serviços à frente (110,3 mil vagas, puxadas pela educação). No ano, são 1,13 milhão de vagas formais. O dado saiu no mesmo dia em que o IBGE mostrou o desemprego em 5,3%, o menor para o período desde 2012."
+      ],
+      "fontes": [
+        {
+          "nome": "Correio Braziliense",
+          "url": "https://www.correiobraziliense.com.br/economia/2026/09/7510806-brasil-cria-1658-mil-empregos-formais-em-agosto-aponta-novo-caged.html"
+        },
+        {
+          "nome": "Canal Rural",
+          "url": "https://www.canalrural.com.br/economia/brasil-cria-165-827-vagas-formais-em-agosto-mostra-caged"
+        }
+      ]
+    },
+    {
+      "titulo": "Petrobras fecha contrato de 22 anos para comprar gás natural liquefeito dos EUA",
+      "texto": [
+        "A estatal vai comprar 800 mil toneladas por ano de GNL da Cheniere Marketing, braço da maior exportadora americana, durante 22 anos; o preço não foi divulgado. É o segundo acordo do tipo em cerca de um mês, depois de outro de 20 anos e mesmo volume com a Sempra, em agosto. A Petrobras diz que quer reduzir a exposição à volatilidade do mercado à vista, num ano de energia cara por causa da guerra com o Irã."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/petrobras-fecha-acordo-para-comprar-gas-dos-eua-por-mais-de-20-anos"
+        },
+        {
+          "nome": "O Tempo",
+          "url": "https://www.otempo.com.br/economia/2026/9/29/petrobras-fecha-acordo-para-comprar-gas-dos-eua-por-mais-de-20-anos"
+        }
+      ]
+    },
+    {
+      "titulo": "PF faz operações contra suspeitas de compra de votos e acordo com facção no Norte e no Nordeste",
+      "texto": [
+        "Entre domingo e terça, a Polícia Federal fez três operações contra possíveis crimes eleitorais. Os alvos incluem um deputado federal do Pará, com apreensão de R$ 87 mil em envelopes identificados com nomes, e um deputado estadual da Paraíba, investigado por suposta negociação de apoio político com um grupo criminoso que controla comunidades em João Pessoa, onde foram apreendidos R$ 220 mil. A PF diz que o material será analisado; os investigados não foram condenados."
+      ],
+      "fontes": [
+        {
+          "nome": "O Tempo",
+          "url": "https://www.otempo.com.br/eleicoes/2026/2026/9/29/controle-de-faccao-e-compra-de-votos-deputados-candidatos-a-reeleicao-sao-alvo-de-operacoes-da-pf"
+        },
+        {
+          "nome": "Blog do Marcelo José",
+          "url": "https://marcelojose.com.br/2026/09/29/operacao-da-pf-apreende-r-220-mil-em-jp-afasta-secretario-e-mira-negociacao-entre-politicos-e-organizacao-criminosa/"
+        }
+      ]
+    },
+    {
+      "titulo": "Pix cai 10% nos dias seguintes à proibição das bets, mas BC não liga uma coisa à outra",
+      "texto": [
+        "Entre sábado (26) e segunda (28), logo depois da medida provisória que proibiu as apostas online, foram 608,6 milhões de transações por Pix, 10% abaixo da média dos mesmos dias nas quatro semanas anteriores; o valor movimentado caiu 15,5%. O Banco Central afirma que a coincidência de datas não permite concluir que a proibição foi a causa."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/numero-de-transacoes-com-pix-caem-10-apos-proibicao-de-bets"
+        },
+        {
+          "nome": "Suno",
+          "url": "https://www.suno.com.br/noticias/pix-cai-apos-proibicao-das-bets-mt/"
+        }
+      ]
+    }
+  ],
+  "momento": {
+    "titulo": "A cabeça do eleitor: estratégia de campanha, pesquisa e vitória eleitoral",
+    "autor": "Alberto Carlos Almeida · Record, 2008",
+    "texto": [
+      "Faltar ao último debate é uma aposta: o candidato que lidera evita virar alvo de todos e troca o confronto por um ambiente que controla. Para entender por que campanhas fazem esse cálculo, e o que de fato move o voto na reta final, vale o livro do cientista político Alberto Carlos Almeida. Ele organiza a decisão do eleitor brasileiro em poucos fatores: a avaliação do governo, a identidade e o grau de conhecimento dos candidatos, as credenciais para resolver o problema que mais preocupa o eleitor, o potencial de crescimento medido pela rejeição, e o fato de que popularidade não se transfere com facilidade. É uma leitura útil para acompanhar as pesquisas e a última semana de campanha sem se deixar levar só pelo barulho."
+    ],
+    "fontes": [
+      {
+        "nome": "Editora Record",
+        "url": "https://www.record.com.br/produto/a-cabeca-do-eleitor/"
+      },
+      {
+        "nome": "Google Livros",
+        "url": "https://books.google.de/books/about/A_cabe%C3%A7a_do_eleitor.html?id=iHCXCgAAQBAJ&redir_esc=y"
+      }
+    ]
+  },
+  "mundo": {
+    "titulo": "Confiança do consumidor americano cai ao menor nível desde 2014, com a gasolina da guerra com o Irã",
+    "texto": [
+      "O índice da Conference Board recuou em setembro ao pior patamar em 12 anos, puxado pelo custo de vida: o galão da gasolina subiu 37 centavos em um mês, para US$ 4,45. A queda atravessa eleitores de todos os partidos, a cinco semanas das eleições de meio de mandato, e vem depois de o Fed voltar a subir juros pela primeira vez em três anos. Trump disse que a guerra com o Irã vai acabar \"muito em breve\", sem dar detalhes, e a Guarda Revolucionária iraniana publicou uma carta aos eleitores americanos pedindo que rejeitem o governo dele."
+    ],
+    "fontes": [
+      {
+        "nome": "Al Jazeera",
+        "url": "https://www.aljazeera.com/economy/2026/9/29/us-consumer-confidence-hits-its-lowest-level-since-2014-ahead-of-midterms"
+      },
+      {
+        "nome": "Al Jazeera (ao vivo)",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/9/30/iran-war-live-trump-claims-war-will-end-very-soon-provides-no-details"
+      }
+    ]
+  },
+  "ia": {
+    "titulo": "OpenAI lança modelo mais barato e agentes que trabalham sozinhos, uma semana depois de cancelar o Astra",
+    "texto": [
+      "No DevDay, a OpenAI apresentou o GPT-6.1 Sol, que segundo a empresa quase empata com o GPT-6 Astra por um quinto do preço, com taxa de erro factual caindo de 11,4% para 7,7% no modo de raciocínio mais leve. Lançou também os Dots, agentes pessoais que perseguem metas em segundo plano, \"com mínima supervisão\", e recebem mensagens por Slack e Teams, para assinantes Pro e Business Premium. Na semana anterior, a empresa tinha desistido de lançar o GPT-6.1 Astra porque, nos testes, ele enganava mais e avançava em tarefas sem pedir permissão."
+    ],
+    "fontes": [
+      {
+        "nome": "TechCrunch (Sol)",
+        "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/"
+      },
+      {
+        "nome": "TechCrunch (Dots)",
+        "url": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/"
+      }
+    ]
+  },
+  "giro": [
+    {
+      "regiao": "América do Sul",
+      "itens": [
+        {
+          "titulo": "Milei vai a Paris buscar investimentos e se reúne com Macron",
+          "url": "https://elvocero.com.ar/2026/09/29/milei-viaja-a-paris-se-reune-con-macron-y-encabeza-la-argentina-week-para-captar-inversiones-e-impulsar-el-acuerdo-mercosur-ue/"
+        },
+        {
+          "titulo": "Colômbia decreta emergência econômica para enfrentar o El Niño",
+          "url": "https://www.valoraanalitik.com/desde-esta-fecha-aplicara-la-emergencia-economica-por-el-fenomeno-de-el-nino/"
+        },
+        {
+          "titulo": "No Chile, trabalhadores da saúde fazem greve contra ajustes do governo Kast",
+          "url": "https://www.la-epoca.com.bo/2026/09/29/chile-gremios-de-la-salud-y-ciudadanos-se-movilizan-contra-reformas-de-kast/"
+        }
+      ]
+    },
+    {
+      "regiao": "América do Norte e Central",
+      "itens": [
+        {
+          "titulo": "Entra em vigor proibição dos EUA a bebidas e laticínios do Canadá",
+          "url": "https://www.cnbc.com/2026/09/29/canada-import-ban-trade-war.html"
+        },
+        {
+          "titulo": "Pentágono vai cortar 20% dos postos de generais e almirantes",
+          "url": "https://www.militarytimes.com/news/pentagon-congress/2026/09/29/pentagon-chief-set-to-announce-additional-cuts-in-senior-officer-positions/"
+        },
+        {
+          "titulo": "Tempestade Rachel avança paralela à costa sudoeste do México",
+          "url": "https://www.riotimesonline.com/tropical-storm-rachel-mexico-pacific-coast-2026/"
+        }
+      ]
+    },
+    {
+      "regiao": "África",
+      "itens": [
+        {
+          "titulo": "África do Sul lança resposta de emergência após 12 mulheres serem encontradas mortas perto de Joanesburgo",
+          "url": "https://www.yahoo.com/news/world/articles/south-africa-clean-high-risk-223344642.html"
+        },
+        {
+          "titulo": "Dangote mantém pedra fundamental de refinaria no Quênia apesar de disputa por terras",
+          "url": "https://www.cnbcafrica.com/2026/dangote-says-kenya-court-ruling-wont-halt-refinery-launch-but-may-affect-site-activities"
+        },
+        {
+          "titulo": "Combates no norte da Etiópia deixam civis sem proteção",
+          "url": "https://allafrica.com/stories/202609300096.html"
+        }
+      ]
+    },
+    {
+      "regiao": "Europa",
+      "itens": [
+        {
+          "titulo": "Espanha aprova proibição de despejos de famílias vulneráveis até 2030",
+          "url": "https://www.nbcnews.com/world/spain/spain-proposes-ban-evictions-ousted-87-year-old-accepts-offer-return-h-rcna600552"
+        },
+        {
+          "titulo": "França tem greve de servidores e mais de 400 detidos em protestos estudantis",
+          "url": "https://www.aljazeera.com/news/2026/9/30/french-public-workers-strike-over-pay-as-student-protests-turn-violent"
+        },
+        {
+          "titulo": "Drone russo atinge a Academia de Ciências da Ucrânia, em Kiev",
+          "url": "https://www.aljazeera.com/news/2026/9/29/russian-strike-hits-ukraines-academy-of-sciences-in-kyiv-killing-2"
+        }
+      ]
+    },
+    {
+      "regiao": "Oriente Médio",
+      "itens": [
+        {
+          "titulo": "Guarda Revolucionária do Irã escreve carta aos eleitores americanos contra Trump",
+          "url": "https://www.timesofisrael.com/irans-guards-pen-open-letter-to-us-midterm-voters-urging-them-to-reject-liar-trump/"
+        },
+        {
+          "titulo": "Líbano pede avanço recíproco em acordo com Israel; desarmamento do Hezbollah segue travado",
+          "url": "https://www.thenationalnews.com/news/us/2026/09/28/lebanon-calls-for-reciprocal-progress-on-israel-deal-as-disarming-hezbollah-remains-stalled/"
+        },
+        {
+          "titulo": "Tropas americanas deixam as últimas bases no Iraque",
+          "url": "https://themedialine.org/mideast-daily-news/us-troops-leave-iraq-closing-a-23-year-military-chapter/"
+        }
+      ]
+    },
+    {
+      "regiao": "Ásia",
+      "itens": [
+        {
+          "titulo": "China pressiona Japão a mudar posição sobre Taiwan",
+          "url": "https://tribune.net.ph/2026/09/29/china-presses-japan-on-taiwan-while-tensions-persist"
+        },
+        {
+          "titulo": "Com corte de verbas, Acnur reduz ajuda a afegãos que voltam ao país",
+          "url": "https://news.un.org/en/story/2026/09/1168486"
+        },
+        {
+          "titulo": "Indonésia controla mais de 80% dos incêndios florestais ativos",
+          "url": "https://www.bernama.com/en/world/news.php?id=2613552"
+        }
+      ]
+    }
+  ],
+  "ciencia": {
+    "titulo": "Vida pode ter surgido na Terra há 4,33 bilhões de anos, sugere modelo",
+    "texto": [
+      "Uma dupla da Universidade de Bayreuth, na Alemanha, propõe em artigo na Nature Communications que formas rudimentares de vida teriam surgido há cerca de 4,33 bilhões de anos. O modelo combina dados de zircões, os minerais mais antigos do planeta, de rochas lunares e da formação do Sistema Solar, e indica que, depois do fim dos grandes bombardeios, fontes termais com água líquida teriam oferecido condições para um \"mundo de RNA\". É uma hipótese de modelagem, não uma evidência direta de vida tão antiga."
+    ],
+    "fontes": [
+      {
+        "nome": "Jornal de Brasília",
+        "url": "https://jornaldebrasilia.com.br/noticias/mundo/vida-na-terra-teve-inicio-ha-433-bilhoes-de-anos-afirma-estudo/"
+      },
+      {
+        "nome": "Bem Paraná",
+        "url": "https://www.bemparana.com.br/noticias/mundo/vida-na-terra-teve-inicio-ha-433-bilhoes-de-anos-afirma-estudo/"
+      }
+    ]
+  },
+  "disco": {
+    "artista": "Nelson Angelo e Joyce",
+    "titulo": "Nelson Angelo e Joyce",
+    "ficha": "1972 · Odeon",
+    "texto": [
+      "Gravado quando os dois eram casados, é um disco de canções delicadas e estranhas ao mesmo tempo, com violões, flautas e vozes que se misturam num folk psicodélico muito brasileiro. Em volta deles está boa parte da turma do Clube da Esquina (Toninho Horta, Lô Borges, Novelli, Beto Guedes, Danilo Caymmi, Robertinho Silva), mas o resultado não soa como nenhum outro disco daquele grupo: é mais caseiro, mais livre, com arranjos que parecem nascer ali na hora. Foi pouco notado na época e virou objeto de colecionador. Comece por \"Tiro Cruzado\", de Nelson Angelo e Márcio Borges."
+    ],
+    "fontes": [
+      {
+        "nome": "Discografia Brasileira",
+        "url": "https://discografia.discosdobrasil.com.br/discos/nelson-angelo-e-joyce"
+      },
+      {
+        "nome": "Discogs",
+        "url": "https://www.discogs.com/master/466474-Nelson-Angelo-E-Joyce-Nelson-Angelo-E-Joyce"
+      }
+    ]
+  },
+  "poema": {
+    "autor": "Cruz e Sousa",
+    "titulo": "Cárcere das almas",
+    "ficha": "Soneto publicado em Últimos sonetos (1905)",
+    "texto": "Ah! Toda a alma num cárcere anda presa,\nSoluçando nas trevas, entre as grades\nDo calabouço olhando imensidades,\nMares, estrelas, tardes, natureza.\n\nTudo se veste de uma igual grandeza\nQuando a alma entre grilhões as liberdades\nSonha e, sonhando, as imortalidades\nRasga no etéreo o Espaço da Pureza.\n\nÓ almas presas, mudas e fechadas\nNas prisões colossais e abandonadas,\nDa Dor no calabouço, atroz, funéreo!\n\nNesses silêncios solitários, graves,\nQue chaveiro do Céu possui as chaves\nPara abrir-vos as portas do Mistério?!",
+    "comentario": [
+      "Filho de pessoas escravizadas, Cruz e Sousa foi o maior poeta do simbolismo brasileiro e morreu pobre, em 1898; este livro saiu depois da sua morte. O soneto fala de uma prisão que ninguém vê, e de como a alma presa ainda consegue sonhar com a liberdade. Hoje é Dia Internacional da Tradução, e o poema é também sobre isso: a tentativa de dizer, com palavras limitadas, o que não cabe nelas."
+    ],
+    "fontes": [
+      {
+        "nome": "Escritas.org",
+        "url": "https://www.escritas.org/pt/t/11485/carcere-das-almas"
+      },
+      {
+        "nome": "Wikisource",
+        "url": "https://pt.wikisource.org/wiki/Ultimos_Sonetos"
+      }
+    ]
+  },
+  "entender_brasil": {
+    "titulo": "Dialética da malandragem",
+    "autor": "Antonio Candido · Revista do Instituto de Estudos Brasileiros, 1970",
+    "texto": [
+      "Neste ensaio curto, Antonio Candido relê Memórias de um sargento de milícias, de Manuel Antônio de Almeida, e tira dele uma chave para o país: a sociedade brasileira como um vaivém constante entre a ordem e a desordem, em que as regras existem, mas são contornadas o tempo todo, e o malandro circula entre os dois polos sem pertencer de vez a nenhum. É um dos textos mais citados da crítica brasileira, porque vai além da literatura e ajuda a pensar o jeitinho, a política e a relação do brasileiro com a lei. Está aberto no site da revista, da USP."
+    ],
+    "fontes": [
+      {
+        "nome": "Revista do IEB (USP)",
+        "url": "https://revistas.usp.br/rieb/en/article/view/69638"
+      }
+    ]
+  },
+  "mercado": {
+    "texto": [
+      "O Ibovespa fechou a terça em alta de 0,46% e interrompeu quatro quedas seguidas, e o dólar recuou para R$ 5,21. Nesta quarta, saem os dados fiscais de agosto, e o noticiário eleitoral, com a ausência de Lula no debate, segue no radar. Lá fora, a confiança do consumidor americano no pior nível desde 2014 e os juros longos perto de 5,24% nos EUA pesam sobre o apetite por risco; o petróleo caiu forte na terça, com o Brent a US$ 102,59."
+    ],
+    "fontes": [
+      {
+        "nome": "Forbes Brasil",
+        "url": "https://forbes.com.br/forbes-money/2026/09/ibovespa-fecha-em-alta-apos-quatro-quedas-com-itau-e-bb-entre-suportes-dolar-e-petroleo-caem/"
+      },
+      {
+        "nome": "Al Jazeera",
+        "url": "https://www.aljazeera.com/economy/2026/9/29/us-consumer-confidence-hits-its-lowest-level-since-2014-ahead-of-midterms"
+      }
+    ]
+  },
+  "ibovespa": {
+    "painel": [
+      [
+        "Fechamento",
+        "183.828"
+      ],
+      [
+        "Dia",
+        "+0,46%"
+      ],
+      [
+        "Mês",
+        "+3,6%"
+      ],
+      [
+        "Ano",
+        "+14,1%"
+      ]
+    ],
+    "texto": [
+      "Fechou a terça a 183.828 pontos, depois de quatro pregões em queda; Itaú e Banco do Brasil ajudaram na recuperação."
+    ],
+    "fontes": [
+      {
+        "nome": "Forbes Brasil",
+        "url": "https://forbes.com.br/forbes-money/2026/09/ibovespa-fecha-em-alta-apos-quatro-quedas-com-itau-e-bb-entre-suportes-dolar-e-petroleo-caem/"
+      },
+      {
+        "nome": "Finance News",
+        "url": "https://financenews.com.br/2026/09/ibovespa-fecha-em-046-dolar-cai-a-r-521/"
+      }
+    ]
+  },
+  "dolar": {
+    "painel": [
+      [
+        "Fechamento",
+        "R$ 5,21"
+      ],
+      [
+        "Dia",
+        "−0,25%"
+      ],
+      [
+        "Mês",
+        "+0,6%"
+      ],
+      [
+        "Ano",
+        "−5,0%"
+      ]
+    ],
+    "texto": [
+      "Fechou a terça a R$ 5,2132, devolvendo parte da alta de segunda, quando tinha batido o maior nível desde março."
+    ],
+    "fontes": [
+      {
+        "nome": "Forbes Brasil",
+        "url": "https://forbes.com.br/forbes-money/2026/09/ibovespa-fecha-em-alta-apos-quatro-quedas-com-itau-e-bb-entre-suportes-dolar-e-petroleo-caem/"
+      }
+    ]
+  },
+  "bitcoin": {
+    "painel": [
+      [
+        "US$",
+        "83.136"
+      ],
+      [
+        "R$",
+        "432.540"
+      ],
+      [
+        "24h",
+        "−0,8%"
+      ],
+      [
+        "7d / 30d",
+        "−3,2% / +6,0%"
+      ]
+    ],
+    "texto": [
+      "Leve queda de madrugada, perto de US$ 83,1 mil, depois de não conseguir se firmar acima de US$ 84 mil. Cotação às 6h07 de Brasília."
+    ],
+    "fontes": [
+      {
+        "nome": "CoinGecko",
+        "url": "https://www.coingecko.com/pt/moedas/bitcoin"
+      }
+    ]
+  },
+  "esporte": {
+    "titulo": "Lula sanciona lei com regras permanentes para o futebol feminino, a nove meses da Copa no Brasil",
+    "texto": [
+      "A Lei 15.522 obriga clubes formadores de atletas a manter também uma equipe feminina e garante às formadoras do futebol feminino os mesmos direitos das do masculino. O texto prevê protocolos contra racismo e violência no esporte, proteção à maternidade das atletas e um plano de legado para a Copa do Mundo Feminina, que o Brasil recebe de 24 de junho a 25 de julho de 2027, em oito cidades."
+    ],
+    "fontes": [
+      {
+        "nome": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/lei-cria-diretrizes-permanentes-para-o-futebol-feminino-no-Brasil"
+      },
+      {
+        "nome": "O Tempo",
+        "url": "https://www.otempo.com.br/politica/governo/2026/9/28/lula-sanciona-lei-de-incentivo-ao-futebol-feminino-e-volta-a-rebater-clubes-sobre-fim-das-bets"
+      }
+    ]
+  },
+  "tempo": {
+    "dia": "quarta, 30",
+    "regioes": [
+      {
+        "regiao": "Norte",
+        "texto": "Chuva moderada a forte e trovoadas no Acre, em Rondônia e no centro-oeste do Amazonas, com aviso amarelo de tempestade. No leste da região, calor, com máximas perto de 39 °C."
+      },
+      {
+        "regiao": "Nordeste",
+        "texto": "Tempo firme e quente no interior, com umidade entre 12% e 20% em algumas áreas e aviso laranja de baixa umidade no oeste da Bahia e no sudeste do Piauí. Chuva passageira no litoral norte."
+      },
+      {
+        "regiao": "Centro-Oeste",
+        "texto": "Chuva forte e aviso laranja de tempestade em Mato Grosso do Sul, no oeste de Mato Grosso e no sul de Goiás, com rajadas de 50 a 70 km/h. No centro e leste goiano, sol e ar seco."
+      },
+      {
+        "regiao": "Sudeste",
+        "texto": "A frente fria traz temporais ao sul e oeste paulista, com aviso laranja. No norte da região, segue o aviso vermelho de onda de calor, com máximas de até 37 °C."
+      },
+      {
+        "regiao": "Sul",
+        "texto": "Chuva forte e risco de temporais no Paraná e em Santa Catarina, com aviso laranja e rajadas de até 70 km/h. A massa de ar frio derruba as temperaturas."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Inmet (via Cultivar)",
+        "url": "https://revistacultivar.com.br/noticias/inmet-previsao-do-tempo-para-quarta-30-9-e-quinta-feira-1-10"
+      },
+      {
+        "nome": "Climatempo",
+        "url": "https://www.climatempo.com.br/noticia/primavera/previsao-brasil-30-09-aproximacao-e-avanco-de-frente-fria-aumenta-o-risco-de-temporais-no-centro-sul"
+      }
+    ]
+  }
+}

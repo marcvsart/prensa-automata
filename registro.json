@@ -8,6 +8,10 @@
     {
       "data": "2026-09-29",
       "item": "Marconi Notaro — No Sub Reino dos Metazoários (1973)"
+    },
+    {
+      "data": "2026-09-30",
+      "item": "Nelson Angelo e Joyce — Nelson Angelo e Joyce (1972)"
     }
   ],
   "poemas": [
@@ -18,6 +22,10 @@
     {
       "data": "2026-09-29",
       "item": "Augusto dos Anjos — Versos íntimos"
+    },
+    {
+      "data": "2026-09-30",
+      "item": "Cruz e Sousa — Cárcere das almas"
     }
   ],
   "entender_brasil": [
@@ -32,6 +40,10 @@
     {
       "data": "2026-09-29",
       "item": "Joaquim Nabuco — O Abolicionismo (livro, noite)"
+    },
+    {
+      "data": "2026-09-30",
+      "item": "Antonio Candido — Dialética da malandragem (texto)"
     }
   ],
   "momento": [
@@ -46,8 +58,12 @@
     {
       "data": "2026-09-29",
       "item": "Ricardo Antunes — O privilégio da servidão (noite)"
+    },
+    {
+      "data": "2026-09-30",
+      "item": "Alberto Carlos Almeida — A cabeça do eleitor"
     }
   ],
-  "tiragem": 1,
+  "tiragem": 2,
   "tiragem_noite": 1
 }
