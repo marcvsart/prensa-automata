@@ -28,6 +28,10 @@
     {
       "data": "2026-09-29",
       "item": "Oswald de Andrade — Manifesto Antropófago (texto)"
+    },
+    {
+      "data": "2026-09-29",
+      "item": "Joaquim Nabuco — O Abolicionismo (livro, noite)"
     }
   ],
   "momento": [
@@ -38,8 +42,12 @@
     {
       "data": "2026-09-29",
       "item": "Juliano Spyer — Povo de Deus"
+    },
+    {
+      "data": "2026-09-29",
+      "item": "Ricardo Antunes — O privilégio da servidão (noite)"
     }
   ],
   "tiragem": 1,
-  "tiragem_noite": 0
+  "tiragem_noite": 1
 }

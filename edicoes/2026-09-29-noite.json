@@ -1,0 +1,347 @@
+{
+  "data": "2026-09-29",
+  "numero": 1,
+  "manchete": {
+    "titulo": "Desemprego cai a 5,3%, o menor para o período desde 2012, e número de ocupados bate recorde",
+    "texto": [
+      "A taxa de desemprego ficou em 5,3% no trimestre encerrado em agosto, informou o IBGE nesta terça. É o menor nível para esse período na série da Pnad Contínua, iniciada em 2012, abaixo dos 5,6% do trimestre até maio e do mesmo período de 2025. A população ocupada chegou a 103,5 milhões de pessoas, recorde da série, e o número de desempregados caiu 4,6% em três meses, para 5,8 milhões. A renda habitual média foi de R$ 3.777, alta de 3,7% em um ano. O emprego sem carteira cresceu mais rápido que o formal no trimestre: 1,8% contra 0,4%."
+    ],
+    "fontes": [
+      {
+        "nome": "CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/taxa-desemprego-pnad-hoje-29-setembro-2026/"
+      },
+      {
+        "nome": "BM&C News",
+        "url": "https://bmcnews.com.br/economia/desemprego-fica-em-5-3-no-trimestre-ate-agosto-de-2026/"
+      }
+    ]
+  },
+  "brasil": [
+    {
+      "titulo": "Flávio confirma presença no debate da Globo; ida de Lula ainda não está decidida",
+      "texto": [
+        "O último debate antes do primeiro turno está marcado para quinta (1º), depois do Jornal Nacional, com Lula (PT), Flávio Bolsonaro (PL), Ronaldo Caiado (PSD) e Augusto Cury (Avante). Flávio disse que vai; a campanha de Lula não confirmou, e, segundo o ICL Notícias, a direção do PT considera a presença necessária. Neste ano, a Record cancelou seu debate depois que os dois primeiros colocados recusaram o convite."
+      ],
+      "fontes": [
+        {
+          "nome": "Correio Braziliense",
+          "url": "https://www.correiobraziliense.com.br/mundo/2026/09/7509483-flavio-diz-que-ira-ao-debate-na-globo-o-ultimo-antes-do-1-turno-lula-nao-esta-confirmado.html"
+        },
+        {
+          "nome": "ICL Notícias",
+          "url": "https://iclnoticias.com.br/ida-de-lula-ao-debate-da-globo-nao-esta-decidida-e-e-considerada-necessaria-no-comando-do-pt/"
+        }
+      ]
+    },
+    {
+      "titulo": "Justiça Eleitoral já recebeu mais de 51 mil denúncias de propaganda irregular",
+      "texto": [
+        "Os dados são do Pardal, aplicativo do TSE em que o eleitor denuncia irregularidades com fotos, vídeos e links. São Paulo lidera, com mais de 10 mil ocorrências, seguido por Bahia, Minas Gerais e Pernambuco. Cerca de 27% das denúncias já viraram processos."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/geral/audio/2026-09/tse-registra-mais-de-50-mil-denuncias-de-propaganda-irregular"
+        },
+        {
+          "nome": "TV Brasil",
+          "url": "https://tvbrasil.ebc.com.br/reporter-brasil-tarde/2026/09/tse-recebeu-mais-de-51-mil-denuncias-de-propaganda-eleitoral-irregular"
+        }
+      ]
+    },
+    {
+      "titulo": "Na reta final, candidatos dividem o dia entre Nordeste, São Paulo e Goiás",
+      "texto": [
+        "Lula fez atos em Fortaleza e Salvador. Flávio Bolsonaro gravou programas pela manhã e participou de um encontro em São Paulo à tarde. Ronaldo Caiado percorreu Aparecida de Goiânia e Goiânia em carreata, Augusto Cury participou de uma sabatina na RedeTV!, em São Paulo, e Romeu Zema (Novo) fez campanha em Ipatinga (MG)."
+      ],
+      "fontes": [
+        {
+          "nome": "O Tempo",
+          "url": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/9/29/veja-a-agenda-de-campanha-dos-candidatos-a-presidencia-desta-terca-feira-29-9"
+        }
+      ]
+    }
+  ],
+  "momento": {
+    "titulo": "O privilégio da servidão: o novo proletariado de serviços na era digital",
+    "autor": "Ricardo Antunes · Boitempo, 2018",
+    "texto": [
+      "O desemprego no menor nível da série é uma boa notícia, e o número de ocupados é recorde. Mas o mesmo levantamento mostra o trabalho sem carteira crescendo mais depressa que o formal, e isso levanta outra pergunta: que tipo de trabalho sustenta esse recorde? O livro do sociólogo Ricardo Antunes, professor da Unicamp, é uma das tentativas mais citadas de responder.",
+      "Antunes descreve o que chama de novo proletariado de serviços: gente que trabalha por aplicativo, em teleatendimento, em contratos intermitentes ou terceirizados, muitas vezes sem proteção e com renda instável. O título é irônico: para quem vive nessa condição, ter qualquer trabalho, mesmo precário, passa a parecer um privilégio diante do desemprego. O livro junta pesquisas sobre setores diferentes (indústria, agronegócio, serviços) e trata também do adoecimento ligado ao trabalho.",
+      "É um livro de posição clara. Antunes escreve a partir da tradição marxista e defende uma saída socialista, e muitos economistas discordam do seu diagnóstico e das suas conclusões. Mesmo para quem discorda, ele ajuda a entender por que taxa de desemprego e qualidade do emprego são perguntas diferentes, e por que as duas aparecem no debate da reta final da eleição.",
+      "Para começar, vale a resenha de Michael Löwy no blog da editora, que resume o argumento do livro, e depois os capítulos sobre trabalho digital e intermitente. Há também resenhas acadêmicas abertas em revistas universitárias."
+    ],
+    "fontes": [
+      {
+        "nome": "Resenha de Michael Löwy (Blog da Boitempo)",
+        "url": "https://blogdaboitempo.com.br/2018/06/18/michael-lowy-o-privilegio-da-servidao/"
+      },
+      {
+        "nome": "Resenha (Revista Educação e Políticas em Debate, UFU)",
+        "url": "https://seer.ufu.br/index.php/revistaeducaopoliticas/article/view/48998"
+      }
+    ]
+  },
+  "mundo": {
+    "titulo": "Últimas tropas dos EUA devem deixar o Iraque até quarta, 23 anos depois da invasão",
+    "texto": [
+      "As forças americanas saem das últimas bases no Iraque até quarta (30), cumprindo acordo firmado em 2024 com Bagdá, e a segurança do país passa a ficar só com as forças iraquianas. Mais de 4.500 americanos morreram em duas décadas de guerra. Analistas ouvidos pela Military Times dizem que o Irã sai fortalecido, e há temor de reorganização do Estado Islâmico."
+    ],
+    "fontes": [
+      {
+        "nome": "Military Times",
+        "url": "https://www.militarytimes.com/news/your-military/2026/09/29/us-forces-exiting-iraq-after-2-decades-leaving-opening-for-iran/"
+      },
+      {
+        "nome": "La Voce di New York",
+        "url": "https://lavocedinewyork.com/en/news/2026/09/28/last-u-s-troops-after-the-2003-war-to-leave-iraq-by-september-30/"
+      }
+    ]
+  },
+  "ia": {
+    "titulo": "Prospecto vazado da Anthropic mostra receita multiplicada e prejuízo operacional de US$ 8 bilhões",
+    "texto": [
+      "Segundo documento de abertura de capital revisado pela Reuters, a Anthropic, dona do Claude, faturou US$ 4,6 bilhões em 2025, doze vezes mais que no ano anterior, e teve prejuízo operacional de US$ 8,06 bilhões, ante US$ 2,98 bilhões em 2024. A empresa tem US$ 518 bilhões em compromissos futuros com nuvem e infraestrutura e mira valor de mercado acima de US$ 2 trilhões, numa estreia na bolsa prevista para depois de novembro. O prospecto lista riscos \"existenciais\" da própria tecnologia. (A Prensa é escrita com o Claude, modelo da Anthropic.)"
+    ],
+    "fontes": [
+      {
+        "nome": "Fortune",
+        "url": "https://fortune.com/2026/09/29/anthropic-leaked-ipo-prospectus-losses-growth-ai-end-humanity/"
+      },
+      {
+        "nome": "SiliconANGLE",
+        "url": "https://siliconangle.com/2026/09/29/leaked-anthropic-ipo-filing-reveals-8b-operating-loss-rapid-revenue-growth/"
+      }
+    ]
+  },
+  "giro": [
+    {
+      "regiao": "América do Sul",
+      "itens": [
+        {
+          "titulo": "Delcy Rodríguez pede à Assembleia reforma da Lei contra o Ódio na Venezuela",
+          "url": "https://www.infobae.com/america/agencias/2026/09/29/delcy-rodriguez-solicita-a-la-asamblea-de-venezuela-reformar-la-cuestionada-ley-contra-el-odio/"
+        }
+      ]
+    },
+    {
+      "regiao": "América do Norte e Central",
+      "itens": [
+        {
+          "titulo": "Tempestade Rachel deve virar furacão na costa sudoeste do México",
+          "url": "https://www.riotimesonline.com/tropical-storm-rachel-mexico-pacific-coast-2026/"
+        }
+      ]
+    },
+    {
+      "regiao": "África",
+      "itens": [
+        {
+          "titulo": "Camarões registra 56 feminicídios no ano, e ativistas cobram lei específica",
+          "url": "https://www.okayafrica.com/today-in-africa-september-29-2026-cameroons-femicide-crisis-grows-nigeria-finds-28-skulls-tied-to-kidnapping-camps/1440249"
+        }
+      ]
+    },
+    {
+      "regiao": "Europa",
+      "itens": [
+        {
+          "titulo": "Polícia britânica não acha explosivos no caso do suposto plano contra a base de Fairford",
+          "url": "https://www.counterterrorism.police.uk/news/update-on-raf-fairford-investigation-1600-28-september-2026/"
+        }
+      ]
+    },
+    {
+      "regiao": "Oriente Médio",
+      "itens": [
+        {
+          "titulo": "Irã ameaça novos ataques na região enquanto espera resposta dos EUA sobre Ormuz",
+          "url": "https://www.opovo.com.br/noticias/mundo/2026/09/29/ira-ameaca-com-mais-ataques-e-aguarda-resposta-dos-estados-unidos-sobre-ormuz.html"
+        }
+      ]
+    },
+    {
+      "regiao": "Ásia",
+      "itens": [
+        {
+          "titulo": "Índia reúne US$ 25 bilhões para startups de IA, chips e espaço",
+          "url": "https://www.cnbc.com/2026/09/29/india-investment-billions-tech-ai-us-china.html"
+        }
+      ]
+    }
+  ],
+  "ciencia": {
+    "titulo": "Brasil cai uma posição e fica em 53º no Índice Global de Inovação",
+    "texto": [
+      "No ranking de 2026 da Organização Mundial da Propriedade Intelectual, com 139 economias, o Brasil perdeu uma posição, mas acumula ganho de 13 desde 2019, quando era o 66º, e segue como o único da América Latina que rende acima do esperado para seu nível de desenvolvimento. Os pontos fortes estão no tamanho do mercado e no P&D das empresas; os fracos, no ambiente de negócios (129º) e na formação de engenheiros e cientistas (101º)."
+    ],
+    "fontes": [
+      {
+        "nome": "Convergência Digital",
+        "url": "https://convergenciadigital.com.br/inovacao/brasil-fica-em-53o-lugar-em-ranking-global-de-inovacao-formacao-tecnica-segue-sendo-um-forte-gargalo/"
+      }
+    ]
+  },
+  "entender_brasil": {
+    "titulo": "O Abolicionismo",
+    "autor": "Joaquim Nabuco · Londres, 1883",
+    "texto": [
+      "Joaquim Nabuco escreveu o livro em Londres, em 1883, cinco anos antes da Lei Áurea, depois de perder a reeleição para a Câmara, já como principal porta-voz da campanha contra a escravidão. O texto saiu primeiro em folhetim e virou manifesto de um movimento: explicar ao país por que a abolição não podia esperar a morte lenta do sistema prevista pelas leis graduais, como a do Ventre Livre.",
+      "A ideia central é que a escravidão não era um problema de uma parte da sociedade, mas o molde de todo o Brasil: da economia à política, dos costumes ao modo como o Estado funcionava. Por isso, para Nabuco, libertar os escravizados era só o começo; seria preciso desfazer a obra da escravidão, com reformas que dessem terra, educação e trabalho livre digno aos libertos.",
+      "Parte do livro envelheceu. Nabuco escreve como liberal monarquista, apostava numa abolição conduzida pelo Parlamento, sem ruptura, e retrata os escravizados como vítimas passivas, visão que a historiografia posterior contestou ao mostrar fugas, quilombos e a ação dos próprios cativos. Há também passagens atravessadas pelas ideias raciais da época.",
+      "O que continua valendo é a pergunta: o que acontece com um país que acaba com a escravidão por lei, mas não faz as reformas seguintes? Numa eleição com número recorde de eleitores que se declaram pretos e pardos, a pergunta de 1883 segue aberta. O texto integral, em domínio público, está no acervo digital da Biblioteca Brasiliana da USP; os primeiros capítulos já apresentam o argumento inteiro."
+    ],
+    "fontes": [
+      {
+        "nome": "Texto integral (Brasiliana USP)",
+        "url": "https://digital.bbm.usp.br/bitstream/bbm/4692/1/012043_COMPLETO.pdf"
+      },
+      {
+        "nome": "Sobre o livro (Wikipédia)",
+        "url": "https://pt.wikipedia.org/wiki/O_Abolicionismo"
+      }
+    ]
+  },
+  "mercado": {
+    "texto": [
+      "A bolsa fechou em alta pela primeira vez em cinco pregões, e o dólar recuou, acompanhando o enfraquecimento da moeda americana diante de outros emergentes. O petróleo caiu forte, com o Brent 2,6% mais barato, a US$ 102,59. Nos EUA, o S&P 500 recuou 0,17%, com o juro de dez anos perto de 5,24%. Até domingo, pesquisas eleitorais seguem ditando o humor do mercado."
+    ],
+    "fontes": [
+      {
+        "nome": "Forbes Brasil",
+        "url": "https://forbes.com.br/forbes-money/2026/09/ibovespa-fecha-em-alta-apos-quatro-quedas-com-itau-e-bb-entre-suportes-dolar-e-petroleo-caem/"
+      },
+      {
+        "nome": "Finance News",
+        "url": "https://financenews.com.br/2026/09/ibovespa-fecha-em-046-dolar-cai-a-r-521/"
+      }
+    ]
+  },
+  "ibovespa": {
+    "painel": [
+      [
+        "Fechamento",
+        "183.828"
+      ],
+      [
+        "Dia",
+        "+0,46%"
+      ],
+      [
+        "Mês",
+        "+3,6%"
+      ],
+      [
+        "Ano",
+        "+14,1%"
+      ]
+    ],
+    "texto": [
+      "Fechou a 183.828 pontos e interrompeu quatro quedas seguidas, que somavam mais de 2%. Na mínima do dia, chegou a 181.562 pontos; Itaú e Banco do Brasil ajudaram na recuperação."
+    ],
+    "fontes": [
+      {
+        "nome": "Forbes Brasil",
+        "url": "https://forbes.com.br/forbes-money/2026/09/ibovespa-fecha-em-alta-apos-quatro-quedas-com-itau-e-bb-entre-suportes-dolar-e-petroleo-caem/"
+      },
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-29092026/"
+      }
+    ]
+  },
+  "dolar": {
+    "painel": [
+      [
+        "Fechamento",
+        "R$ 5,21"
+      ],
+      [
+        "Dia",
+        "−0,25%"
+      ],
+      [
+        "Mês",
+        "+0,6%"
+      ],
+      [
+        "Ano",
+        "−5,0%"
+      ]
+    ],
+    "texto": [
+      "Fechou a R$ 5,2132, depois de alternar altas e baixas. Na segunda, tinha encerrado no maior nível desde março."
+    ],
+    "fontes": [
+      {
+        "nome": "Forbes Brasil",
+        "url": "https://forbes.com.br/forbes-money/2026/09/ibovespa-fecha-em-alta-apos-quatro-quedas-com-itau-e-bb-entre-suportes-dolar-e-petroleo-caem/"
+      },
+      {
+        "nome": "Finance News",
+        "url": "https://financenews.com.br/2026/09/ibovespa-fecha-em-046-dolar-cai-a-r-521/"
+      }
+    ]
+  },
+  "bitcoin": {
+    "painel": [
+      [
+        "US$",
+        "83.387"
+      ],
+      [
+        "R$",
+        "433.896"
+      ],
+      [
+        "24h",
+        "+0,5%"
+      ],
+      [
+        "7d / 30d",
+        "−3,5% / +7,0%"
+      ]
+    ],
+    "texto": [
+      "Estável à noite, perto de US$ 83,4 mil, ainda em queda na semana. Cotação às 22h25 de Brasília."
+    ],
+    "fontes": [
+      {
+        "nome": "CoinGecko",
+        "url": "https://www.coingecko.com/pt/moedas/bitcoin"
+      }
+    ]
+  },
+  "tempo": {
+    "dia": "amanhã, quarta, 30",
+    "regioes": [
+      {
+        "regiao": "Norte",
+        "texto": "Pancadas de chuva e trovoadas no Acre, em Rondônia e no centro-oeste do Amazonas, com aviso amarelo de tempestade. No leste da região, calor forte, com até 39 °C em Palmas."
+      },
+      {
+        "regiao": "Nordeste",
+        "texto": "Tempo firme na maior parte da região, com chuva fraca de madrugada no litoral norte. Aviso laranja de baixa umidade no oeste da Bahia e no sudeste do Piauí; até 39 °C em Teresina."
+      },
+      {
+        "regiao": "Centro-Oeste",
+        "texto": "Chuva e aviso laranja de tempestade no oeste de Mato Grosso, em Mato Grosso do Sul e no sul de Goiás. No centro e leste goiano, sol e aviso laranja de baixa umidade; até 38 °C em Cuiabá."
+      },
+      {
+        "regiao": "Sudeste",
+        "texto": "A frente fria e um ciclone no oceano trazem temporais ao oeste e sul de São Paulo, com aviso laranja. No norte da região, segue o aviso vermelho de onda de calor, com até 37 °C em Belo Horizonte."
+      },
+      {
+        "regiao": "Sul",
+        "texto": "Chuva com trovoadas no Paraná, em Santa Catarina e no norte gaúcho, com aviso laranja no Paraná e no norte catarinense. Frio chegando: máximas de 21 °C em Curitiba e Florianópolis."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Inmet (via Cultivar)",
+        "url": "https://revistacultivar.com.br/noticias/inmet-previsao-do-tempo-para-quarta-30-9-e-quinta-feira-1-10"
+      }
+    ]
+  }
+}
