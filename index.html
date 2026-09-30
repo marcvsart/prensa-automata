@@ -378,5 +378,20 @@ Para abrir-vos as portas do Mistério?!</p>
   Prensa Autômata · jornal diário produzido por IA · os textos são resumos com link para as fontes originais; erros podem acontecer, confira sempre a fonte.
 </footer>
 </main>
+<script>
+(function () {
+  var atual = "2026-09-30";
+  if (!window.fetch) return;
+  fetch("ultima.json?t=" + Date.now(), { cache: "no-store" })
+    .then(function (r) { return r.ok ? r.json() : null; })
+    .then(function (d) {
+      if (!d || !d.edicao || d.edicao === atual) return;
+      var q = "v=" + d.edicao;
+      if (location.search.indexOf(q) !== -1) return;
+      location.replace(location.pathname + "?" + q);
+    })
+    .catch(function () {});
+})();
+</script>
 </body>
 </html>

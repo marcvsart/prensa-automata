@@ -259,6 +259,26 @@ def montar(ed, arquivo, slug):
 </html>
 """
 
+# O GitHub Pages manda o navegador guardar as páginas por 10 minutos. Na capa, este
+# script pergunta (sem cache) qual é a edição mais recente e, se a página aberta for
+# de uma edição anterior, recarrega com ?v=<edição>, endereço que ainda não está em cache.
+VIGIA = """<script>
+(function () {
+  var atual = "SLUG";
+  if (!window.fetch) return;
+  fetch("ultima.json?t=" + Date.now(), { cache: "no-store" })
+    .then(function (r) { return r.ok ? r.json() : null; })
+    .then(function (d) {
+      if (!d || !d.edicao || d.edicao === atual) return;
+      var q = "v=" + d.edicao;
+      if (location.search.indexOf(q) !== -1) return;
+      location.replace(location.pathname + "?" + q);
+    })
+    .catch(function () {});
+})();
+</script>
+"""
+
 def main():
     pasta = os.path.join(RAIZ, "edicoes")
     datas = sorted((os.path.basename(f)[:-5] for f in glob.glob(os.path.join(pasta, "*.json"))), reverse=True)
@@ -274,7 +294,10 @@ def main():
         f.write(pagina.replace('href="edicoes/', 'href="'))
     if alvo == datas[0]:
         with open(os.path.join(RAIZ, "index.html"), "w", encoding="utf-8") as f:
-            f.write(pagina)
+            f.write(pagina.replace("</body>", VIGIA.replace("SLUG", alvo) + "</body>", 1))
+    # a capa consulta este arquivo para saber se há edição mais nova que a guardada em cache
+    with open(os.path.join(RAIZ, "ultima.json"), "w", encoding="utf-8") as f:
+        f.write(json.dumps({"edicao": datas[0]}) + "\n")
     with open(os.path.join(pasta, "index.html"), "w", encoding="utf-8") as f:
         f.write(pagina_arquivo(pasta, datas, open(os.path.join(RAIZ, "estilo.css"), encoding="utf-8").read()))
     print(f"ok: edição {alvo} montada" + (" (capa atualizada)" if alvo == datas[0] else "") + "; arquivo atualizado")

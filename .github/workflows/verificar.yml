@@ -23,4 +23,4 @@ jobs:
         run: |
           # mesma ordem do build.py: 2026-09-30-noite vem depois de 2026-09-30
           ultima=$(python3 -c "import glob, os; print(max(os.path.basename(f)[:-5] for f in glob.glob('edicoes/*.json')))")
-          git diff --exit-code -- index.html edicoes/index.html "edicoes/${ultima}.html"
+          git diff --exit-code -- index.html edicoes/index.html ultima.json "edicoes/${ultima}.html"
