@@ -60,6 +60,10 @@
     {
       "data": "2026-10-01",
       "item": "Machado de Assis — Instinto de nacionalidade (texto)"
+    },
+    {
+      "data": "2026-10-01",
+      "item": "Lima Barreto — Os Bruzundangas (livro, noite)"
     }
   ],
   "momento": [
@@ -86,8 +90,12 @@
     {
       "data": "2026-10-01",
       "item": "Ricardo Mariano — Neopentecostais"
+    },
+    {
+      "data": "2026-10-01",
+      "item": "Pierre Bourdieu — Sobre a televisão (noite)"
     }
   ],
   "tiragem": 3,
-  "tiragem_noite": 2
+  "tiragem_noite": 3
 }
