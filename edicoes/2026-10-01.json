@@ -1,0 +1,474 @@
+{
+  "data": "2026-10-01",
+  "numero": 3,
+  "manchete": {
+    "titulo": "Último debate antes do primeiro turno vai ao ar hoje com a cadeira de Lula vazia",
+    "texto": [
+      "A TV Globo realiza nesta quinta (1º), a partir das 21h30, o último debate presidencial antes da votação de domingo (4), com Flávio Bolsonaro (PL), Ronaldo Caiado (PSD), Augusto Cury (Avante) e Romeu Zema (Novo). Lula (PT) decidiu não comparecer; sua cadeira ficará no estúdio, identificada, e os adversários poderão fazer perguntas ao ausente. Zema entrou por decisão do presidente do TSE, Nunes Marques, que reconheceu ao Novo a bancada mínima exigida. O mesmo ministro negou o pedido de Renan Santos (Missão), cujo partido tem um deputado federal, e entendeu que a Globo não era obrigada a convidá-lo. O formato prevê quatro blocos, dois com temas sorteados e dois livres."
+    ],
+    "fontes": [
+      {
+        "nome": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/saiba-quem-confirmou-presenca-no-debate-da-globo/"
+      },
+      {
+        "nome": "Revista Oeste",
+        "url": "https://revistaoeste.com/politica/justica-eleitoral-renan-santos-debate-globo/"
+      },
+      {
+        "nome": "Correio Braziliense",
+        "url": "https://www.correiobraziliense.com.br/politica/2026/09/7510981-decisao-de-nunes-marques-obriga-globo-a-chamar-zema-para-debate.html"
+      }
+    ]
+  },
+  "brasil": [
+    {
+      "titulo": "TSE forma maioria para manter remoção de posts falsos sobre Flávio e Aparecida",
+      "texto": [
+        "Os ministros André Mendonça, Nunes Marques, Dias Toffoli e Ricardo Villas Bôas Cueva votaram para manter a ordem que manda as plataformas retirarem publicações que atribuem a Flávio Bolsonaro, como fato, a intenção de tirar de Nossa Senhora Aparecida o título de padroeira. Parte dos ministros defendeu restringir a remoção a conteúdos notoriamente falsos, preservando sátira e opinião. O julgamento virtual terminou na noite de quarta."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/tse-forma-maioria-para-manter-retirada-de-posts-sobre-nossa-senhora"
+        },
+        {
+          "nome": "Olhar Digital",
+          "url": "https://olhardigital.com.br/2026/09/30/internet-e-redes-sociais/tse-decide-manter-remocao-de-posts-que-associam-flavio-bolsonaro-e-nossa-senhora"
+        }
+      ]
+    },
+    {
+      "titulo": "Brasil e EUA criam grupo de trabalho para negociar o tarifaço",
+      "texto": [
+        "Os ministros Mauro Vieira (Relações Exteriores) e Márcio Elias Rosa (Desenvolvimento) se reuniram com o representante comercial dos EUA, Jamieson Greer, em Milwaukee, durante a reunião de ministros de Comércio do G20. Os dois países criaram um grupo específico para tratar das tarifas sobre produtos brasileiros, e Washington deve mandar nas próximas semanas uma proposta de escopo. Desde julho, parte das exportações brasileiras paga 25% a mais para entrar nos EUA."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-09/brasil-e-eua-criam-grupo-especifico-para-negociar-tarifaco"
+        }
+      ]
+    },
+    {
+      "titulo": "Dino manda PF investigar onda de ataques a imagens e templos religiosos em oito cidades",
+      "texto": [
+        "O ministro do STF citou casos ocorridos entre março e setembro em Salvador, Londrina, Rio Grande, Maceió, Belo Horizonte, Cuiabá, Santo Amaro (BA) e Novo Progresso (PA), com vandalismo contra imagens de santos católicos, incluindo Nossa Senhora Aparecida, e ataques a terreiros de umbanda. Segundo Dino, os episódios podem configurar crimes como ultraje a culto e discriminação religiosa."
+      ],
+      "fontes": [
+        {
+          "nome": "O Povo",
+          "url": "https://www.opovo.com.br/noticias/politica/2026/09/30/stf-dino-manda-investigar-onda-de-ataques-a-imagens-religiosas-em-meio-a-caso-n-s-aparecida.html"
+        },
+        {
+          "nome": "Migalhas",
+          "url": "https://www.migalhas.com.br/quentes/465589/dino-manda-pf-investigar-ataques-a-imagens-e-espacos-religiosos"
+        }
+      ]
+    },
+    {
+      "titulo": "Pesquisa mostra que 83% dos fiéis rejeitam pastores e padres orientando o voto",
+      "texto": [
+        "Levantamento do Instituto de Estudos da Religião (Iser) com a Quaest, com 15 mil entrevistas presenciais em 412 municípios entre janeiro e fevereiro e margem de 1 ponto, mostra que 90% rejeitam campanha eleitoral dentro de templos e 82% não querem política nos cultos. Os evangélicos somam 29% da população. Para os pesquisadores, a religião pesa no voto mais pela formação de valores e identidade do que por indicação direta de líderes."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/evangelicos-sao-alvo-de-disputa-mas-rejeitam-uso-eleitoral-de-igrejas"
+        }
+      ]
+    },
+    {
+      "titulo": "Flamengo vai ao STF contra a proibição das bets",
+      "texto": [
+        "O clube pediu para participar como parte interessada na ação que contesta a medida provisória que proíbe as apostas de quota fixa, relatada por Luiz Fux. O Flamengo recebe cerca de R$ 268 milhões por temporada da Betano, sua patrocinadora máster, e diz que o prazo de dez dias para retirar as marcas é insuficiente. Outros clubes articulam uma ação conjunta."
+      ],
+      "fontes": [
+        {
+          "nome": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/esportes/futebol/flamengo/flamengo-entra-com-acao-no-stf-contra-o-fim-das-bets/"
+        },
+        {
+          "nome": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/flamengo-aciona-stf-com-pedido-contra-fim-das-bets-no-futebol"
+        }
+      ]
+    }
+  ],
+  "momento": {
+    "titulo": "Neopentecostais: sociologia do novo pentecostalismo no Brasil",
+    "autor": "Ricardo Mariano · Loyola, 1999",
+    "texto": [
+      "Aparecida no centro da campanha, ataques a imagens religiosas investigados pela PF e uma pesquisa mostrando que os fiéis rejeitam o uso eleitoral das igrejas: a religião atravessa a reta final da eleição. O livro do sociólogo Ricardo Mariano, da USP, nasceu de uma dissertação de 1995 e continua sendo uma das melhores portas de entrada para entender a vertente evangélica que mais cresceu no país, a das igrejas neopentecostais. Ele mostra como essas igrejas mudaram a teologia, a estética e o comportamento do pentecostalismo tradicional e se aproximaram da cultura de massa, o que ajuda a entender por que elas passaram a pesar na política sem que isso signifique obediência automática dos fiéis aos pastores."
+    ],
+    "fontes": [
+      {
+        "nome": "Google Livros",
+        "url": "https://books.google.com/books/about/Neopentecostais.html?hl=pt-BR&id=KY-O_a9KuzYC"
+      },
+      {
+        "nome": "Resenha (Revista Azusa)",
+        "url": "https://azusa.emnuvens.com.br/revista/article/view/6/6"
+      }
+    ]
+  },
+  "mundo": {
+    "titulo": "Rial iraniano bate recorde de baixa, e EUA ampliam sanções na guerra com o Irã",
+    "texto": [
+      "A moeda iraniana passou de 2,5 milhões por dólar na quarta, menos de um mês depois do recorde anterior, pressionada por sete meses de guerra e pelas restrições à venda de petróleo. Os EUA anunciaram sanções a dez pessoas e empresas da China, de Hong Kong e do Paquistão acusadas de ajudar Teerã a obter armas. Enquanto isso, o chanceler iraniano recebeu, por mediadores do Catar, a resposta americana a uma proposta de reabertura do Estreito de Ormuz, e Trump voltou a dizer que tem \"controle virtualmente total\" da passagem."
+    ],
+    "fontes": [
+      {
+        "nome": "Democracy Now!",
+        "url": "https://www.democracynow.org/2026/9/30/headlines"
+      },
+      {
+        "nome": "Action News Jax (AP)",
+        "url": "https://www.actionnewsjax.com/news/world/irans-currency-hits/LTFHZHPPQ44WBPCC5GIQ5APMUQ/"
+      },
+      {
+        "nome": "Al Jazeera (ao vivo)",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/10/1/iran-war-live-trump-hints-us-could-strike-iran-warns-time-coming"
+      }
+    ]
+  },
+  "ia": {
+    "titulo": "Google lança o Gemini 4 Argon, primeiro só para caçar falhas de segurança",
+    "texto": [
+      "O Google apresentou o Gemini 4 Argon como seu modelo mais capaz e disse que ele consegue encontrar, validar e corrigir sozinho vulnerabilidades críticas de software. Por enquanto, o acesso é restrito a parceiros de segurança do programa Fairwind, sem data para o público. A empresa afirma que o modelo supera o GPT-6 Astra, da OpenAI, e os modelos da Anthropic em testes de desempenho, comparação que ainda não foi verificada de forma independente."
+    ],
+    "fontes": [
+      {
+        "nome": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/"
+      }
+    ]
+  },
+  "giro": [
+    {
+      "regiao": "América do Sul",
+      "itens": [
+        {
+          "titulo": "Peru põe 41 mil militares nas ruas para as eleições regionais de domingo",
+          "url": "https://www.infobae.com/peru/2026/09/30/elecciones-2026-gobierno-desplegara-41-mil-militares-para-resguardar-locales-de-votacion-en-todo-el-peru/"
+        },
+        {
+          "titulo": "Desemprego na Colômbia sobe para 9,4%, o maior em 20 meses",
+          "url": "https://www.elheraldo.co/economia/2026/09/30/aumento-el-desempleo-en-colombia-paso-de-86-a-94-en-agosto-dane/"
+        },
+        {
+          "titulo": "Sem Messi, Argentina goleia a Bolívia por 4 a 0 em amistoso",
+          "url": "https://larepublica.pe/deportes/2026/09/30/argentina-vs-bolivia-en-vivo-partido-amistoso-sin-lionel-messi-via-telefe-y-tyc-sports-1533114"
+        }
+      ]
+    },
+    {
+      "regiao": "América do Norte e Central",
+      "itens": [
+        {
+          "titulo": "Senado do México aprova exigência de nacionalidade única para presidente e governadores",
+          "url": "https://www.ambito.com/mexico/informacion-general/la-mananera-claudia-sheinbaum-hoy-miercoles-30-septiembre-2026-minuto-minuto-vivo-n6327853"
+        },
+        {
+          "titulo": "Hegseth anuncia comando militar dedicado a armas autônomas",
+          "url": "https://www.stripes.com/theaters/us/2026-09-30/hegseth-state-of-the-force-quantico-23016908.html"
+        },
+        {
+          "titulo": "Novas restrições dos EUA a viagens e bancos em Cuba entram em vigor",
+          "url": "https://yournews.com/2026/09/30/7211514/us-tightens-sanctions-on-cuba-limits-travel-and-banking-operations/"
+        }
+      ]
+    },
+    {
+      "regiao": "África",
+      "itens": [
+        {
+          "titulo": "Combates no Tigré matam ao menos 52 civis em três dias, e tropas avançam rumo a Mekelle",
+          "url": "https://allafrica.com/stories/202610010112.html"
+        },
+        {
+          "titulo": "Botsuana é criticada por abater 23 elefantes para festa dos 60 anos de independência",
+          "url": "https://eastleighvoice.co.ke/africa/406702/botswana-criticised-for-slaughtering-23-elephants-for-60th-independence-day-celebrations"
+        },
+        {
+          "titulo": "Ruto cobra de Dangote prazo de 40 meses para a refinaria de Lamu",
+          "url": "https://peopledaily.digital/inside-politics/ruto-warns-dangote-to-keep-40-month-deadline-for-ksh2-2t-lamu-refinery"
+        }
+      ]
+    },
+    {
+      "regiao": "Europa",
+      "itens": [
+        {
+          "titulo": "Macron apoia a Espanha na crise migratória de Ceuta",
+          "url": "https://www.euronews.com/2026/09/30/macron-backs-spain-over-ceuta-migration-crisis-and-urges-firm-eu-action"
+        },
+        {
+          "titulo": "Estônia acusa serviços russos de incêndio em fábrica que abastece a Ucrânia",
+          "url": "https://www.cbc.ca/news/world/estonia-russia-allegation-9.7362016"
+        },
+        {
+          "titulo": "Putin manda ampliar o Exército enquanto Kiev alerta para mais tropas norte-coreanas",
+          "url": "https://www.cnbc.com/2026/09/29/putin-russia-army-ukraine-zelenskyy-north-korea.html"
+        }
+      ]
+    },
+    {
+      "regiao": "Oriente Médio",
+      "itens": [
+        {
+          "titulo": "Copiloto esfaqueia comandante e tenta derrubar avião da flydubai a caminho de Israel",
+          "url": "https://www.cbsnews.com/news/tel-aviv-israel-flydubai-flight-saudi-arabia-diverted-pilots/"
+        },
+        {
+          "titulo": "Síria diz ter desarticulado célula do Hezbollah que preparava ataques",
+          "url": "https://www.longwarjournal.org/archives/2026/09/syria-says-it-thwarted-hezbollah-plot-israel-likely-target.php"
+        },
+        {
+          "titulo": "Exército iraquiano assume base após a saída das tropas americanas",
+          "url": "https://www.yahoo.com/news/articles/iraqi-army-fully-takes-over-195331594.html"
+        }
+      ]
+    },
+    {
+      "regiao": "Ásia",
+      "itens": [
+        {
+          "titulo": "Paquistão bombardeia o Afeganistão; talibãs falam em nove civis mortos",
+          "url": "https://www.aljazeera.com/news/2026/10/1/afghanistan-says-nine-killed-in-pakistani-air-raids-on-kunar-helmand"
+        },
+        {
+          "titulo": "No Dia Nacional, Xi reafirma oposição à independência de Taiwan",
+          "url": "https://www.usnews.com/news/world/articles/2026-09-30/chinas-xi-talks-economy-taiwan-at-reception-marking-national-day"
+        },
+        {
+          "titulo": "Premiê do Japão promete sustentar o iene com mais competitividade",
+          "url": "https://www.thestandard.com.hk/finance/article/344335/Japan-PM-vows-to-underpin-yen-by-boosting-economic-competitiveness"
+        }
+      ]
+    }
+  ],
+  "ciencia": {
+    "titulo": "Coração transplantado assume a idade biológica de quem o recebe, sugere estudo",
+    "texto": [
+      "Pesquisadores liderados por Jesse Poganik, de Harvard, mediram marcas químicas no DNA que indicam a idade biológica de corações transplantados, em camundongos e em 11 pacientes com grande diferença de idade em relação aos doadores. Meses depois da cirurgia, os órgãos tinham se aproximado da idade do receptor: corações jovens envelheceram em corpos mais velhos, e corações mais velhos rejuvenesceram em pessoas jovens. Se confirmado em estudos maiores, o resultado sugere que órgãos de doadores mais velhos podem ser mais aproveitados."
+    ],
+    "fontes": [
+      {
+        "nome": "Nature (notícia)",
+        "url": "https://www.nature.com/articles/d41586-026-03043-w"
+      },
+      {
+        "nome": "ZME Science",
+        "url": "https://www.zmescience.com/medicine/heart-biological-age-shift-with-recipient/"
+      }
+    ]
+  },
+  "disco": {
+    "artista": "Di Melo",
+    "titulo": "Di Melo",
+    "ficha": "1975 · Odeon",
+    "texto": [
+      "O pernambucano Di Melo cantava em bares de São Paulo quando chamou a atenção da Odeon e gravou o único LP da primeira fase da carreira, uma mistura de samba, soul e funk com suingue de sobra e letras cheias de humor e malandragem, com participações de gente como Hermeto Pascoal. O disco passou quase despercebido, o cantor sumiu de cena por décadas, e só nos anos 2000 o álbum foi redescoberto por DJs e colecionadores, até virar um culto da black music brasileira. Comece por \"Kilariô\", um convite irresistível para levantar da cadeira."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Di_Melo"
+      },
+      {
+        "nome": "Discogs",
+        "url": "https://www.discogs.com/master/1975996-Di-Melo-Kilari%C3%B4-"
+      }
+    ]
+  },
+  "poema": {
+    "autor": "Alphonsus de Guimaraens",
+    "titulo": "Ismália",
+    "ficha": "De Pastoral aos crentes do amor e da morte (1923)",
+    "texto": "Quando Ismália enlouqueceu,\nPôs-se na torre a sonhar...\nViu uma lua no céu,\nViu outra lua no mar.\n\nNo sonho em que se perdeu,\nBanhou-se toda em luar...\nQueria subir ao céu,\nQueria descer ao mar...\n\nE, no desvario seu,\nNa torre pôs-se a cantar...\nEstava perto do céu,\nEstava longe do mar...\n\nE como um anjo pendeu\nAs asas para voar...\nQueria a lua do céu,\nQueria a lua do mar...\n\nAs asas que Deus lhe deu\nRuflaram de par em par...\nSua alma subiu ao céu,\nSeu corpo desceu ao mar...",
+    "comentario": [
+      "Poeta simbolista mineiro, nascido em Ouro Preto, Alphonsus de Guimaraens passou os últimos anos em Mariana, onde morreu em 1921; o livro saiu dois anos depois. Ismália vê duas luas, a do céu e o reflexo no mar, e não consegue escolher entre elas. Num dia de debate em que uma cadeira vai ficar vazia e muita gente vai discutir imagem e realidade, o poema lembra o risco de confundir o reflexo com a coisa."
+    ],
+    "fontes": [
+      {
+        "nome": "Escritas.org",
+        "url": "https://www.escritas.org/pt/t/12902/xxxiii-ismalia"
+      }
+    ]
+  },
+  "entender_brasil": {
+    "titulo": "Notícia da atual literatura brasileira: instinto de nacionalidade",
+    "autor": "Machado de Assis · O Novo Mundo, 1873",
+    "texto": [
+      "Publicado numa revista em português editada em Nova York, o ensaio é a resposta de Machado a uma pergunta que ainda volta sempre: o que torna uma obra brasileira? Ele reconhece o esforço de seus contemporâneos em retratar índios, paisagens e costumes locais, mas avisa que cor local não basta. O que se deve pedir ao escritor, diz, é um sentimento íntimo que o torne homem do seu tempo e do seu país, mesmo quando trate de assuntos distantes. É uma defesa da cultura brasileira sem provincianismo, que vale para a literatura e para muito mais. O texto está em domínio público e pode ser lido de graça no acervo da UFRGS."
+    ],
+    "fontes": [
+      {
+        "nome": "Texto integral (UFRGS)",
+        "url": "https://www.ufrgs.br/cdrom/assis/massis.pdf"
+      },
+      {
+        "nome": "Edição anotada (Machadiana, UFES)",
+        "url": "https://periodicos.ufes.br/machadiana/article/view/37074"
+      }
+    ]
+  },
+  "mercado": {
+    "texto": [
+      "O Ibovespa fechou setembro em forte alta, a 186.340 pontos, e o dólar caiu para perto de R$ 5,18, depois de a inflação americana (PCE) vir abaixo do esperado e reduzir as apostas de nova alta de juros do Fed em outubro. Nesta quinta, o mercado acompanha o debate da noite e as últimas pesquisas antes do primeiro turno; lá fora, o foco vai para o relatório de emprego dos EUA, na sexta. A cotação do petróleo segue presa às notícias sobre o Estreito de Ormuz."
+    ],
+    "fontes": [
+      {
+        "nome": "Seu Dinheiro",
+        "url": "https://www.seudinheiro.com/2026/bolsa-dolar/o-vento-a-favor-que-fez-o-ibovespa-decolar-4-mil-pontos-inverter-o-sinal-e-fechar-setembro-no-azul-ccgg/"
+      },
+      {
+        "nome": "SpaceMoney",
+        "url": "https://www.spacemoney.com.br/economia/macroeconomia/fed-juros-outubro-inflacao-pce"
+      }
+    ]
+  },
+  "ibovespa": {
+    "painel": [
+      [
+        "Fechamento",
+        "186.340"
+      ],
+      [
+        "Dia",
+        "+1,37%"
+      ],
+      [
+        "Mês",
+        "+5,0%"
+      ],
+      [
+        "Ano",
+        "+15,6%"
+      ]
+    ],
+    "texto": [
+      "Fechou setembro a 186.340 pontos, com Itaú e Magazine Luiza entre as maiores altas, e acumulou ganho de 5% no mês."
+    ],
+    "fontes": [
+      {
+        "nome": "Seu Dinheiro",
+        "url": "https://www.seudinheiro.com/2026/bolsa-dolar/o-vento-a-favor-que-fez-o-ibovespa-decolar-4-mil-pontos-inverter-o-sinal-e-fechar-setembro-no-azul-ccgg/"
+      },
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-30092026/"
+      }
+    ]
+  },
+  "dolar": {
+    "painel": [
+      [
+        "Fechamento",
+        "R$ 5,18"
+      ],
+      [
+        "Dia",
+        "−0,81%"
+      ],
+      [
+        "Mês",
+        "−0,1%"
+      ],
+      [
+        "Ano",
+        "−5,7%"
+      ]
+    ],
+    "texto": [
+      "Fechou a quarta a R$ 5,1750 e terminou setembro praticamente estável, apesar da volatilidade da semana eleitoral."
+    ],
+    "fontes": [
+      {
+        "nome": "Seu Dinheiro",
+        "url": "https://www.seudinheiro.com/2026/bolsa-dolar/o-vento-a-favor-que-fez-o-ibovespa-decolar-4-mil-pontos-inverter-o-sinal-e-fechar-setembro-no-azul-ccgg/"
+      }
+    ]
+  },
+  "bitcoin": {
+    "painel": [
+      [
+        "US$",
+        "83.648"
+      ],
+      [
+        "R$",
+        "433.298"
+      ],
+      [
+        "24h",
+        "+0,5%"
+      ],
+      [
+        "7d / 30d",
+        "+0,1% / +7,4%"
+      ]
+    ],
+    "texto": [
+      "Perto de US$ 83,6 mil de madrugada, depois de tocar US$ 85 mil com o dado de inflação americana e devolver a alta. Cotação às 6h18 de Brasília."
+    ],
+    "fontes": [
+      {
+        "nome": "CoinGecko",
+        "url": "https://www.coingecko.com/pt/moedas/bitcoin"
+      }
+    ]
+  },
+  "esporte": {
+    "titulo": "Seleção viaja a Calcutá para enfrentar a Índia no sábado, sem Raphinha",
+    "texto": [
+      "Depois de vencer a Austrália por 4 a 2, a seleção de Carlo Ancelotti embarca para a Índia e enfrenta os donos da casa no sábado (3), às 11h de Brasília, no Estádio Salt Lake, no primeiro jogo da história entre os dois países. Raphinha foi cortado por um edema na coxa direita e não terá substituto, e Pedro Morisco deve começar no gol."
+    ],
+    "fontes": [
+      {
+        "nome": "O Tempo",
+        "url": "https://www.otempo.com.br/sports/selecao-brasileira/2026/9/30/brasil-x-india-horario-e-onde-assistir-o-amistoso"
+      },
+      {
+        "nome": "Gazeta Esportiva",
+        "url": "https://www.gazetaesportiva.com/times/brasil/antes-de-viajar-a-india-selecao-brasileira-faz-treino-aberto-na-australia/"
+      }
+    ]
+  },
+  "tempo": {
+    "dia": "quinta, 1",
+    "regioes": [
+      {
+        "regiao": "Norte",
+        "texto": "Chuva com trovoadas em boa parte do Amazonas e de Rondônia, com aviso amarelo de tempestade também no Acre e em Roraima. Calor de até 39 °C em áreas do Tocantins e de Roraima."
+      },
+      {
+        "regiao": "Nordeste",
+        "texto": "Tempo firme e quente na maior parte da região, com chuva isolada no leste da Paraíba, de Pernambuco e de Alagoas. Máximas perto de 38 °C no interior e ar seco."
+      },
+      {
+        "regiao": "Centro-Oeste",
+        "texto": "Outubro começa com chuva e trovoadas em Mato Grosso, Goiás e no nordeste de Mato Grosso do Sul, com aviso laranja de tempestade no sul de MT, no sudoeste de GO e no norte de MS."
+      },
+      {
+        "regiao": "Sudeste",
+        "texto": "Dia chuvoso, com trovoadas, em Minas Gerais, no Rio de Janeiro, no Espírito Santo e em boa parte de São Paulo, com aviso laranja de tempestade; a frente fria derruba as temperaturas."
+      },
+      {
+        "regiao": "Sul",
+        "texto": "A alta pressão firma o tempo e esfria: mínimas perto de 13 °C e possibilidade de geada na serra catarinense e no sul gaúcho. Chuva isolada no norte do Paraná."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Inmet (via Cultivar)",
+        "url": "https://revistacultivar.com.br/noticias/inmet-previsao-do-tempo-para-quarta-30-9-e-quinta-feira-1-10"
+      },
+      {
+        "nome": "Canal Rural",
+        "url": "https://www.canalrural.com.br/previsao-do-tempo/outubro-comeca-com-frente-fria-chuva-forte-e-ciclone-veja-a-previsao/"
+      }
+    ]
+  }
+}

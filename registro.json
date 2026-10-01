@@ -12,6 +12,10 @@
     {
       "data": "2026-09-30",
       "item": "Nelson Angelo e Joyce — Nelson Angelo e Joyce (1972)"
+    },
+    {
+      "data": "2026-10-01",
+      "item": "Di Melo — Di Melo (1975)"
     }
   ],
   "poemas": [
@@ -26,6 +30,10 @@
     {
       "data": "2026-09-30",
       "item": "Cruz e Sousa — Cárcere das almas"
+    },
+    {
+      "data": "2026-10-01",
+      "item": "Alphonsus de Guimaraens — Ismália"
     }
   ],
   "entender_brasil": [
@@ -48,6 +56,10 @@
     {
       "data": "2026-09-30",
       "item": "Euclides da Cunha — Os Sertões (livro, noite)"
+    },
+    {
+      "data": "2026-10-01",
+      "item": "Machado de Assis — Instinto de nacionalidade (texto)"
     }
   ],
   "momento": [
@@ -70,8 +82,12 @@
     {
       "data": "2026-09-30",
       "item": "John Stuart Mill — Sobre a liberdade (noite)"
+    },
+    {
+      "data": "2026-10-01",
+      "item": "Ricardo Mariano — Neopentecostais"
     }
   ],
-  "tiragem": 2,
+  "tiragem": 3,
   "tiragem_noite": 2
 }
