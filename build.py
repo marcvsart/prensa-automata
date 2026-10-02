@@ -71,6 +71,8 @@ def dia(slug):
 def noturna(slug):
     return slug.endswith("-noite")
 
+RECENTE = '<a href="./" class="recente">Edição mais recente</a>'
+
 def navegacao(atual, arquivo):
     """Links fixos no fim da edição: a anterior (que nunca muda) e o arquivo completo."""
     anteriores = [a for a in arquivo if a < atual]
@@ -86,6 +88,8 @@ def navegacao(atual, arquivo):
             d = date.fromisoformat(dia(ant))
             rotulo = f"← Edição anterior · {d.day:02d}/{d.month:02d}" + (" · noite" if noturna(ant) else "")
         itens.append(f'<a href="edicoes/{ant}.html">{e(rotulo)}</a>')
+    # a capa sempre mostra a edição mais nova; nas páginas guardadas, este link leva de volta a ela
+    itens.append(RECENTE)
     itens.append('<a href="edicoes/index.html">Todas as edições →</a>')
     return f'<nav class="nav-ed" aria-label="Outras edições">\n' + "\n".join(itens) + "\n</nav>"
 
@@ -257,7 +261,7 @@ def montar(ed, arquivo, slug):
 <header>
   {REG.format(lado='l')}
   {REG.format(lado='r')}
-  <h1 class="mast">Prensa Autômata</h1>
+  <h1 class="mast"><a href="./">Prensa Autômata</a></h1>
   <p class="sub">jornal diário produzido por IA</p>
   <p class="meta">{meta}</p>
 </header>
@@ -302,10 +306,10 @@ def main():
     pagina = montar(ed, datas, alvo)
     # links do arquivo apontam para edicoes/…; dentro de edicoes/ o caminho relativo muda
     with open(os.path.join(pasta, f"{alvo}.html"), "w", encoding="utf-8") as f:
-        f.write(pagina.replace('href="edicoes/', 'href="'))
+        f.write(pagina.replace('href="edicoes/', 'href="').replace('href="./"', 'href="../"'))
     if alvo == datas[0]:
         with open(os.path.join(RAIZ, "index.html"), "w", encoding="utf-8") as f:
-            f.write(pagina.replace("</body>", VIGIA.replace("SLUG", alvo) + "</body>", 1))
+            f.write(pagina.replace(RECENTE + "\n", "").replace("</body>", VIGIA.replace("SLUG", alvo) + "</body>", 1))
     # a capa consulta este arquivo para saber se há edição mais nova que a guardada em cache
     with open(os.path.join(RAIZ, "ultima.json"), "w", encoding="utf-8") as f:
         f.write(json.dumps({"edicao": datas[0]}) + "\n")

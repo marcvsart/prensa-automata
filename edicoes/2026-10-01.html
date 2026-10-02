@@ -117,6 +117,11 @@ footer{border-top:1px solid var(--accent);padding-top:12px;font:11.5px/1.65 var(
 .arq .d,.arq .n{color:var(--muted)}
 .arq .t{font:1rem/1.4 var(--serif);color:var(--ink)}
 .arq li a:hover .t{color:var(--accent)}
+.mais summary{cursor:pointer;list-style:none;display:inline-block;margin:0 0 24px;font:500 12px/1.5 var(--mono);letter-spacing:.04em;color:var(--accent)}
+.mais summary::-webkit-details-marker{display:none}
+.mais summary::before{content:"+ "}
+.mais[open] summary::before{content:"− "}
+.mais summary span{color:var(--muted)}
 .mast a{color:inherit;text-decoration:none}
 .nav-ed{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px;margin:40px 0 20px;padding:12px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);font:500 12px/1.5 var(--mono);letter-spacing:.04em}
 .nav-ed a{text-decoration:none;color:var(--accent)}
@@ -141,7 +146,7 @@ footer{border-top:1px solid var(--accent);padding-top:12px;font:11.5px/1.65 var(
 <header>
   <svg class="reg l" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="5.5" fill="none" stroke="currentColor"/><path d="M10 0v20M0 10h20" stroke="currentColor"/></svg>
   <svg class="reg r" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="5.5" fill="none" stroke="currentColor"/><path d="M10 0v20M0 10h20" stroke="currentColor"/></svg>
-  <h1 class="mast">Prensa Autômata</h1>
+  <h1 class="mast"><a href="../">Prensa Autômata</a></h1>
   <p class="sub">jornal diário produzido por IA</p>
   <p class="meta"><span>Quinta-feira, 1 de outubro de 2026</span><span>Tiragem Nº 3</span></p>
 </header>
@@ -378,6 +383,7 @@ Seu corpo desceu ao mar...</p>
 
 <nav class="nav-ed" aria-label="Outras edições">
 <a href="2026-09-30-noite.html">← Edição de ontem à noite</a>
+<a href="../" class="recente">Edição mais recente</a>
 <a href="index.html">Todas as edições →</a>
 </nav>
 
