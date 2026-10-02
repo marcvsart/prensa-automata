@@ -16,6 +16,10 @@
     {
       "data": "2026-10-01",
       "item": "Di Melo — Di Melo (1975)"
+    },
+    {
+      "data": "2026-10-02",
+      "item": "Arthur Verocai — Arthur Verocai (1972)"
     }
   ],
   "poemas": [
@@ -34,6 +38,10 @@
     {
       "data": "2026-10-01",
       "item": "Alphonsus de Guimaraens — Ismália"
+    },
+    {
+      "data": "2026-10-02",
+      "item": "Raimundo Correia — As pombas"
     }
   ],
   "entender_brasil": [
@@ -64,6 +72,10 @@
     {
       "data": "2026-10-01",
       "item": "Lima Barreto — Os Bruzundangas (livro, noite)"
+    },
+    {
+      "data": "2026-10-02",
+      "item": "Rui Barbosa — Oração aos moços (texto)"
     }
   ],
   "momento": [
@@ -94,8 +106,12 @@
     {
       "data": "2026-10-01",
       "item": "Pierre Bourdieu — Sobre a televisão (noite)"
+    },
+    {
+      "data": "2026-10-02",
+      "item": "Luiz Werneck Vianna e outros — A judicialização da política e das relações sociais no Brasil"
     }
   ],
-  "tiragem": 3,
+  "tiragem": 4,
   "tiragem_noite": 3
 }

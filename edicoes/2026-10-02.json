@@ -1,0 +1,455 @@
+{
+  "data": "2026-10-02",
+  "numero": 4,
+  "manchete": {
+    "titulo": "Globo cancela o último debate menos de uma hora antes do início, depois de duas decisões judiciais",
+    "texto": [
+      "A TV Globo cancelou o debate presidencial que faria na noite de quinta (1º), o último antes do primeiro turno. No fim da tarde, a ministra Estela Aranha, do TSE, atendeu a um pedido da coligação de Lula (PT) e proibiu o púlpito vazio com o nome do presidente, ausente por decisão própria, e as perguntas que os adversários fariam a ele, item previsto nas regras assinadas pelos partidos. Em seguida, o ministro Gilmar Mendes, do STF, atendeu ao Solidariedade e mandou incluir Renan Santos (Missão), cujo partido tem um parlamentar. Cerca de duas horas antes do início, Flávio Bolsonaro (PL) desistiu de ir, alegando censura.",
+      "Em nota, a Globo disse que as \"sucessivas decisões judiciais tomadas momentos antes da realização do debate causam insegurança jurídica e representam uma interferência indevida\" na liberdade de organizar debates, e exibiu a novela no horário. Lula, que falava ao Flow Podcast, disse que já estava decidido a não ir e que debates com cinco ou seis candidatos são \"infrutíferos\". Flávio fez uma live com aliados, acusou Lula de usar \"amigos no Judiciário\" para impor censura e pediu voto útil para tentar decidir a eleição no domingo. Renan Santos culpou os dois pelo cancelamento."
+    ],
+    "fontes": [
+      {
+        "nome": "Terra/Estadão",
+        "url": "https://www.terra.com.br/noticias/brasil/politica/globo-cancela-debate-presidencial-apos-decisoes-judiciais-e-ausencia-de-candidatos,db7599e7400ccc7171d7dfef76caf5cc7e5vohgc.html"
+      },
+      {
+        "nome": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/sem-flavio-e-lula-globo-cancela-debate-presidencial/"
+      },
+      {
+        "nome": "O Tempo",
+        "url": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/10/1/em-live-apos-cancelamento-de-debate-da-globo-flavio-bolsonaro-acusa-censura-no-mais-alto-grau"
+      },
+      {
+        "nome": "Brasil de Fato",
+        "url": "https://www.brasildefato.com.br/2026/10/01/no-flow-lula-explica-ausencia-eu-tenho-questionado-os-debates-da-globo/"
+      }
+    ]
+  },
+  "brasil": [
+    {
+      "titulo": "Reta final: propaganda no rádio e na TV acabou; sábado tem carreatas até 22h e pesquisas até 23h59",
+      "texto": [
+        "A propaganda eleitoral gratuita e os comícios terminaram na quinta (1º), e debates só eram permitidos até as 7h desta sexta. No sábado (3), caminhadas, carreatas e passeatas podem ir até as 22h, e pesquisas podem ser divulgadas até as 23h59. No domingo (4), a votação vai das 8h às 17h (horário de Brasília), com boca de urna e pedido de voto proibidos. Desde terça (29), eleitores só podem ser presos em flagrante, por sentença por crime inafiançável ou por desrespeito a salvo-conduto, regra que vale até 48 horas depois da votação."
+      ],
+      "fontes": [
+        {
+          "nome": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/eleicoes-2026-veja-datas-importantes-na-semana-que-antecede-o-1o-turno"
+        }
+      ]
+    },
+    {
+      "titulo": "Trump diz acompanhar a eleição brasileira \"muito de perto\", sem declarar apoio",
+      "texto": [
+        "Na saída da Casa Branca, o presidente americano disse que o Brasil é \"um país muito importante\" e que esta é \"uma eleição muito importante\", sem citar candidatos. A fala vem num momento de tensão entre os dois governos: em setembro, um relatório da Abin apontou risco de interferência dos EUA nas eleições, e na quinta a AGU pediu à PF e à PGR que investiguem o suposto financiamento americano a grupos que criticam o STF."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/trump-diz-acompanhar-de-perto-eleicao-brasileira-e-nao-declarar-apoio"
+        }
+      ]
+    },
+    {
+      "titulo": "Carne bovina brasileira passa a pagar 67% para entrar na China",
+      "texto": [
+        "Desde quinta (1º), a China cobra uma sobretaxa de 55% sobre a carne bovina do Brasil, somada à tarifa regular de 12%. Segundo o Ministério do Comércio chinês, o país esgotou em 29 de setembro a cota anual sem sobretaxa, de 1,106 milhão de toneladas, que sobe para 1,128 milhão em 2027. A China é a maior compradora da carne bovina brasileira."
+      ],
+      "fontes": [
+        {
+          "nome": "IstoÉ/Ansa",
+          "url": "https://istoe.com.br/brasil-esgota-cota-e-china-impoe-tarifa-de-55-contra-carne-bovina"
+        },
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/carne-brasileira-vai-pagar-tarifa-de-67-para-entrar-na-china"
+        }
+      ]
+    },
+    {
+      "titulo": "Produção de petróleo bate recorde pelo terceiro mês seguido",
+      "texto": [
+        "O Brasil produziu 4,615 milhões de barris de petróleo por dia em agosto, segundo a ANP, alta de 2,6% sobre julho, que detinha o recorde anterior, e de 18,4% sobre agosto de 2025. O gás natural também atingiu o maior volume da série, 220,55 milhões de metros cúbicos por dia. O avanço vem principalmente de novas plataformas no mar."
+      ],
+      "fontes": [
+        {
+          "nome": "BM&C News",
+          "url": "https://bmcnews.com.br/petroleo-e-energia/producao-de-petroleo-do-brasil-bate-recorde-em-agosto-de-2026/"
+        },
+        {
+          "nome": "Observador",
+          "url": "https://observador.pt/2026/10/01/brasil-bate-recorde-de-producao-de-petroleo-pelo-terceiro-mes-seguido-46-milhoes-de-barris-por-dia-em-agosto/"
+        }
+      ]
+    },
+    {
+      "titulo": "Desenrola MEI abre faixa para dívidas de até R$ 8.105 e tem prazo estendido",
+      "texto": [
+        "O governo prorrogou até 29 de janeiro de 2027 a adesão ao Desenrola MEI e abriu na quinta (1º) uma modalidade para microempreendedores com débitos de até cinco salários mínimos, hoje R$ 8.105. Também haverá negociação para dívidas com autarquias e fundações federais. As medidas foram anunciadas pela AGU, pelo Ministério do Empreendedorismo e pela Procuradoria-Geral da Fazenda Nacional."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/nova-modalidade-de-renegociacao-de-dividas-de-mei-comeca-nesta-quinta"
+        }
+      ]
+    }
+  ],
+  "momento": {
+    "titulo": "A judicialização da política e das relações sociais no Brasil",
+    "autor": "Luiz Werneck Vianna e outros · Revan, 1999",
+    "texto": [
+      "Um debate presidencial cancelado depois de decisões do TSE e do STF tomadas horas antes, e candidatos dos dois lados acusando o Judiciário de interferir: a semana mostra os tribunais no centro da disputa. O livro do sociólogo Luiz Werneck Vianna (1938–2024), escrito com Maria Alice Rezende de Carvalho, Manuel Palacios e Marcelo Baumann Burgos, foi um dos primeiros a estudar o fenômeno no país. Os autores analisam as ações diretas de inconstitucionalidade e os juizados especiais e mostram como, depois da Constituição de 1988, partidos, associações e cidadãos passaram a levar à Justiça conflitos que antes se resolviam na política. Para eles, isso não é só invasão de um poder sobre outro, mas também um novo canal de participação, com riscos e ganhos que o leitor pode pesar por conta própria."
+    ],
+    "fontes": [
+      {
+        "nome": "ResearchGate (resenha)",
+        "url": "https://www.researchgate.net/publication/362222250_Resenha_VIANNA_Luiz_Werneck_etal_A_judicializacao_da_politica_e_das_relacoes_sociais_no_Brasil_Rio_de_Janeiro_Editora_Revan_1999"
+      },
+      {
+        "nome": "Sociedade Brasileira de Sociologia",
+        "url": "https://sbsociologia.com.br/project/luiz-werneck-vianna/"
+      }
+    ]
+  },
+  "mundo": {
+    "titulo": "Premiê britânico vê \"fortes indícios\" do Irã em suposto plano contra base usada pelos EUA; Teerã nega",
+    "texto": [
+      "O primeiro-ministro do Reino Unido, Andy Burnham, disse à BBC que há \"fortes indícios\" de que o Irã teve papel no incidente do fim de semana na base aérea de Fairford, a 160 km de Londres, usada por bombardeiros americanos. Cinco britânicos na faixa dos 20 anos foram presos perto da base no domingo, por suspeita de terrorismo e de crimes com explosivos, e soltos sob fiança no dia seguinte. Burnham não detalhou o que os suspeitos planejavam. O chanceler iraniano, Abbas Araghchi, negou envolvimento e ironizou a soltura dos presos: \"Vocês estão latindo para a árvore errada\"."
+    ],
+    "fontes": [
+      {
+        "nome": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/1/uk-says-iran-may-be-linked-to-alleged-airbase-plot-drawing-angry-denial"
+      }
+    ]
+  },
+  "ia": {
+    "titulo": "Broadcom vai emprestar até US$ 42 bilhões à Anthropic para alugar seus chips",
+    "texto": [
+      "O prospecto de abertura de capital da Anthropic mostra que a Broadcom aceitou emprestar até US$ 42 bilhões, em títulos que podem virar ações, para financiar cerca de um terço do compromisso de US$ 125,2 bilhões que a empresa assumiu para alugar capacidade de TPUs, os chips de IA desenvolvidos com o Google, por cinco anos. A própria Anthropic diz no documento que o papel da Broadcom como fornecedora e financiadora cria \"potenciais conflitos de interesse\". Analistas veem no acordo mais um exemplo do dinheiro que circula entre as mesmas empresas no setor de IA. (A Prensa é escrita com o Claude, modelo da Anthropic.)"
+    ],
+    "fontes": [
+      {
+        "nome": "Reuters via The Star",
+        "url": "https://www.thestar.com.my/tech/tech-news/2026/10/01/exclusive-broadcom-to-lend-anthropic-up-to-42-billion-to-lease-its-chips-filing-says"
+      }
+    ]
+  },
+  "giro": [
+    {
+      "regiao": "América do Sul",
+      "itens": [
+        {
+          "titulo": "Colômbia surpreende e sobe os juros para 12,25%",
+          "url": "https://www.infobae.com/colombia/2026/09/30/banco-de-la-republica-subio-las-tasas-de-interes-en-colombia-pasaron-del-12-al-1225/"
+        },
+        {
+          "titulo": "Às vésperas das eleições regionais, júri eleitoral do Peru pede ao governo segurança para candidatos e mesários",
+          "url": "https://gestion.pe/peru/politica/erm-2026-jne-fija-la-fecha-de-la-segunda-vuelta-de-elecciones-regionales-cuando-sera-noticia/"
+        },
+        {
+          "titulo": "Chile aprova decreto que permite mais apartamentos por prédio",
+          "url": "https://www.riotimesonline.com/chile-minvu-density-decree-more-apartments-2026"
+        }
+      ]
+    },
+    {
+      "regiao": "América do Norte e Central",
+      "itens": [
+        {
+          "titulo": "EUA começam o ano fiscal sem paralisação do governo; verbas vão até 11 de dezembro",
+          "url": "https://www.foxnews.com/politics/reporters-notebook-congress-dodged-fall-shutdown-real-fight-looms"
+        },
+        {
+          "titulo": "Carney acelera oleoduto de Alberta ao Pacífico, e ambientalistas e indígenas reagem",
+          "url": "https://www.nationalobserver.com/2026/10/01/news/carneys-push-new-pipeline-hits-flashpoints-across-canada"
+        },
+        {
+          "titulo": "Indústria do México volta a crescer em setembro, com PMI de 50,3",
+          "url": "https://www.riotimesonline.com/mexico-manufacturing-pmi-september-2026"
+        }
+      ]
+    },
+    {
+      "regiao": "África",
+      "itens": [
+        {
+          "titulo": "Eritreia rompe relações com a Etiópia, que fechou sua embaixada em Asmara",
+          "url": "https://www.aljazeera.com/news/2026/10/1/eritrea-severs-diplomatic-ties-with-ethiopia-in-tit-for-tat-move"
+        },
+        {
+          "titulo": "Burkina Faso marca quatro anos de governo militar de Traoré",
+          "url": "https://www.okayafrica.com/today-in-africa-october-1-2026-burkina-faso-marks-four-years-under-traore-ghana-unveils-new-cedi-banknotes/1440395"
+        },
+        {
+          "titulo": "Burundi aceita receber deportados dos EUA sem ligação com o país",
+          "url": "https://lemonwire.com/2026/09/30/burundi-agrees-to-receive-third-country-migrant-deportees-from-us/"
+        }
+      ]
+    },
+    {
+      "regiao": "Europa",
+      "itens": [
+        {
+          "titulo": "Putin diz que a Rússia usará \"todas as armas\" se Kaliningrado for atacado",
+          "url": "https://www.cnn.com/2026/10/01/europe/putin-kaliningrad-warning-ukraine-latam-intl"
+        },
+        {
+          "titulo": "Moscou chama fábricas europeias que armam a Ucrânia de alvos militares",
+          "url": "https://www.dawn.com/news/2033914/europes-factories-selling-arms-to-ukraine-are-military-targets-says-russia"
+        },
+        {
+          "titulo": "Grécia propõe suspender o direito de asilo na UE em crises migratórias",
+          "url": "https://www.riotimesonline.com/europe-intelligence-brief-thursday-october-1-2026/"
+        }
+      ]
+    },
+    {
+      "regiao": "Oriente Médio",
+      "itens": [
+        {
+          "titulo": "Soldado israelense é filmado ameaçando beduíno na Cisjordânia depois de ataque de colonos",
+          "url": "https://www.timesofisrael.com/liveblog-october-01-2026"
+        },
+        {
+          "titulo": "Ataque a tiros contra ônibus mata sete na província síria de Homs",
+          "url": "https://www.fdd.org/overnight-brief/october-1-2026/"
+        },
+        {
+          "titulo": "Exército de Israel diz que 170 palestinos mortos identificados como jornalistas eram de grupos armados",
+          "url": "https://www.justsecurity.org/159415/early-edition-october-1-2026/"
+        }
+      ]
+    },
+    {
+      "regiao": "Ásia",
+      "itens": [
+        {
+          "titulo": "Exportações da Coreia do Sul batem recorde de US$ 120,9 bilhões em setembro, puxadas por chips",
+          "url": "https://www.koreatimes.co.kr/economy/20261001/koreas-sept-exports-hit-record-1209-bil-on-robust-chip-sales"
+        },
+        {
+          "titulo": "Confiança das grandes indústrias japonesas sobe pelo sexto trimestre, a maior em oito anos",
+          "url": "https://www.japantimes.co.jp/business/2026/10/01/companies/tankan-better-sentiment/"
+        },
+        {
+          "titulo": "Jogos Asiáticos: Índia vence o Paquistão por 4 a 3 no hóquei e vai à final",
+          "url": "https://www.olympics.com/en/news/asian-games-2026-hockey-men-india-vs-pakistan-semi-final-match-report"
+        }
+      ]
+    }
+  ],
+  "ciencia": {
+    "titulo": "Placas nas artérias aparecem em 57% de adultos sem sintomas, e já em 1 de cada 13 jovens",
+    "texto": [
+      "O estudo REACT examinou com imagens as artérias do pescoço, das pernas e do coração de 16.808 pessoas de 18 a 70 anos, na Dinamarca e na Espanha, todas sem sintomas nem diagnóstico de doença cardiovascular. Havia placas de aterosclerose em 57,1% delas: em 1 de cada 13 participantes entre 18 e 29 anos e em cerca de 9 de cada 10 entre 60 e 70. Nos homens, a doença avança cinco a dez anos antes que nas mulheres. Ter placa não significa ter um infarto, mas os autores, que publicaram o trabalho no New England Journal of Medicine, defendem buscar a doença diretamente, em vez de só estimar o risco por pressão e colesterol."
+    ],
+    "fontes": [
+      {
+        "nome": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260929053541.htm"
+      }
+    ]
+  },
+  "disco": {
+    "artista": "Arthur Verocai",
+    "titulo": "Arthur Verocai",
+    "ficha": "1972 · Continental",
+    "texto": [
+      "Quando gravou seu primeiro disco solo, o carioca Arthur Verocai já fazia arranjos para Elis Regina, Jorge Ben e Ivan Lins. O LP junta MPB, jazz, soul e funk americano sob cordas e sopros exuberantes, com letras de Vitor Martins. Foi ignorado pela crítica, vendeu pouquíssimo e levou Verocai a trocar a carreira solo pela publicidade. Três décadas depois, produtores de hip-hop como MF Doom e Madlib descobriram o álbum, os samples se espalharam e o vinil original virou peça disputada por colecionadores. Comece por \"Na Boca do Sol\"."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Arthur_Verocai_(album)"
+      },
+      {
+        "nome": "NPR",
+        "url": "https://www.npr.org/2009/08/10/111616420/arthur-verocai-return-of-a-brazilian-secret"
+      }
+    ]
+  },
+  "poema": {
+    "autor": "Raimundo Correia",
+    "titulo": "As pombas",
+    "ficha": "De Sinfonias (1883)",
+    "texto": "Vai-se a primeira pomba despertada...\nVai-se outra mais... mais outra... enfim dezenas\nDas pombas vão-se dos pombais, apenas\nRaia sanguínea e fresca a madrugada.\n\nE à tarde, quando a rígida nortada\nSopra, aos pombais, de novo elas, serenas,\nRuflando as asas, sacudindo as penas,\nVoltam todas em bando e em revoada...\n\nTambém dos corações onde abotoam\nOs sonhos, um a um, céleres voam,\nComo voam as pombas dos pombais;\n\nNo azul da adolescência as asas soltam,\nFogem... Mas aos pombais as pombas voltam,\nE eles aos corações não voltam mais.",
+    "comentario": [
+      "Raimundo Correia (1859–1911), maranhense, formou com Olavo Bilac e Alberto de Oliveira a chamada tríade parnasiana e foi um dos fundadores da Academia Brasileira de Letras. \"As pombas\" é seu soneto mais conhecido. As duas primeiras estrofes descrevem com precisão o voo das pombas que saem de madrugada e voltam à tarde; as duas últimas viram a imagem do avesso: os sonhos também partem, mas, ao contrário das pombas, não voltam. Repare como as reticências do primeiro verso imitam as aves saindo uma a uma."
+    ],
+    "fontes": [
+      {
+        "nome": "Cultura Genial",
+        "url": "https://www.culturagenial.com/as-pombas-de-raimundo-correia/"
+      },
+      {
+        "nome": "Academia Brasileira de Letras",
+        "url": "https://www.academia.org.br/academicos/raimundo-correia/textos-escolhidos"
+      }
+    ]
+  },
+  "entender_brasil": {
+    "titulo": "Oração aos moços",
+    "autor": "Rui Barbosa · discurso de 1921",
+    "texto": [
+      "Convidado a paraninfar a turma de 1920 da Faculdade de Direito de São Paulo, Rui Barbosa, já doente, mandou o texto para ser lido pelo professor Reinaldo Porchat em março de 1921. É um conselho de velho jurista a jovens advogados e juízes, com passagens que viraram citação obrigatória, como a de que a regra da igualdade consiste em \"quinhoar desigualmente aos desiguais, na medida em que se desigualam\", e a de que \"justiça atrasada não é justiça\". Com a Justiça no centro desta eleição, vale ler o que um dos maiores juristas do país esperava de quem a exerce. O texto completo está disponível de graça em PDF."
+    ],
+    "fontes": [
+      {
+        "nome": "Senado Federal (PDF)",
+        "url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/564558/Oracao_aos_mocos_Rui_Barbosa.pdf"
+      }
+    ]
+  },
+  "mercado": {
+    "texto": [
+      "O Ibovespa abriu outubro em leve alta, a 187.197 pontos, puxado pela Petrobras, enquanto o dólar subiu para R$ 5,22 na véspera do debate que acabou cancelado e com o mercado à espera das últimas pesquisas. Nesta sexta, o foco lá fora é o relatório de emprego dos EUA, às 9h30 de Brasília; aqui, o mercado reage ao cancelamento do debate."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-01102026/"
+      },
+      {
+        "nome": "BP Money",
+        "url": "https://bpmoney.com.br/mercado/ibovespa-sobe-aos-187-mil-pontos-com-petrobras-mercado-aguarda-datafolha-e-debate-eleitoral/"
+      }
+    ]
+  },
+  "ibovespa": {
+    "painel": [
+      [
+        "Fechamento",
+        "187.197"
+      ],
+      [
+        "Dia",
+        "+0,46%"
+      ],
+      [
+        "Mês",
+        "+0,46%"
+      ],
+      [
+        "Ano",
+        "+16,2%"
+      ]
+    ],
+    "texto": [
+      "Fechou a quinta a 187.197 pontos, com a Petrobras entre os destaques de alta."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-01102026/"
+      }
+    ]
+  },
+  "dolar": {
+    "painel": [
+      [
+        "Fechamento",
+        "R$ 5,22"
+      ],
+      [
+        "Dia",
+        "+0,89%"
+      ],
+      [
+        "Mês",
+        "+0,9%"
+      ],
+      [
+        "Ano",
+        "−4,9%"
+      ]
+    ],
+    "texto": [
+      "Subiu na quinta e fechou a R$ 5,220, devolvendo parte da queda do fim de setembro."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-01102026/"
+      }
+    ]
+  },
+  "bitcoin": {
+    "painel": [
+      [
+        "US$",
+        "86.165"
+      ],
+      [
+        "R$",
+        "450.349"
+      ],
+      [
+        "24h",
+        "+2,9%"
+      ],
+      [
+        "7d / 30d",
+        "+2,1% / +12,2%"
+      ]
+    ],
+    "texto": [
+      "Perto de US$ 86,2 mil de madrugada, depois de oscilar entre US$ 83,4 mil e US$ 86,8 mil em 24 horas. Cotação às 6h25 de Brasília."
+    ],
+    "fontes": [
+      {
+        "nome": "CoinGecko",
+        "url": "https://www.coingecko.com/pt/moedas/bitcoin"
+      }
+    ]
+  },
+  "esporte": {
+    "titulo": "Ancelotti confirma Pedro Morisco no gol contra a Índia e diz que o jogo é \"uma oportunidade\"",
+    "texto": [
+      "Em entrevista em Calcutá, véspera do amistoso de sábado (3), às 11h de Brasília, o técnico confirmou que o goleiro Pedro Morisco fará sua estreia, mas não revelou o resto do time. Diante do adversário mais frágil que o Brasil enfrenta em quase três décadas, Ancelotti tirou o peso dos mais jovens: \"Para eles não é prova. É uma oportunidade para eles mostrarem a qualidade que podem ter\". É o primeiro jogo da história entre as duas seleções."
+    ],
+    "fontes": [
+      {
+        "nome": "Lance!",
+        "url": "https://www.lance.com.br/selecao-brasileira/ancelotti-faz-misterio-mas-confirma-um-nome-na-escalacao-do-brasil-para-enfrentar-a-india.html"
+      },
+      {
+        "nome": "Bolavip",
+        "url": "https://br.bolavip.com/selecao-brasileira/brasil-x-india-amistoso-em-calcuta-sera-o-primeiro-duelo-da-historia-entre-as-selecoes"
+      }
+    ]
+  },
+  "tempo": {
+    "dia": "sexta, 2",
+    "regioes": [
+      {
+        "regiao": "Norte",
+        "texto": "Chuva no Tocantins e no centro-sul do Pará, com risco de temporais no Amazonas, no Acre, em Rondônia, no sudeste do Pará e em boa parte do Tocantins. Calor predomina."
+      },
+      {
+        "regiao": "Nordeste",
+        "texto": "Interior quente e seco. Chuva isolada no oeste da Bahia, no centro-sul do Maranhão e no sul do Piauí, e fraca no litoral entre Ceará e Alagoas."
+      },
+      {
+        "regiao": "Centro-Oeste",
+        "texto": "Chuva em Mato Grosso, Goiás, no Distrito Federal e no norte, centro e leste de Mato Grosso do Sul, com possibilidade de temporais entre o oeste de Goiás e o sudeste de Mato Grosso."
+      },
+      {
+        "regiao": "Sudeste",
+        "texto": "Frente fria mantém chuva em Minas, no Rio e no Espírito Santo, com mais volume no norte fluminense, sul capixaba e Vale do Rio Doce. Em São Paulo, chuva no centro-norte, leste, litoral e Vale do Paraíba."
+      },
+      {
+        "regiao": "Sul",
+        "texto": "Dia mais estável e temperaturas agradáveis, com chuva isolada no litoral de SC e do PR e chance de geada na Campanha gaúcha. No fim de semana, um ciclone perto do RS traz nova frente fria e temporais, que chegam a SP no domingo, dia da eleição."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Terra/Climatempo",
+        "url": "https://www.terra.com.br/noticias/previsao-do-tempo/ciclone-e-frente-fria-19-estados-tem-previsao-de-tempestades-no-fim-de-semana,5b2f7b4c13948c196857a33216eadd43xl6ygqlv.html"
+      }
+    ]
+  }
+}
