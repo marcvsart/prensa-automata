@@ -76,6 +76,10 @@
     {
       "data": "2026-10-02",
       "item": "Rui Barbosa — Oração aos moços (texto)"
+    },
+    {
+      "data": "2026-10-02",
+      "item": "Manoel Bomfim — A América Latina: males de origem (livro, noite)"
     }
   ],
   "momento": [
@@ -110,8 +114,12 @@
     {
       "data": "2026-10-02",
       "item": "Luiz Werneck Vianna e outros — A judicialização da política e das relações sociais no Brasil"
+    },
+    {
+      "data": "2026-10-02",
+      "item": "Jairo Nicolau — Eleições no Brasil: do Império aos dias atuais (noite)"
     }
   ],
   "tiragem": 4,
-  "tiragem_noite": 3
+  "tiragem_noite": 4
 }

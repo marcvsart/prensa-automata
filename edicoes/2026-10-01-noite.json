@@ -2,19 +2,24 @@
   "data": "2026-10-01",
   "numero": 3,
   "manchete": {
-    "titulo": "Datafolha mostra Lula com 40% e Flávio com 36% no 1º turno; 2º turno segue empatado",
+    "titulo": "Datafolha mostra Lula com 42% e Flávio com 38% no 1º turno; 2º turno segue empatado",
     "texto": [
-      "A pesquisa Datafolha divulgada nesta quinta, horas antes do último debate, registra Lula (PT) com 40% e Flávio Bolsonaro (PL) com 36% das intenções de voto no primeiro turno, com Augusto Cury (Avante) em 5%. Num eventual segundo turno, Lula tem 47% e Flávio 45%, empate técnico. O levantamento ouviu 2.506 eleitores presencialmente entre 28 de setembro e 1º de outubro, tem margem de erro de 2 pontos, foi contratado pela TV Globo e pela Folha de S.Paulo e está registrado no TSE como BR-08039/2026. Datafolha, Quaest e MDA publicam suas últimas rodadas no sábado."
+      "A pesquisa Datafolha divulgada nesta quinta, horas antes do último debate, registra Lula (PT) com 42% e Flávio Bolsonaro (PL) com 38% das intenções de voto no primeiro turno, empate no limite da margem de erro, com Augusto Cury (Avante) em 4%. Num eventual segundo turno, Lula tem 48% e Flávio 45%, empate técnico. O levantamento ouviu 2.506 eleitores presencialmente entre 28 de setembro e 1º de outubro, tem margem de erro de 2 pontos, foi contratado pela TV Globo e pela Folha de S.Paulo e está registrado no TSE como BR-08039/2026. Datafolha, Quaest e MDA publicam suas últimas rodadas no sábado.",
+      "Correção (2/10): a versão original deste texto trazia os números da rodada anterior do Datafolha, divulgada em 24 de setembro (40% a 36% no primeiro turno e 47% a 45% no segundo)."
     ],
     "nota": "Datafolha (Globo/Folha): campo de 28/9 a 1º/10, 2.506 entrevistas, margem de 2 pontos, BR-08039/2026",
     "fontes": [
       {
-        "nome": "O Povo",
-        "url": "https://www.opovo.com.br/noticias/politica/eleicoes/2026/10/01/datafolha-divulga-novas-pesquisas-para-presidente-e-governos.html"
+        "nome": "Correio Braziliense",
+        "url": "https://www.correiobraziliense.com.br/politica/2026/10/7512667-datafolha-lula-tem-42-e-flavio-bolsonaro-38-no-primeiro-turno-cury-tem-4.html"
       },
       {
-        "nome": "NC News",
-        "url": "https://ncnews.com.br/2026/09/30/datafolha-expoe-empate-tecnico-entre-lula-flavio/"
+        "nome": "Money Times",
+        "url": "https://www.moneytimes.com.br/lula-tem-42-e-flavio-bolsonaro-38-no-primeiro-turno-aponta-pesquisa-datafolha-no-segundo-turno-48-a-45-gaep/"
+      },
+      {
+        "nome": "O Povo",
+        "url": "https://www.opovo.com.br/noticias/politica/eleicoes/2026/10/01/datafolha-divulga-novas-pesquisas-para-presidente-e-governos.html"
       }
     ]
   },
