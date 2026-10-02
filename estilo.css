@@ -104,6 +104,11 @@ footer{border-top:1px solid var(--accent);padding-top:12px;font:11.5px/1.65 var(
 .arq .d,.arq .n{color:var(--muted)}
 .arq .t{font:1rem/1.4 var(--serif);color:var(--ink)}
 .arq li a:hover .t{color:var(--accent)}
+.mais summary{cursor:pointer;list-style:none;display:inline-block;margin:0 0 24px;font:500 12px/1.5 var(--mono);letter-spacing:.04em;color:var(--accent)}
+.mais summary::-webkit-details-marker{display:none}
+.mais summary::before{content:"+ "}
+.mais[open] summary::before{content:"− "}
+.mais summary span{color:var(--muted)}
 .mast a{color:inherit;text-decoration:none}
 .nav-ed{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px;margin:40px 0 20px;padding:12px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);font:500 12px/1.5 var(--mono);letter-spacing:.04em}
 .nav-ed a{text-decoration:none;color:var(--accent)}

@@ -129,6 +129,17 @@ def lista_turno(pasta, slugs):
     return "\n".join(f'<section>\n<h2>{e(mes)}</h2>\n<ol>\n' + "\n".join(itens) + "\n</ol>\n</section>"
                      for mes, itens in grupos)
 
+VISIVEIS = 7  # edições à mostra em cada turno; as demais ficam atrás de "Mais edições"
+
+def lista_curta(pasta, slugs, rotulo):
+    """As VISIVEIS mais recentes à mostra; o resto numa lista retrátil, sem JavaScript."""
+    lista = lista_turno(pasta, slugs[:VISIVEIS])
+    resto = slugs[VISIVEIS:]
+    if resto:
+        lista += (f'\n<details class="mais">\n<summary>Mais {e(rotulo.split(" ", 1)[1].lower())} '
+                  f'<span>({len(resto)})</span></summary>\n{lista_turno(pasta, resto)}\n</details>')
+    return lista
+
 def pagina_arquivo(pasta, datas, css):
     """edicoes/index.html: todas as edições, separadas em manhã e noite."""
     turnos = [("manha", "☀︎ Edições da manhã", [x for x in datas if not noturna(x)]),
@@ -138,7 +149,7 @@ def pagina_arquivo(pasta, datas, css):
     if len(turnos) > 1:
         atalhos = '<p class="turnos">' + "".join(f'<a href="#{id_}">{e(rot)}</a>' for id_, rot, _ in turnos) + "</p>\n"
     corpo = atalhos + "\n".join(f'<div class="turno" id="{id_}">\n<p class="turno-t">{e(rot)}</p>\n'
-                                 f'{lista_turno(pasta, slugs)}\n</div>' for id_, rot, slugs in turnos)
+                                 f'{lista_curta(pasta, slugs, rot)}\n</div>' for id_, rot, slugs in turnos)
     return f"""{cabeca("Prensa Autômata · Todas as edições", "Arquivo de todas as edições da Prensa Autômata.", css)}
 <body>
 <main>
