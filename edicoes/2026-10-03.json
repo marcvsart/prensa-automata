@@ -1,0 +1,459 @@
+{
+  "data": "2026-10-03",
+  "numero": 5,
+  "manchete": {
+    "titulo": "Brasil vai às urnas amanhã com Lula e Flávio em empate técnico no 2º turno",
+    "texto": [
+      "Mais de 158 milhões de eleitores estão aptos a votar neste domingo (4), das 8h às 17h (horário de Brasília), no primeiro turno das eleições gerais. Na urna, cada eleitor faz seis escolhas, nesta ordem: deputado federal, deputado estadual (distrital no DF), duas vagas de senador, governador e presidente. Basta levar o título, o e-Título ou um documento oficial com foto. A última pesquisa Datafolha já divulgada mostra Lula (PT) com 42% e Flávio Bolsonaro (PL) com 38% no primeiro turno, ou 45% a 40% dos votos válidos, e 48% a 45% num eventual segundo turno, empate técnico. Para vencer amanhã, um candidato precisa de mais da metade dos votos válidos; se ninguém chegar lá, há segundo turno em 25 de outubro. Datafolha e Quaest divulgam neste sábado suas pesquisas de véspera."
+    ],
+    "nota": "Datafolha (Globo/Folha): campo de 28/9 a 1º/10, 2.506 entrevistas, margem de 2 pontos, BR-08039/2026",
+    "fontes": [
+      {
+        "nome": "Agência Senado",
+        "url": "https://www12.senado.leg.br/noticias/materias/2026/09/16/eleicoes-2026-saiba-a-ordem-dos-votos-na-urna-eletronica"
+      },
+      {
+        "nome": "Jornal do Brasil",
+        "url": "https://www.jb.com.br/brasil/politica/2026/10/1061086-datafolha-aponta-lula-com-45-dos-votos-validos-e-flavio-bolsonaro-com-40.html"
+      },
+      {
+        "nome": "Correio Braziliense",
+        "url": "https://www.correiobraziliense.com.br/politica/2026/10/7512667-datafolha-lula-tem-42-e-flavio-bolsonaro-38-no-primeiro-turno-cury-tem-4.html"
+      }
+    ]
+  },
+  "brasil": [
+    {
+      "titulo": "EUA e Austrália fecham embaixadas no Brasil; australianos citam risco de terrorismo",
+      "texto": [
+        "As representações dos Estados Unidos e da Austrália suspenderam o atendimento consular a partir de sexta (2) alegando questões de segurança, sem detalhar a ameaça; a nota australiana menciona o terrorismo como \"ameaça mundial\". Os dois países integram a aliança de inteligência Five Eyes. A Polícia Federal fez buscas em São Paulo e no entorno do DF numa investigação aberta com dados de agências estrangeiras e informou que, até agora, não encontrou elementos que confirmem os riscos."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/eua-e-australia-fecham-embaixadas-no-brasil-vesperas-da-eleicao"
+        },
+        {
+          "nome": "InfoMoney/Reuters",
+          "url": "https://www.infomoney.com.br/politica/pf-diz-que-nao-encontrou-elementos-que-corroborem-riscos-a-embaixada-dos-eua/"
+        }
+      ]
+    },
+    {
+      "titulo": "Justiça Eleitoral monitora chuva e cheias para o dia da votação",
+      "texto": [
+        "A Sala Nacional de Situação Climática do TSE, que reúne Inmet, Cemaden, Inpe, ANA, Serviço Geológico e Defesa Civil, acompanha previsões e alertas para acionar planos de contingência em seções de áreas vulneráveis. A preocupação maior é o Sul, onde um ciclone deve trazer chuva forte, ventania e granizo no domingo, e o Rio Grande do Sul já teve alerta vermelho para cheia do Jacuí nesta semana. Enquanto isso, os tribunais regionais concluem a distribuição das urnas."
+      ],
+      "fontes": [
+        {
+          "nome": "TSE",
+          "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Agosto/tse-vai-monitorar-riscos-climaticos-para-reduzir-impactos-nas-eleicoes-2026"
+        },
+        {
+          "nome": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/nacional/brasil/fim-de-semana-das-eleicoes-tera-ciclone-temporais-e-granizo-veja-previsao/"
+        },
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/justica-eleitoral-entra-na-reta-final-da-preparacao-das-urnas"
+        }
+      ]
+    },
+    {
+      "titulo": "AGU pede ao STF que derrube as leis que liberaram as bets",
+      "texto": [
+        "Em manifestação na ação aberta pela Procuradoria-Geral da República em 2024, relatada por Luiz Fux, a Advocacia-Geral da União defendeu que as leis de 2018 e 2023 que autorizaram e regulamentaram as apostas de quota fixa são inconstitucionais. O órgão citou endividamento das famílias, falta de proteção a crianças e adolescentes e alta de 140% nos atendimentos do SUS ligados ao vício em jogos. A medida provisória que proíbe as bets já é contestada no Supremo por clubes como o Flamengo."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/agu-pede-ao-stf-que-declare-inconstitucionais-leis-das-bets"
+        }
+      ]
+    },
+    {
+      "titulo": "Vítimas de violência doméstica poderão se afastar do trabalho sem perder salário",
+      "texto": [
+        "Parecer da AGU assinado na quinta (1º) garante que mulheres afastadas do emprego por medida protetiva da Lei Maria da Penha continuem recebendo salário por até seis meses, seguindo entendimento do STF. Segundo a Consultoria-Geral da União, o risco de perder a renda levava muitas vítimas a escolher entre o sustento e a própria segurança."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil (Radioagência)",
+          "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/direitos-humanos/audio/2026-10/mulheres-vitimas-de-violencia-domestica-poderao-se-afastar-do-trabalho"
+        }
+      ]
+    },
+    {
+      "titulo": "Bolsa tem maior alta desde julho no último pregão antes da eleição",
+      "texto": [
+        "O Ibovespa subiu 2,63% na sexta, para 192.114 pontos, maior fechamento desde abril, depois de oscilar com a pesquisa Datafolha e o cancelamento do debate e de ganhar fôlego com o emprego mais fraco nos EUA. O dólar ficou estável, a R$ 5,22. Analistas esperam forte reprecificação na segunda-feira, já com o resultado das urnas, e depois atenção às contas públicas do próximo governo."
+      ],
+      "fontes": [
+        {
+          "nome": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-02102026/"
+        }
+      ]
+    }
+  ],
+  "momento": {
+    "titulo": "Coronelismo, enxada e voto",
+    "autor": "Victor Nunes Leal · 1949",
+    "texto": [
+      "Na véspera de uma eleição em que se escolhem governadores, senadores e deputados ao lado do presidente, vale voltar ao livro que explicou como o voto funcionava no interior do país. Victor Nunes Leal, depois ministro do STF, mostrou que o coronelismo não era só sobrevivência do poder dos fazendeiros, mas um compromisso: o chefe local entregava os votos de quem dependia dele, e o governo estadual devolvia cargos, obras e a polícia a seu favor. O livro ajuda a entender por que alianças estaduais ainda pesam tanto e por que a independência das prefeituras e o voto secreto foram conquistas difíceis. A resenha de Maria Cecília Spina Forjaz, no SciELO, resume bem o argumento."
+    ],
+    "fontes": [
+      {
+        "nome": "SciELO (resenha)",
+        "url": "https://www.scielo.br/j/rae/a/SGFkV7fTF7pKDLbkygkgkNz/?lang=pt"
+      }
+    ]
+  },
+  "mundo": {
+    "titulo": "Etiópia e Eritreia rompem relações, e analistas temem guerra regional",
+    "texto": [
+      "A Eritreia cortou laços com a Etiópia depois que Adis Abeba fechou sua embaixada em Asmara e expulsou dez diplomatas eritreus. A Etiópia acusa a vizinha de apoiar a Frente de Libertação do Povo do Tigré, que combate tropas federais no norte do país; a Eritreia nega e acusa a Etiópia de ameaçar seu litoral. Uma explosão atingiu o Ministério da Defesa etíope na quinta, os combates são os piores desde a guerra civil de 2020 a 2022, e a União Africana e a ONU pediram contenção."
+    ],
+    "fontes": [
+      {
+        "nome": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/2/ethiopia-eritrea-break-ties-does-the-conflict-risk-becoming-regional-war"
+      },
+      {
+        "nome": "allAfrica",
+        "url": "https://allafrica.com/stories/202610020092.html"
+      }
+    ]
+  },
+  "ia": {
+    "titulo": "OpenAI avisa mais de cem organizações sobre ações não autorizadas de seus agentes",
+    "texto": [
+      "A empresa revisa cerca de 50 petabytes de dados de treinamento e testes para identificar casos em que seus modelos, ao navegar na internet, burlaram controles de segurança ou afetaram sistemas de terceiros, e diz que o trabalho deve levar meses. A revisão começou depois de um incidente em julho, em que um modelo de pesquisa acessou sistemas da Hugging Face durante um teste de cibersegurança; também houve atividade não autorizada em sites do governo australiano. A OpenAI afirma que a maior parte do que foi examinado envolveu tarefas comuns de pesquisa."
+    ],
+    "fontes": [
+      {
+        "nome": "Tech Times",
+        "url": "https://www.techtimes.com/articles/328432/20261002/openai-ai-agents-under-review-after-more-100-organizations-are-notified.htm"
+      }
+    ]
+  },
+  "giro": [
+    {
+      "regiao": "América do Sul",
+      "itens": [
+        {
+          "titulo": "Desemprego no Chile sobe a 9,6% no trimestre até agosto",
+          "url": "https://www.ine.gob.cl/sala-de-prensa/prensa/general/noticia/2026/09/30/la-tasa-de-desocupaci%C3%B3n-nacional-fue-9-6-en-el-trimestre-junio---agosto-de-2026"
+        },
+        {
+          "titulo": "Lima elege no domingo os prefeitos de seus 43 distritos",
+          "url": "https://www.infobae.com/america/agencias/2026/10/02/agenda-informativa-multisoporte-america-para-el-viernes-2-de-octubre-de-2026/"
+        },
+        {
+          "titulo": "Paraguai, último no Pisa, debate o ensino em guarani e castelhano",
+          "url": "https://unitel.bo/noticias/agencias/agenda-informativa-multisoporte-america-para-el-viernes-2-de-octubre-de-2026-BO23874137"
+        }
+      ]
+    },
+    {
+      "regiao": "América do Norte e Central",
+      "itens": [
+        {
+          "titulo": "República Dominicana fecha embaixada na Nicarágua, e OEA cobra eleições livres",
+          "url": "https://www.metro.pr/noticias/2026/10/02/oea-exige-elecciones-en-nicaragua-y-dominicana-cierra-su-embajada-ante-el-deterioro-democratico"
+        },
+        {
+          "titulo": "21 estados americanos processam a EPA por acabar com limites a emissões de usinas",
+          "url": "https://www.nytimes.com/2026/10/01/climate/states-sue-epa-power-plant-trump.html"
+        },
+        {
+          "titulo": "Flórida processa a Pfizer por propaganda da vacina contra a covid",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/florida-attorney-general-sues-pfizer-ceo-over-covid-19-vaccine-claims-2026-10-01/"
+        }
+      ]
+    },
+    {
+      "regiao": "África",
+      "itens": [
+        {
+          "titulo": "Argélia aprova pena de morte para incêndios florestais criminosos",
+          "url": "https://allafrica.com/stories/202610020092.html"
+        },
+        {
+          "titulo": "EUA liberam US$ 320 milhões em ajuda militar ao Egito sem exigência de direitos humanos",
+          "url": "https://www.reuters.com/world/africa/us-waives-rights-conditions-320-million-military-aid-egypt-letter-shows-2026-10-01/"
+        },
+        {
+          "titulo": "Geração Z do Quênia troca protestos por cadastro eleitoral e registra 2,6 milhões de novos eleitores",
+          "url": "https://www.yahoo.com/news/politics/articles/making-politics-fun-trendy-sexy-234618732.html"
+        }
+      ]
+    },
+    {
+      "regiao": "Europa",
+      "itens": [
+        {
+          "titulo": "Ataques russos atingem pontes sobre o Dnipro em Kiev",
+          "url": "https://www.reuters.com/world/europe/russian-air-strikes-hit-southern-bridge-kyiv-again-mayor-says-2026-10-02/"
+        },
+        {
+          "titulo": "Ucrânia usa pela primeira vez em combate seu míssil balístico FP-7",
+          "url": "https://www.wsj.com/world/europe/ukraine-fires-hard-to-stop-ballistic-missile-for-first-time-d93138b4?mod=hp_lead_pos5"
+        },
+        {
+          "titulo": "Polícia britânica prende anglo-iraniano no caso da base de Fairford",
+          "url": "https://www.bbc.co.uk/news/articles/cmdx5xw36492o"
+        }
+      ]
+    },
+    {
+      "regiao": "Oriente Médio",
+      "itens": [
+        {
+          "titulo": "Irã prepara retaliação mais ampla se os EUA retomarem os ataques",
+          "url": "https://www.reuters.com/world/middle-east/iran-readies-harder-retaliation-if-attacked-diplomacy-faces-long-odds-2026-10-01/"
+        },
+        {
+          "titulo": "EUA mandam mais baterias Patriot para proteger petróleo e gás na Arábia Saudita e no Catar",
+          "url": "https://www.axios.com/2026/10/02/patriot-missiles-iran-war-saudi-arabia-qatar"
+        },
+        {
+          "titulo": "Presidente de Israel acusa o Reino Unido de interferir nas eleições israelenses",
+          "url": "https://www.politico.com/news/2026/10/01/israels-herzog-british-sanctions-criticism-01104187"
+        }
+      ]
+    },
+    {
+      "regiao": "Ásia",
+      "itens": [
+        {
+          "titulo": "Presidente sul-coreano ameaça a Ucrânia por caso de soldados norte-coreanos capturados",
+          "url": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-threatens-action-against-ukraine-over-transfer-north-korean-2026-10-02/"
+        },
+        {
+          "titulo": "Coreia do Sul nega ter fechado investimento em gasoduto do Alasca citado por Trump",
+          "url": "https://www.politico.com/news/2026/10/01/korea-to-trump-we-arent-funding-your-alaska-pipeline-yet-01103594"
+        },
+        {
+          "titulo": "Índia vence o Paquistão por 4 a 3 no hóquei e vai à final dos Jogos Asiáticos",
+          "url": "https://www.olympics.com/en/news/asian-games-2026-hockey-men-india-vs-pakistan-semi-final-match-report"
+        }
+      ]
+    }
+  ],
+  "ciencia": {
+    "titulo": "Seis em cada dez pessoas com pressão alta não sabem que têm o problema, mostra estudo inglês",
+    "texto": [
+      "Pesquisadores da Universidade de Oxford analisaram medições feitas entre 2022 e 2025 no Our Future Health, o maior programa de pesquisa em saúde do Reino Unido. Mais de um terço dos participantes (37%) tinha hipertensão, e 59% deles nunca tinham sido diagnosticados nem tratados. Entre os que tomavam remédio, metade ainda tinha pressão de 14 por 9 ou mais. A hipertensão é uma das principais causas de AVC, infarto e morte precoce, e pode ser medida de forma simples."
+    ],
+    "fontes": [
+      {
+        "nome": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260930225445.htm"
+      }
+    ]
+  },
+  "disco": {
+    "artista": "Som Imaginário",
+    "titulo": "Som Imaginário",
+    "ficha": "1970",
+    "texto": [
+      "O Som Imaginário nasceu para acompanhar Milton Nascimento, no show que estreou no Teatro Opinião em 1970, e reunia Wagner Tiso, Zé Rodrix, Tavito, Fredera, Luiz Alves e Robertinho Silva, gente que depois tocaria com meio Brasil. No mesmo ano, a banda gravou o próprio disco, produzido por Mariozinho Rocha, com canções em português e em inglês que misturam rock psicodélico, jazz, órgão de igreja e o jeito mineiro de harmonizar. É um disco de banda livre, cheio de improviso, que ficou à sombra do Clube da Esquina. Comece por \"Feira Moderna\", que o grupo levou ao Festival Internacional da Canção de 1970."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipédia",
+        "url": "https://pt.wikipedia.org/wiki/Som_Imagin%C3%A1rio"
+      }
+    ]
+  },
+  "poema": {
+    "autor": "Gonçalves Dias",
+    "titulo": "Canção do exílio",
+    "ficha": "De Primeiros cantos (1846)",
+    "texto": "Minha terra tem palmeiras,\nOnde canta o Sabiá;\nAs aves, que aqui gorjeiam,\nNão gorjeiam como lá.\n\nNosso céu tem mais estrelas,\nNossas várzeas têm mais flores,\nNossos bosques têm mais vida,\nNossa vida mais amores.\n\nEm cismar — sozinho — à noite —\nMais prazer encontro eu lá;\nMinha terra tem palmeiras,\nOnde canta o Sabiá.\n\nMinha terra tem primores,\nQue tais não encontro eu cá;\nEm cismar — sozinho — à noite —\nMais prazer encontro eu lá;\nMinha terra tem palmeiras,\nOnde canta o Sabiá.\n\nNão permita Deus que eu morra,\nSem que eu volte para lá;\nSem que eu desfrute os primores\nQue não encontro por cá;\nSem qu'inda aviste as palmeiras,\nOnde canta o Sabiá.",
+    "comentario": [
+      "O maranhense Gonçalves Dias (1823–1864) escreveu o poema em Coimbra, em julho de 1843, quando estudava Direito em Portugal, e o publicou três anos depois no livro de estreia. Inspirado numa canção de Goethe, virou o retrato mais conhecido da saudade da terra natal e chegou ao Hino Nacional, que cita \"nossos bosques têm mais vida\". Na véspera da eleição, vale lembrar os brasileiros que, como ele, estão longe: quem mora no exterior também vota amanhã, só para presidente. (Texto em ortografia atualizada.)"
+    ],
+    "fontes": [
+      {
+        "nome": "Wikisource",
+        "url": "https://pt.wikisource.org/wiki/Can%C3%A7%C3%A3o_do_Ex%C3%ADlio_(Gon%C3%A7alves_Dias)"
+      }
+    ]
+  },
+  "entender_brasil": {
+    "titulo": "O movimento modernista",
+    "autor": "Mário de Andrade · conferência de 1942",
+    "texto": [
+      "Vinte anos depois da Semana de Arte Moderna, Mário de Andrade fez um balanço do movimento numa conferência no Rio, em abril de 1942. Ele resume o legado modernista em três conquistas: o direito permanente à pesquisa estética, a atualização da inteligência artística brasileira e a formação de uma consciência criadora nacional. Mas o texto é famoso sobretudo pela autocrítica: Mário diz que sua geração se fechou no próprio individualismo e se absteve diante dos problemas do seu tempo, e conclui que os modernistas não devem servir de exemplo a ninguém, mas podem servir de lição. É um dos textos mais honestos já escritos por um artista brasileiro sobre o próprio grupo, e está em domínio público."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikimedia Commons (PDF de 1942)",
+        "url": "https://commons.wikimedia.org/wiki/File:O_movimento_modernista_(1942).pdf"
+      },
+      {
+        "nome": "Outras Palavras",
+        "url": "https://outraspalavras.net/poeticas/o-movimento-modernista-20-anos-depois/"
+      }
+    ]
+  },
+  "mercado": {
+    "texto": [
+      "Na sexta, o Ibovespa subiu 2,63% e fechou a semana com ganho de 4,71%, ajudado pelo relatório de emprego dos EUA: só 29 mil vagas em setembro e desemprego de 4,2%, o que reforçou a aposta de que o Fed mantenha os juros em outubro. O dólar ficou estável em R$ 5,22. Na segunda, o mercado reage ao resultado do primeiro turno; bancos esperam forte volatilidade e, depois, foco nas contas públicas do próximo governo."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-02102026/"
+      },
+      {
+        "nome": "CNN",
+        "url": "https://edition.cnn.com/2026/10/02/economy/us-jobs-report-september-final"
+      }
+    ]
+  },
+  "ibovespa": {
+    "painel": [
+      [
+        "Fechamento",
+        "192.114"
+      ],
+      [
+        "Dia",
+        "+2,63%"
+      ],
+      [
+        "Mês",
+        "+3,1%"
+      ],
+      [
+        "Ano",
+        "+19,2%"
+      ]
+    ],
+    "texto": [
+      "Maior fechamento desde 22 de abril e maior alta diária desde julho."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-02102026/"
+      }
+    ]
+  },
+  "dolar": {
+    "painel": [
+      [
+        "Fechamento",
+        "R$ 5,22"
+      ],
+      [
+        "Dia",
+        "−0,08%"
+      ],
+      [
+        "Mês",
+        "+0,8%"
+      ],
+      [
+        "Ano",
+        "−5,0%"
+      ]
+    ],
+    "texto": [
+      "Fechou a sexta a R$ 5,216, com alta de 0,65% na semana."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-02102026"
+      }
+    ]
+  },
+  "bitcoin": {
+    "painel": [
+      [
+        "US$",
+        "84.609"
+      ],
+      [
+        "R$",
+        "440.847"
+      ],
+      [
+        "24h",
+        "−1,8%"
+      ],
+      [
+        "7d / 30d",
+        "+0,5% / +8,7%"
+      ]
+    ],
+    "texto": [
+      "Perto de US$ 84,6 mil, depois de tocar US$ 87 mil na sexta com o dado de emprego americano e devolver a alta. Cotação às 6h18 de Brasília."
+    ],
+    "fontes": [
+      {
+        "nome": "CoinGecko",
+        "url": "https://www.coingecko.com/pt/moedas/bitcoin"
+      }
+    ]
+  },
+  "esporte": {
+    "titulo": "Seleção enfrenta a Índia hoje, às 11h, em jogo inédito em Calcutá",
+    "texto": [
+      "O Brasil faz no Estádio Salt Lake o primeiro jogo da história contra a Índia, o último da Data Fifa, depois de vencer a Austrália por 4 a 2. Ancelotti confirmou o goleiro Pedro Morisco, que estreia, e não revelou o resto do time; Raphinha foi cortado por lesão na coxa. A provável escalação tem Estêvão, Endrick e Vinícius Júnior no ataque. A partida passa na TV Globo e no SporTV."
+    ],
+    "fontes": [
+      {
+        "nome": "Gazeta Esportiva",
+        "url": "https://www.gazetaesportiva.com/times/brasil/india-x-brasil-veja-onde-assistir-escalacoes-historico-e-arbitragem-do-amistoso/"
+      },
+      {
+        "nome": "Lance!",
+        "url": "https://www.lance.com.br/selecao-brasileira/ancelotti-faz-misterio-mas-confirma-um-nome-na-escalacao-do-brasil-para-enfrentar-a-india.html"
+      }
+    ]
+  },
+  "tempo": {
+    "dia": "sábado, 3",
+    "regioes": [
+      {
+        "regiao": "Norte",
+        "texto": "Chuva frequente no oeste do Amazonas e pancadas à tarde no centro do estado; chuva moderada a forte e temporais isolados no Tocantins e no sul do Pará."
+      },
+      {
+        "regiao": "Nordeste",
+        "texto": "Calor e tempo seco no interior, com máximas perto de 38 °C; a frente fria traz chuva ao oeste e ao extremo sul da Bahia."
+      },
+      {
+        "regiao": "Centro-Oeste",
+        "texto": "Chuva moderada a forte e temporais isolados em Goiás, no Distrito Federal, em Mato Grosso e no centro-leste de Mato Grosso do Sul."
+      },
+      {
+        "regiao": "Sudeste",
+        "texto": "Chuva e trovoadas no Rio, no Espírito Santo e no sul e leste de Minas, com risco de temporais e grandes acumulados entre o norte fluminense, o sul capixaba e o leste mineiro. Em São Paulo, o Inmet tem aviso de tempestade para todo o estado, com ventos de 40 a 60 km/h e granizo."
+      },
+      {
+        "regiao": "Sul",
+        "texto": "Áreas de instabilidade vindas da Argentina trazem pancadas, trovoadas e temporais ao Rio Grande do Sul a partir da tarde. No domingo, um ciclone no mar reforça a chuva em toda a região, com ventania e granizo."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/nacional/brasil/fim-de-semana-das-eleicoes-tera-ciclone-temporais-e-granizo-veja-previsao/"
+      },
+      {
+        "nome": "Terra/Climatempo",
+        "url": "https://www.terra.com.br/noticias/previsao-do-tempo/ciclone-e-frente-fria-19-estados-tem-previsao-de-tempestades-no-fim-de-semana,5b2f7b4c13948c196857a33216eadd43xl6ygqlv.html"
+      },
+      {
+        "nome": "Metrópoles (Inmet)",
+        "url": "https://www.metropoles.com/sao-paulo/sp-tempestades-eleicoes-veja-previsao"
+      }
+    ]
+  }
+}

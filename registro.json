@@ -20,6 +20,10 @@
     {
       "data": "2026-10-02",
       "item": "Arthur Verocai — Arthur Verocai (1972)"
+    },
+    {
+      "data": "2026-10-03",
+      "item": "Som Imaginário — Som Imaginário (1970)"
     }
   ],
   "poemas": [
@@ -42,6 +46,10 @@
     {
       "data": "2026-10-02",
       "item": "Raimundo Correia — As pombas"
+    },
+    {
+      "data": "2026-10-03",
+      "item": "Gonçalves Dias — Canção do exílio"
     }
   ],
   "entender_brasil": [
@@ -80,6 +88,10 @@
     {
       "data": "2026-10-02",
       "item": "Manoel Bomfim — A América Latina: males de origem (livro, noite)"
+    },
+    {
+      "data": "2026-10-03",
+      "item": "Mário de Andrade — O movimento modernista (texto)"
     }
   ],
   "momento": [
@@ -118,8 +130,12 @@
     {
       "data": "2026-10-02",
       "item": "Jairo Nicolau — Eleições no Brasil: do Império aos dias atuais (noite)"
+    },
+    {
+      "data": "2026-10-03",
+      "item": "Victor Nunes Leal — Coronelismo, enxada e voto"
     }
   ],
-  "tiragem": 4,
+  "tiragem": 5,
   "tiragem_noite": 4
 }
