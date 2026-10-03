@@ -54,5 +54,6 @@ Ordem da edição e o que vai em cada bloco:
 5. Publique direto na branch `main` (Marcus autorizou o push direto na main para esta tarefa; não crie branch nem pull request): `git add -A && git commit -m "Tiragem Nº N — AAAA-MM-DD"`, depois `git fetch origin main && git rebase origin/main` e `git push origin HEAD:main`. Se o push falhar por rede, tente de novo até 4 vezes com espera crescente (2s, 4s, 8s, 16s).
 6. Confira se o workflow "Verificar edição" passou no commit publicado: `curl -s "https://api.github.com/repos/marcvsart/prensa-automata/actions/runs?head_sha=$(git rev-parse HEAD)"` (repita a cada 15 segundos até `conclusion` aparecer). Depois confira se prensaautomata.com mostra a nova tiragem. Se não conseguir conferir, diga isso na resposta.
 7. Se qualquer etapa falhar (apuração, build ou push), não force: avise Marcus com o motivo e onde parou.
+8. Esta sessão roda sozinha, sem ninguém para retomá-la. Nunca encerre o turno para esperar uma notícia, pesquisa ou dado que ainda vai sair: publique com o que estiver disponível agora e, se for o caso, diga no texto quando o dado será divulgado. Só termine depois do push e da conferência do passo 6.
 
 Ao terminar, responda com uma linha: número da tiragem, manchete do dia e o link prensaautomata.com.
