@@ -92,6 +92,10 @@
     {
       "data": "2026-10-03",
       "item": "Mário de Andrade — O movimento modernista (texto)"
+    },
+    {
+      "data": "2026-10-03",
+      "item": "Paulo Prado — Retrato do Brasil: ensaio sobre a tristeza brasileira (livro, noite)"
     }
   ],
   "momento": [
@@ -134,8 +138,12 @@
     {
       "data": "2026-10-03",
       "item": "Victor Nunes Leal — Coronelismo, enxada e voto"
+    },
+    {
+      "data": "2026-10-03",
+      "item": "Walter Lippmann — Opinião pública (noite)"
     }
   ],
   "tiragem": 5,
-  "tiragem_noite": 4
+  "tiragem_noite": 5
 }

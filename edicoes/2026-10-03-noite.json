@@ -1,0 +1,348 @@
+{
+  "data": "2026-10-03",
+  "numero": 5,
+  "manchete": {
+    "titulo": "Na véspera, CNT/MDA mostra Lula à frente e Flávio em alta; campanha nas ruas acaba às 22h",
+    "texto": [
+      "A pesquisa CNT/MDA divulgada neste sábado (3) mostra Lula (PT) com 43,1% e Flávio Bolsonaro (PL) com 38% no primeiro turno, o que dá 47,8% a 42,1% dos votos válidos; nenhum dos dois chegaria a mais da metade, o que levaria a disputa a segundo turno em 25 de outubro. Em relação à rodada anterior do instituto, Flávio subiu 7,1 pontos nos votos válidos e Lula, 0,8. Num eventual segundo turno, Lula tem 47,3% e Flávio, 43,1%, diferença no limite da margem de erro. Datafolha e Quaest divulgam suas últimas pesquisas na noite deste sábado, a partir das 18h45 e por volta das 21h, respectivamente. Caminhadas, carreatas, distribuição de santinhos e impulsionamento de propaganda na internet são permitidos até as 22h; amanhã, a votação vai das 8h às 17h (horário de Brasília)."
+    ],
+    "nota": "CNT/MDA: campo de 30/9 a 2/10, 2.007 entrevistas presenciais, margem de 2,2 pontos, BR-04756/2026",
+    "fontes": [
+      {
+        "nome": "Exame",
+        "url": "https://exame.com/brasil/pesquisa-cnt-mda-para-presidente-lula-tem-478-e-flavio-421-dos-votos-validos-no-1o-turno/"
+      },
+      {
+        "nome": "Revista Factual",
+        "url": "https://revistafactual.com.br/politica/2026/10/03/pesquisa-cnt-mda-lula-tem-431-e-flavio-bolsonaro-soma-38-no-1o-turno-veja-numeros/"
+      },
+      {
+        "nome": "Estado de Minas",
+        "url": "https://www.em.com.br/politica/2026/10/7513786-lula-tem-473-e-flavio-431-no-2-turno-diz-cnt-mda.html"
+      },
+      {
+        "nome": "Revista Fórum (horários)",
+        "url": "https://revistaforum.com.br/politica/pesquisas-sabado-horarios-datafolha-quaest"
+      },
+      {
+        "nome": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleicoes-propaganda-eleitoral-nas-ruas-termina-22h-deste-sabado"
+      }
+    ]
+  },
+  "brasil": [
+    {
+      "titulo": "Lula e Flávio encerram campanha com atos em São Paulo e no Rio",
+      "texto": [
+        "Lula fez neste sábado de manhã a caminhada \"Brasil Pronto pra Mais\" na Avenida Paulista, com o vice Geraldo Alckmin, o candidato ao governo paulista Fernando Haddad e as candidatas ao Senado Marina Silva e Simone Tebet; foi seu último ato público antes do primeiro turno. Flávio Bolsonaro começou o dia numa motocarreata entre Santa Bárbara d'Oeste e Americana (SP), com o governador Tarcísio de Freitas, e à tarde participou de outra na Zona Oeste do Rio, entre Campo Grande e Bangu."
+      ],
+      "fontes": [
+        {
+          "nome": "A Crítica",
+          "url": "https://acritica.net/eleicoes-2026/lula-faz-ato-em-sao-paulo-e-flavio-bolsonaro-participa-de-motocarreata/"
+        },
+        {
+          "nome": "Rede 98",
+          "url": "https://rede98.com.br/eleicoes2026/lula-e-flavio-bolsonaro-fecham-campanha-com-atos-em-sp-e-no-rio-neste-sabado/"
+        }
+      ]
+    },
+    {
+      "titulo": "Inmet põe Paraná, oeste catarinense e sul de MS em alerta vermelho para o domingo de votação",
+      "texto": [
+        "O Instituto Nacional de Meteorologia prevê para amanhã chuva acima de 60 mm por hora e ventos de mais de 100 km/h em boa parte do Paraná, no oeste de Santa Catarina e no sudoeste de Mato Grosso do Sul, com risco de queda de árvores, cortes de energia e alagamentos. O alerta, o mais alto da escala, vale o dia todo; meteorologistas recomendam votar de manhã, quando a chance de temporal é menor."
+      ],
+      "fontes": [
+        {
+          "nome": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/nacional/brasil/inmet-emite-alerta-vermelho-para-tempestades-no-domingo-4-de-eleicao/"
+        },
+        {
+          "nome": "Tempo.com",
+          "url": "https://www.tempo.com/noticias/previsao/frentes-frias-trazem-chuvas-intensas-e-temporais-nas-5-regioes-do-brasil-veja-a-previsao.html"
+        }
+      ]
+    },
+    {
+      "titulo": "Processos sobre desinformação e propaganda digital quase triplicam em relação a 2022",
+      "texto": [
+        "Levantamento do Núcleo Jornalismo com dados abertos do TSE contou 9.571 processos sobre desinformação e propaganda irregular na internet até 1º de outubro, contra cerca de 3,4 mil no mesmo período de 2022. Eles já são 11,4% de todos os processos do ciclo eleitoral, ante 4,1% na eleição passada; a maioria trata de propaganda irregular em redes sociais, inclusive impulsionamento pago de conteúdo denunciado."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Pública/Núcleo",
+          "url": "https://apublica.org/2026/10/processos-sobre-desinformacao-e-propaganda-digital-triplicam-nas-eleicoes-de-2026"
+        }
+      ]
+    }
+  ],
+  "momento": {
+    "titulo": "Opinião pública",
+    "autor": "Walter Lippmann · 1922",
+    "texto": [
+      "Numa véspera de eleição com uma pesquisa nova a cada poucas horas e milhares de processos sobre desinformação na Justiça Eleitoral, vale voltar ao livro que primeiro perguntou como se forma aquilo que chamamos de opinião pública. O jornalista americano Walter Lippmann o escreveu depois de trabalhar com propaganda de guerra na Primeira Guerra Mundial, quando viu de perto como governos e jornais moldavam o que a população acreditava saber.",
+      "O argumento central está no primeiro capítulo, \"O mundo lá fora e as imagens em nossa cabeça\". Ninguém conhece diretamente a maior parte dos fatos sobre os quais forma opinião; reagimos a um \"pseudoambiente\", uma versão simplificada do mundo montada com o que lemos, ouvimos e imaginamos. Para dar conta da complexidade, usamos estereótipos, e é a eles que respondemos. Foi Lippmann quem popularizou a palavra nesse sentido, e daí ele tira uma conclusão incômoda: a imprensa sozinha não basta para informar o eleitor, porque ela também trabalha com recortes, pressa e atenção limitada.",
+      "Cem anos depois, o pseudoambiente mudou de suporte, mas não de natureza. Pesquisas eleitorais, vídeos manipulados, correntes em aplicativos de mensagem e o noticiário competem para fornecer as imagens que o eleitor levará para a urna amanhã. O livro não oferece receita, e sua proposta de confiar decisões a especialistas envelheceu mal e foi criticada já na época, por John Dewey. Mas ajuda a desconfiar das próprias certezas e a perguntar de onde vem cada imagem que temos de um candidato.",
+      "O texto original, em inglês, está em domínio público e pode ser lido de graça no Projeto Gutenberg. Os três primeiros capítulos, que tratam do pseudoambiente e dos estereótipos, se sustentam sozinhos e são o melhor começo."
+    ],
+    "fontes": [
+      {
+        "nome": "Projeto Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/6456"
+      }
+    ]
+  },
+  "mundo": {
+    "titulo": "Irã diz se preparar para \"grande rodada de combates\" e petroleiros são atingidos perto de Ormuz",
+    "texto": [
+      "Uma fonte em Teerã disse ao jornal The National que o Irã se prepara para retomar a guerra com os Estados Unidos, depois que as conversas em Nova York no mês passado não avançaram; o principal impasse é que Teerã quer gestos americanos antes de reabrir o Estreito de Ormuz, e Washington exige o contrário. Neste sábado, a agência britânica de operações marítimas (UKMTO) relatou que dois petroleiros foram atingidos por projéteis não identificados na região, sem atribuir autoria. Os EUA enviam um terceiro porta-aviões, o USS Theodore Roosevelt, ao Oriente Médio."
+    ],
+    "fontes": [
+      {
+        "nome": "The National",
+        "url": "https://www.thenationalnews.com/news/mena/2026/10/03/iran-gearing-up-for-major-round-of-fighting-with-us-source-says/"
+      },
+      {
+        "nome": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/10/3/iran-war-live-fighting-intensifies-in-yemen-hundreds-killed-or-injured"
+      }
+    ]
+  },
+  "ia": {
+    "titulo": "Sistema que usa luz em vez de chips detecta vídeos falsos com quase 98% de acerto",
+    "texto": [
+      "Pesquisadores da Universidade da Califórnia em Los Angeles (UCLA) criaram um detector de deepfakes que faz parte do cálculo com a propagação da luz, o que permite analisar 15 vídeos ao mesmo tempo, gastando menos energia que os sistemas totalmente digitais. Nos testes, o sistema acertou 97,8% das classificações e deixou passar só cerca de 0,14% dos vídeos manipulados. Os autores, que publicaram o estudo na revista eLight, propõem a tecnologia como uma primeira triagem em grande escala, antes da checagem detalhada."
+    ],
+    "fontes": [
+      {
+        "nome": "ScienceDaily/UCLA",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260929053534.htm"
+      }
+    ]
+  },
+  "giro": [
+    {
+      "regiao": "América do Sul",
+      "itens": [
+        {
+          "titulo": "Peru também vota amanhã: 26 milhões escolhem 13.148 governadores, prefeitos e vereadores",
+          "url": "https://andina.pe/ingles/noticia-perus-erm-2026-find-out-how-many-authorities-will-be-elected-on-oct-4-1088778.aspx"
+        }
+      ]
+    },
+    {
+      "regiao": "América do Norte e Central",
+      "itens": [
+        {
+          "titulo": "Quebec vai às urnas na segunda (5), com o Parti Québécois à frente nas pesquisas",
+          "url": "https://en.wikipedia.org/wiki/2026_Quebec_general_election"
+        }
+      ]
+    },
+    {
+      "regiao": "África",
+      "itens": [
+        {
+          "titulo": "Ebola avança no Congo, e Kivu do Norte já concentra quase 40% dos novos casos, alerta MSF",
+          "url": "https://www.doctorswithoutborders.org/latest/ebola-disease-outbreak-2026-how-msf-responding"
+        }
+      ]
+    },
+    {
+      "regiao": "Europa",
+      "itens": [
+        {
+          "titulo": "Protesto por moradia leva multidão às ruas de Madri: 500 mil segundo organizadores, 70 mil segundo autoridades",
+          "url": "https://www.euronews.com/2026/10/03/nearly-500000-people-protest-in-madrid-over-spains-housing-crisis"
+        }
+      ]
+    },
+    {
+      "regiao": "Oriente Médio",
+      "itens": [
+        {
+          "titulo": "Forças do governo do Iêmen dizem atacar alvos militares em Sanaa, controlada pelos houthis",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/3/iran-war-live-fighting-intensifies-in-yemen-hundreds-killed-or-injured"
+        }
+      ]
+    },
+    {
+      "regiao": "Ásia",
+      "itens": [
+        {
+          "titulo": "Coreia do Norte dispara míssil balístico que voa 680 km e cai no Mar do Japão",
+          "url": "https://www.japantimes.co.jp/news/2026/10/03/japan/north-korea-missile-october-3/"
+        }
+      ]
+    }
+  ],
+  "ciencia": {
+    "titulo": "Solo lunar trazido pela Chang'e-6 guarda forma rara de ferro capaz de registrar o magnetismo antigo da Lua",
+    "texto": [
+      "Cientistas da Academia Chinesa de Ciências identificaram pela primeira vez em amostras lunares naturais o ferro gama, uma forma do metal que na Terra só é estável em altas temperaturas, dentro de vidro formado por impactos de meteoritos. As partículas maiores mantêm um estado magnético estável, em vórtice, o que faz delas um possível \"fóssil magnético\" capaz de guardar pistas de como era o campo magnético da Lua no passado. O estudo foi publicado na revista PNAS."
+    ],
+    "fontes": [
+      {
+        "nome": "ScienceDaily/CAS",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261001214015.htm"
+      }
+    ]
+  },
+  "entender_brasil": {
+    "titulo": "Retrato do Brasil: ensaio sobre a tristeza brasileira",
+    "autor": "Paulo Prado · 1928",
+    "texto": [
+      "Paulo Prado era herdeiro de uma das maiores fortunas do café paulista, mecenas e um dos financiadores da Semana de Arte Moderna de 1922. Discípulo do historiador Capistrano de Abreu, publicou este ensaio em novembro de 1928, o mesmo ano de Macunaíma, de Mário de Andrade, que é dedicado a ele. O livro abre com uma frase que ficou famosa: \"Numa terra radiosa vive um povo triste\".",
+      "A ideia central é que a tristeza brasileira tem raízes na colonização. Em quatro capítulos, \"A luxúria\", \"A cobiça\", \"A tristeza\" e \"O romantismo\", Prado descreve colonizadores movidos pela ambição do ouro e pelo desregramento sexual, e um país que, esgotada a febre, teria ficado melancólico e apático. O pós-escrito muda de tom: depois do diagnóstico pessimista, ele defende que só uma reforma profunda, ou mesmo uma revolução, tiraria o país da inércia.",
+      "Envelheceram a psicologia coletiva, que trata um povo inteiro como se tivesse um só temperamento, os juízos morais e a visão da mestiçagem, que hoje soam preconceituosos; historiadores também apontam generalizações a partir de crônicas coloniais. Continua valendo como documento de uma geração que tentou explicar o país em ensaios livres, abrindo caminho para Raízes do Brasil e Casa-Grande & Senzala, e como exemplo de como o pessimismo sobre o passado pode virar cobrança por mudança.",
+      "O texto está em domínio público, e a edição digital da eBooksBrasil, feita a partir da primeira edição de 1928, pode ser lida de graça. O artigo de Henrique Gaio na revista Maracanan, da UERJ, ajuda a entender o pós-escrito."
+    ],
+    "fontes": [
+      {
+        "nome": "eBooksBrasil",
+        "url": "http://www.ebooksbrasil.org/eLibris/pauloprado.html"
+      },
+      {
+        "nome": "Revista Maracanan (UERJ)",
+        "url": "https://www.e-publicacoes.uerj.br/maracanan/article/view/27129"
+      }
+    ]
+  },
+  "mercado": {
+    "texto": [
+      "Sábado não tem pregão, e os números de bolsa e câmbio são os do fechamento de sexta: o Ibovespa subiu 2,63%, para 192.114 pontos, e acumulou alta de 4,71% na semana, e o dólar ficou em R$ 5,22. Na segunda, o mercado reage ao resultado do primeiro turno. O bitcoin passou o dia perto de US$ 84,6 mil."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-02102026/"
+      },
+      {
+        "nome": "InfoMoney (dólar)",
+        "url": "https://infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-02102026"
+      }
+    ]
+  },
+  "ibovespa": {
+    "painel": [
+      [
+        "Fechamento",
+        "192.114"
+      ],
+      [
+        "Dia",
+        "+2,63%"
+      ],
+      [
+        "Mês",
+        "+3,1%"
+      ],
+      [
+        "Ano",
+        "+19,2%"
+      ]
+    ],
+    "texto": [
+      "Fechamento de sexta (2); não há pregão no fim de semana."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-02102026/"
+      }
+    ]
+  },
+  "dolar": {
+    "painel": [
+      [
+        "Fechamento",
+        "R$ 5,22"
+      ],
+      [
+        "Dia",
+        "−0,08%"
+      ],
+      [
+        "Mês",
+        "+0,8%"
+      ],
+      [
+        "Ano",
+        "−5,0%"
+      ]
+    ],
+    "texto": [
+      "Fechamento de sexta (2), a R$ 5,216."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-02102026"
+      }
+    ]
+  },
+  "bitcoin": {
+    "painel": [
+      [
+        "US$",
+        "84.604"
+      ],
+      [
+        "R$",
+        "440.822"
+      ],
+      [
+        "24h",
+        "+0,1%"
+      ],
+      [
+        "7d / 30d",
+        "+0,7% / +3,8%"
+      ]
+    ],
+    "texto": [
+      "Estável perto de US$ 84,6 mil no sábado. Cotação às 18h11 de Brasília."
+    ],
+    "fontes": [
+      {
+        "nome": "CoinGecko",
+        "url": "https://www.coingecko.com/pt/moedas/bitcoin"
+      }
+    ]
+  },
+  "tempo": {
+    "dia": "amanhã, domingo, 4",
+    "regioes": [
+      {
+        "regiao": "Norte",
+        "texto": "Sol e calor forte no extremo norte; o calor abafado e a umidade mantêm pancadas de chuva no sul da região, como no Tocantins e no sul do Pará."
+      },
+      {
+        "regiao": "Nordeste",
+        "texto": "Sol e calor intenso na maior parte da região, com tempo seco no interior."
+      },
+      {
+        "regiao": "Centro-Oeste",
+        "texto": "Pancadas fortes em boa parte da região, sobretudo no oeste de Mato Grosso; o sudoeste de Mato Grosso do Sul está em alerta vermelho do Inmet e o leste do estado, em laranja."
+      },
+      {
+        "regiao": "Sudeste",
+        "texto": "Pancadas significativas à tarde, principalmente em Minas Gerais e entre o Rio e o sul mineiro, com risco de alagamentos e deslizamentos; a frente fria espalha chuva por São Paulo."
+      },
+      {
+        "regiao": "Sul",
+        "texto": "Ciclone extratropical e nova frente fria trazem temporais com ventania e granizo; alerta vermelho do Inmet em boa parte do Paraná e no oeste catarinense, com chuva acima de 60 mm/h e ventos de mais de 100 km/h, e alerta laranja na região de Curitiba."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "CNN Brasil/Inmet",
+        "url": "https://www.cnnbrasil.com.br/nacional/brasil/inmet-emite-alerta-vermelho-para-tempestades-no-domingo-4-de-eleicao/"
+      },
+      {
+        "nome": "Tempo.com",
+        "url": "https://www.tempo.com/noticias/previsao/frentes-frias-trazem-chuvas-intensas-e-temporais-nas-5-regioes-do-brasil-veja-a-previsao.html"
+      }
+    ]
+  }
+}
