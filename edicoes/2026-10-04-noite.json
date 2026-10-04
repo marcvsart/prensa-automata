@@ -1,0 +1,328 @@
+{
+  "data": "2026-10-04",
+  "numero": 6,
+  "manchete": {
+    "titulo": "Apuração: com 14,24% das urnas, Flávio Bolsonaro tem 51,17% dos votos válidos; Lula soma 40,67%",
+    "texto": [
+      "Com 14,24% das seções apuradas às 18h09 deste domingo (4), segundo o Tribunal Superior Eleitoral (TSE), Flávio Bolsonaro (PL) tem 51,17% dos votos válidos para presidente (8,4 milhões de votos), e Lula (PT), 40,67% (6,7 milhões). Atrás deles aparecem Augusto Cury (Avante), com 2,97%, Ronaldo Caiado (PSD), com 2,37%, e Renan Santos (Missão), com 2,28%. O resultado ainda é parcial e pode mudar bastante: a contagem avança em ritmos diferentes pelo país, e grandes colégios eleitorais estavam menos apurados que a média nacional, como Rio de Janeiro (3,38%), São Paulo (5,56%), Bahia (6,59%) e Ceará (7,12%). Para vencer no primeiro turno, um candidato precisa de mais da metade dos votos válidos; se ninguém chegar lá, os dois mais votados voltam às urnas em 25 de outubro. No exterior, onde a apuração terminou antes, Lula teve mais votos que Flávio em 27 dos 36 países com resultado concluído até o fim da tarde. O TSE costuma concluir a maior parte da totalização ainda na noite de domingo; o resultado completo estará em resultados.tse.jus.br."
+    ],
+    "nota": "Parcial oficial do TSE para presidente, atualizada às 18h09 de Brasília; abstenção parcial de 21,07%.",
+    "fontes": [
+      {
+        "nome": "TSE (dados de resultados)",
+        "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/br/br-c0001-e006257-u.json"
+      },
+      {
+        "nome": "Antena 1/Reuters (parcial e ritmo da apuração)",
+        "url": "https://www.antena1.com.br/noticias/com-1008-das-urnas-apuradas-flavio-lidera-com-5096-contra-4078-de-lula-mostra-tse"
+      },
+      {
+        "nome": "Congresso em Foco (exterior)",
+        "url": "https://www.congressoemfoco.com.br/noticia/122947/primeiras-urnas-fecham-no-exterior-lula-lidera-em-5-de-6-paises"
+      }
+    ]
+  },
+  "brasil": [
+    {
+      "titulo": "TSE troca 1.121 urnas e diz que votação correu sem uso de cédulas de papel",
+      "texto": [
+        "O presidente do TSE, ministro Kassio Nunes Marques, disse no balanço da tarde que 1.121 urnas eletrônicas foram substituídas durante a votação, cerca de 0,2% do total, e que nenhuma seção precisou recorrer à votação manual. O principal problema relatado foram oscilações de energia, sobretudo no Paraná, onde cerca de 140 cidades chegaram a ser afetadas no dia de alerta vermelho para temporais. Segundo o tribunal, 59 pessoas foram conduzidas por suspeita de crime eleitoral, 25 delas em flagrante, e mais de R$ 380 mil em dinheiro vivo foram apreendidos no domingo; até as 13h, a Justiça Eleitoral havia identificado 453 casos de desinformação."
+      ],
+      "fontes": [
+        {
+          "nome": "Exame",
+          "url": "https://exame.com/brasil/eleicoes-2026-1-121-urnas-eletronicas-foram-substituidas-diz-tse/"
+        },
+        {
+          "nome": "Portal O Dia",
+          "url": "https://portalodia.com/noticias/geral/eleicoes-2026-tse-registra-1121-urnas-substituidas-e-59-pessoas-conduzidas-por-crimes-eleitorais-465854.html"
+        }
+      ]
+    },
+    {
+      "titulo": "Governadores: parciais nos seis maiores colégios eleitorais",
+      "texto": [
+        "Nos seis maiores colégios eleitorais, as parciais do TSE para governador eram estas no fechamento desta edição: São Paulo (4,39% das urnas): Tarcísio de Freitas (Republicanos), 69,70%, e Fernando Haddad (PT), 29,58%; Minas Gerais (9,92% das urnas): Cleitinho (Republicanos), 46,75%, e Patrus Ananias (PT), 28,35%; Rio de Janeiro (3,40% das urnas): Douglas Ruas (PL), 48,76%, e Eduardo Paes (PSD), 42,34%; Bahia (4,60% das urnas): Jerônimo Rodrigues (PT), 52,21%, e ACM Neto (União), 46,98%; Paraná (44,13% das urnas): Sergio Moro (PL), 50,08%, e Sandro Alex (PSD), 25,11%; Rio Grande do Sul (20,35% das urnas): Luciano Zucco (PL), 60,19%, e Juliana Brizola (PDT), 29,54%. Onde nenhum candidato passar de 50% dos votos válidos, haverá segundo turno em 25 de outubro. Os números mudam a cada atualização e devem ser conferidos no site de resultados do TSE."
+      ],
+      "fontes": [
+        {
+          "nome": "TSE (dados de resultados, São Paulo)",
+          "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/sp/sp-c0003-e006259-u.json"
+        }
+      ]
+    },
+    {
+      "titulo": "No exterior, Lula vence em 27 países e Flávio em 9",
+      "texto": [
+        "Com a apuração concluída em 36 países até o fim da tarde, Lula somava 53.746 votos e Flávio Bolsonaro, 40.914, segundo levantamento do Congresso em Foco com os boletins de urna. Na Alemanha, um dos maiores eleitorados fora do país, Lula teve 74,4% dos votos válidos; no Japão, Flávio teve 71,6%. Flávio também ficou à frente em países como Catar, Emirados Árabes Unidos, Israel e Taiwan; Lula, em França, Espanha, Países Baixos e China, entre outros. Os votos do exterior são uma parcela pequena do total."
+      ],
+      "fontes": [
+        {
+          "nome": "Congresso em Foco",
+          "url": "https://www.congressoemfoco.com.br/noticia/122947/primeiras-urnas-fecham-no-exterior-lula-lidera-em-5-de-6-paises"
+        }
+      ]
+    }
+  ],
+  "momento": {
+    "titulo": "Raízes sociais e ideológicas do lulismo",
+    "autor": "André Singer · artigo, 2009",
+    "texto": [
+      "Para entender o mapa que a apuração vai desenhando nesta noite, com diferenças grandes de votação entre regiões, vale ler o artigo que deu nome a esse padrão. O cientista político André Singer, professor da USP, o publicou em novembro de 2009 na revista Novos Estudos, do Cebrap. Singer foi porta-voz da Presidência no primeiro mandato de Lula, o que convém ter em mente na leitura, mas o texto se apoia em dados de pesquisas eleitorais e virou referência também entre críticos dele.",
+      "O argumento central é que a eleição de 2006 produziu um realinhamento eleitoral. O eleitorado mais pobre, que Singer chama de subproletariado e que até então resistia a Lula, aderiu em bloco à sua candidatura depois do primeiro mandato, enquanto parte da classe média se afastou. A explicação, para ele, está numa combinação ideológica nova, que juntava a manutenção da estabilidade econômica, cara a um eleitor que teme a desordem, com programas de transferência de renda e aumento do salário mínimo. Foi daí que o termo lulismo ganhou circulação.",
+      "Dezessete anos e cinco eleições presidenciais depois, a pergunta do artigo continua útil para ler os números desta noite: quanto do voto se explica por renda e região e quanto por outras clivagens, como religião, segurança e a rejeição aos candidatos, que o texto não previa e que ganharam peso desde 2018. Ler Singer ao lado de O Brasil dobrou à direita, de Jairo Nicolau, indicado na edição da manhã, mostra como mudaram as explicações sobre o eleitor brasileiro.",
+      "O artigo tem cerca de 20 páginas e está disponível gratuitamente na Biblioteca Digital do TSE. Quem quiser ir além pode seguir para o livro Os sentidos do lulismo (Companhia das Letras, 2012), em que Singer desenvolve a tese."
+    ],
+    "fontes": [
+      {
+        "nome": "Biblioteca Digital do TSE",
+        "url": "https://bibliotecadigital.tse.jus.br/items/fb6b869a-fd8f-44e1-acff-e8b7a8e4defa"
+      }
+    ]
+  },
+  "mundo": {
+    "titulo": "Zelensky diz que Ucrânia aceita negociar com Rússia e EUA ainda em outubro",
+    "texto": [
+      "O presidente ucraniano, Volodymyr Zelensky, disse neste domingo, em entrevista ao lado do chanceler alemão Friedrich Merz, em Kiev, que a Ucrânia está pronta para conversas a três com Estados Unidos e Rússia ainda este mês, possivelmente nos Emirados Árabes Unidos. Segundo ele, Washington propõe reuniões técnicas até o fim de outubro, retomando a mediação que ficou parada desde o início da guerra dos EUA com o Irã; o Kremlin disse no mês passado que não descartava esse formato. Ao mesmo tempo, os dois lados prometem intensificar ataques de longo alcance, e Zelensky acusou Moscou de mirar a infraestrutura civil, como redes de energia e de telefonia, com a chegada do inverno."
+    ],
+    "fontes": [
+      {
+        "nome": "Al Jazeera/AFP",
+        "url": "https://www.aljazeera.com/news/2026/10/4/ukraine-ready-for-us-backed-talks-with-russia-zelenskyy"
+      }
+    ]
+  },
+  "ia": {
+    "titulo": "Trump cria \"Força de Superinteligência\" para coordenar a política de IA do governo americano",
+    "texto": [
+      "O presidente Donald Trump anunciou neste domingo, numa rede social, um grupo chamado Super Intelligence Force, chefiado pelo diretor de Inteligência Nacional, Jay Clayton, e com o presidente da Comissão Federal de Comércio, Andrew Ferguson, entre os vice-presidentes. O grupo deve coordenar a relação do governo com consumidores, organizações religiosas, operadores de infraestrutura crítica e empresas de IA, e tem 120 dias para entregar um relatório sobre riscos e oportunidades da tecnologia. O anúncio vem dias depois de uma ordem executiva que mandou os órgãos federais trocarem o termo \"inteligência artificial\" por \"superinteligência\"; segundo Trump, a palavra \"artificial\" faz a tecnologia parecer falsa."
+    ],
+    "fontes": [
+      {
+        "nome": "Straight Arrow News",
+        "url": "https://san.com/cc/trump-announces-a-new-super-intelligence-force-after-signing-order-renaming-ai/"
+      }
+    ]
+  },
+  "giro": [
+    {
+      "regiao": "América do Sul",
+      "itens": [
+        {
+          "titulo": "Peru também votou hoje e começa a apurar prefeitos e governadores regionais, incluindo o novo prefeito de Lima",
+          "url": "https://gestion.pe/peru/politica/elecciones-regionales-y-municipales-2026-en-vivo-minuto-a-minuto-resultados-onpe-y-ultimas-noticias-de-la-jornada-electoral-noticia/"
+        }
+      ]
+    },
+    {
+      "regiao": "América do Norte e Central",
+      "itens": [
+        {
+          "titulo": "Destroços achados perto de Nantucket, nos EUA, seriam de avião médico desaparecido",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/debris-found-near-nantucket-believed-to-be-from-missing-medical-plane"
+        }
+      ]
+    },
+    {
+      "regiao": "África",
+      "itens": [
+        {
+          "titulo": "Ataque aéreo a comboio da ONU no Sudão mata motorista de caminhão de alimentos",
+          "url": "https://www.aljazeera.com/news/2026/10/4/air-strike-in-sudan-kills-un-aid-truck-driver-wfp"
+        }
+      ]
+    },
+    {
+      "regiao": "Europa",
+      "itens": [
+        {
+          "titulo": "França vai fechar total ou parcialmente até 500 escolas na segunda após semanas de protestos estudantis",
+          "url": "https://www.aljazeera.com/news/2026/10/4/france-to-shutter-up-to-500-schools-as-more-student-protests-called"
+        }
+      ]
+    },
+    {
+      "regiao": "Oriente Médio",
+      "itens": [
+        {
+          "titulo": "Irã diz aos EUA que não há \"solução militar\" para encerrar a guerra",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/iran-tells-us-there-is-no-military-solution-to-end-the-war"
+        }
+      ]
+    },
+    {
+      "regiao": "Ásia",
+      "itens": [
+        {
+          "titulo": "Índia tem terceiro dia de protestos pela renúncia do chefe da comissão eleitoral",
+          "url": "https://www.aljazeera.com/news/2026/10/4/mass-protests-demanding-poll-chief-resignation-shake-india-for-third-day"
+        }
+      ]
+    }
+  ],
+  "ciencia": {
+    "titulo": "Refrigerante diet ajuda tanto quanto água a perder peso, aponta estudo de dois anos",
+    "texto": [
+      "Um ensaio clínico com 493 adultos com sobrepeso ou obesidade, liderado por pesquisadores das universidades de Liverpool e Leeds, no Reino Unido, comparou por 104 semanas quem tomava água e quem tomava bebidas com adoçantes como aspartame, acessulfame-K e sucralose, todos dentro de um programa de perda de peso. Os dois grupos tiveram resultados semelhantes na perda e na manutenção do peso, e o estudo não encontrou sinais de que os adoçantes atrapalhem o controle do apetite. O trabalho saiu no British Journal of Nutrition e foi financiado pela associação americana de fabricantes de bebidas; os autores dizem ter tido controle independente da análise."
+    ],
+    "fontes": [
+      {
+        "nome": "ScienceDaily/Universidade de Liverpool",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261002080017.htm"
+      }
+    ]
+  },
+  "entender_brasil": {
+    "titulo": "As ideias fora do lugar",
+    "autor": "Roberto Schwarz · texto, 1973",
+    "texto": [
+      "O crítico literário Roberto Schwarz escreveu este ensaio no exílio em Paris, para onde foi em 1968, quando a repressão da ditadura se intensificou. Publicado em 1973 pelo Cebrap, ele depois abriu o livro Ao vencedor as batatas (1977), sobre as origens do romance brasileiro em José de Alencar e Machado de Assis, e se tornou um dos textos mais discutidos do pensamento social do país.",
+      "A ideia central é que, no Brasil do século 19, o liberalismo importado da Europa, com suas noções de trabalho livre, igualdade perante a lei e mérito, convivia com uma sociedade organizada em torno da escravidão. As ideias ficavam \"fora do lugar\": não descreviam a realidade nem sequer de modo enganoso, como na Europa, e serviam de enfeite ou de justificativa. Entre o senhor e o escravo, Schwarz identifica a figura do homem livre pobre, que depende do favor dos proprietários para viver, e vê no favor a relação social que tudo atravessa, inclusive a vida intelectual.",
+      "Envelheceu, segundo os críticos, a imagem de ideias que chegam prontas de fora: já em 1976 a filósofa Maria Sylvia de Carvalho Franco respondeu que as ideias liberais estavam, sim, \"no lugar\", porque escravidão e capitalismo faziam parte do mesmo sistema mundial, e pesquisas posteriores mostraram circulações em vários sentidos. Continua valendo a pergunta de fundo, útil num dia de eleição: o que acontece quando instituições e discursos modernos funcionam numa sociedade marcada pela desigualdade e pelas relações pessoais de dependência, como o favor e o clientelismo.",
+      "O ensaio tem poucas páginas e é a porta de entrada para Ao vencedor as batatas. A reportagem da revista Pesquisa Fapesp sobre os 40 anos do livro, de acesso gratuito, resume o argumento e o debate que ele provocou."
+    ],
+    "fontes": [
+      {
+        "nome": "Revista Pesquisa Fapesp",
+        "url": "https://revistapesquisa.fapesp.br/ideias-de-muitos-lugares/"
+      }
+    ]
+  },
+  "mercado": {
+    "texto": [
+      "Domingo não tem pregão, e os números de bolsa e câmbio são os do fechamento de sexta: o Ibovespa subiu 2,63%, para 192.114 pontos, e o dólar fechou em R$ 5,22. Na segunda, o mercado reage ao resultado do primeiro turno. O bitcoin subiu 1,5% em 24 horas e estava em US$ 85,9 mil no fechamento desta edição."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-02102026/"
+      },
+      {
+        "nome": "InfoMoney (dólar)",
+        "url": "https://infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-02102026"
+      }
+    ]
+  },
+  "ibovespa": {
+    "painel": [
+      [
+        "Fechamento",
+        "192.114"
+      ],
+      [
+        "Dia",
+        "+2,63%"
+      ],
+      [
+        "Mês",
+        "+3,1%"
+      ],
+      [
+        "Ano",
+        "+19,2%"
+      ]
+    ],
+    "texto": [
+      "Fechamento de sexta (2); não há pregão no fim de semana."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-02102026/"
+      }
+    ]
+  },
+  "dolar": {
+    "painel": [
+      [
+        "Fechamento",
+        "R$ 5,22"
+      ],
+      [
+        "Dia",
+        "−0,08%"
+      ],
+      [
+        "Mês",
+        "+0,8%"
+      ],
+      [
+        "Ano",
+        "−5,0%"
+      ]
+    ],
+    "texto": [
+      "Fechamento de sexta (2), a R$ 5,216."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-02102026"
+      }
+    ]
+  },
+  "bitcoin": {
+    "painel": [
+      [
+        "US$",
+        "85.862"
+      ],
+      [
+        "R$",
+        "447.457"
+      ],
+      [
+        "24h",
+        "+1,5%"
+      ],
+      [
+        "7d / 30d",
+        "+1,6% / +7,7%"
+      ]
+    ],
+    "texto": [
+      "Cotação às 18h12 de Brasília."
+    ],
+    "fontes": [
+      {
+        "nome": "CoinGecko",
+        "url": "https://www.coingecko.com/pt/moedas/bitcoin"
+      }
+    ]
+  },
+  "tempo": {
+    "dia": "amanhã, segunda, 5",
+    "regioes": [
+      {
+        "regiao": "Norte",
+        "texto": "Mais nuvens e chuva com trovoadas no Amazonas, em Rondônia, no Pará, em Roraima e no Tocantins; calor de até 37°C em Boa Vista."
+      },
+      {
+        "regiao": "Nordeste",
+        "texto": "Tempo sem mudança: muitas nuvens e chuva isolada no litoral e no oeste da região, sol no interior e máxima de 38°C em Teresina."
+      },
+      {
+        "regiao": "Centro-Oeste",
+        "texto": "As instabilidades aumentam e chove com trovoadas em toda a região; aviso amarelo do Inmet para boa parte de Mato Grosso do Sul, e máxima de 36°C em Cuiabá."
+      },
+      {
+        "regiao": "Sudeste",
+        "texto": "Semana começa com chuva e trovoadas em Minas, no Rio e em todo o estado de São Paulo, com aviso amarelo no oeste, centro e sudeste paulista e tarde mais fria no interior."
+      },
+      {
+        "regiao": "Sul",
+        "texto": "Chuva com trovoadas no Paraná, em Santa Catarina e no norte do Rio Grande do Sul, sob aviso amarelo do Inmet, com risco de granizo e acumulados altos; frio no leste, com máxima de 18°C em Porto Alegre."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Correio Braziliense",
+        "url": "https://correiobraziliense.com.br/brasil/2026/10/7513996-alerta-de-tempestades-meteorologistas-alertam-para-tempo-fechado-nas-eleicoes.html"
+      },
+      {
+        "nome": "Tempo.com",
+        "url": "https://www.tempo.com/noticias/previsao/frentes-frias-nao-dao-tregua-muita-chuva-tempestades-e-frio-confira-a-previsao.html"
+      }
+    ]
+  }
+}

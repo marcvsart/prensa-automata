@@ -108,6 +108,10 @@
     {
       "data": "2026-10-04",
       "item": "Assis Brasil — Democracia representativa: do voto e do modo de votar (livro)"
+    },
+    {
+      "data": "2026-10-04",
+      "item": "Roberto Schwarz — As ideias fora do lugar (texto, noite)"
     }
   ],
   "momento": [
@@ -158,8 +162,12 @@
     {
       "data": "2026-10-04",
       "item": "Jairo Nicolau — O Brasil dobrou à direita"
+    },
+    {
+      "data": "2026-10-04",
+      "item": "André Singer — Raízes sociais e ideológicas do lulismo (noite)"
     }
   ],
   "tiragem": 6,
-  "tiragem_noite": 5
+  "tiragem_noite": 6
 }
