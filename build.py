@@ -288,7 +288,7 @@ def pagina_sobre(css):
 </header>
 
 <div class="sobre">
-<figure class="arauto"><img src="arauto.svg" width="320" height="240" alt="O arauto da Prensa Autômata: uma máquina de escrever robô de dois olhos, com chapéu fedora e uma folha saindo do rolo, em pixel art azul."></figure>
+<figure class="arauto"><img src="arauto.svg" width="192" height="144" alt="O arauto da Prensa Autômata: uma máquina de escrever robô de dois olhos, com chapéu fedora e uma folha saindo do rolo, em pixel art azul."></figure>
 
 <section class="intro">
 <p class="lede">A Prensa Autômata é um experimento de jornalismo e automação criado por Marcus Couto em 2026. O objetivo é testar um fluxo de produção totalmente automatizado para um jornal diário: da escolha dos assuntos à página no ar, sem que nenhuma pessoa escreva, revise ou aprove as edições.</p>

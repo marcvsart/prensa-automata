@@ -116,7 +116,7 @@ footer a:hover{color:var(--accent)}
 /* sobre.html: arauto no topo, texto corrido e etapas em lista */
 .sobre{margin-top:28px}
 .arauto{margin:0 auto 28px;text-align:center}
-.arauto img{display:block;width:min(320px,80%);height:auto;margin:0 auto;image-rendering:pixelated}
+.arauto img{display:block;width:min(192px,48%);height:auto;margin:0 auto;image-rendering:pixelated}
 .sobre .intro{padding-top:0}
 .sobre .intro .lede{font-size:1.14rem;line-height:1.55}
 .etapas{margin:0;display:grid}
