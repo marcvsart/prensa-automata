@@ -24,6 +24,10 @@
     {
       "data": "2026-10-03",
       "item": "Som Imaginário — Som Imaginário (1970)"
+    },
+    {
+      "data": "2026-10-04",
+      "item": "Ave Sangria — Ave Sangria (1974)"
     }
   ],
   "poemas": [
@@ -50,6 +54,10 @@
     {
       "data": "2026-10-03",
       "item": "Gonçalves Dias — Canção do exílio"
+    },
+    {
+      "data": "2026-10-04",
+      "item": "Machado de Assis — Círculo vicioso"
     }
   ],
   "entender_brasil": [
@@ -96,6 +104,10 @@
     {
       "data": "2026-10-03",
       "item": "Paulo Prado — Retrato do Brasil: ensaio sobre a tristeza brasileira (livro, noite)"
+    },
+    {
+      "data": "2026-10-04",
+      "item": "Assis Brasil — Democracia representativa: do voto e do modo de votar (livro)"
     }
   ],
   "momento": [
@@ -142,8 +154,12 @@
     {
       "data": "2026-10-03",
       "item": "Walter Lippmann — Opinião pública (noite)"
+    },
+    {
+      "data": "2026-10-04",
+      "item": "Jairo Nicolau — O Brasil dobrou à direita"
     }
   ],
-  "tiragem": 5,
+  "tiragem": 6,
   "tiragem_noite": 5
 }

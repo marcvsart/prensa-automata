@@ -1,0 +1,455 @@
+{
+  "data": "2026-10-04",
+  "numero": 6,
+  "manchete": {
+    "titulo": "Brasil vota hoje com Lula e Flávio em empate técnico nas pesquisas de véspera",
+    "texto": [
+      "Mais de 158,7 milhões de eleitores podem votar neste domingo (4), das 8h às 17h (horário de Brasília), no primeiro turno das eleições gerais, escolhendo deputado federal, deputado estadual ou distrital, dois senadores, governador e presidente, nesta ordem. As duas pesquisas divulgadas no sábado (3) mostram disputa apertada pela Presidência. No Datafolha, Lula (PT) tem 45% dos votos válidos e Flávio Bolsonaro (PL), 42%; na rodada anterior do instituto, eram 45% a 40%. Na Quaest, Lula tem 46% e Flávio, 45%, e Augusto Cury (Avante), Renan Santos (Missão) e Ronaldo Caiado (PSD) aparecem com 3% cada. Nas simulações de segundo turno, o Datafolha registra 47% para Lula e 46% para Flávio, e a Quaest, 44% para Flávio e 42% para Lula, empates técnicos nos dois casos. Se ninguém passar de metade dos votos válidos, a decisão fica para 25 de outubro; quem estiver na fila às 17h ainda vota."
+    ],
+    "nota": "Datafolha (Globo/Folha): campo em 3/10, 4.006 entrevistas, margem de 2 pontos, BR-01708/2026 · Quaest (Globo): campo em 2 e 3/10, 3.702 entrevistas, margem de 2 pontos, BR-02197/2026",
+    "fontes": [
+      {
+        "nome": "Terra (Datafolha)",
+        "url": "https://www.terra.com.br/noticias/eleicoes/pesquisas/pesquisa-datafolha-para-presidente-lula-tem-45-em-votos-validos-no-1-turno-flavio-42,597a96c5fe46c0463655d63f0034f9cb2uirzcsq.html"
+      },
+      {
+        "nome": "Correio Braziliense (Datafolha, 2º turno)",
+        "url": "https://www.correiobraziliense.com.br/politica/2026/10/7513915-datafolha-lula-tem-47-e-flavio-46-no-segundo-turno.html"
+      },
+      {
+        "nome": "Revista Fórum (Quaest)",
+        "url": "https://revistaforum.com.br/politica/quaest-lula-flavio-bolsonaro-3-outubro/"
+      },
+      {
+        "nome": "InvestNews",
+        "url": "https://investnews.com.br/economia/primeiro-turno-das-eleicoes-2026/amp/"
+      }
+    ]
+  },
+  "brasil": [
+    {
+      "titulo": "TSE manda anular votos dados a Garotinho na eleição para governador do Rio",
+      "texto": [
+        "O ministro Floriano de Azevedo Marques decidiu na sexta (2) que os votos em Anthony Garotinho (Republicanos) serão contados como anulados sub judice. O nome dele aparece na urna porque o TRE do Rio negou o registro da candidatura depois do fechamento do sistema; o tribunal regional o considerou inelegível por condenação por improbidade administrativa em 2018. O ministro revogou a liminar que ele mesmo tinha dado e disse que a Justiça Eleitoral deve evitar incerteza para o eleitor; Garotinho recorreu e aguarda o julgamento."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-decide-que-votos-para-garotinho-serao-anulados"
+        }
+      ]
+    },
+    {
+      "titulo": "Em São Paulo, Datafolha indica chance de Tarcísio se reeleger no primeiro turno",
+      "texto": [
+        "No maior colégio eleitoral do país, a última pesquisa Datafolha dá ao governador Tarcísio de Freitas (Republicanos) 60% dos votos válidos, contra 35% de Fernando Haddad (PT); na rodada de 1º de outubro, eram 56% a 37%. O instituto ouviu 2.520 eleitores em 2 e 3 de outubro, com margem de 2 pontos (registro SP-09337/2026)."
+      ],
+      "fontes": [
+        {
+          "nome": "Terra (Datafolha SP)",
+          "url": "https://www.terra.com.br/noticias/eleicoes/pesquisas/pesquisa-datafolha-para-o-governo-de-sp-tarcisio-tem-60-em-votos-validos-haddad-35,ba8646a782141faa79f4708df81080eao09d8rq2.html"
+        }
+      ]
+    },
+    {
+      "titulo": "Petrobras acha petróleo pela segunda vez no poço Morpho, na Foz do Amazonas",
+      "texto": [
+        "A presidente da estatal, Magda Chambriard, disse na sexta (2) que a nova descoberta, em lâmina d'água de 2.886 metros a 175 km da costa do Amapá, reforça a expectativa de uma nova fronteira exploratória, mas que ainda não é possível garantir valor comercial. Estudo da Empresa de Pesquisa Energética estima que a bacia pode ter até 10 bilhões de barris de óleo equivalente recuperáveis. A primeira descoberta no mesmo poço foi em agosto, e a notícia levou a Petrobras a um valor de mercado recorde."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/nova-descoberta-aumenta-expectativa-da-petrobras-na-foz-do-amazonas"
+        },
+        {
+          "nome": "Agência Brasil (valor de mercado)",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/petrobras-atinge-recorde-de-valor-de-mercado-apos-descoberta-no-amapa"
+        }
+      ]
+    },
+    {
+      "titulo": "Senado marca para terça a votação da PEC que acaba com a escala 6x1",
+      "texto": [
+        "O presidente do Senado, Davi Alcolumbre, pautou para terça (6) a proposta aprovada pela Câmara em maio, que garante dois dias de descanso por semana e reduz a jornada máxima de 44 para 40 horas, sem corte de salário. A Comissão de Constituição e Justiça aprovou o texto no início de setembro, e Alcolumbre havia dito que a votação em plenário ficaria para depois da eleição."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/presidente-do-senado-marca-para-terca-votacao-do-fim-da-escala-6x1"
+        }
+      ]
+    },
+    {
+      "titulo": "Candidaturas LGBT+ receberam 13 mil comentários ofensivos na campanha, aponta monitoramento",
+      "texto": [
+        "A plataforma Sentinela, do Instituto Plena Cidadania, analisou mais de 307 mil comentários no Instagram de candidaturas LGBT+ que aceitaram ser monitoradas e classificou 13 mil como ofensivos e dirigidos a uma pessoa identificável. Os ataques partiram de mais de 11 mil contas, mas um grupo de 224 perfis mais ativos respondeu por 1.718 deles, o que, segundo o estudo, indica concentração e sinais de atuação coordenada."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-10/monitoramento-aponta-13-mil-ataques-contas-de-candidaturas-lgbt"
+        }
+      ]
+    }
+  ],
+  "momento": {
+    "titulo": "O Brasil dobrou à direita: uma radiografia da eleição de Bolsonaro em 2018",
+    "autor": "Jairo Nicolau · 2020",
+    "texto": [
+      "Para ler o mapa que sai das urnas a partir desta noite, vale ter à mão uma análise baseada em dados da eleição que reorganizou a política brasileira em 2018. Em cerca de 140 páginas de gráficos e tabelas, o cientista político Jairo Nicolau pergunta quem votou em Jair Bolsonaro e responde com escolaridade, idade, gênero, religião, região, estado e cidade, além de examinar o peso do tempo de TV, do dinheiro e das redes sociais. Há críticas de que a abordagem quantitativa deixa em segundo plano a crise política e econômica da época; mesmo assim, o livro é uma boa ferramenta para comparar o que mudou de lá para cá."
+    ],
+    "fontes": [
+      {
+        "nome": "Companhia das Letras (Zahar)",
+        "url": "https://www.companhiadasletras.com.br/livro/9788537818886/o-brasil-dobrou-a-direita"
+      }
+    ]
+  },
+  "mundo": {
+    "titulo": "Houthis dizem ter atacado instalação da Aramco em Riade; coalizão saudita nega",
+    "texto": [
+      "Os houthis do Iêmen afirmaram no sábado (3) ter lançado mísseis balísticos e drones contra uma instalação da petroleira saudita Aramco na capital da Arábia Saudita, e uma grande coluna de fumaça foi vista no local. A coalizão liderada pelos sauditas chamou a alegação de enganosa e disse ter feito 97 operações contra os houthis em frentes no Iêmen. A guerra no país voltou a se intensificar desde que a trégua de 2022 ruiu em julho; em setembro, os houthis tomaram o porto de Mocha e ilhas no estreito de Bab al-Mandeb, rota vital do petróleo, num momento em que o Estreito de Ormuz já sofre com a guerra entre EUA e Irã."
+    ],
+    "fontes": [
+      {
+        "nome": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/4/houthis-claim-strike-on-saudi-energy-facility-as-yemen-fighting-intensifies"
+      },
+      {
+        "nome": "Al Jazeera (coalizão)",
+        "url": "https://www.aljazeera.com/news/2026/10/4/houthi-claims-of-targeting-riyadh-are-misleading-saudi-led"
+      }
+    ]
+  },
+  "ia": {
+    "titulo": "Falha encontrada pelo Mythos, da Anthropic, começa a ser explorada por hackers em menos de um dia",
+    "texto": [
+      "Um pesquisador da Horizon3 usou o Mythos, modelo de caça a vulnerabilidades que a Anthropic só libera a parceiros do Project Glasswing, para achar uma falha crítica no Rejetto HFS, servidor de arquivos de código aberto, que permite burlar a autenticação e executar código remotamente. A falha foi divulgada na quarta, e na quinta à noite a VulnCheck já detectou ataques vindos de um endereço na China contra servidores nos EUA e no Japão. Segundo o rastreamento da VulnCheck, Mythos e Glasswing já revelaram 286 vulnerabilidades, e esta é só a segunda explorada na prática. A correção está na versão 3.2.1 do programa. (A Prensa é escrita com o Claude, modelo da Anthropic.)"
+    ],
+    "fontes": [
+      {
+        "nome": "The Register",
+        "url": "https://www.theregister.com/security/2026/10/03/anthropics-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vuln-under-attack-shows/5300933"
+      }
+    ]
+  },
+  "giro": [
+    {
+      "regiao": "América do Sul",
+      "itens": [
+        {
+          "titulo": "Paraguai também vota hoje: 5 milhões escolhem prefeitos e vereadores de 263 municípios",
+          "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/paraguai-vai-urnas-para-eleicoes-municipais-neste-domingo"
+        },
+        {
+          "titulo": "Granizo gigante causa estragos em Assunção",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/widespread-damage-after-huge-hailstones-pound-paraguay-capital"
+        },
+        {
+          "titulo": "Chavistas criticam aproximação do governo venezuelano com Trump",
+          "url": "https://www.theguardian.com/world/2026/oct/01/venezuela-hugo-chavez-supporters-critical-delcy-rodriguez-embrace-of-trump"
+        }
+      ]
+    },
+    {
+      "regiao": "América do Norte e Central",
+      "itens": [
+        {
+          "titulo": "ONU: violência de gangues matou ou feriu mais de 5 mil pessoas no Haiti neste ano",
+          "url": "https://www.bbc.co.uk/news/articles/cmy0z00wr14xo"
+        },
+        {
+          "titulo": "Guarda Costeira dos EUA intercepta navio que levava combustível a Cuba",
+          "url": "https://www.theguardian.com/world/2026/oct/02/us-coast-guard-says-it-has-intercepted-ship-carrying-fuel-to-cuba"
+        },
+        {
+          "titulo": "Trump faz comício em Ohio e se diz confiante para as eleições de meio de mandato",
+          "url": "https://www.aljazeera.com/news/2026/10/4/trump-defiant-about-midterm-chances-as-he-rallies-for-republicans-in-ohio"
+        }
+      ]
+    },
+    {
+      "regiao": "África",
+      "itens": [
+        {
+          "titulo": "Rebeldes do Tigré abandonam Mekelle, e forças do governo etíope entram na cidade",
+          "url": "https://www.france24.com/en/africa/20261003-ethiopia-s-tigray-rebels-abandon-regional-capital-of-mekelle-as-pro-government-forces-advance"
+        },
+        {
+          "titulo": "Egito recebe líderes da Eritreia, da Somália e do Sudão após ruptura com a Etiópia",
+          "url": "https://riotimesonline.com/africa-intelligence-brief-saturday-october-3-2026"
+        },
+        {
+          "titulo": "Empresário zimbabuano Wicknell Chivayo e a mulher morrem em queda de helicóptero",
+          "url": "https://www.bbc.co.uk/news/articles/cr4gvg0yenl4o"
+        }
+      ]
+    },
+    {
+      "regiao": "Europa",
+      "itens": [
+        {
+          "titulo": "Rússia ataca pontes de Kiev pelo terceiro dia seguido",
+          "url": "https://kyivindependent.com/russia-strikes-key-kyiv-bridge-for-3rd-straight-day-as-attacks-intensify/"
+        },
+        {
+          "titulo": "Bósnia vai às urnas em eleições gerais",
+          "url": "https://www.aljazeera.com/news/2026/10/4/bosnia-general-election-2026-explained-in-maps-and-charts"
+        },
+        {
+          "titulo": "Geleiras suíças têm ano 'desastroso' de perda de gelo",
+          "url": "https://www.bbc.co.uk/news/articles/c6n9w0ypjwl9o"
+        }
+      ]
+    },
+    {
+      "regiao": "Oriente Médio",
+      "itens": [
+        {
+          "titulo": "Copiloto da Flydubai atacou o comandante com machado, dizem os Emirados",
+          "url": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o"
+        },
+        {
+          "titulo": "Ataque aéreo israelense mata ao menos quatro pessoas em Gaza",
+          "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/ataque-israelense-mata-quatro-pessoas-em-gaza-dizem-equipes-medicas"
+        },
+        {
+          "titulo": "Os iemenitas que ficaram em Mocha, sob controle houthi",
+          "url": "https://www.aljazeera.com/features/2026/10/4/inside-the-kill-box-the-yemenis-who-stayed-behind-in-houthi-held-mocha"
+        }
+      ]
+    },
+    {
+      "regiao": "Ásia",
+      "itens": [
+        {
+          "titulo": "Paquistão faz ataques aéreos mortais no Afeganistão",
+          "url": "https://www.bbc.co.uk/news/articles/cw4grg92lmr5o"
+        },
+        {
+          "titulo": "Protestos de mulheres contra a violência sexual se espalham pela Índia",
+          "url": "https://www.france24.com/en/tv-shows/access-asia/20261002-make-our-streets-safer-mass-women-s-protests-sweep-india-over-sexual-violence"
+        },
+        {
+          "titulo": "Sabalenka e Rybakina são eliminadas no Aberto da China",
+          "url": "https://www.aljazeera.com/sports/2026/10/4/sabalenka-rybakina-handed-shock-defeats-at-china-open-tennis"
+        }
+      ]
+    }
+  ],
+  "ciencia": {
+    "titulo": "Sonda europeia Juice usa a gravidade da Terra para ganhar impulso rumo a Júpiter",
+    "texto": [
+      "A sonda Juice, da Agência Espacial Europeia, passou a 8.640 km da superfície, sobre o Oceano Índico, em 28 de setembro, e usou a gravidade da Terra para mudar de direção em 20 graus e ganhar 3,5 km/s de velocidade, gastando pouquíssimo combustível. A equipe precisou de só uma pequena correção de rota nas semanas anteriores, o que poupa propelente para observar as luas geladas de Júpiter, o objetivo da missão. A passagem também serviu para testar e calibrar os dez instrumentos científicos da nave com um alvo real, oportunidade rara na longa viagem."
+    ],
+    "fontes": [
+      {
+        "nome": "ScienceDaily/ESA",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261001214102.htm"
+      }
+    ]
+  },
+  "disco": {
+    "artista": "Ave Sangria",
+    "titulo": "Ave Sangria",
+    "ficha": "1974 · RCA",
+    "texto": [
+      "Vindos da Vila dos Comerciários, bairro pobre do Recife, Marco Polo, Ivson Wanderley, Paulo Raphael, Almir de Oliveira, Israel Semente e Agrício Noya foram um dos principais nomes da cena psicodélica pernambucana dos anos 1970. O disco de estreia, gravado no Rio e produzido por Marcio Antonucci, junta rock psicodélico e progressivo a letras irônicas e teatrais, e durou só um mês e meio nas lojas: a ditadura o proibiu, com objeções morais à letra de \"Seu Waldir\". Relançado em CD e vinil em 2014, virou objeto de culto; em março deste ano, a Comissão de Anistia reconheceu a perseguição aos músicos e fez um pedido formal de desculpas em nome do Estado. Comece por \"Dois Navegantes\", que abre o disco."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipédia (banda)",
+        "url": "https://pt.wikipedia.org/wiki/Ave_Sangria"
+      },
+      {
+        "nome": "Wikipédia (álbum)",
+        "url": "https://pt.wikipedia.org/wiki/Ave_Sangria_(%C3%A1lbum)"
+      }
+    ]
+  },
+  "poema": {
+    "autor": "Machado de Assis",
+    "titulo": "Círculo vicioso",
+    "ficha": "De Ocidentais, publicado em Poesias completas (1901)",
+    "texto": "Bailando no ar, gemia inquieto vaga-lume:\n— \"Quem me dera que fosse aquela loura estrela,\nQue arde no eterno azul, como uma eterna vela!\"\nMas a estrela, fitando a lua, com ciúme:\n\n— \"Pudesse eu copiar o transparente lume,\nQue, da grega coluna à gótica janela,\nContemplou, suspirosa, a fronte amada e bela!\"\nMas a lua, fitando o sol, com azedume:\n\n— \"Mísera! tivesse eu aquela enorme, aquela\nClaridade imortal, que toda a luz resume!\"\nMas o sol, inclinando a rútila capela:\n\n— \"Pesa-me esta brilhante auréola de nume...\nEnfara-me esta azul e desmedida umbela...\nPor que não nasci eu um simples vaga-lume?\"",
+    "comentario": [
+      "No soneto, o vaga-lume inveja a estrela, que inveja a lua, que inveja o sol, que, cansado do próprio brilho, queria ser vaga-lume. Machado fecha o círculo com ironia: ninguém se contenta com o lugar que ocupa, e quem está no alto sente o peso da \"auréola\". Num dia em que milhares de candidatos disputam cargos e o país escolhe quem vai ocupar o posto mais alto, é um bom lembrete sobre ambição e poder. (\"Enfara\" quer dizer enfastia, cansa; \"umbela\", guarda-sol.)"
+    ],
+    "fontes": [
+      {
+        "nome": "Cultura Genial",
+        "url": "https://www.culturagenial.com/poemas-machado-de-assis-comentados/"
+      },
+      {
+        "nome": "Unesp 2024 (prova, via Estratégia)",
+        "url": "https://vestibulares.estrategia.com/portal/wp-content/uploads/2023/12/correcao-unesp-2024-2afase-obras-literarias.pdf"
+      }
+    ]
+  },
+  "entender_brasil": {
+    "titulo": "Democracia representativa: do voto e do modo de votar",
+    "autor": "Assis Brasil · livro, 1893",
+    "texto": [
+      "No dia em que o país vota em segredo, numa urna eletrônica e sob a guarda de uma Justiça Eleitoral, vale conhecer o livro que ajudou a desenhar esse sistema. O gaúcho Joaquim Francisco de Assis Brasil (1858–1938), propagandista da República e constituinte em 1891 e 1934, o escreveu nos primeiros anos do novo regime, quando o vínculo entre votos e mandatos era frouxo e o povo seguia à margem da política. O livro trata da representação política, dos sistemas eleitorais e da maneira de votar, buscando regras que fizessem o voto valer de fato. Quase quarenta anos depois, uma edição revista serviu de justificativa ao Código Eleitoral de 1932, que criou a Justiça Eleitoral e instituiu o voto secreto. A obra pode ser consultada na Biblioteca Digital do Senado, e a apresentação de Cristina Buarque de Hollanda, publicada pela UFF, ajuda a situar o autor."
+    ],
+    "fontes": [
+      {
+        "nome": "Biblioteca Digital do Senado",
+        "url": "https://www2.senado.leg.br/bdsf/handle/id/518624"
+      },
+      {
+        "nome": "UFF (apresentação de Cristina Buarque de Hollanda)",
+        "url": "https://dcp.uff.br/wp-content/uploads/sites/327/2020/10/Assis_Brasil.pdf"
+      }
+    ]
+  },
+  "mercado": {
+    "texto": [
+      "Domingo não tem pregão, e os números de bolsa e câmbio são os do fechamento de sexta: o Ibovespa subiu 2,63%, para 192.114 pontos, com alta de 4,71% na semana, e o dólar ficou em R$ 5,22. Na segunda, os mercados reagem ao resultado do primeiro turno, e analistas esperam volatilidade. O bitcoin passou o fim de semana estável, perto de US$ 85 mil."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-02102026/"
+      },
+      {
+        "nome": "InfoMoney (dólar)",
+        "url": "https://infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-02102026"
+      }
+    ]
+  },
+  "ibovespa": {
+    "painel": [
+      [
+        "Fechamento",
+        "192.114"
+      ],
+      [
+        "Dia",
+        "+2,63%"
+      ],
+      [
+        "Mês",
+        "+3,1%"
+      ],
+      [
+        "Ano",
+        "+19,2%"
+      ]
+    ],
+    "texto": [
+      "Fechamento de sexta (2); não há pregão no fim de semana."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-02102026/"
+      }
+    ]
+  },
+  "dolar": {
+    "painel": [
+      [
+        "Fechamento",
+        "R$ 5,22"
+      ],
+      [
+        "Dia",
+        "−0,08%"
+      ],
+      [
+        "Mês",
+        "+0,8%"
+      ],
+      [
+        "Ano",
+        "−5,0%"
+      ]
+    ],
+    "texto": [
+      "Fechamento de sexta (2), a R$ 5,216."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-02102026"
+      }
+    ]
+  },
+  "bitcoin": {
+    "painel": [
+      [
+        "US$",
+        "85.089"
+      ],
+      [
+        "R$",
+        "443.349"
+      ],
+      [
+        "24h",
+        "+0,5%"
+      ],
+      [
+        "7d / 30d",
+        "+0,4% / +4,9%"
+      ]
+    ],
+    "texto": [
+      "Estável perto de US$ 85 mil no fim de semana, depois de devolver na sexta a alta provocada pelo dado de emprego americano. Cotação às 6h10 de Brasília."
+    ],
+    "fontes": [
+      {
+        "nome": "CoinGecko",
+        "url": "https://www.coingecko.com/pt/moedas/bitcoin"
+      }
+    ]
+  },
+  "esporte": {
+    "titulo": "Seleção goleia a Índia por 4 a 0 em Calcutá e fecha a Data Fifa invicta",
+    "texto": [
+      "No primeiro confronto da história entre os dois países, o Brasil de Carlo Ancelotti venceu no sábado (3) com gols de Estêvão, Pedro e dois de Samuel Lino, que entrou no lugar de Vinícius Júnior. O goleiro Pedro Morisco estreou, e a equipe jogou com muitas mudanças diante da 138ª seleção do ranking da Fifa. Nesta janela, foram um empate e uma vitória contra a Austrália e a goleada de ontem; os próximos jogos são em novembro, em Singapura."
+    ],
+    "fontes": [
+      {
+        "nome": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-10/em-ritmo-de-treino-brasil-vence-india-em-calcuta-4-0"
+      }
+    ]
+  },
+  "tempo": {
+    "dia": "domingo, 4",
+    "regioes": [
+      {
+        "regiao": "Norte",
+        "texto": "Sol e poucas nuvens em grande parte de Roraima, no norte e leste do Pará e no Amapá; pancadas com trovoadas no Amazonas, em Rondônia, em Tocantins e no centro-sul do Pará, com aviso amarelo do Inmet para tempestades. Calor de até 37 °C."
+      },
+      {
+        "regiao": "Nordeste",
+        "texto": "Dia ensolarado na maior parte da região, com máximas perto de 38 °C no interior; chuva isolada no litoral e no oeste, com aviso amarelo para tempestades no sudoeste do Maranhão e do Piauí e no oeste da Bahia."
+      },
+      {
+        "regiao": "Centro-Oeste",
+        "texto": "Chuva com trovoadas no norte de Mato Grosso, em Goiás, no Distrito Federal e em boa parte de Mato Grosso do Sul; aviso laranja para tempestades no sul de Mato Grosso do Sul e amarelo no restante da região."
+      },
+      {
+        "regiao": "Sudeste",
+        "texto": "Manhã amena e tarde abafada, com pancadas e trovoadas no Triângulo Mineiro, no oeste, centro e sul de Minas e em São Paulo; aviso amarelo para tempestades em São Paulo, no Rio e em boa parte de Minas. Só o norte mineiro deve ficar sem chuva."
+      },
+      {
+        "regiao": "Sul",
+        "texto": "Dia chuvoso, com trovoadas no Paraná, em Santa Catarina e no norte do Rio Grande do Sul. Alerta vermelho do Inmet para tempestades no oeste e sudoeste do Paraná, de Foz do Iguaçu a Pato Branco, e laranja no restante do estado e no oeste catarinense. Na Campanha Gaúcha, sol sem chuva. Meteorologistas recomendam votar cedo."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Agência Brasil (Inmet)",
+        "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/fim-de-semana-de-eleicoes-sera-de-chuva-em-grande-parte-do-pais"
+      },
+      {
+        "nome": "Climatempo",
+        "url": "https://www.climatempo.com.br/noticia/fim-de-semana/previsao-do-tempo-para-as-eleicoes-2026-veja-onde-pode-chover-no-domingo-4-de-outubro"
+      }
+    ]
+  }
+}

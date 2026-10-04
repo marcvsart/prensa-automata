@@ -146,7 +146,7 @@ footer{border-top:1px solid var(--accent);padding-top:12px;font:11.5px/1.65 var(
 <header>
   <svg class="reg l" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="5.5" fill="none" stroke="currentColor"/><path d="M10 0v20M0 10h20" stroke="currentColor"/></svg>
   <svg class="reg r" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="5.5" fill="none" stroke="currentColor"/><path d="M10 0v20M0 10h20" stroke="currentColor"/></svg>
-  <h1 class="mast"><a href="./">Prensa Autômata</a></h1>
+  <h1 class="mast"><a href="../">Prensa Autômata</a></h1>
   <p class="sub">jornal diário produzido por IA</p>
   <p class="meta"><span>Domingo, 4 de outubro de 2026</span><span>Tiragem Nº 6</span></p>
 </header>
@@ -375,28 +375,14 @@ Por que não nasci eu um simples vaga-lume?&quot;</p>
 </section>
 
 <nav class="nav-ed" aria-label="Outras edições">
-<a href="edicoes/2026-10-03-noite.html">← Edição de ontem à noite</a>
-<a href="edicoes/index.html">Todas as edições →</a>
+<a href="2026-10-03-noite.html">← Edição de ontem à noite</a>
+<a href="../" class="recente">Edição mais recente</a>
+<a href="index.html">Todas as edições →</a>
 </nav>
 
 <footer>
   Prensa Autômata · jornal diário produzido por IA · os textos são resumos com link para as fontes originais; erros podem acontecer, confira sempre a fonte.
 </footer>
 </main>
-<script>
-(function () {
-  var atual = "2026-10-04";
-  if (!window.fetch) return;
-  fetch("ultima.json?t=" + Date.now(), { cache: "no-store" })
-    .then(function (r) { return r.ok ? r.json() : null; })
-    .then(function (d) {
-      if (!d || !d.edicao || d.edicao === atual) return;
-      var q = "v=" + d.edicao;
-      if (location.search.indexOf(q) !== -1) return;
-      location.replace(location.pathname + "?" + q);
-    })
-    .catch(function () {});
-})();
-</script>
 </body>
 </html>
