@@ -123,12 +123,27 @@ footer{border-top:1px solid var(--accent);padding-top:12px;font:11.5px/1.65 var(
 .mais[open] summary::before{content:"− "}
 .mais summary span{color:var(--muted)}
 .mast a{color:inherit;text-decoration:none}
+footer a{color:var(--muted)}
+footer a:hover{color:var(--accent)}
+
+/* sobre.html: arauto no topo, texto corrido e etapas em lista */
+.sobre{margin-top:28px}
+.arauto{margin:0 auto 28px;text-align:center}
+.arauto img{display:block;width:min(320px,80%);height:auto;margin:0 auto;image-rendering:pixelated}
+.sobre .intro{padding-top:0}
+.sobre .intro .lede{font-size:1.14rem;line-height:1.55}
+.etapas{margin:0;display:grid}
+.etapas div{display:grid;grid-template-columns:7.5rem 1fr;gap:0 14px;padding:10px 0;border-bottom:1px solid var(--rule)}
+.etapas div:first-child{border-top:1px solid var(--accent)}
+.etapas dt{font:500 12px/1.9 var(--mono);letter-spacing:.04em;text-transform:uppercase;color:var(--accent)}
+.etapas dd{margin:0;font-size:.98rem;line-height:1.5}
+.assina{font-style:italic;color:var(--muted);text-align:center;margin:8px 0 0}
 .nav-ed{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px;margin:40px 0 20px;padding:12px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);font:500 12px/1.5 var(--mono);letter-spacing:.04em}
 .nav-ed a{text-decoration:none;color:var(--accent)}
 .nav-ed a:last-child{margin-left:auto}
 .nav-ed a:only-child{margin-left:0}
 
-@media (max-width:480px){body{font-size:17.5px}.reg{display:none}.regioes div{grid-template-columns:1fr}.arq li a{grid-template-columns:auto 1fr}.arq .t{grid-column:1/-1}}
+@media (max-width:480px){body{font-size:17.5px}.reg{display:none}.regioes div,.etapas div{grid-template-columns:1fr}.arq li a{grid-template-columns:auto 1fr}.arq .t{grid-column:1/-1}}
 
 @media print{
   :root{--bg:#fff;--paper:#fff;--ink:#000;--muted:#333;--rule:#bbb;--grid:#fff}
@@ -382,7 +397,7 @@ E eles aos corações não voltam mais.</p>
 </nav>
 
 <footer>
-  Prensa Autômata · jornal diário produzido por IA · os textos são resumos com link para as fontes originais; erros podem acontecer, confira sempre a fonte.
+  Prensa Autômata · jornal diário produzido por IA · os textos são resumos com link para as fontes originais; erros podem acontecer, confira sempre a fonte. · <a href="../sobre.html">Sobre a Prensa</a>
 </footer>
 </main>
 </body>

@@ -6,7 +6,7 @@ Uso:  python3 build.py                  (monta a edição mais recente)
       python3 build.py 2026-09-29-noite (monta a edição da noite de uma data)
 
 Gera edicoes/AAAA-MM-DD.html, copia a mais recente para index.html
-e refaz edicoes/index.html (arquivo com todas as edições).
+e refaz edicoes/index.html (arquivo com todas as edições) e sobre.html.
 Só usa a biblioteca padrão do Python.
 """
 import glob, html, json, os, sys
@@ -113,7 +113,7 @@ def cabeca(titulo, descricao, css):
 </head>"""
 
 RODAPE = """<footer>
-  Prensa Autômata · jornal diário produzido por IA · os textos são resumos com link para as fontes originais; erros podem acontecer, confira sempre a fonte.
+  Prensa Autômata · jornal diário produzido por IA · os textos são resumos com link para as fontes originais; erros podem acontecer, confira sempre a fonte. · <a href="sobre.html">Sobre a Prensa</a>
 </footer>"""
 
 def lista_turno(pasta, slugs):
@@ -171,7 +171,7 @@ def pagina_arquivo(pasta, datas, css):
 
 <nav class="nav-ed" aria-label="Capa"><a href="../">← Edição de hoje</a></nav>
 
-{RODAPE}
+{RODAPE.replace('href="sobre.html"', 'href="../sobre.html"')}
 </main>
 </body>
 </html>
@@ -274,6 +274,58 @@ def montar(ed, arquivo, slug):
 </html>
 """
 
+def pagina_sobre(css):
+    """sobre.html: o que é a Prensa, como cada edição é feita e seus limites, com o arauto no topo."""
+    return f"""{cabeca("Prensa Autômata · Sobre a Prensa", "O que é a Prensa Autômata, como cada edição é feita e quais são seus limites.", css)}
+<body>
+<main>
+<header>
+  {REG.format(lado='l')}
+  {REG.format(lado='r')}
+  <h1 class="mast"><a href="./">Prensa Autômata</a></h1>
+  <p class="sub">jornal diário produzido por IA</p>
+  <p class="meta"><span>Sobre a Prensa</span></p>
+</header>
+
+<div class="sobre">
+<figure class="arauto"><img src="arauto.svg" width="320" height="240" alt="O arauto da Prensa Autômata: uma máquina de escrever robô de dois olhos, com chapéu fedora e uma folha saindo do rolo, em pixel art azul."></figure>
+
+<section class="intro">
+<p class="lede">A Prensa Autômata é um experimento de jornalismo e automação criado por Marcus Couto em 2026. O objetivo é testar um fluxo de produção totalmente automatizado para um jornal diário: da escolha dos assuntos à página no ar, sem que nenhuma pessoa escreva, revise ou aprove as edições.</p>
+<p>Duas vezes por dia, às 6h e às 18h (horário de Brasília), o Claude, modelo de inteligência artificial da Anthropic, faz sozinho o trabalho de uma redação inteira.</p>
+</section>
+
+<section id="como">
+<h2>Como uma edição é feita</h2>
+<dl class="etapas">
+<div><dt>Ronda</dt><dd>Percorre veículos brasileiros e estrangeiros, agências e publicações especializadas, e escolhe os assuntos do dia.</dd></div>
+<div><dt>Apuração</dt><dd>Abre e lê as fontes. Só entra na edição o que foi conferido nelas, e todo texto traz os links para os originais.</dd></div>
+<div><dt>Redação</dt><dd>Escreve resumos curtos, em linguagem direta, seguindo regras de imparcialidade: ouvir os lados envolvidos, não adjetivar e informar instituto, datas, amostra, margem de erro e registro de toda pesquisa eleitoral.</dd></div>
+<div><dt>Publicação</dt><dd>Monta as páginas, publica o jornal e confere se a edição foi mesmo ao ar.</dd></div>
+</dl>
+</section>
+
+<section id="edicoes">
+<h2>Duas edições</h2>
+<p>A edição da manhã traz as notícias do Brasil e do mundo, inteligência artificial, ciência, mercados, esporte, previsão do tempo, um disco, um poema e indicações de leitura para entender o país. A edição da noite é mais curta, com notícias enxutas e leituras mais aprofundadas.</p>
+</section>
+
+<section id="limites">
+<h2>Limites</h2>
+<p>Como tudo é feito por uma máquina, erros podem acontecer. Os textos são resumos e não substituem as reportagens originais: confira sempre a fonte. Quando um erro é encontrado, o texto é corrigido com uma nota. A Prensa também noticia a Anthropic, empresa que cria o Claude; nesses casos, o texto avisa.</p>
+</section>
+
+<p class="assina">Prensa Autômata · um experimento de Marcus Couto · 2026</p>
+</div>
+
+<nav class="nav-ed" aria-label="Edições"><a href="./">← Edição mais recente</a><a href="edicoes/index.html">Todas as edições →</a></nav>
+
+{RODAPE}
+</main>
+</body>
+</html>
+"""
+
 # O GitHub Pages manda o navegador guardar as páginas por 10 minutos. Na capa, este
 # script pergunta (sem cache) qual é a edição mais recente e, se a página aberta for
 # de uma edição anterior, recarrega com ?v=<edição>, endereço que ainda não está em cache.
@@ -306,7 +358,8 @@ def main():
     pagina = montar(ed, datas, alvo)
     # links do arquivo apontam para edicoes/…; dentro de edicoes/ o caminho relativo muda
     with open(os.path.join(pasta, f"{alvo}.html"), "w", encoding="utf-8") as f:
-        f.write(pagina.replace('href="edicoes/', 'href="').replace('href="./"', 'href="../"'))
+        f.write(pagina.replace('href="edicoes/', 'href="').replace('href="./"', 'href="../"')
+                .replace('href="sobre.html"', 'href="../sobre.html"'))
     if alvo == datas[0]:
         with open(os.path.join(RAIZ, "index.html"), "w", encoding="utf-8") as f:
             f.write(pagina.replace(RECENTE + "\n", "").replace("</body>", VIGIA.replace("SLUG", alvo) + "</body>", 1))
@@ -315,6 +368,8 @@ def main():
         f.write(json.dumps({"edicao": datas[0]}) + "\n")
     with open(os.path.join(pasta, "index.html"), "w", encoding="utf-8") as f:
         f.write(pagina_arquivo(pasta, datas, open(os.path.join(RAIZ, "estilo.css"), encoding="utf-8").read()))
+    with open(os.path.join(RAIZ, "sobre.html"), "w", encoding="utf-8") as f:
+        f.write(pagina_sobre(open(os.path.join(RAIZ, "estilo.css"), encoding="utf-8").read()))
     print(f"ok: edição {alvo} montada" + (" (capa atualizada)" if alvo == datas[0] else "") + "; arquivo atualizado")
 
 if __name__ == "__main__":
