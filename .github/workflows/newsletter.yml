@@ -2,12 +2,18 @@ name: Newsletter
 
 # Manda a edição mais recente por email via Buttondown, separado da geração:
 # roda quando um push na main muda ultima.json (nova edição publicada) ou à mão.
+# Só a Tiragem da manhã vai por email; numa noturna o script termina sem erro.
 # Secret BUTTONDOWN_API_KEY; variável NEWSLETTER_MODO = "rascunho" (padrão) ou "envio".
 on:
   push:
     branches: [main]
     paths: [ultima.json]
   workflow_dispatch:
+    inputs:
+      modo:
+        description: 'Só nesta execução: "rascunho" ou "envio" (em branco, vale a variável NEWSLETTER_MODO)'
+        required: false
+        default: ""
 
 # uma execução por vez, para duas edições seguidas não disputarem a checagem de slug
 concurrency:
@@ -30,7 +36,7 @@ jobs:
       - name: Gerar e enviar ao Buttondown
         env:
           BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
-          NEWSLETTER_MODO: ${{ vars.NEWSLETTER_MODO }}
+          NEWSLETTER_MODO: ${{ inputs.modo || vars.NEWSLETTER_MODO }}
         run: python3 scripts/enviar_newsletter.py --saida newsletter/email.html
       - name: Guardar o HTML do email
         if: always()

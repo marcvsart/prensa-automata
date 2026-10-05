@@ -59,11 +59,11 @@ No fim de cada edição há um link para a anterior ("Edição de ontem", ou "Ed
 
 ## Newsletter (Buttondown)
 
-A Action `newsletter.yml` roda separada da geração: quando um push na `main` muda o `ultima.json`, ela lê a edição, monta uma versão para email (estilos inline, até 640px, links absolutos, sem scripts nem formulário) e cria o email no Buttondown com o slug `prensa-<edição>` (`prensa-2026-10-05`, `prensa-2026-10-05-noite`). Se o slug já existe, ela para sem erro, então rodar de novo não duplica o envio.
+A Action `newsletter.yml` roda separada da geração: quando um push na `main` muda o `ultima.json`, ela lê a edição, monta uma versão para email (estilos inline, até 640px, links absolutos, sem scripts nem formulário) e cria o email no Buttondown com o slug `prensa-AAAA-MM-DD` (por exemplo, `prensa-2026-10-05`). Se o slug já existe, ela para sem erro, então rodar de novo não duplica o envio. Só a Tiragem da manhã vai por email (o plano do Buttondown permite um envio por dia): numa edição noturna a Action termina sem erro e sem criar email, e o fim de cada email avisa que as noturnas estão no site.
 
 - **Chave:** secret do repositório `BUTTONDOWN_API_KEY` (Settings → Secrets and variables → Actions → Secrets). Nunca em arquivo.
 - **Modo:** variável do repositório `NEWSLETTER_MODO` (mesma tela, aba Variables). `rascunho` (padrão, se a variável não existir) cria um draft para conferir no Buttondown; `envio` manda para os assinantes.
-- **Rodar à mão:** aba Actions → Newsletter → Run workflow.
+- **Rodar à mão:** aba Actions → Newsletter → Run workflow. O campo *modo* deixa forçar `rascunho` ou `envio` só naquela execução; em branco, vale a variável.
 - **Ver o email sem abrir o Buttondown:** cada execução guarda o HTML gerado como artifact `newsletter-email`, no resumo da execução.
 - **Testar localmente:** `pip install -r scripts/requirements-newsletter.txt` e `python3 scripts/enviar_newsletter.py --sem-api --saida /tmp/email.html`.
 

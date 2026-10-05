@@ -6,6 +6,8 @@ Uso:  python3 scripts/enviar_newsletter.py [--saida ARQUIVO.html] [--sem-api]
 Lê ultima.json, transforma edicoes/<edição>.html numa versão para email
 (estilos inline, largura máxima de 640px, links absolutos) e cria o email
 no Buttondown com o slug prensa-<edição>. Se o slug já existir, encerra sem erro.
+Só a Tiragem (manhã) vai por email: o plano do Buttondown permite um envio por dia,
+então numa edição noturna o script encerra sem erro e sem chamar a API.
 
 Ambiente:
   BUTTONDOWN_API_KEY   chave da API (secret do repositório; nunca em arquivo)
@@ -77,6 +79,8 @@ li{{padding:7px 0;border-bottom:1px solid {LINHA};font-size:15px;line-height:1.4
 .regioes dd{{margin:0;font-size:16px;line-height:1.5}}
 .nav-ed{{margin:32px 0 8px;padding:10px 0;border-top:1px solid {LINHA};border-bottom:1px solid {LINHA};font:500 12px/1.8 {MONO}}}
 .nav-ed a{{color:{DESTAQUE};text-decoration:none}}
+.aviso-noite{{margin:28px 0 8px;text-align:center;font:12px/1.5 {MONO};color:{SECUNDARIO}}}
+.aviso-noite a{{color:{DESTAQUE};white-space:nowrap}}
 """
 
 
@@ -89,6 +93,9 @@ def erro(msg):
 def ler_edicao():
     with open(os.path.join(RAIZ, "ultima.json"), encoding="utf-8") as f:
         slug = json.load(f)["edicao"]
+    if slug.endswith("-noite"):
+        print("edição noturna: newsletter não enviada")
+        sys.exit(0)
     caminho = os.path.join(RAIZ, "edicoes", f"{slug}.html")
     if not os.path.exists(caminho):
         erro(f"ultima.json aponta para {slug}, mas edicoes/{slug}.html não existe")
@@ -192,6 +199,7 @@ def versao_email(pagina, slug, titulo, ed):
 </td></tr>
 <tr><td class="miolo">
 {conteudo}
+<p class="aviso-noite">Para ler as edições noturnas, acesse <a href="{SITE}">o site</a>.</p>
 </td></tr>
 <tr><td class="pe">
 Prensa Autômata · jornal diário produzido por IA · os textos são resumos com link para as fontes originais; erros podem acontecer, confira sempre a fonte.<br>
