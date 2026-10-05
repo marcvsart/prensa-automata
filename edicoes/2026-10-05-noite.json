@@ -1,0 +1,343 @@
+{
+  "data": "2026-10-05",
+  "numero": 7,
+  "manchete": {
+    "titulo": "Ibovespa sobe 7,7%, passa de 200 mil pontos pela primeira vez e dólar cai a R$ 5 no primeiro pregão após o 1º turno",
+    "texto": [
+      "O Ibovespa fechou esta segunda-feira (5) em alta de 7,70%, aos 206.911 pontos, recorde histórico de fechamento, depois de chegar a 209.605 pontos durante o dia. Foi a maior alta em um só pregão desde março de 2020, no início da pandemia, segundo o InfoMoney, e o volume de negócios também bateu recorde. O dólar caiu 4,12% e fechou a R$ 5,00, depois de ser negociado abaixo desse valor durante boa parte do dia, e os juros futuros de longo prazo recuaram mais de 1 ponto percentual. Analistas ouvidos por CNN Brasil e InfoMoney atribuem o movimento à vantagem de Flávio Bolsonaro (PL) no primeiro turno e à ampliação das bancadas de direita no Congresso, que o mercado lê como sinal de ajuste fiscal mais rápido; houve também quem pedisse cautela, como o gestor André Matos, da MA7 Capital, para quem \"nada na economia real mudou entre sexta e segunda\" e o que houve foi uma reprecificação de expectativas a 20 dias do segundo turno. Bancos, varejo e Petrobras puxaram a alta, enquanto Vale, Suzano e Embraer, exportadoras prejudicadas pelo real mais forte, caíram."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-05102026/"
+      },
+      {
+        "nome": "CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-hoje-5-outubro-2026/"
+      }
+    ]
+  },
+  "brasil": [
+    {
+      "titulo": "Segundo turno começa sem apoio de Cury, Renan e Caiado; Zema declara voto em Flávio, e Lula avalia Alckmin na Fazenda",
+      "texto": [
+        "Terceiro colocado, Augusto Cury (Avante) disse em carta que ficará em silêncio no segundo turno e que pretende deixar a vida partidária; Renan Santos (Missão) afirmou em transmissão ao vivo que não apoiará nenhum dos dois e chamou ambos de \"bandido\"; e o PSD, de Ronaldo Caiado, liberou os diretórios estaduais para decidir, segundo nota do presidente do partido, Gilberto Kassab. Romeu Zema (Novo) declarou apoio a Flávio Bolsonaro. Os votos de Renan e Caiado somados, 5,2 milhões, superam a diferença de 2,22 milhões entre Flávio e Lula. Do lado do PT, Lula avalia anunciar o vice Geraldo Alckmin como ministro da Fazenda de um eventual novo mandato, para atrair eleitores de centro, segundo duas fontes ouvidas pela Reuters; o Planalto não comentou."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/renan-descarta-apoio-no-2o-turno-psd-de-caiado-libera-bases-estaduais"
+        },
+        {
+          "nome": "Grupo A Hora",
+          "url": "https://grupoahora.net.br/conteudos/2026/10/05/flavio-ou-lula-veja-quem-cury-renan-caiado-e-zema-apoiarao-no-2o-turno/"
+        },
+        {
+          "nome": "Money Times/Reuters",
+          "url": "https://www.moneytimes.com.br/lula-avalia-anunciar-alckmin-ministro-da-fazenda-em-tentativa-de-virada-no-2o-turno-gae/"
+        }
+      ]
+    },
+    {
+      "titulo": "Garotinho desiste de recurso no TSE, e eleição no Rio pode terminar no primeiro turno",
+      "texto": [
+        "Anthony Garotinho (Republicanos), terceiro colocado na disputa pelo governo do Rio de Janeiro, com 274 mil votos registrados como sub judice, anunciou nesta segunda que desistiu do recurso que o mantinha na eleição. Se os votos dele forem anulados, Douglas Ruas (PL) passa de 49,27% para 50,88% dos votos válidos, o que dispensaria o segundo turno contra Eduardo Paes (PSD). Segundo o TRE-RJ, a decisão sobre a nulidade dos votos cabe ao TSE."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/garotinho-desiste-de-recurso-e-eleicao-do-rj-pode-acabar-em-1o-turno"
+        }
+      ]
+    },
+    {
+      "titulo": "Prazo para sacar dinheiro das bets termina às 23h59 de hoje; sites saem do ar na terça",
+      "texto": [
+        "Quem tem saldo em sites de apostas autorizados tem até as 23h59 desta segunda para pedir o saque na própria plataforma; a partir da 0h de terça (6), os sites e aplicativos devem sair do ar, como determina a medida provisória que encerrou as bets, assinada em 25 de setembro. Quem não sacar não perde o dinheiro: as empresas terão de informar os saldos aos bancos, que farão a devolução pelo CPF. O governo estima que 23 milhões de apostadores tinham saldo, num total de cerca de R$ 1,7 bilhão."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/prazo-para-sacar-dinheiro-das-bets-termina-nesta-segunda"
+        }
+      ]
+    }
+  ],
+  "momento": {
+    "titulo": "Uma breve história da euforia financeira",
+    "autor": "John Kenneth Galbraith · livro, 1990",
+    "texto": [
+      "O pregão desta segunda foi descrito pelo próprio noticiário econômico com uma palavra: euforia. É a mesma que o economista canadense-americano John Kenneth Galbraith (1908-2006), professor de Harvard e conselheiro de governos democratas nos EUA, pôs no título de um livro curto, publicado em 1990, depois do crash da Bolsa de Nova York de 1987. O livro percorre episódios de especulação, da mania das tulipas na Holanda do século 17 à bolha do Mississippi, à crise de 1929 e ao próprio crash de 1987.",
+      "O argumento central é que as euforias financeiras se repetem porque a memória financeira é curta: a cada geração, investidores acreditam ter encontrado algo novo, confundem dinheiro com inteligência (quem ganha passa a ser visto como quem sabe) e desqualificam quem pede cautela. Galbraith não condena o mercado nem o otimismo; ele aponta os padrões que costumam aparecer antes de uma correção e chama o livro de uma exortação à prudência.",
+      "A leitura não serve para prever o que vai acontecer com a Bolsa brasileira, e o livro trata de bolhas, não de qualquer alta forte. Ele ajuda a fazer a pergunta que os próprios analistas fizeram hoje: quanto do salto de 7,7% reflete mudança nos fundamentos e quanto é aposta numa expectativa, como disse um gestor ouvido pelo InfoMoney, a 20 dias do segundo turno. Também lembra que o mercado reage a expectativas nos dois sentidos.",
+      "São pouco mais de cem páginas, em linguagem sem jargão, e o livro tem edição em português. Quem quiser continuar pode seguir para O crash de 1929, do mesmo autor, e para Manias, pânicos e crises, de Charles Kindleberger, a referência acadêmica sobre o tema."
+    ],
+    "fontes": [
+      {
+        "nome": "Editorial Planeta (edição em espanhol)",
+        "url": "https://www.planetadelibros.com/libro-breve-historia-de-la-euforia-financiera/48348"
+      },
+      {
+        "nome": "InfoMoney (pregão de hoje)",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-05102026/"
+      }
+    ]
+  },
+  "mundo": {
+    "titulo": "Navio de grãos afunda em águas da Romênia, país da Otan, e Zelensky culpa drones russos",
+    "texto": [
+      "Um navio carregado de milho pegou fogo e afundou nesta segunda na zona econômica exclusiva da Romênia, no Mar Negro, segundo o Ministério do Interior romeno; duas pessoas morreram e 11 foram resgatadas. O presidente ucraniano, Volodymyr Zelensky, atribuiu o naufrágio a um ataque de dois drones russos contra uma embarcação civil de propriedade turca; a Rússia não havia comentado até o fechamento desta edição. A Romênia é um dos países da Otan que relataram incursões de drones neste ano, o que alimenta a preocupação de que a guerra se espalhe para o território da aliança."
+    ],
+    "fontes": [
+      {
+        "nome": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/5/ukraine-says-russian-drone-attack-sinks-ship-in-romanian-waters"
+      }
+    ]
+  },
+  "ia": {
+    "titulo": "Falta de energia ameaça data centers de IA nos EUA, diz Morgan Stanley",
+    "texto": [
+      "O banco Morgan Stanley afirmou em relatório nesta segunda que o agravamento da falta de energia para data centers nos Estados Unidos pode atrasar a construção de infraestrutura para inteligência artificial. O banco estima que os desenvolvedores de data centers no país terão um déficit de 34% da energia de que precisam até 2028, o equivalente a 32 gigawatts. Segundo o relatório, Nvidia e Broadcom estão relativamente protegidas, mas fabricantes de chips de memória e de componentes ópticos podem ser afetados por atrasos; o Goldman Sachs também vê restrições crescentes à expansão desses centros."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney/Reuters",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-05102026/"
+      }
+    ]
+  },
+  "giro": [
+    {
+      "regiao": "América do Sul",
+      "itens": [
+        {
+          "titulo": "Colômbia: soldado morre em combate com dissidentes das Farc em Caquetá",
+          "url": "https://www.infobae.com/colombia/2026/10/05/combate-en-caqueta-dejo-un-soldado-muerto-y-dos-capturados-el-ejercito-revelo-detalles-del-caso/"
+        }
+      ]
+    },
+    {
+      "regiao": "América do Norte e Central",
+      "itens": [
+        {
+          "titulo": "México pede aos EUA provas de tiroteio na fronteira que motivou envio de tropas",
+          "url": "https://www.aljazeera.com/news/2026/10/5/mexico-seeks-evidence-of-border-shooting-that-prompted-us-troop-deployment"
+        }
+      ]
+    },
+    {
+      "regiao": "África",
+      "itens": [
+        {
+          "titulo": "Forças do governo da Etiópia retomam Mekelle, capital do Tigré",
+          "url": "https://www.aljazeera.com/news/2026/10/5/ethiopias-forces-retake-mekelle-amid-renewed-tigray-fighting"
+        }
+      ]
+    },
+    {
+      "regiao": "Europa",
+      "itens": [
+        {
+          "titulo": "Ex-príncipe Andrew vai à Justiça para anular mandados de busca da polícia britânica",
+          "url": "https://www.aljazeera.com/news/2026/10/5/former-prince-andrew-launches-challenge-to-quash-police-search-warrants"
+        }
+      ]
+    },
+    {
+      "regiao": "Oriente Médio",
+      "itens": [
+        {
+          "titulo": "Arábia Saudita, Paquistão e Turquia ativam pacto de defesa contra ataques dos houthis",
+          "url": "https://www.aljazeera.com/news/2026/10/5/mecca-alliance-agrees-to-activate-collective-deterrence-measures"
+        }
+      ]
+    },
+    {
+      "regiao": "Ásia",
+      "itens": [
+        {
+          "titulo": "Quase 1.500 refugiados deportados da Malásia chegam a Mianmar, apesar de alertas da ONU",
+          "url": "https://www.aljazeera.com/news/2026/10/5/nearly-1500-migrants-arrive-in-myanmar-from-malaysia-despite-un-warnings"
+        }
+      ]
+    }
+  ],
+  "ciencia": {
+    "titulo": "Nobel de Medicina vai para os criadores da optogenética, que controla neurônios com luz",
+    "texto": [
+      "O Nobel de Fisiologia ou Medicina de 2026 foi para Karl Deisseroth, da Universidade Stanford (EUA), e para os alemães Peter Hegemann, da Universidade Humboldt, em Berlim, e Georg Nagel, da Universidade de Würzburg, por descobertas sobre canais iônicos ativados por luz e a optogenética. Hegemann e Nagel descobriram numa alga unicelular a channelrhodopsina, uma proteína sensível à luz, e Deisseroth a transformou num interruptor que liga e desliga neurônios específicos no cérebro de animais vivos. O método passou a ser usado em laboratórios do mundo todo para mapear os circuitos ligados a memórias, emoções e comportamentos; o prêmio é de 12 milhões de coroas suecas, e o Nobel de Física sai nesta terça."
+    ],
+    "fontes": [
+      {
+        "nome": "NobelPrize.org",
+        "url": "https://www.nobelprize.org/prizes/medicine/2026/press-release/"
+      },
+      {
+        "nome": "La Nación",
+        "url": "https://www.lanacion.com.ar/sociedad/quien-gano-el-premio-nobel-de-medicina-2026-nid05102026/"
+      }
+    ]
+  },
+  "entender_brasil": {
+    "titulo": "Formação econômica do Brasil",
+    "autor": "Celso Furtado · livro, 1959",
+    "texto": [
+      "Celso Furtado (1920-2004), economista paraibano, escreveu o livro em poucos meses entre 1957 e 1958, durante um período de estudos na Universidade de Cambridge, na Inglaterra, depois de quase uma década na Cepal, a comissão da ONU para a América Latina. Publicado em 1959, mesmo ano em que Furtado propôs a criação da Sudene, pretendia ser só uma introdução à história econômica do país. Virou um clássico das ciências sociais e ainda é leitura obrigatória em cursos de economia e história.",
+      "A ideia central é explicar o Brasil pelos seus ciclos econômicos: o açúcar, a pecuária, o ouro, o café e, no século 20, a crise cafeeira e a industrialização. Furtado mostra como uma economia voltada para exportar matérias-primas concentrava renda, dependia de preços decididos lá fora e quase não criava mercado interno. Uma das passagens mais citadas analisa a política de compra e queima de café depois de 1929: ao sustentar a renda dos cafeicultores, o governo teria protegido a demanda interna e, sem planejar, ajudado a impulsionar a indústria.",
+      "Envelheceram, segundo historiadores econômicos, algumas premissas e dados: pesquisas posteriores mostraram um mercado interno colonial mais dinâmico do que o livro supunha, e a tese sobre o café depois de 1929 foi muito debatida. Também envelheceu a confiança na industrialização conduzida pelo Estado como caminho quase natural do desenvolvimento. Continuam valendo a pergunta sobre por que o crescimento brasileiro tantas vezes convive com concentração de renda e desigualdade entre regiões, que Furtado apontava como desafios para o fim do século 20, e o hábito de ler a economia como história, não só como números de um pregão.",
+      "O livro não está em domínio público; tem edição atual pela Companhia das Letras. Para começar, vale ler a quarta parte, sobre a economia cafeeira e a crise de 1929, e o capítulo final, sobre as perspectivas do país."
+    ],
+    "fontes": [
+      {
+        "nome": "Companhia das Letras",
+        "url": "https://www.companhiadasletras.com.br/livro/9788535909524/formacao-economica-do-brasil"
+      }
+    ]
+  },
+  "mercado": {
+    "texto": [
+      "No primeiro pregão depois do primeiro turno, o Ibovespa subiu 7,70%, para 206.912 pontos, recorde histórico e maior alta diária desde março de 2020, e o dólar caiu 4,12%, a R$ 5,00. Os juros futuros recuaram em toda a curva, e cresceram as apostas em cortes maiores da Selic até dezembro, segundo o InfoMoney. Em Nova York, os principais índices também fecharam em alta; o bitcoin ficou praticamente estável em 24 horas."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-05102026/"
+      },
+      {
+        "nome": "CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-hoje-5-outubro-2026/"
+      }
+    ]
+  },
+  "ibovespa": {
+    "painel": [
+      [
+        "Fechamento",
+        "206.912"
+      ],
+      [
+        "Dia",
+        "+7,70%"
+      ],
+      [
+        "Mês",
+        "+11,0%"
+      ],
+      [
+        "Ano",
+        "+28,4%"
+      ]
+    ],
+    "texto": [
+      "Máxima intradiária de 209.606 pontos. Variações no mês e no ano calculadas pela redação a partir dos fechamentos anteriores."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-05102026/"
+      }
+    ]
+  },
+  "dolar": {
+    "painel": [
+      [
+        "Fechamento",
+        "R$ 5,00"
+      ],
+      [
+        "Dia",
+        "−4,12%"
+      ],
+      [
+        "Mês",
+        "−3,3%"
+      ],
+      [
+        "Ano",
+        "−8,9%"
+      ]
+    ],
+    "texto": [
+      "Dólar comercial a R$ 5,0022 na venda; mínima de R$ 4,95 no dia. Variações no mês e no ano calculadas pela redação."
+    ],
+    "fontes": [
+      {
+        "nome": "CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-hoje-5-outubro-2026/"
+      },
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-05102026/"
+      }
+    ]
+  },
+  "bitcoin": {
+    "painel": [
+      [
+        "US$",
+        "85.724"
+      ],
+      [
+        "R$",
+        "428.322"
+      ],
+      [
+        "24h",
+        "−0,1%"
+      ],
+      [
+        "7d / 30d",
+        "+2,6% / +7,5%"
+      ]
+    ],
+    "texto": [
+      "Cotação às 18h05 de Brasília."
+    ],
+    "fontes": [
+      {
+        "nome": "CoinGecko",
+        "url": "https://www.coingecko.com/pt/moedas/bitcoin"
+      }
+    ]
+  },
+  "tempo": {
+    "dia": "amanhã, terça, 6",
+    "regioes": [
+      {
+        "regiao": "Norte",
+        "texto": "Tempestades no centro e no oeste do Amazonas, com chuva se espalhando à noite para o Acre e o norte de Rondônia; tempo mais firme no Pará, no Amapá e no Tocantins."
+      },
+      {
+        "regiao": "Nordeste",
+        "texto": "Tempo firme, quente e seco no interior, com chuva fraca e passageira em pontos do litoral."
+      },
+      {
+        "regiao": "Centro-Oeste",
+        "texto": "Alerta laranja (perigo) do Inmet para tempestades com até 100 mm de chuva, ventos de 60 a 100 km/h e granizo em áreas de Mato Grosso, Mato Grosso do Sul e do sul e noroeste de Goiás."
+      },
+      {
+        "regiao": "Sudeste",
+        "texto": "Alerta laranja do Inmet para tempestades em todo o estado de São Paulo, mais fortes no oeste paulista, e em áreas do Triângulo Mineiro, do sul de Minas e do Rio de Janeiro, com risco de alagamentos, granizo e ventania à tarde."
+      },
+      {
+        "regiao": "Sul",
+        "texto": "Chuva forte e temporais no Paraná e no centro e norte de Santa Catarina; no Rio Grande do Sul, a chuva volta a aumentar ao longo da semana, com previsão de mais de 150 mm até sexta em áreas do norte e do oeste gaúcho."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Metrópoles",
+        "url": "https://www.metropoles.com/sao-paulo/sp-alertas-tempestades-3-feira"
+      },
+      {
+        "nome": "ND+",
+        "url": "https://ndmais.com.br/tempo/ciclone-extratropical-frente-fria-13-estados-na-rota-de-tempestades"
+      },
+      {
+        "nome": "ND+ (Meteored)",
+        "url": "https://ndmais.com.br/tempo/frente-fria-avanca-alerta-chuva-intensa-230-mm-acumulados-ate-sexta-9/"
+      }
+    ]
+  }
+}

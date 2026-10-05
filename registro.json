@@ -124,6 +124,10 @@
     {
       "data": "2026-10-05",
       "item": "José Bonifácio — Representação à Assembleia Geral Constituinte sobre a escravatura (texto)"
+    },
+    {
+      "data": "2026-10-05",
+      "item": "Celso Furtado — Formação econômica do Brasil (livro, noite)"
     }
   ],
   "momento": [
@@ -182,8 +186,12 @@
     {
       "data": "2026-10-05",
       "item": "Camila Rocha — Menos Marx, mais Mises"
+    },
+    {
+      "data": "2026-10-05",
+      "item": "John Kenneth Galbraith — Uma breve história da euforia financeira (noite)"
     }
   ],
   "tiragem": 7,
-  "tiragem_noite": 6
+  "tiragem_noite": 7
 }
