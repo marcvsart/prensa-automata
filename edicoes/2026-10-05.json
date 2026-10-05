@@ -1,0 +1,467 @@
+{
+  "data": "2026-10-05",
+  "numero": 7,
+  "manchete": {
+    "titulo": "Flávio Bolsonaro termina o primeiro turno à frente de Lula, e os dois voltam às urnas em 25 de outubro",
+    "texto": [
+      "Com 100% das urnas apuradas, segundo o Tribunal Superior Eleitoral (TSE), Flávio Bolsonaro (PL) teve 47,03% dos votos válidos para presidente (56,1 milhões de votos), e Lula (PT), 45,16% (53,9 milhões), uma diferença de cerca de 2,2 milhões de votos. Augusto Cury (Avante) ficou em terceiro, com 2,89%, seguido de Renan Santos (Missão), com 2,24%, e Ronaldo Caiado (PSD), com 2,18%. O resultado inverteu a ordem das pesquisas de véspera: Datafolha e Quaest davam Lula numericamente à frente, com 45% a 42% e 46% a 45% dos votos válidos, respectivamente. A abstenção foi de 21,08%, ou 33,5 milhões de eleitores, a mais alta num primeiro turno desde 1998, segundo o TSE. Lula disse que estava \"convencido\" de que venceria no primeiro turno, \"mas já pensei isso outras vezes\"; Flávio afirmou que Lula \"está preocupado com o poder\" e ele, \"com o futuro do Brasil\". A campanha do segundo turno começa agora, e a votação será no domingo, 25 de outubro."
+    ],
+    "nota": "Totalização oficial do TSE para presidente, 100% das seções apuradas; votos brancos: 1,84%; nulos: 2,93% do total.",
+    "fontes": [
+      {
+        "nome": "TSE (resultado oficial)",
+        "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/br/br-c0001-e006257-u.json"
+      },
+      {
+        "nome": "Bloomberg Línea (declarações e abstenção)",
+        "url": "https://bloomberglinea.com.br/brasil/ao-vivo-brasil-vai-as-urnas-para-eleger-presidente-governadores-e-congresso"
+      },
+      {
+        "nome": "Agência Brasil (abstenção)",
+        "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-vai-trabalhar-para-diminuir-abstencao-no-segundo-turno"
+      }
+    ]
+  },
+  "brasil": [
+    {
+      "titulo": "PL elege 19 senadores e terá a maior bancada de um partido na história do Senado",
+      "texto": [
+        "Somados aos oito senadores eleitos em 2022 e a um suplente que assume vaga, o PL terá 28 das 81 cadeiras a partir de fevereiro, cerca de 34% da Casa, segundo a Gazeta do Povo; o recorde anterior era do PMDB, que chegou a 27 senadores depois de 1998. Entre os eleitos estão Michelle Bolsonaro e Bia Kicis, no Distrito Federal, e Carlos Bolsonaro e Carol De Toni, em Santa Catarina, de acordo com os dados do TSE. Na Câmara, os deputados mais votados foram Lucas Pavanato (PL-SP), com mais de 2,88 milhões de votos, e Nikolas Ferreira (PL-MG), com mais de 2,85 milhões, recordes para o cargo. O senador Rogério Marinho (PL-RN), coordenador da campanha de Flávio, deve disputar a presidência do Senado com Davi Alcolumbre (União-AP) em fevereiro."
+      ],
+      "fontes": [
+        {
+          "nome": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pl-faz-a-limpa-no-senado-e-tera-a-maior-bancada-de-um-partido-na-historia/"
+        },
+        {
+          "nome": "Bloomberg Línea (Câmara)",
+          "url": "https://bloomberglinea.com.br/brasil/ao-vivo-brasil-vai-as-urnas-para-eleger-presidente-governadores-e-congresso"
+        }
+      ]
+    },
+    {
+      "titulo": "Vinte estados elegem governador no primeiro turno; seis estados e o DF terão segundo turno",
+      "texto": [
+        "Tarcísio de Freitas (Republicanos) foi reeleito em São Paulo com 62,65% dos votos válidos, contra 36,42% de Fernando Haddad (PT); em Minas, Cleitinho (Republicanos) venceu com 55,40%, e no Paraná Sergio Moro (PL) passou de metade dos votos por pouco, com 50,10%. O PL ganhou também no Rio Grande do Sul, em Santa Catarina, em Rondônia e em Roraima, e o PT reelegeu Jerônimo Rodrigues na Bahia e Elmano de Freitas no Ceará, onde derrotou Ciro Gomes, além de Rafael Fonteles no Piauí. Em Pernambuco, Raquel Lyra (PSD) se reelegeu contra João Campos (PSB). Haverá segundo turno no Acre, no Amazonas, no Distrito Federal, no Espírito Santo, no Rio de Janeiro (Douglas Ruas, do PL, contra Eduardo Paes, do PSD), no Rio Grande do Norte e no Tocantins."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil (eleitos no 1º turno)",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/veja-os-20-estados-onde-o-governador-foi-eleito-no-1o-turno"
+        },
+        {
+          "nome": "Agência Brasil (segundo turno)",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/Seis-estados-e-o-DF-terao-segundo-turno-para-governador"
+        }
+      ]
+    },
+    {
+      "titulo": "TSE atribui atraso de uma hora na apuração a congestionamento de dados e quer reduzir abstenção",
+      "texto": [
+        "Na noite de domingo, a totalização ficou parada em cerca de 64% das urnas por volta das 19h e saltou para 84% às 20h. O presidente do TSE, Kassio Nunes Marques, disse que a equipe de tecnologia detectou um fluxo de dados acima do normal, o que acionou um protocolo de segurança e gerou o atraso. Ele também afirmou que uma abstenção de 20% \"não é o ideal\" e que o tribunal vai intensificar as ações para reduzir o índice no segundo turno."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil (atraso)",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/congestionamento-no-sistema-de-dados-gerou-atraso-na-apuracao-diz-tse"
+        },
+        {
+          "nome": "Agência Brasil (abstenção)",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-vai-trabalhar-para-diminuir-abstencao-no-segundo-turno"
+        }
+      ]
+    },
+    {
+      "titulo": "Carne bovina brasileira passa a pagar tarifa de 67% para entrar na China",
+      "texto": [
+        "Desde 1º de outubro, a carne que excede a cota anual de 1,106 milhão de toneladas paga uma sobretaxa de 55%, além da tarifa normal de 12%. A China compra mais de 40% da carne bovina exportada pelo Brasil, e o setor espera que as exportações totais caiam cerca de 10% em 2026 na comparação com 2025. A Associação Brasileira das Indústrias Exportadoras de Carnes (Abiec) discute antecipar abates e embarques para usar a cota de 2027, de 1,128 milhão de toneladas, que pode se esgotar já em março ou abril."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/carne-brasileira-vai-pagar-tarifa-de-67-para-entrar-na-china"
+        }
+      ]
+    },
+    {
+      "titulo": "Inpe vê 95% de chance de El Niño \"muito forte\" até dezembro",
+      "texto": [
+        "O boletim do painel El Niño 2026-2027, coordenado pelo Inpe com Inmet, ANA, Cemaden e outros órgãos, aponta que o fenômeno pode estar entre os mais intensos desde 1950. A previsão é de chuva acima da média no Sul, com risco de enchentes, e de tempo mais seco e quente no Norte e em parte do Nordeste e do Centro-Oeste, com mais risco de queimadas e seca. O aquecimento da superfície do Pacífico equatorial passou de 2 °C no fim de setembro, segundo a agência americana NOAA."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/painel-indica-que-el-nino-pode-ser-um-dos-mais-intensos-desde-1950"
+        }
+      ]
+    }
+  ],
+  "momento": {
+    "titulo": "Menos Marx, mais Mises: o liberalismo e a nova direita no Brasil",
+    "autor": "Camila Rocha · 2021",
+    "texto": [
+      "Para entender de onde vem a força que a direita mostrou nas urnas, do Senado aos governos estaduais, vale ler a pesquisa de doutorado da cientista política Camila Rocha, publicada pela Todavia. Com base em entrevistas com militantes e dirigentes, ela reconstrói a formação de uma nova direita no Brasil a partir dos anos 2000, com o papel de think tanks liberais, fóruns na internet e redes sociais, e mostra como grupos antes marginais ganharam público antes de chegar ao poder em 2018. A tese recebeu prêmios da Associação Brasileira de Ciência Política e da USP. Não é um livro sobre esta eleição, mas ajuda a ver que o resultado de domingo tem raízes que antecedem a família Bolsonaro e os candidatos de agora."
+    ],
+    "fontes": [
+      {
+        "nome": "Revista PerCursos (resenha)",
+        "url": "https://doaj.org/article/6d89a93ce5474d1fba3cdfb547f30825"
+      },
+      {
+        "nome": "Le Monde Diplomatique Brasil (entrevista)",
+        "url": "https://diplomatique.org.br/?p=92189"
+      }
+    ]
+  },
+  "mundo": {
+    "titulo": "Governo do Iêmen anuncia ofensiva para retomar todo o território controlado pelos houthis",
+    "texto": [
+      "Rashad al-Alimi, chefe do conselho presidencial do Iêmen, governo reconhecido internacionalmente e apoiado pela Arábia Saudita, anunciou no domingo (4) o início de operações militares para retomar \"os territórios restantes da república\". O anúncio veio horas depois de os houthis, apoiados pelo Irã, cortarem a principal estrada que liga a cidade sitiada de Taiz a Áden, sede provisória do governo; fontes dos dois lados disseram à AFP que mais de 70 combatentes morreram em um dia. Os houthis afirmaram ter lançado mísseis e drones contra instalações da Aramco em Riade e em Khurais, em resposta a bombardeios sauditas; a Arábia Saudita não confirmou. No mês passado, o grupo tomou boa parte da costa do Mar Vermelho perto do estreito de Bab al-Mandeb, rota marítima vital num momento em que o Estreito de Ormuz segue bloqueado pela guerra entre EUA e Irã."
+    ],
+    "fontes": [
+      {
+        "nome": "The Guardian/AFP",
+        "url": "https://www.theguardian.com/world/2026/oct/05/saudi-backed-yemen-government-military-drive-retake-houthi-territory"
+      },
+      {
+        "nome": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o"
+      }
+    ]
+  },
+  "ia": {
+    "titulo": "Stability AI, criadora do Stable Diffusion, aposta em música com apoio das grandes gravadoras",
+    "texto": [
+      "A empresa que popularizou a geração de imagens com IA em 2022 está sendo reconstruída em torno de ferramentas de música, sob o comando do CEO Prem Akkaraju e do investidor Sean Parker, cofundador do Napster. Sony, Warner e Universal participaram de uma rodada de US$ 76 milhões no fim de agosto e licenciaram seus catálogos para treinar os modelos. A Stability já lançou três modelos de áudio e um programa de edição que gera faixas instrumentais a partir de texto; uma próxima versão deve permitir guiar a criação cantarolando uma melodia ou batucando um ritmo. Parker reconheceu que a estratégia de agir primeiro e pedir desculpas depois não funcionou e disse que agora a empresa vai seguir as regras."
+    ],
+    "fontes": [
+      {
+        "nome": "Time News",
+        "url": "https://time.news/stability-ai-pivots-to-generative-music-with-major-record-labels/"
+      }
+    ]
+  },
+  "giro": [
+    {
+      "regiao": "América do Sul",
+      "itens": [
+        {
+          "titulo": "Bolívia prende procurador-geral que investigava operador digital argentino",
+          "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/bolivia-prende-procurador-da-republica-que-investigava-caso-cerimedo"
+        },
+        {
+          "titulo": "Argentina vai vender cidadania a estrangeiros por US$ 350 mil",
+          "url": "https://www.batimes.com.ar/news/argentina/pay-for-passport-scheme-argentina-unveils-citizen-by-investment-scheme.phtml"
+        },
+        {
+          "titulo": "Ativistas temem retrocesso em leis contra a violência de gênero na América Latina",
+          "url": "https://www.theguardian.com/global-development/2026/oct/05/defend-our-men-fears-for-womens-rights-in-latin-america-over-plans-to-counter-gender-violence-laws"
+        }
+      ]
+    },
+    {
+      "regiao": "América do Norte e Central",
+      "itens": [
+        {
+          "titulo": "EUA retiram todos os bombardeiros de base aérea no Reino Unido",
+          "url": "https://www.bbc.co.uk/news/articles/cmwyve191dlko"
+        },
+        {
+          "titulo": "Guarda Costeira suspende buscas por seis ocupantes de avião-ambulância que caiu no mar",
+          "url": "https://www.aljazeera.com/news/2026/10/5/us-coastguard-suspends-search-for-six-on-board-crashed-medical-jet"
+        },
+        {
+          "titulo": "Disputas pelo Senado na Geórgia e em Michigan testam rumo dos democratas",
+          "url": "https://www.france24.com/en/americas/20261004-ossoff-and-el-sayed-two-senate-races-and-what-they-say-about-the-democratic-party"
+        }
+      ]
+    },
+    {
+      "regiao": "África",
+      "itens": [
+        {
+          "titulo": "Quatro líderes africanos assinam declaração conjunta com escalada da guerra na Etiópia",
+          "url": "https://www.aljazeera.com/news/2026/10/5/four-african-leaders-issue-joint-declaration-as-ethiopia-war-escalates"
+        },
+        {
+          "titulo": "Gana pode proibir pastores de pregar dentro de ônibus",
+          "url": "https://www.bbc.co.uk/news/articles/cwnvln99v2ygo"
+        },
+        {
+          "titulo": "Morre aos 72 anos Dafroza Gauthier, que caçava suspeitos do genocídio em Ruanda",
+          "url": "https://www.france24.com/en/africa/20261004-rwandan-genocide-hunter-dafroza-gauthier-dies-at-72"
+        }
+      ]
+    },
+    {
+      "regiao": "Europa",
+      "itens": [
+        {
+          "titulo": "Pedro Sánchez convoca eleições antecipadas na Espanha após protestos por moradia",
+          "url": "https://www.bbc.co.uk/news/articles/cmdx39k49xw0o"
+        },
+        {
+          "titulo": "Nacionalista sérvio-bósnio reivindica vitória nas eleições da Bósnia",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/bosnian-serb-nationalist-claims-party-victory-in-bosnia-elections"
+        },
+        {
+          "titulo": "França prevê cerca de 500 escolas fechadas por protestos estudantis",
+          "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/franca-preve-cerca-de-500-escolas-fechadas-nesta-segunda-feira"
+        }
+      ]
+    },
+    {
+      "regiao": "Oriente Médio",
+      "itens": [
+        {
+          "titulo": "Exportações de petróleo do Oriente Médio superam nível de antes da guerra com o Irã",
+          "url": "https://www.aljazeera.com/news/2026/10/5/middle-east-oil-exports-surpass-pre-war-levels-despite-tensions-data-shows"
+        },
+        {
+          "titulo": "Irã diz que Ormuz não será reaberto até que suas condições sejam atendidas",
+          "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/ira-diz-que-ormuz-nao-sera-reaberto-ate-que-condicoes-sejam-atendidas"
+        },
+        {
+          "titulo": "Jornalista egípcio responde por terrorismo após prisão de toda a redação",
+          "url": "https://www.theguardian.com/world/2026/oct/04/egyptian-journalist-faces-terrorism-charges-entire-newsroom-detained-matsadaash-press-freedom"
+        }
+      ]
+    },
+    {
+      "regiao": "Ásia",
+      "itens": [
+        {
+          "titulo": "Prisão de fuzileiro americano por homicídio reacende protestos em Okinawa",
+          "url": "https://www.bbc.co.uk/news/articles/cwgkv70gg1j3o"
+        },
+        {
+          "titulo": "FBI prende suposto agente chinês acusado de espionar filho do presidente de Taiwan",
+          "url": "https://www.aljazeera.com/news/2026/10/5/fbi-arrests-chinese-foreign-agent-for-spying-on-taiwan-presidents-son"
+        },
+        {
+          "titulo": "Coreia do Norte lança míssil balístico em meio a tensão com Seul",
+          "url": "https://www.france24.com/en/asia-pacific/20261003-north-korea-fires-ballistic-missile-after-seoul-s-apology-demand"
+        }
+      ]
+    }
+  ],
+  "ciencia": {
+    "titulo": "Fraturas em crânios indicam que servos dos primeiros faraós foram sacrificados",
+    "texto": [
+      "A arqueóloga Roselyn Campbell, da Universidade Purdue, nos EUA, reexaminou os crânios de 46 pessoas enterradas ao redor das tumbas de dois reis e uma rainha da Primeira Dinastia egípcia, há cerca de 5 mil anos, no cemitério real de Umm el-Qa'ab, perto de Abidos. Dezoito deles têm sinais de ferimentos potencialmente fatais na hora da morte, provavelmente causados por objetos largos e chatos de madeira ou chifre. O estudo, publicado na revista Frontiers in Environmental Archaeology, reforça a hipótese de sacrifício humano levantada nos anos 1920 pelo egiptólogo Flinders Petrie, que não tinha encontrado marcas de violência. A autora ressalva que a amostra é pequena e que nem todos os acompanhantes enterrados ali foram necessariamente mortos."
+    ],
+    "fontes": [
+      {
+        "nome": "The Guardian",
+        "url": "https://www.theguardian.com/science/2026/oct/05/skull-fractures-suggest-servants-of-egypts-ancient-kings-were-sacrificed"
+      }
+    ]
+  },
+  "disco": {
+    "artista": "Módulo 1000",
+    "titulo": "Não Fale com Paredes",
+    "ficha": "1972 · Top Tape",
+    "texto": [
+      "Formado no Rio de Janeiro em 1969, o quarteto de Daniel Cardone (guitarra, violino e voz), Luiz Paulo Simas (órgão, piano e voz), Eduardo Leal (baixo) e Candido Faria (bateria) começou tocando Hendrix e Led Zeppelin em clubes e gravou um único disco, produzido pelo DJ Ademir Lemos, com capa dobrável de Wander Borges. O resultado é um rock psicodélico pesado e experimental, com órgão distorcido, efeitos de fita e passagens que lembram ao mesmo tempo o hard rock inglês e a música eletrônica alemã. Pesado demais para o rádio da época e pouco divulgado pela gravadora, sumiu das lojas e só foi redescoberto décadas depois, com reedições em vinil. Comece por \"Turpe Est Sine Crine Caput\", que abre o disco."
+    ],
+    "fontes": [
+      {
+        "nome": "Far Out Magazine",
+        "url": "https://faroutmagazine.co.uk/modulo-1000-brazilian-experimental-music/"
+      },
+      {
+        "nome": "Worldwide Stereo (reedição e faixas)",
+        "url": "https://www.worldwidestereo.com/products/nao-fale-com-paredes-vinyl-lp"
+      }
+    ]
+  },
+  "poema": {
+    "autor": "Vicente de Carvalho",
+    "titulo": "Velho tema (I)",
+    "ficha": "De Poemas e Canções (1908)",
+    "texto": "Só a leve esperança, em toda a vida,\nDisfarça a pena de viver, mais nada;\nNem é mais a existência, resumida,\nQue uma grande esperança malograda.\n\nO eterno sonho da alma desterrada,\nSonho que a traz ansiosa e embevecida,\nÉ uma hora feliz, sempre adiada\nE que não chega nunca em toda a vida.\n\nEssa felicidade que supomos,\nÁrvore milagrosa, que sonhamos\nToda arreada de dourados pomos,\n\nExiste, sim: mas nós não a alcançamos\nPorque está sempre apenas onde a pomos\nE nunca a pomos onde nós estamos.",
+    "comentario": [
+      "O soneto mais conhecido do santista Vicente de Carvalho (1866–1924) fala da esperança como uma \"hora feliz, sempre adiada\". Num dia em que metade do país comemora e a outra metade recalcula, e em que a decisão foi empurrada para daqui a três semanas, o poema lembra que a felicidade que projetamos fica sempre um pouco adiante de onde estamos. (\"Malograda\" quer dizer frustrada; \"pomos\", no terceto, são frutos.)"
+    ],
+    "fontes": [
+      {
+        "nome": "Enem 2011 (prova, com o texto)",
+        "url": "https://focomedicina.com.br/wp-content/uploads/2024/12/linguagens-e-codigos2011.pdf"
+      },
+      {
+        "nome": "eBiografia",
+        "url": "https://www.ebiografia.com/vicente_de_carvalho/"
+      }
+    ]
+  },
+  "entender_brasil": {
+    "titulo": "Representação à Assembleia Geral Constituinte e Legislativa do Império do Brasil sobre a escravatura",
+    "autor": "José Bonifácio de Andrada e Silva · texto, escrito em 1823 e impresso em 1825",
+    "texto": [
+      "Logo depois da Independência, José Bonifácio, ministro e principal articulador político de dom Pedro I, preparou para a primeira Constituinte um projeto para acabar com o tráfico de africanos, melhorar a condição dos escravizados e chegar, aos poucos, à abolição. Para ele, uma nação livre não poderia se construir sobre a escravidão, que corrompia a moral, travava o trabalho livre e impedia a formação de um povo. A Assembleia foi dissolvida antes que o texto fosse apresentado, e o autor acabou exilado; a Representação saiu impressa em Paris em 1825. Reler hoje esse texto curto ajuda a ver como o país nasceu adiando a questão que marcaria toda a sua história. A Brasiliana Guita e José Mindlin, da USP, oferece de graça a reimpressão de 1884, feita por abolicionistas no auge da campanha."
+    ],
+    "fontes": [
+      {
+        "nome": "Biblioteca Brasiliana Guita e José Mindlin (USP)",
+        "url": "https://digital.bbm.usp.br/bitstream/bbm/4486/1/016881_COMPLETO.pdf"
+      }
+    ]
+  },
+  "mercado": {
+    "texto": [
+      "Hoje é o primeiro pregão depois do primeiro turno. Na sexta, o Ibovespa subiu 2,63%, para 192.114 pontos, e o dólar fechou a R$ 5,22. Na madrugada, o principal fundo de ações brasileiras negociado em Tóquio chegou a subir quase 8%, segundo a Bloomberg Línea, sinal de que investidores reagiram bem à vantagem de Flávio Bolsonaro. A atenção agora se volta às pesquisas do segundo turno e a sinais dos dois candidatos sobre política fiscal."
+    ],
+    "fontes": [
+      {
+        "nome": "Bloomberg Línea",
+        "url": "https://bloomberglinea.com.br/brasil/ao-vivo-brasil-vai-as-urnas-para-eleger-presidente-governadores-e-congresso"
+      },
+      {
+        "nome": "InfoMoney (fechamento de sexta)",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-02102026/"
+      }
+    ]
+  },
+  "ibovespa": {
+    "painel": [
+      [
+        "Fechamento",
+        "192.114"
+      ],
+      [
+        "Dia",
+        "+2,63%"
+      ],
+      [
+        "Mês",
+        "+3,1%"
+      ],
+      [
+        "Ano",
+        "+19,2%"
+      ]
+    ],
+    "texto": [
+      "Fechamento de sexta (2), último pregão antes da eleição."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-02102026/"
+      }
+    ]
+  },
+  "dolar": {
+    "painel": [
+      [
+        "Fechamento",
+        "R$ 5,22"
+      ],
+      [
+        "Dia",
+        "−0,08%"
+      ],
+      [
+        "Mês",
+        "+0,8%"
+      ],
+      [
+        "Ano",
+        "−5,0%"
+      ]
+    ],
+    "texto": [
+      "Fechamento de sexta (2), a R$ 5,216."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-02102026"
+      }
+    ]
+  },
+  "bitcoin": {
+    "painel": [
+      [
+        "US$",
+        "86.035"
+      ],
+      [
+        "R$",
+        "449.449"
+      ],
+      [
+        "24h",
+        "+1,1%"
+      ],
+      [
+        "7d / 30d",
+        "+3,7% / +8,0%"
+      ]
+    ],
+    "texto": [
+      "Perto da máxima em oito meses, mas de novo travado abaixo de US$ 87 mil; analistas observam se as médias de 50, 100 e 200 dias ficam alinhadas em alta, o que não acontece desde junho de 2025. Cotação às 6h15 de Brasília."
+    ],
+    "fontes": [
+      {
+        "nome": "CoinGecko",
+        "url": "https://www.coingecko.com/pt/moedas/bitcoin"
+      },
+      {
+        "nome": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/10/05/bitcoin-is-about-to-get-a-major-bullish-signal-it-hasn-t-had-in-over-a-year"
+      }
+    ]
+  },
+  "esporte": {
+    "titulo": "São Paulo empata com o Corinthians e é campeão brasileiro feminino pela primeira vez",
+    "texto": [
+      "Depois de vencer a ida por 2 a 1, o São Paulo empatou por 1 a 1 no sábado (3), no Morumbi, com gol de Bia Menezes; Juliete empatou para o Corinthians. No segundo tempo, a goleira Carlinha defendeu um pênalti de Gabi Zanotti que levaria a decisão adiante. O título encerra a hegemonia do Corinthians, campeão das seis edições anteriores, e o público de 49.405 pessoas foi, segundo a Agência Brasil, recorde para um jogo entre clubes de futebol feminino na América do Sul."
+    ],
+    "fontes": [
+      {
+        "nome": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-10/sao-paulo-segura-corinthians-e-e-campeao-brasileiro-pela-1a-vez"
+      }
+    ]
+  },
+  "tempo": {
+    "dia": "segunda-feira, 5",
+    "regioes": [
+      {
+        "regiao": "Norte",
+        "texto": "Calor e pancadas de chuva isoladas à tarde, sem previsão de temporais mais fortes, segundo os principais serviços de meteorologia."
+      },
+      {
+        "regiao": "Nordeste",
+        "texto": "Tempo nublado com chuva fraca e intermitente no leste da região e calor no interior."
+      },
+      {
+        "regiao": "Centro-Oeste",
+        "texto": "Chuva forte e temporais no sul e no oeste de Mato Grosso do Sul desde cedo; pancadas isoladas no restante da região, incluindo o Distrito Federal."
+      },
+      {
+        "regiao": "Sudeste",
+        "texto": "Uma frente fria avança rápido e traz risco de temporais, com chuva intensa, raios e rajadas de vento, em São Paulo, no Rio de Janeiro e em boa parte de Minas, inclusive nas capitais; o norte e o leste mineiro e o norte capixaba ficam de fora da instabilidade mais forte. No Espírito Santo, a chuva dá trégua depois de um fim de semana com mais de 100 mm em Vitória."
+      },
+      {
+        "regiao": "Sul",
+        "texto": "Alerta para chuva intensa, temporais, granizo isolado e ventania no norte do Rio Grande do Sul, no meio-oeste de Santa Catarina e em grande parte do Paraná. A chuva deve se concentrar no Sul ao longo da semana, com acumulados de 100 a 230 mm previstos até sexta no norte gaúcho e no meio-oeste catarinense."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Climatempo",
+        "url": "https://www.climatempo.com.br/noticia/sudeste/sudeste-inicia-a-semana-em-alerta-para-temporais"
+      },
+      {
+        "nome": "Meteored",
+        "url": "https://www.tempo.com/noticias/previsao/chuvas-nao-tregua-atingem-as-5-regioes-e-acumulam-mais-200-na-semana-veja-os-alertas.html"
+      },
+      {
+        "nome": "Portal Tempo Novo",
+        "url": "https://portaltemponovo.com.br/primeiro-ciclone-de-outubro-se-forma-no-brasil-e-estados-terao-chuva-de-200-mm"
+      }
+    ]
+  }
+}

@@ -28,6 +28,10 @@
     {
       "data": "2026-10-04",
       "item": "Ave Sangria — Ave Sangria (1974)"
+    },
+    {
+      "data": "2026-10-05",
+      "item": "Módulo 1000 — Não Fale com Paredes (1972)"
     }
   ],
   "poemas": [
@@ -58,6 +62,10 @@
     {
       "data": "2026-10-04",
       "item": "Machado de Assis — Círculo vicioso"
+    },
+    {
+      "data": "2026-10-05",
+      "item": "Vicente de Carvalho — Velho tema"
     }
   ],
   "entender_brasil": [
@@ -112,6 +120,10 @@
     {
       "data": "2026-10-04",
       "item": "Roberto Schwarz — As ideias fora do lugar (texto, noite)"
+    },
+    {
+      "data": "2026-10-05",
+      "item": "José Bonifácio — Representação à Assembleia Geral Constituinte sobre a escravatura (texto)"
     }
   ],
   "momento": [
@@ -166,8 +178,12 @@
     {
       "data": "2026-10-04",
       "item": "André Singer — Raízes sociais e ideológicas do lulismo (noite)"
+    },
+    {
+      "data": "2026-10-05",
+      "item": "Camila Rocha — Menos Marx, mais Mises"
     }
   ],
-  "tiragem": 6,
+  "tiragem": 7,
   "tiragem_noite": 6
 }
