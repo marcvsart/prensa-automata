@@ -1,0 +1,41 @@
+name: Newsletter
+
+# Manda a edição mais recente por email via Buttondown, separado da geração:
+# roda quando um push na main muda ultima.json (nova edição publicada) ou à mão.
+# Secret BUTTONDOWN_API_KEY; variável NEWSLETTER_MODO = "rascunho" (padrão) ou "envio".
+on:
+  push:
+    branches: [main]
+    paths: [ultima.json]
+  workflow_dispatch:
+
+# uma execução por vez, para duas edições seguidas não disputarem a checagem de slug
+concurrency:
+  group: newsletter
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  enviar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Dependências
+        run: pip install -r scripts/requirements-newsletter.txt
+      - name: Gerar e enviar ao Buttondown
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+          NEWSLETTER_MODO: ${{ vars.NEWSLETTER_MODO }}
+        run: python3 scripts/enviar_newsletter.py --saida newsletter/email.html
+      - name: Guardar o HTML do email
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: newsletter-email
+          path: newsletter/email.html
+          if-no-files-found: warn

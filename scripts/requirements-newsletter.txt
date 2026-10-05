@@ -1,0 +1,2 @@
+beautifulsoup4==4.15.0
+css-inline==0.22.0

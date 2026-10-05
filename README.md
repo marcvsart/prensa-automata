@@ -21,6 +21,9 @@ Jornal diário produzido por IA. Cada edição é um arquivo JSON em `edicoes/`;
 | `PROMPT-TAREFA.md` | Instrução da edição da manhã |
 | `PROMPT-TAREFA-NOITE.md` | Cópia do prompt da edição da noite (a Routine guarda o próprio texto) |
 | `.nojekyll` | Faz o GitHub Pages servir os arquivos como estão, sem passar pelo Jekyll |
+| `.github/workflows/newsletter.yml` | Quando uma edição nova chega à main (muda o `ultima.json`) ou à mão, manda a edição por email via Buttondown |
+| `scripts/enviar_newsletter.py` | Transforma a edição numa versão para email e cria o email no Buttondown (usado pela Action acima) |
+| `arauto-email.png` | O arauto em PNG, para o topo do email (clientes de email não mostram SVG) |
 | `.github/workflows/verificar.yml` | A cada push, confere se os JSON são válidos e se a edição mais recente monta sem erro |
 
 A edição de teste (Tiragem Nº 0, 29/09/2026) já está incluída como modelo.
@@ -54,6 +57,16 @@ As visitas são contadas pelo GoatCounter (sem cookies, sem dados pessoais), em 
 ## Navegação entre edições
 
 No fim de cada edição há um link para a anterior ("Edição de ontem", ou "Edição anterior · DD/MM" se algum dia ficou sem edição) e outro para `edicoes/index.html`, o arquivo com todas as edições, separadas em manhã e noite. A manhã e a noite têm numeração própria (`tiragem` e `tiragem_noite` no `registro.json`); a noite aponta para "Edição da manhã", e a manhã seguinte para "Edição de ontem à noite". Esses links não ficam defasados: a edição anterior de uma página nunca muda, e o arquivo é refeito a cada build.
+
+## Newsletter (Buttondown)
+
+A Action `newsletter.yml` roda separada da geração: quando um push na `main` muda o `ultima.json`, ela lê a edição, monta uma versão para email (estilos inline, até 640px, links absolutos, sem scripts nem formulário) e cria o email no Buttondown com o slug `prensa-<edição>` (`prensa-2026-10-05`, `prensa-2026-10-05-noite`). Se o slug já existe, ela para sem erro, então rodar de novo não duplica o envio.
+
+- **Chave:** secret do repositório `BUTTONDOWN_API_KEY` (Settings → Secrets and variables → Actions → Secrets). Nunca em arquivo.
+- **Modo:** variável do repositório `NEWSLETTER_MODO` (mesma tela, aba Variables). `rascunho` (padrão, se a variável não existir) cria um draft para conferir no Buttondown; `envio` manda para os assinantes.
+- **Rodar à mão:** aba Actions → Newsletter → Run workflow.
+- **Ver o email sem abrir o Buttondown:** cada execução guarda o HTML gerado como artifact `newsletter-email`, no resumo da execução.
+- **Testar localmente:** `pip install -r scripts/requirements-newsletter.txt` e `python3 scripts/enviar_newsletter.py --sem-api --saida /tmp/email.html`.
 
 ## Mudar o visual
 
