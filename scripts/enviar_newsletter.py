@@ -16,7 +16,6 @@ Ambiente:
 Depende de beautifulsoup4 e css-inline (scripts/requirements-newsletter.txt).
 """
 import argparse, json, os, sys, time, urllib.error, urllib.parse, urllib.request
-from datetime import date
 
 import css_inline
 from bs4 import BeautifulSoup
@@ -27,8 +26,6 @@ LOGO = SITE + "arauto-email.png"
 API = "https://api.buttondown.com/v1/emails"
 VERSAO_API = "2026-04-01"
 LIMITE_ASSUNTO = 90
-MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto",
-         "setembro", "outubro", "novembro", "dezembro"]
 
 # paleta do :root do site, com valores fixos (clientes de email não entendem variáveis CSS)
 BG, PAPEL, TINTA, SECUNDARIO, LINHA, DESTAQUE = "#f6f8fb", "#ffffff", "#0f1a2c", "#56627a", "#d7deea", "#1e3a9e"
@@ -107,10 +104,8 @@ def ler_edicao():
 
 
 def assunto(slug, ed):
-    """'Prensa Autômata · 5 de outubro · Manchete…', com até ~90 caracteres."""
-    d = date.fromisoformat(slug[:10])
-    quando = f"{d.day} de {MESES[d.month - 1]}" + (", noite" if slug.endswith("-noite") else "")
-    prefixo = f"Prensa Autômata · {quando} · "
+    """'Prensa Autômata · Manchete…', com até ~90 caracteres."""
+    prefixo = "Prensa Autômata · "
     manchete = " ".join(ed["manchete"]["titulo"].split())
     cabe = LIMITE_ASSUNTO - len(prefixo)
     if len(manchete) > cabe:
