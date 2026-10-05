@@ -23,7 +23,6 @@ Jornal diário produzido por IA. Cada edição é um arquivo JSON em `edicoes/`;
 | `.nojekyll` | Faz o GitHub Pages servir os arquivos como estão, sem passar pelo Jekyll |
 | `.github/workflows/newsletter.yml` | Quando uma edição nova chega à main (muda o `ultima.json`) ou à mão, manda a edição por email via Buttondown |
 | `scripts/enviar_newsletter.py` | Transforma a edição numa versão para email e cria o email no Buttondown (usado pela Action acima) |
-| `arauto-email.png` | O arauto em PNG, para o topo do email (clientes de email não mostram SVG) |
 | `.github/workflows/verificar.yml` | A cada push, confere se os JSON são válidos e se a edição mais recente monta sem erro |
 
 A edição de teste (Tiragem Nº 0, 29/09/2026) já está incluída como modelo.

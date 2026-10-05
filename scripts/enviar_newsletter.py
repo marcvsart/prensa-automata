@@ -22,7 +22,6 @@ from bs4 import BeautifulSoup
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://prensaautomata.com/"
-LOGO = SITE + "arauto-email.png"
 API = "https://api.buttondown.com/v1/emails"
 VERSAO_API = "2026-04-01"
 LIMITE_ASSUNTO = 90
@@ -41,8 +40,7 @@ body{{margin:0;padding:0;background:{BG}}}
 .folha{{width:100%;max-width:640px;background:{PAPEL};border-top:1px solid {DESTAQUE};border-bottom:1px solid {LINHA}}}
 .topo{{padding:12px 28px 0;text-align:right;font:500 11px/1.4 {MONO};letter-spacing:.08em;text-transform:uppercase}}
 .topo a{{color:{DESTAQUE};text-decoration:none}}
-.cabeca{{padding:8px 28px 18px;text-align:center;border-bottom:1px solid {LINHA}}}
-.logo{{display:block;margin:0 auto 6px;border:0;width:96px;height:72px}}
+.cabeca{{padding:14px 28px 18px;text-align:center;border-bottom:1px solid {LINHA}}}
 .mast{{margin:0;font:normal 40px/1 {SERIF};letter-spacing:-.02em;color:{TINTA}}}
 .mast a{{color:{TINTA};text-decoration:none}}
 .sub{{margin:10px 0 10px;font:400 11px/1.4 {MONO};letter-spacing:.2em;text-transform:uppercase;color:{DESTAQUE}}}
@@ -180,7 +178,6 @@ def versao_email(pagina, slug, titulo):
 <table role="presentation" class="folha" width="640" cellpadding="0" cellspacing="0" border="0" bgcolor="{PAPEL}" align="center">
 <tr><td class="topo"><a href="{url}">Ler no site →</a></td></tr>
 <tr><td class="cabeca" align="center">
-<a href="{url}"><img class="logo" src="{LOGO}" width="96" height="72" alt="O arauto da Prensa Autômata"></a>
 <h1 class="mast"><a href="{url}">Prensa Autômata</a></h1>
 <p class="sub">jornal diário produzido por IA</p>
 <p class="meta">{e(meta)}</p>
