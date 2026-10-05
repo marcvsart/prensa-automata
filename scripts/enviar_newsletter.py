@@ -15,7 +15,7 @@ Ambiente:
 --sem-api só gera o HTML, sem falar com o Buttondown (para testar localmente).
 Depende de beautifulsoup4 e css-inline (scripts/requirements-newsletter.txt).
 """
-import argparse, json, os, sys, time, urllib.error, urllib.parse, urllib.request
+import argparse, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
 
 import css_inline
 from bs4 import BeautifulSoup
@@ -112,7 +112,17 @@ def assunto(slug, ed):
     return prefixo + manchete
 
 
-def versao_email(pagina, slug, titulo):
+def previa(ed, limite=200):
+    """Primeira frase da manchete: o texto que a caixa de entrada mostra ao lado do assunto."""
+    texto = ed["manchete"]["texto"]
+    texto = " ".join((texto if isinstance(texto, str) else texto[0]).split())
+    frase = re.split(r'(?<=[.!?])\s+(?=[A-ZÀ-Ý"“])', texto, maxsplit=1)[0]
+    if len(frase) > limite:
+        frase = frase[:limite - 1].rsplit(" ", 1)[0].rstrip(" ,;:—-") + "…"
+    return frase
+
+
+def versao_email(pagina, slug, titulo, ed):
     """HTML da edição -> HTML para email: só o conteúdo, estilos inline, links absolutos."""
     url = f"{SITE}edicoes/{slug}.html"
     sopa = BeautifulSoup(pagina, "html.parser")
@@ -171,6 +181,7 @@ def versao_email(pagina, slug, titulo):
 <style>{CSS}</style>
 </head>
 <body>
+<div style="display:none;max-height:0;max-width:0;overflow:hidden;opacity:0;mso-hide:all;font-size:1px;line-height:1px;color:{BG}">{e(previa(ed))}{"&#847;&zwnj;&nbsp;" * 90}</div>
 <table role="presentation" class="fundo" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="{BG}">
 <tr><td class="fundo-td" align="center">
 <table role="presentation" class="folha" width="640" cellpadding="0" cellspacing="0" border="0" bgcolor="{PAPEL}" align="center">
@@ -251,7 +262,7 @@ def main():
 
     slug, pagina, ed = ler_edicao()
     titulo = assunto(slug, ed)
-    doc = versao_email(pagina, slug, titulo)
+    doc = versao_email(pagina, slug, titulo, ed)
     print(f"edição: {slug}\nassunto ({len(titulo)} caracteres): {titulo}")
     if args.saida:
         os.makedirs(os.path.dirname(os.path.abspath(args.saida)), exist_ok=True)
