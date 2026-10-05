@@ -6,7 +6,7 @@ Uso:  python3 build.py                  (monta a edição mais recente)
       python3 build.py 2026-09-29-noite (monta a edição da noite de uma data)
 
 Gera edicoes/AAAA-MM-DD.html, copia a mais recente para index.html
-e refaz edicoes/index.html (arquivo com todas as edições) e sobre.html.
+e refaz edicoes/index.html (arquivo com todas as edições), sobre.html e assinar.html.
 Só usa a biblioteca padrão do Python.
 """
 import glob, html, json, os, sys
@@ -116,6 +116,11 @@ RODAPE = """<footer>
   Prensa Autômata · jornal diário produzido por IA · os textos são resumos com link para as fontes originais; erros podem acontecer, confira sempre a fonte. · <a href="sobre.html">Sobre a Prensa</a>
 </footer>"""
 
+# assinatura por email (Buttondown): link no cabeçalho, chamada antes do rodapé e página assinar.html
+ASSINAR = '<a href="assinar.html" class="assinar-link">Receba a Prensa por email →</a>'
+ASSINAR_META = f"<span>{ASSINAR}</span>"
+ASSINAR_PE = f'<p class="assinar-pe">{ASSINAR}</p>'
+
 def lista_turno(pasta, slugs):
     """Edições de um turno, da mais recente para a mais antiga, agrupadas por mês."""
     grupos = []
@@ -144,6 +149,12 @@ def lista_curta(pasta, slugs, rotulo):
                   f'<span>({len(resto)})</span></summary>\n{lista_turno(pasta, resto)}\n</details>')
     return lista
 
+def para_edicoes(pagina):
+    """Páginas dentro de edicoes/: links para a raiz do site sobem um nível."""
+    return (pagina.replace('href="edicoes/', 'href="').replace('href="./"', 'href="../"')
+            .replace('href="sobre.html"', 'href="../sobre.html"')
+            .replace('href="assinar.html"', 'href="../assinar.html"'))
+
 def pagina_arquivo(pasta, datas, css):
     """edicoes/index.html: todas as edições, separadas em manhã e noite."""
     turnos = [("manha", "☀︎ Edições da manhã", [x for x in datas if not noturna(x)]),
@@ -162,7 +173,7 @@ def pagina_arquivo(pasta, datas, css):
   {REG.format(lado='r')}
   <h1 class="mast"><a href="../">Prensa Autômata</a></h1>
   <p class="sub">jornal diário produzido por IA</p>
-  <p class="meta"><span>Todas as edições</span><span>{len(datas)} {"tiragem" if len(datas) == 1 else "tiragens"}</span></p>
+  <p class="meta"><span>Todas as edições</span><span>{len(datas)} {"tiragem" if len(datas) == 1 else "tiragens"}</span>{ASSINAR_META}</p>
 </header>
 
 <div class="arq">
@@ -171,7 +182,8 @@ def pagina_arquivo(pasta, datas, css):
 
 <nav class="nav-ed" aria-label="Capa"><a href="../">← Edição de hoje</a></nav>
 
-{RODAPE.replace('href="sobre.html"', 'href="../sobre.html"')}
+{ASSINAR_PE}
+{RODAPE}
 </main>
 </body>
 </html>
@@ -251,10 +263,10 @@ def montar(ed, arquivo, slug):
     numero = e(str(ed.get("numero", "")))
     if noturna(slug):
         titulo = f"Prensa Autômata · Edição da noite · {data_extenso(ed['data'])}"
-        meta = f"<span>{e(data_extenso(ed['data']))}</span><span>Edição da noite</span><span>Noturna Nº {numero}</span>"
+        meta = f"<span>{e(data_extenso(ed['data']))}</span><span>Edição da noite</span><span>Noturna Nº {numero}</span>{ASSINAR_META}"
     else:
         titulo = f"Prensa Autômata · {data_extenso(ed['data'])}"
-        meta = f"<span>{e(data_extenso(ed['data']))}</span><span>Tiragem Nº {numero}</span>"
+        meta = f"<span>{e(data_extenso(ed['data']))}</span><span>Tiragem Nº {numero}</span>{ASSINAR_META}"
     return f"""{cabeca(titulo, m['titulo'], css)}
 <body>
 <main>
@@ -268,6 +280,7 @@ def montar(ed, arquivo, slug):
 
 {chr(10).join(chr(10) + x for x in partes)}
 
+{ASSINAR_PE}
 {RODAPE}
 </main>
 </body>
@@ -284,7 +297,7 @@ def pagina_sobre(css):
   {REG.format(lado='r')}
   <h1 class="mast"><a href="./">Prensa Autômata</a></h1>
   <p class="sub">jornal diário produzido por IA</p>
-  <p class="meta"><span>Sobre a Prensa</span></p>
+  <p class="meta"><span>Sobre a Prensa</span>{ASSINAR_META}</p>
 </header>
 
 <div class="sobre">
@@ -316,6 +329,42 @@ def pagina_sobre(css):
 </section>
 
 <p class="assina">Prensa Autômata · um experimento de Marcus Couto · 2026</p>
+</div>
+
+<nav class="nav-ed" aria-label="Edições"><a href="./">← Edição mais recente</a><a href="edicoes/index.html">Todas as edições →</a></nav>
+
+{ASSINAR_PE}
+{RODAPE}
+</main>
+</body>
+</html>
+"""
+
+def pagina_assinar(css):
+    """assinar.html: formulário de assinatura por email (Buttondown)."""
+    return f"""{cabeca("Prensa Autômata · Receba a Prensa por email", "Receba a Prensa Autômata por email: uma edição por dia, gratuita.", css)}
+<body>
+<main>
+<header>
+  {REG.format(lado='l')}
+  {REG.format(lado='r')}
+  <h1 class="mast"><a href="./">Prensa Autômata</a></h1>
+  <p class="sub">jornal diário produzido por IA</p>
+</header>
+
+<div class="assinar">
+<h2 class="assinar-t">Receba a Prensa por email</h2>
+<!-- TODO (Marcus): revisar o texto de apresentação da assinatura -->
+<p class="lede">Uma edição por dia no seu email, gratuita. Para cancelar, basta um clique no link que vem no fim de cada mensagem, a qualquer momento.</p>
+
+<form action="https://buttondown.com/api/emails/embed-subscribe/prensaautomata" method="post" class="prensa-form">
+  <label for="bd-email">Receba a Prensa por email</label>
+  <div class="prensa-form__row">
+    <input type="email" name="email" id="bd-email" placeholder="seu@email.com" required autocomplete="email" />
+    <input type="submit" value="Assinar" />
+  </div>
+  <p><a href="https://buttondown.com/refer/prensaautomata" target="_blank" rel="noopener">Enviado via Buttondown</a></p>
+</form>
 </div>
 
 <nav class="nav-ed" aria-label="Edições"><a href="./">← Edição mais recente</a><a href="edicoes/index.html">Todas as edições →</a></nav>
@@ -358,8 +407,7 @@ def main():
     pagina = montar(ed, datas, alvo)
     # links do arquivo apontam para edicoes/…; dentro de edicoes/ o caminho relativo muda
     with open(os.path.join(pasta, f"{alvo}.html"), "w", encoding="utf-8") as f:
-        f.write(pagina.replace('href="edicoes/', 'href="').replace('href="./"', 'href="../"')
-                .replace('href="sobre.html"', 'href="../sobre.html"'))
+        f.write(para_edicoes(pagina))
     if alvo == datas[0]:
         with open(os.path.join(RAIZ, "index.html"), "w", encoding="utf-8") as f:
             f.write(pagina.replace(RECENTE + "\n", "").replace("</body>", VIGIA.replace("SLUG", alvo) + "</body>", 1))
@@ -367,9 +415,11 @@ def main():
     with open(os.path.join(RAIZ, "ultima.json"), "w", encoding="utf-8") as f:
         f.write(json.dumps({"edicao": datas[0]}) + "\n")
     with open(os.path.join(pasta, "index.html"), "w", encoding="utf-8") as f:
-        f.write(pagina_arquivo(pasta, datas, open(os.path.join(RAIZ, "estilo.css"), encoding="utf-8").read()))
+        f.write(para_edicoes(pagina_arquivo(pasta, datas, open(os.path.join(RAIZ, "estilo.css"), encoding="utf-8").read())))
     with open(os.path.join(RAIZ, "sobre.html"), "w", encoding="utf-8") as f:
         f.write(pagina_sobre(open(os.path.join(RAIZ, "estilo.css"), encoding="utf-8").read()))
+    with open(os.path.join(RAIZ, "assinar.html"), "w", encoding="utf-8") as f:
+        f.write(pagina_assinar(open(os.path.join(RAIZ, "estilo.css"), encoding="utf-8").read()))
     print(f"ok: edição {alvo} montada" + (" (capa atualizada)" if alvo == datas[0] else "") + "; arquivo atualizado")
 
 if __name__ == "__main__":

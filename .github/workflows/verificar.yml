@@ -2,7 +2,7 @@ name: Verificar edição
 
 # Confere, a cada push, se todos os JSON de edição são válidos,
 # se a edição mais recente monta sem erro e se o HTML publicado (capa, edição
-# arquivo de edições e página Sobre) bate com ela.
+# arquivo de edições, página Sobre e página Assinar) bate com ela.
 on:
   push:
   pull_request:
@@ -23,4 +23,4 @@ jobs:
         run: |
           # mesma ordem do build.py: 2026-09-30-noite vem depois de 2026-09-30
           ultima=$(python3 -c "import glob, os; print(max(os.path.basename(f)[:-5] for f in glob.glob('edicoes/*.json')))")
-          git diff --exit-code -- index.html edicoes/index.html ultima.json sobre.html "edicoes/${ultima}.html"
+          git diff --exit-code -- index.html edicoes/index.html ultima.json sobre.html assinar.html "edicoes/${ultima}.html"
