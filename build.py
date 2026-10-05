@@ -266,7 +266,7 @@ def montar(ed, arquivo, slug):
         meta = f"<span>{e(data_extenso(ed['data']))}</span><span>Edição da noite</span><span>Noturna Nº {numero}</span>{ASSINAR_META}"
     else:
         titulo = f"Prensa Autômata · {data_extenso(ed['data'])}"
-        meta = f"<span>{e(data_extenso(ed['data']))}</span><span>Tiragem Nº {numero}</span>{ASSINAR_META}"
+        meta = f"<span>{e(data_extenso(ed['data']))}</span><span>Matutina Nº {numero}</span>{ASSINAR_META}"
     return f"""{cabeca(titulo, m['titulo'], css)}
 <body>
 <main>

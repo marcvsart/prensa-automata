@@ -143,6 +143,24 @@ footer a:hover{color:var(--accent)}
 .nav-ed a:last-child{margin-left:auto}
 .nav-ed a:only-child{margin-left:0}
 
+/* assinatura por email (Buttondown): link no cabeçalho e no pé, página assinar.html */
+.assinar-link{color:var(--accent);text-decoration:none}
+.assinar-link:hover{text-decoration:underline}
+.meta .assinar-link{white-space:nowrap}
+.assinar-pe{margin:32px 0 12px;text-align:center;font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase}
+.assinar{margin-top:36px}
+.assinar-t{font:500 clamp(1.9rem,6.5vw,2.6rem)/1.08 var(--serif);letter-spacing:-.02em;font-variation-settings:"opsz" 72;margin:0 0 14px;text-wrap:balance}
+.assinar .lede{font-size:1.14rem;line-height:1.55}
+.prensa-form{display:flex;flex-direction:column;gap:10px;box-sizing:border-box;max-width:480px;margin:28px auto;padding:20px;border:1px solid var(--rule);border-top:2px solid var(--ink);background:var(--paper);color:var(--ink);font:16px/1.4 var(--serif)}
+.prensa-form label{font:500 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.prensa-form__row{display:flex;flex-wrap:wrap;gap:8px}
+.prensa-form input[type="email"]{flex:1 1 220px;min-width:0;box-sizing:border-box;padding:10px 12px;border:1px solid var(--rule);border-radius:0;background:var(--bg);color:inherit;font:inherit}
+.prensa-form input[type="email"]:focus{outline:2px solid var(--accent);outline-offset:-1px;background:var(--paper)}
+.prensa-form input[type="submit"]{flex:0 0 auto;padding:10px 18px;border:0;border-radius:0;background:var(--accent);color:#fff;font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
+.prensa-form input[type="submit"]:hover{background:var(--ink)}
+.prensa-form p{margin:0;font:11px/1 var(--mono)}
+.prensa-form p a{color:var(--muted);text-decoration:none}
+
 @media (max-width:480px){body{font-size:17.5px}.reg{display:none}.regioes div,.etapas div{grid-template-columns:1fr}.arq li a{grid-template-columns:auto 1fr}.arq .t{grid-column:1/-1}}
 
 @media print{
@@ -151,6 +169,7 @@ footer a:hover{color:var(--accent)}
   header{background:none}
   section,.leitura,.album{break-inside:avoid-page}
   a{text-decoration:none}
+  .assinar-link,.assinar-pe{display:none}
 }
 
 </style>
@@ -163,7 +182,7 @@ footer a:hover{color:var(--accent)}
   <svg class="reg r" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="5.5" fill="none" stroke="currentColor"/><path d="M10 0v20M0 10h20" stroke="currentColor"/></svg>
   <h1 class="mast"><a href="../">Prensa Autômata</a></h1>
   <p class="sub">jornal diário produzido por IA</p>
-  <p class="meta"><span>Quinta-feira, 1 de outubro de 2026</span><span>Tiragem Nº 3</span></p>
+  <p class="meta"><span>Quinta-feira, 1 de outubro de 2026</span><span>Matutina Nº 3</span><span><a href="../assinar.html" class="assinar-link">Receba a Prensa por email →</a></span></p>
 </header>
 
 
@@ -402,6 +421,7 @@ Seu corpo desceu ao mar...</p>
 <a href="index.html">Todas as edições →</a>
 </nav>
 
+<p class="assinar-pe"><a href="../assinar.html" class="assinar-link">Receba a Prensa por email →</a></p>
 <footer>
   Prensa Autômata · jornal diário produzido por IA · os textos são resumos com link para as fontes originais; erros podem acontecer, confira sempre a fonte. · <a href="../sobre.html">Sobre a Prensa</a>
 </footer>
