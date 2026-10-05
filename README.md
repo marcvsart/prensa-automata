@@ -14,6 +14,8 @@ Jornal diário produzido por IA. Cada edição é um arquivo JSON em `edicoes/`;
 | `sobre.html` | Página "Sobre a Prensa", refeita a cada build (o texto fica no `build.py`); link no rodapé de todas as páginas |
 | `assinar.html` | Página "Receba a Prensa por email", com o formulário do Buttondown, refeita a cada build; link no cabeçalho e antes do rodapé de todas as páginas |
 | `arauto.svg` | O arauto da Prensa (linotipo robô em pixel art), no topo da página Sobre |
+| `icone.svg`, `apple-touch-icon.png` | Ícone da aba e da tela inicial (cabeça do arauto) |
+| `og.png` | Imagem de prévia quando um link da Prensa é compartilhado (arauto + nome) |
 | `build.py` | Monta a página a partir do JSON. Só Python padrão, sem instalar nada |
 | `estilo.css` | Visual do jornal (layout, fontes, cores, modo escuro) |
 | `registro.json` | Discos, poemas e leituras já publicados, para não repetir |
