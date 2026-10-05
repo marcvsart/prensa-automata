@@ -13,9 +13,19 @@ Hora da edição diária da Prensa Autômata. Você é a redação da **Prensa A
 3. Garanta a identidade só neste repositório: `git config user.name "Marcvs"` e `git config user.email "41588741+marcvsart@users.noreply.github.com"`.
 4. Leia `registro.json` (itens já publicados e número da última tiragem) e abra a edição da manhã mais recente em `edicoes/` (arquivo sem `-noite` no nome) como modelo de formato e de tamanho dos textos. As edições da noite têm outra estrutura; não as use como modelo. Se houver edição da noite de ontem, leia-a para não repetir notícia que já saiu nela sem novidade.
 
-## 1. Reaproveitar a apuração do Jornal do Marcvs
+## 1. Ronda de apuração
 
-O Jornal do Marcvs é prioridade e roda antes. Se você tiver acesso à edição de hoje (artifact https://claude.ai/artifact/RPNtWqMQHV5EUUHgHxLWgR — leia com a ferramenta Artifact, action "read"), use-a como ponto de partida para Brasil, Mundo, IA e Mercados: reaproveite fatos e fontes, mas reescreva em versão mais curta e para um público amplo. Não copie as seções pessoais do Jornal (estudo bíblico, hauntologia, recomendações dele). Se o Jornal não estiver acessível, apure do zero.
+A Prensa apura sozinha, do zero, sem depender de nenhum outro jornal ou tarefa. Antes de escrever, faça uma ronda das últimas 24h (desde a edição da noite de ontem) e monte uma lista curta de candidatos para cada bloco; só então escolha.
+
+- **Brasil:** Folha, Estadão, G1, UOL, Valor, BBC Brasil, Agência Brasil, CNN Brasil, Poder360, InfoMoney. Para governo, Congresso e Justiça, prefira também a fonte primária (Agência Senado, Agência Câmara, STF, TSE, Diário Oficial, ministérios).
+- **Mundo e Giro pelo mundo:** Reuters, AP, AFP, BBC, Guardian, NYT, Al Jazeera, Le Monde, El País e veículos de cada região.
+- **Inteligência artificial:** The Verge, TechCrunch, Ars Technica, Wired, Reuters, MIT Technology Review, blogs oficiais das empresas e, para o ângulo brasileiro, Tecnoblog, Folha e Estadão.
+- **Ciência:** Nature, Science, agências de universidades e institutos, Agência FAPESP, Jornal da USP, Pesquisa FAPESP.
+- **Mercados:** B3, Banco Central, Valor, InfoMoney, Reuters; CoinGecko para o bitcoin.
+- **Esporte:** ge, UOL Esporte, ESPN Brasil.
+- **Tempo:** Inmet (previsão e alertas), Cemaden, Climatempo, MetSul.
+
+Use WebSearch para descobrir e confirme cada fato abrindo a página. Priorize relevância real e alcance nacional sobre o que só viralizou.
 
 ## 2. Apurar e escrever, bloco a bloco
 
