@@ -38,9 +38,7 @@ body{{margin:0;padding:0;background:{BG}}}
 .fundo{{background:{BG}}}
 .fundo-td{{padding:24px 12px}}
 .folha{{width:100%;max-width:640px;background:{PAPEL};border-top:1px solid {DESTAQUE};border-bottom:1px solid {LINHA}}}
-.topo{{padding:12px 28px 0;text-align:right;font:500 11px/1.4 {MONO};letter-spacing:.08em;text-transform:uppercase}}
-.topo a{{color:{DESTAQUE};text-decoration:none}}
-.cabeca{{padding:14px 28px 18px;text-align:center;border-bottom:1px solid {LINHA}}}
+.cabeca{{padding:28px 28px 18px;text-align:center;border-bottom:1px solid {LINHA}}}
 .mast{{margin:0;font:normal 40px/1 {SERIF};letter-spacing:-.02em;color:{TINTA}}}
 .mast a{{color:{TINTA};text-decoration:none}}
 .sub{{margin:10px 0 10px;font:400 11px/1.4 {MONO};letter-spacing:.2em;text-transform:uppercase;color:{DESTAQUE}}}
@@ -176,7 +174,6 @@ def versao_email(pagina, slug, titulo):
 <table role="presentation" class="fundo" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="{BG}">
 <tr><td class="fundo-td" align="center">
 <table role="presentation" class="folha" width="640" cellpadding="0" cellspacing="0" border="0" bgcolor="{PAPEL}" align="center">
-<tr><td class="topo"><a href="{url}">Ler no site →</a></td></tr>
 <tr><td class="cabeca" align="center">
 <h1 class="mast"><a href="{url}">Prensa Autômata</a></h1>
 <p class="sub">jornal diário produzido por IA</p>
