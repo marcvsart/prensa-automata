@@ -1,0 +1,78 @@
+name: X — teste de credenciais
+
+# Valida as credenciais do X (OAuth 1.0a de usuário), só à mão.
+# Confere se a conta autenticada é @prensautomata; com postar=true, publica um post de teste.
+# Secrets X_API_KEY, X_API_SECRET, X_ACCESS_TOKEN, X_ACCESS_SECRET.
+on:
+  workflow_dispatch:
+    inputs:
+      postar:
+        description: "Publicar um post de teste no X"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  testar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install --quiet requests-oauthlib
+
+      - name: Validar credenciais (e postar, se pedido)
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+          POSTAR: ${{ inputs.postar }}
+        shell: python
+        run: |
+          import os, sys
+          from requests_oauthlib import OAuth1Session
+
+          ESPERADO = "prensautomata"
+          TEXTO = "Prensa Autômata: teste de publicação automática."
+
+          nomes = ["X_API_KEY", "X_API_SECRET", "X_ACCESS_TOKEN", "X_ACCESS_SECRET"]
+          faltando = [n for n in nomes if not os.environ.get(n)]
+          if faltando:
+              print("Secrets ausentes: " + ", ".join(faltando))
+              sys.exit(1)
+
+          x = OAuth1Session(
+              os.environ["X_API_KEY"],
+              client_secret=os.environ["X_API_SECRET"],
+              resource_owner_key=os.environ["X_ACCESS_TOKEN"],
+              resource_owner_secret=os.environ["X_ACCESS_SECRET"],
+          )
+
+          def falhar(etapa, r):
+              print(f"Erro em {etapa}: HTTP {r.status_code}")
+              print(r.text)
+              sys.exit(1)
+
+          # Passo 1: identidade da conta autenticada
+          r = x.get("https://api.x.com/2/users/me", timeout=30)
+          if r.status_code != 200:
+              falhar("GET /2/users/me", r)
+          username = r.json()["data"]["username"]
+          print(f"Autenticado como: @{username}")
+          if username.lower() != ESPERADO:
+              print(f"Conta inesperada: esperado @{ESPERADO}. Nada será publicado.")
+              sys.exit(1)
+
+          # Passo 2 (opcional): post de teste
+          if os.environ.get("POSTAR") == "true":
+              r = x.post("https://api.x.com/2/tweets", json={"text": TEXTO}, timeout=30)
+              if r.status_code not in (200, 201):
+                  falhar("POST /2/tweets", r)
+              print(f"Post publicado. id: {r.json()['data']['id']}")
+          else:
+              print("postar=false: nenhum post publicado.")
