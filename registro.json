@@ -140,6 +140,10 @@
     {
       "data": "2026-10-06",
       "item": "Capistrano de Abreu — Capítulos de história colonial (livro)"
+    },
+    {
+      "data": "2026-10-06",
+      "item": "Gilberto Freyre — Manifesto regionalista (texto, noite)"
     }
   ],
   "momento": [
@@ -206,8 +210,12 @@
     {
       "data": "2026-10-06",
       "item": "Felipe Recondo e Luiz Weber — Os onze"
+    },
+    {
+      "data": "2026-10-06",
+      "item": "Sérgio Abranches — Presidencialismo de coalizão: o dilema institucional brasileiro (noite)"
     }
   ],
   "tiragem": 8,
-  "tiragem_noite": 7
+  "tiragem_noite": 8
 }
