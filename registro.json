@@ -156,6 +156,10 @@
     {
       "data": "2026-10-07",
       "item": "Monteiro Lobato — Urupês (texto)"
+    },
+    {
+      "data": "2026-10-07",
+      "item": "Alberto Torres — A organização nacional (livro, noite)"
     }
   ],
   "momento": [
@@ -230,8 +234,12 @@
     {
       "data": "2026-10-07",
       "item": "John Maynard Keynes — Possibilidades econômicas para nossos netos"
+    },
+    {
+      "data": "2026-10-07",
+      "item": "Alexander Hamilton — O Federalista, nº 72 (noite)"
     }
   ],
   "tiragem": 9,
-  "tiragem_noite": 8
+  "tiragem_noite": 9
 }
