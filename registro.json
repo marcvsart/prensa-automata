@@ -36,6 +36,10 @@
     {
       "data": "2026-10-06",
       "item": "Lula Côrtes e Zé Ramalho — Paêbirú (1975)"
+    },
+    {
+      "data": "2026-10-07",
+      "item": "Cátia de França — 20 Palavras ao Redor do Sol (1979)"
     }
   ],
   "poemas": [
@@ -74,6 +78,10 @@
     {
       "data": "2026-10-06",
       "item": "Olavo Bilac — Ouvir estrelas (Via Láctea, XIII)"
+    },
+    {
+      "data": "2026-10-07",
+      "item": "Augusto dos Anjos — Psicologia de um vencido"
     }
   ],
   "entender_brasil": [
@@ -144,6 +152,10 @@
     {
       "data": "2026-10-06",
       "item": "Gilberto Freyre — Manifesto regionalista (texto, noite)"
+    },
+    {
+      "data": "2026-10-07",
+      "item": "Monteiro Lobato — Urupês (texto)"
     }
   ],
   "momento": [
@@ -214,8 +226,12 @@
     {
       "data": "2026-10-06",
       "item": "Sérgio Abranches — Presidencialismo de coalizão: o dilema institucional brasileiro (noite)"
+    },
+    {
+      "data": "2026-10-07",
+      "item": "John Maynard Keynes — Possibilidades econômicas para nossos netos"
     }
   ],
-  "tiragem": 8,
+  "tiragem": 9,
   "tiragem_noite": 8
 }

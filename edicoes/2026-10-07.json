@@ -1,0 +1,490 @@
+{
+  "data": "2026-10-07",
+  "numero": 9,
+  "manchete": {
+    "titulo": "Fim da escala 6x1 vira primeiro embate do segundo turno: Lula fala em \"teste\" para o PL, e Flávio defende jornada por hora",
+    "texto": [
+      "A proposta que acaba com a escala 6x1 começou a ser discutida no plenário do Senado nesta terça-feira (6) e passou ao centro da disputa presidencial. O presidente Lula (PT) disse que a votação é o \"primeiro teste\" para o PL dizer \"o que quer desse país\", afirmou que Flávio Bolsonaro é contra a redução da jornada e disse que há quem tente atrapalhar a análise do texto. Flávio (PL) criticou a proposta e defendeu a alternativa apresentada por Rogério Marinho (PL-RN), coordenador de sua campanha: a PEC 12/2026, que permite ao trabalhador escolher entre o regime comum da CLT e um modelo flexível, com pagamento por hora trabalhada; ele também prometeu auxílio para vagas em creches privadas quando faltar oferta na rede pública. A PEC apoiada pelo governo, já aprovada pela Câmara, reduz a jornada máxima de 44 para 40 horas semanais, com dois dias de descanso e sem corte de salário, e precisa de ao menos 49 votos em dois turnos; o presidente do Senado, Davi Alcolumbre (União-AP), sinalizou que a votação pode ocorrer na próxima semana, e, segundo o g1, PL e Republicanos se reúnem nesta quarta (7) para definir uma estratégia para evitá-la. Em Goiânia, ao receber o apoio de Ronaldo Caiado (PSD), Flávio também disse que pretende usar a maioria no Congresso para eleger o presidente da Câmara e \"mudar a Constituição\", sem dizer o que pretende alterar."
+    ],
+    "fontes": [
+      {
+        "nome": "g1 (Lula)",
+        "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/06/fim-da-escala-6x1-lula-diz-que-quer-ver-reducao-da-carga-de-trabalho-sair-do-papel-e-que-flavio-e-contra.ghtml"
+      },
+      {
+        "nome": "Congresso em Foco (Flávio)",
+        "url": "https://www.congressoemfoco.com.br/noticia/123034/flavio-defende-trabalho-por-hora-como-alternativa-ao-fim-da-escala-6x1"
+      },
+      {
+        "nome": "Metrópoles (Alcolumbre)",
+        "url": "https://www.metropoles.com/brasil/alcolumbre-sinaliza-colocar-fim-da-6x1-em-votacao-na-proxima-semana"
+      },
+      {
+        "nome": "g1 Goiás (Constituição)",
+        "url": "https://g1.globo.com/go/goias/eleicoes/2026/noticia/2026/10/06/flavio-bolsonaro-fala-em-usar-maioria-na-camara-e-no-senado-para-mudar-constituicao-e-redemocratizar-o-pais.ghtml"
+      }
+    ]
+  },
+  "brasil": [
+    {
+      "titulo": "PP e União Brasil anunciam apoio a Flávio; Lula monta \"força-tarefa\" digital com jovens eleitos",
+      "texto": [
+        "A federação formada pelos dois partidos, que ficou neutra no primeiro turno, decidiu nesta terça (6), em reunião das executivas e das bancadas em Brasília, orientar seus filiados a apoiar Flávio Bolsonaro (PL). Segundo a senadora Tereza Cristina (PP-MS), a decisão foi \"por aclamação e por unanimidade\"; antes do primeiro turno, Flávio havia tentado o apoio formal da federação e chegou a negociar a indicação dela para vice. A campanha de Lula (PT), por sua vez, quer organizar uma força-tarefa para as redes sociais, e o presidente deve se reunir nesta quarta (7) com deputadas eleitas como Ana Elisa (PT-MG), Erika Hilton (PSOL-SP) e Sâmia Bomfim (PSOL-SP), segundo o g1."
+      ],
+      "fontes": [
+        {
+          "nome": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/uniao-brasil-e-pp-anunciam-apoio-a-flavio-bolsonaro-no-segundo-turno/"
+        },
+        {
+          "nome": "Correio Braziliense",
+          "url": "https://www.correiobraziliense.com.br/politica/2026/10/7516032-pp-e-uniao-brasil-anunciam-apoio-a-flavio-bolsonaro-no-segundo-turno.html"
+        },
+        {
+          "nome": "g1 (campanha de Lula)",
+          "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/06/campanha-de-lula-recruta-jovens-eleitos-e-influencers-de-esquerda-para-forca-tarefa-digital.ghtml"
+        }
+      ]
+    },
+    {
+      "titulo": "Plenário do TSE decide amanhã se a eleição para governador do Rio termina no primeiro turno",
+      "texto": [
+        "O julgamento está marcado para quinta-feira (8), às 10h, e vai definir se Anthony Garotinho (Republicanos), inelegível segundo a Justiça Eleitoral do Rio, pode desistir do recurso sobre sua candidatura. Se a desistência for aceita, os 274.411 votos dele (3,17%) podem ser anulados em definitivo, e Douglas Ruas (PL), que teve 49,27% dos votos válidos, passaria de 50% e seria eleito sem segundo turno contra Eduardo Paes (PSD), que teve 42,76%. O Ministério Público Eleitoral apoiou a desistência; a coligação de Paes pediu ao TSE que confirme o segundo turno e afirma que Garotinho abriu mão da candidatura quando seus votos passaram a impedir a vitória de Ruas no primeiro turno."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-marca-para-quinta-feira-julgamento-que-pode-definir-eleicao-no-rio"
+        },
+        {
+          "nome": "g1",
+          "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/06/plenario-do-tse-vai-analisar-caso-garotinho-nesta-quinta-e-pode-definir-rumo-das-eleicoes-no-rio.ghtml"
+        }
+      ]
+    },
+    {
+      "titulo": "OEA elogia a organização da eleição, e TSE nega que atraso na divulgação tenha afetado a apuração",
+      "texto": [
+        "A missão da Organização dos Estados Americanos, com 91 observadores, descreveu em relatório preliminar uma jornada \"cívica e pacífica\" e elogiou a capacidade técnica e logística da Justiça Eleitoral, mas apontou \"clima de tensão e forte polarização\", narrativas de desinformação contra as urnas eletrônicas e a ausência de debate entre os candidatos a presidente. Também nesta terça, o TSE respondeu a mensagens que falam em fraude: segundo o tribunal, a pausa de quase uma hora na atualização dos resultados no domingo afetou só o módulo de divulgação na internet, sem interromper a apuração nas urnas nem a totalização dos votos."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil (OEA)",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/oea-elogia-eleicao-no-brasil-mas-aponta-preocupacao-com-desinformacao"
+        },
+        {
+          "nome": "g1 (TSE)",
+          "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/06/tse-nega-que-atraso-na-divulgacao-dos-resultados-tenha-comprometido-apuracao-dos-votos.ghtml"
+        }
+      ]
+    },
+    {
+      "titulo": "ANP leiloa hoje 13 blocos do pré-sal e 313 áreas fora dele, sob contestação de ambientalistas",
+      "texto": [
+        "É a maior oferta de áreas do pré-sal desde 2022, nas bacias de Campos e de Santos, com 19 empresas inscritas, entre elas Petrobras, Exxon, Chevron, TotalEnergies e Shell; se todos os blocos forem arrematados, o governo arrecada R$ 1,24 bilhão em bônus de assinatura. A outra etapa oferece 313 áreas em nove bacias do Norte, Nordeste e Sudeste, incluindo a do Ceará, na margem equatorial, e a estreia da bacia terrestre do Tacutu, na fronteira com a Guiana. A organização Arayara questiona o leilão na Justiça por sobreposição com territórios quilombolas e indígenas, e o Observatório do Clima diz que os leilões ignoram a emergência climática."
+      ],
+      "fontes": [
+        {
+          "nome": "Folhapress (via ICL Notícias)",
+          "url": "https://iclnoticias.com.br/economia/anp-oferece-maior-pacote-de-areas-do/"
+        },
+        {
+          "nome": "Lusa (via Correio da Manhã Canadá)",
+          "url": "https://www.correiodamanhacanada.com/brasil-realiza-leiloes-com-mais-de-300-blocos-de-exploracao-de-petroleo-e-gas/"
+        }
+      ]
+    },
+    {
+      "titulo": "Governo já pediu o bloqueio de 13,2 mil sites ilegais de apostas; R$ 1,3 bilhão ainda aguarda devolução",
+      "texto": [
+        "Desde 25 de setembro, quando as bets foram proibidas, foram 13.241 pedidos de bloqueio, média de cerca de 1.103 por dia, além da remoção de páginas e perfis em redes sociais que, segundo o ministro da Fazenda, Dario Durigan, alcançavam mais de 17 milhões de usuários. Dos 188 sites autorizados até segunda (5), só um seguia no ar nesta terça, e a Fazenda pediu o bloqueio dele. No primeiro dia sem as plataformas, R$ 1,325 bilhão ainda esperava devolução a cerca de 26,5 milhões de apostadores; Durigan disse que entre R$ 600 milhões e R$ 650 milhões por dia saíam da \"poupança popular\" para as apostas."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/cerca-de-132-mil-sites-de-bets-ilegais-sao-bloqueados"
+        }
+      ]
+    }
+  ],
+  "momento": {
+    "titulo": "Possibilidades econômicas para nossos netos",
+    "autor": "John Maynard Keynes · 1930",
+    "texto": [
+      "Com a jornada de trabalho no centro do segundo turno, vale voltar ao ensaio curto em que o economista britânico tentou prever, em plena Grande Depressão, como seria o trabalho cem anos depois. Publicado em duas partes na revista The Nation and Athenaeum, em outubro de 1930, o texto aposta que o aumento da produtividade tornaria as sociedades ricas muito mais prósperas e que turnos de três horas, ou \"uma semana de quinze horas\", bastariam para o trabalho que restasse. O centenário se aproxima, e a previsão não se confirmou: a discussão de hoje é entre 44 e 40 horas, ou entre jornada fixa e pagamento por hora. Por isso mesmo o ensaio ajuda a pensar a pergunta que está por trás das duas propostas no Senado: o que fazer com o tempo que a produtividade libera e quem decide como ele é dividido. O original em inglês está disponível gratuitamente."
+    ],
+    "fontes": [
+      {
+        "nome": "History of Economic Thought (texto integral, em inglês)",
+        "url": "https://www.hetwebsite.net/het/texts/keynes/keynes1930grandchildren.htm"
+      },
+      {
+        "nome": "Cambridge University Press (Collected Writings)",
+        "url": "https://www.cambridge.org/core/books/abs/collected-writings-of-john-maynard-keynes/economic-possibilities-for-our-grandchildren-1930/230A7959F87C44AC6E83E406DF126B97"
+      }
+    ]
+  },
+  "mundo": {
+    "titulo": "França suspende aulas do ensino médio depois de protesto de 250 mil estudantes, pais e professores",
+    "texto": [
+      "O primeiro-ministro Sébastien Lecornu suspendeu as aulas do ensino médio em todo o país até o fim da semana, depois do maior dia de uma mobilização que já dura mais de duas semanas por melhores condições nas escolas: substituição de professores ausentes, intervalos de almoço mais longos e mudanças na duração do dia escolar. Segundo o Ministério do Interior, mais de 250 mil pessoas foram às ruas nesta terça-feira (6), 56 mil delas em Paris; os organizadores falam em 450 mil, e o sindicato de estudantes secundaristas diz que quase 2 mil escolas foram bloqueadas ou fechadas. A maioria dos atos foi pacífica, mas houve confrontos com a polícia, que usou gás lacrimogêneo; cerca de 500 pessoas foram presas e 43 policiais ficaram feridos, e Lecornu disse que pelo menos 215 adolescentes e 85 funcionários de escolas se feriram desde o início dos protestos. A Anistia Internacional pediu o fim do que chama de repressão policial desproporcional; o ministro do Interior, Laurent Nuñez, diz que a resposta foi proporcional, e o presidente Emmanuel Macron reuniu ministros no Palácio do Eliseu na noite de terça."
+    ],
+    "fontes": [
+      {
+        "nome": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/oct/06/protests-schools-blockade-streets-france"
+      },
+      {
+        "nome": "Al Jazeera/Reuters",
+        "url": "https://www.aljazeera.com/news/2026/10/6/demonstrators-clash-with-riot-police-in-france-as-education-protests-mount"
+      }
+    ]
+  },
+  "ia": {
+    "titulo": "ONG americana diz que versão do ChatGPT para adolescentes é \"risco inaceitável\"; OpenAI contesta",
+    "texto": [
+      "A Common Sense Media, organização sem fins lucrativos que avalia aplicativos e serviços com foco na segurança de crianças e jovens, concluiu que o ChatGPT for Teens, lançado em agosto, oferece proteções aquém do prometido: segundo a avaliação, o serviço não envia alertas aos pais quando deveria, não dá a ajuda adequada em situações de crise e ainda faz a lição de casa pelos alunos. \"Um adolescente pode passar uma hora falando de automutilação sem que os pais recebam um único alerta\", disse Tom Siegel, diretor do instituto de segurança de IA para jovens da entidade, que recomenda o uso só por adultos até que a OpenAI corrija o problema. A OpenAI diz estar comprometida com a segurança dos adolescentes e afirma que boa parte dos testes pode ter ocorrido antes de os controles parentais estarem totalmente ativados. A Common Sense Media mantém a conclusão: diz que algumas contas de teste ficaram vinculadas por muito mais tempo e, mesmo assim, não geraram notificações."
+    ],
+    "fontes": [
+      {
+        "nome": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media"
+      }
+    ]
+  },
+  "giro": [
+    {
+      "regiao": "América do Sul",
+      "itens": [
+        {
+          "titulo": "Messi se despede da seleção argentina com vitória e lágrimas em Buenos Aires",
+          "url": "https://www.aljazeera.com/sports/2026/10/7/lionel-messis-last-game-for-argentina-ends-in-triumph-and-tears"
+        },
+        {
+          "titulo": "Ex-juíza do Supremo da Venezuela diz que foi coagida a barrar María Corina Machado",
+          "url": "https://en.mercopress.com/2026/10/07/former-venezuelan-supreme-court-justice-says-she-was-coerced-into-barring-machado"
+        },
+        {
+          "titulo": "Banco Mundial prevê crescimento de 2,1% da economia argentina neste ano",
+          "url": "https://www.batimes.com.ar/news/economy/argentinas-economy-to-grow-21-this-year-predicts-world-bank.phtml"
+        }
+      ]
+    },
+    {
+      "regiao": "América do Norte e Central",
+      "itens": [
+        {
+          "titulo": "Trump diz que o Irã poderia \"tomar\" San Diego e Los Angeles e é criticado por políticos dos dois partidos",
+          "url": "https://www.aljazeera.com/news/2026/10/7/politicians-slam-trumps-suggestion-that-iran-take-san-diego-los-angeles"
+        },
+        {
+          "titulo": "Departamento de Justiça dos EUA tenta retirar a cidadania de 40 naturalizados",
+          "url": "https://www.theguardian.com/us-news/2026/oct/06/trump-justice-department-denaturalize-citizens-crimes"
+        },
+        {
+          "titulo": "Condenada à morte nos EUA está acordada e falando uma semana depois de execução fracassada",
+          "url": "https://www.bbc.com/news/articles/c8kgezxn54qko"
+        }
+      ]
+    },
+    {
+      "regiao": "África",
+      "itens": [
+        {
+          "titulo": "Chefe do Exército do Sudão rejeita negociações e promete retomar todo o território das RSF",
+          "url": "https://www.aljazeera.com/news/2026/10/7/sudans-al-burhan-rejects-talks-vows-to-retake-all-territory-from-rsf"
+        },
+        {
+          "titulo": "Jornalistas de site de checagem no Egito são acusados de terrorismo",
+          "url": "https://www.bbc.com/news/articles/cm70p4r4zw17o"
+        },
+        {
+          "titulo": "Abiy Ahmed toma posse para o segundo mandato na Etiópia em meio a novo conflito no Tigré",
+          "url": "https://allafrica.com/stories/202610060091.html"
+        }
+      ]
+    },
+    {
+      "regiao": "Europa",
+      "itens": [
+        {
+          "titulo": "Ataque russo à Ucrânia deixa ao menos 11 mortos e 34 feridos, diz Zelensky",
+          "url": "https://www.theguardian.com/world/live/2026/oct/07/russia-ukraine-war-zelenskyy-putin-france-protests-europe-latest-news-updates"
+        },
+        {
+          "titulo": "Finlândia manda parar obras de dois data centers do Google por desmatamento",
+          "url": "https://www.aljazeera.com/news/2026/10/7/finland-orders-halt-to-work-on-google-data-sites-over-environment-concerns"
+        },
+        {
+          "titulo": "Candidato da AfD é eleito presidente de um Parlamento estadual alemão pela primeira vez",
+          "url": "https://www.bbc.com/news/articles/c54g1m2g1pg3o"
+        }
+      ]
+    },
+    {
+      "regiao": "Oriente Médio",
+      "itens": [
+        {
+          "titulo": "Houthis atacam aeroporto de Áden; forças sauditas derrubam míssil perto de Riad",
+          "url": "https://www.aljazeera.com/news/2026/10/7/yemens-houthis-attack-aden-airport-saudi-forces-down-missile-near-riyadh"
+        },
+        {
+          "titulo": "Israel marca três anos do ataque do Hamas de 7 de outubro",
+          "url": "https://www.theguardian.com/world/live/2026/oct/07/israel-october-7-anniversary-hamas-gaza-netanyahu-iran-latest-news-updates"
+        },
+        {
+          "titulo": "Moradores do kibutz Nir Oz, destruído em 7 de outubro, discutem como reconstruí-lo",
+          "url": "https://www.bbc.com/news/articles/cqrmyz4mdn94o"
+        }
+      ]
+    },
+    {
+      "regiao": "Ásia",
+      "itens": [
+        {
+          "titulo": "Corte Constitucional da Indonésia rejeita pedido para cassar o vice-presidente Gibran",
+          "url": "https://www.channelnewsasia.com/asia/indonesia-court-dismiss-gibran-vice-president-education-credentials-challenge-6437971"
+        },
+        {
+          "titulo": "Cidade japonesa é acusada de inflar o censo enquanto a população do país encolhe",
+          "url": "https://www.bbc.com/news/articles/cwg7xgpv7v17o"
+        },
+        {
+          "titulo": "Índia e Catar estão entre os sete candidatos a sediar a Olimpíada de 2036",
+          "url": "https://www.aljazeera.com/sports/2026/10/6/qatar-and-india-among-seven-countries-bidding-for-2036-olympics-ioc-says"
+        }
+      ]
+    }
+  ],
+  "ciencia": {
+    "titulo": "Quem nasceu sob racionamento de açúcar no Reino Unido tem saúde melhor 70 anos depois, indicam estudos",
+    "texto": [
+      "O fim do racionamento de açúcar no Reino Unido, em setembro de 1953, criou um experimento natural: em pouco mais de um ano, o consumo médio quase dobrou. Usando dados do UK Biobank, pesquisadores compararam pessoas nascidas pouco antes e pouco depois da mudança, e o primeiro estudo, publicado na revista Science há dois anos, mostrou que quanto mais tempo alguém passou sob racionamento nos primeiros mil dias de vida, menor o risco de diabetes tipo 2 e de pressão alta mais tarde. Trabalhos recentes ampliaram a lista: um, da Universidade de Surrey, encontrou risco 33% menor de diagnóstico de ansiedade; outro, com participação da Universidade de Ciência e Tecnologia de Hong Kong, viu idade biológica cerca de um ano menor. Os autores ressaltam que o racionamento não foi fome, e sim uma restrição seletiva de açúcar numa dieta adequada, e que os estudos mostram associação, sem explicar ainda o mecanismo."
+    ],
+    "fontes": [
+      {
+        "nome": "The Guardian",
+        "url": "https://www.theguardian.com/society/2026/oct/07/sugar-rations-health-blood-pressure-ageing"
+      }
+    ]
+  },
+  "disco": {
+    "artista": "Cátia de França",
+    "titulo": "20 Palavras ao Redor do Sol",
+    "ficha": "1979",
+    "texto": [
+      "A paraibana Cátia de França estreou em disco com este álbum produzido pelo conterrâneo Zé Ramalho, seu padrinho musical, de som folk com clima psicodélico e letras de forte referência literária. Ficou décadas fora de catálogo e virou disco de colecionador antes de ganhar reedição em vinil no exterior. Entre as faixas estão \"Quem Vai, Quem Vem\", que canta o Raso da Catarina e a caatinga, \"Os Galos\" e a faixa-título. Cátia seguiria gravando ao lado de nomes como Sivuca, Dominguinhos e Elba Ramalho, mas este primeiro disco continua sendo a porta de entrada para a obra dela. Comece por \"Kukukaya (Jogo da Asa da Bruxa)\"."
+    ],
+    "fontes": [
+      {
+        "nome": "Correio da Manhã",
+        "url": "https://www.correiodamanha.com.br/cultura/2024/04/128446-catia-de-franca-ou-melhor-da-paraiba.html"
+      },
+      {
+        "nome": "Spindizzy Records (reedição)",
+        "url": "https://spindizzyrecords.com/products/catia-de-franca-20-palavras-ao-redor-do-sol"
+      }
+    ]
+  },
+  "poema": {
+    "autor": "Augusto dos Anjos",
+    "titulo": "Psicologia de um vencido",
+    "ficha": "De Eu (1912)",
+    "texto": "Eu, filho do carbono e do amoníaco,\nMonstro de escuridão e rutilância,\nSofro, desde a epigênese da infância,\nA influência má dos signos do zodíaco.\n\nProfundissimamente hipocondríaco,\nEste ambiente me causa repugnância...\nSobe-me à boca uma ânsia análoga à ânsia\nQue se escapa da boca de um cardíaco.\n\nJá o verme — este operário das ruínas —\nQue o sangue podre das carnificinas\nCome, e à vida em geral declara guerra,\n\nAnda a espreitar meus olhos para roê-los,\nE há de deixar-me apenas os cabelos,\nNa frialdade inorgânica da terra!",
+    "comentario": [
+      "Hoje a Academia Real de Ciências da Suécia anuncia o Nobel de Química, e nenhum poeta brasileiro escreveu tão perto do laboratório quanto o paraibano Augusto dos Anjos (1884–1914), que abre este soneto se dizendo \"filho do carbono e do amoníaco\". Publicado no único livro do autor, o poema troca a idealização da poesia da época por um vocabulário de ciência e de decomposição. (\"Rutilância\" é brilho intenso; \"epigênese\", a formação gradual de um organismo.)"
+    ],
+    "fontes": [
+      {
+        "nome": "Universidade Estadual de Londrina (Eu, PDF)",
+        "url": "https://projetos.uel.br/bibliotecacomum/bc-texto/obras/bv.00054a.pdf"
+      }
+    ]
+  },
+  "entender_brasil": {
+    "titulo": "Urupês",
+    "autor": "Monteiro Lobato · texto, 1914",
+    "texto": [
+      "Depois de uma carta ao jornal O Estado de S. Paulo contra as queimadas no Vale do Paraíba, em novembro de 1914, Monteiro Lobato (1882-1948) publicou no mês seguinte o artigo \"Urupês\", em que apresentou o Jeca Tatu, o caipira que comparou ao urupê, um fungo parasita que corrói a madeira. O texto, que daria título ao livro de 1918, provocou intensa polêmica: o atraso do interior seria preguiça, como sugeria o retrato, ou consequência de doença, pobreza e abandono? O próprio Lobato mudou de ideia anos depois, sob influência dos sanitaristas, e passou a ver o Jeca como vítima da miséria e de doenças endêmicas, reescrevendo o personagem nas edições seguintes. Numa semana em que se discute quanto e como o brasileiro deve trabalhar, é um texto curto para entender de onde vêm velhas ideias sobre o trabalhador do país e como elas foram contestadas. O livro está em domínio público e disponível gratuitamente no Internet Archive."
+    ],
+    "fontes": [
+      {
+        "nome": "Internet Archive / LibriVox (Urupês, PDF)",
+        "url": "https://archive.org/download/urupes_2202_librivox/urupes_2203.pdf"
+      },
+      {
+        "nome": "Jornal do Brasil",
+        "url": "https://www.jb.com.br/cultura/2018/09/8697-monteiro-lobato-o-brasil-em-carne-e-osso-e-sem-eufemismos.html"
+      }
+    ]
+  },
+  "mercado": {
+    "texto": [
+      "Depois da alta de 7,70% de segunda, o Ibovespa realizou lucros na terça (6) e caiu 0,52%, a 205.835 pontos, ainda acima dos 200 mil; o dólar recuou 0,51%, a R$ 4,976, e fechou abaixo de R$ 5 pela primeira vez desde maio, enquanto os juros futuros caíram em toda a curva. Em Nova York, o S&P 500 renovou recorde, puxado por ações ligadas à inteligência artificial, e o petróleo fechou praticamente estável. Hoje, o mercado acompanha o leilão de áreas de petróleo da ANP, os números da produção de veículos em setembro, da Anfavea, e índices de preços da FGV; no exterior, o destaque é a decisão de juros na Índia."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-06102026/"
+      },
+      {
+        "nome": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-abaixo-de-r-5-pela-primeira-vez-desde-maio"
+      },
+      {
+        "nome": "Poder360 (agenda)",
+        "url": "https://www.poder360.com.br/poder-economia/saiba-quais-indicadores-e-balancos-saem-nesta-4a-feira-9/"
+      }
+    ]
+  },
+  "ibovespa": {
+    "painel": [
+      [
+        "Fechamento",
+        "205.835"
+      ],
+      [
+        "Dia",
+        "−0,52%"
+      ],
+      [
+        "Mês",
+        "+10,5%"
+      ],
+      [
+        "Ano",
+        "+27,8%"
+      ]
+    ],
+    "texto": [
+      "Fechamento de terça (6); oscilou entre 204.725 e 209.523 pontos. Variações no mês e no ano segundo a Agência Brasil."
+    ],
+    "fontes": [
+      {
+        "nome": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-abaixo-de-r-5-pela-primeira-vez-desde-maio"
+      },
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-06102026/"
+      }
+    ]
+  },
+  "dolar": {
+    "painel": [
+      [
+        "Fechamento",
+        "R$ 4,98"
+      ],
+      [
+        "Dia",
+        "−0,51%"
+      ],
+      [
+        "Mês",
+        "−3,8%"
+      ],
+      [
+        "Ano",
+        "−9,4%"
+      ]
+    ],
+    "texto": [
+      "Dólar comercial a R$ 4,976 na terça (6), menor fechamento desde 12 de maio. Variação no mês calculada pela redação; no ano, segundo a Agência Brasil."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-06102026/"
+      },
+      {
+        "nome": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-abaixo-de-r-5-pela-primeira-vez-desde-maio"
+      }
+    ]
+  },
+  "bitcoin": {
+    "painel": [
+      [
+        "US$",
+        "83.902"
+      ],
+      [
+        "R$",
+        "418.035"
+      ],
+      [
+        "24h",
+        "−2,4%"
+      ],
+      [
+        "7d / 30d",
+        "+1,1% / +5,6%"
+      ]
+    ],
+    "texto": [
+      "Recuou em 24 horas e voltou para perto de US$ 84 mil. Cotação às 6h16 de Brasília."
+    ],
+    "fontes": [
+      {
+        "nome": "CoinGecko",
+        "url": "https://www.coingecko.com/pt/moedas/bitcoin"
+      }
+    ]
+  },
+  "esporte": {
+    "titulo": "Brasileirão volta hoje depois da Data Fifa, com Palmeiras de olho no líder Flamengo e São Paulo sob ameaça de perder pontos",
+    "texto": [
+      "Seis jogos abrem a 29ª rodada nesta quarta, entre eles Internacional x Corinthians, Botafogo x Vasco e Cruzeiro x São Paulo, às 21h30, no Mineirão; na quinta, o líder Flamengo visita o Santos na Vila Belmiro, e o Palmeiras, segundo colocado, recebe o Bahia. Na reta final, o Palmeiras terá seis de seus dez jogos restantes em casa, contra cinco do Flamengo, e os dois se enfrentam na 36ª rodada. O São Paulo, com 36 pontos, entra em campo pressionado por uma decisão da Fifa: se não pagar em 60 dias uma dívida de US$ 300 mil com os agentes do meia Galoppo, pode perder até seis pontos no campeonato."
+    ],
+    "fontes": [
+      {
+        "nome": "ge (rodada)",
+        "url": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/noticia/2026/10/07/brasileirao-2026-veja-onde-assistir-ao-vivo-aos-jogos-da-29a-rodada.ghtml"
+      },
+      {
+        "nome": "ge (Palmeiras)",
+        "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/07/palmeiras-retoma-a-caca-ao-flamengo-no-brasileirao-com-mais-jogos-em-casa-veja-tabela.ghtml"
+      },
+      {
+        "nome": "ge (São Paulo)",
+        "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/10/06/sao-paulo-pode-perder-pontos-no-brasileirao-por-transfer-ban-da-fifa-entenda.ghtml"
+      }
+    ]
+  },
+  "tempo": {
+    "dia": "quarta-feira, 7",
+    "regioes": [
+      {
+        "regiao": "Norte",
+        "texto": "Pancadas de chuva com trovoadas no oeste da região, com aviso amarelo do Inmet para chuvas intensas no Amazonas; tempo firme, quente e seco no Amapá, no Pará e no Tocantins, com máximas de até 38 °C."
+      },
+      {
+        "regiao": "Nordeste",
+        "texto": "Calor e tempo seco na maior parte da região, com céu claro no Maranhão, no Piauí e em grande parte do Ceará, máximas que podem chegar a 40 °C e umidade baixa no interior; chuva possível só no litoral e no Recôncavo Baiano."
+      },
+      {
+        "regiao": "Centro-Oeste",
+        "texto": "A chuva perde força: pancadas isoladas no centro-sul de Mato Grosso e de Goiás e em Mato Grosso do Sul, tempo seco no norte goiano e temperaturas em alta, com máximas de até 36 °C."
+      },
+      {
+        "regiao": "Sudeste",
+        "texto": "A instabilidade diminui, mas ainda há pancadas isoladas em São Paulo, no Rio de Janeiro e no sul de Minas, com risco maior no leste paulista; o norte de Minas e do Espírito Santo fica com tempo aberto e quente."
+      },
+      {
+        "regiao": "Sul",
+        "texto": "Temporais voltam ao Rio Grande do Sul a partir da tarde, com risco de granizo e rajadas acima de 90 km/h, sobretudo no oeste, sudoeste, Campanha e centro do estado; pancadas fortes também no oeste catarinense e no sudoeste do Paraná. Na quinta, a chuva avança por Santa Catarina e Paraná, e um novo ciclone extratropical pode se formar no fim de semana."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Inmet",
+        "url": "https://portal.inmet.gov.br/noticias/previs%C3%A3o-para-ter%C3%A7a-feira-6-e-quarta-feira-7"
+      },
+      {
+        "nome": "g1/Climatempo",
+        "url": "https://g1.globo.com/meio-ambiente/noticia/2026/10/07/temporais-voltam-ao-sul-nesta-quarta-novo-ciclone.ghtml"
+      }
+    ]
+  }
+}
