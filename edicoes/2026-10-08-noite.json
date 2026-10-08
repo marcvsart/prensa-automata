@@ -1,0 +1,355 @@
+{
+  "data": "2026-10-08",
+  "numero": 10,
+  "manchete": {
+    "titulo": "TSE anula os votos de Garotinho, e Douglas Ruas vence no primeiro turno a eleição para governador do Rio; Paes recorre ao STF",
+    "texto": [
+      "Por 5 votos a 2, o Tribunal Superior Eleitoral decidiu nesta quinta-feira (8) que os 274.411 votos dados a Anthony Garotinho (Republicanos) no domingo não entram na conta dos votos válidos para governador do Rio de Janeiro. Sem eles, Douglas Ruas (PL), que tinha 49,27% (4.271.199 votos), passa a cerca de 50,9% e fica eleito no primeiro turno, sem o segundo turno contra Eduardo Paes (PSD), que teve 42,76%; o resultado ainda depende da retotalização e da proclamação pelo TRE-RJ. Os sete ministros mantiveram, por unanimidade, a rejeição da candidatura de Garotinho, inelegível por uma condenação por improbidade administrativa de 2018, e também negaram, por unanimidade, o pedido dele para desistir do recurso. Prevaleceu o voto do relator, Floriano de Azevedo Marques, seguido por Estela Aranha, André Mendonça, Dias Toffoli e Nunes Marques, para quem \"o mesmo voto não pode ser nulo em relação ao candidato e válido para o cálculo do resultado\"; Ricardo Villas Bôas Cueva e Sebastião Reis Júnior defenderam manter os votos na conta, o que levaria a disputa ao segundo turno. A coligação de Paes recorreu ao Supremo e diz que negar o segundo turno é \"desprestigiar a vontade do povo\" do estado; na mesma sessão, o TSE adiou, a pedido da defesa, o julgamento da candidatura de Deltan Dallagnol (Novo), eleito senador pelo Paraná, ainda sem nova data."
+    ],
+    "fontes": [
+      {
+        "nome": "Agência Brasil (decisão)",
+        "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-anula-votos-de-garotinho-e-ruas-vence-governo-do-rio-no-1o-turno"
+      },
+      {
+        "nome": "Congresso em Foco",
+        "url": "https://www.congressoemfoco.com.br/noticia/123102/entenda-o-que-tse-decidiu-sobre-garotinho-e-como-fica-a-eleicao-no-rj"
+      },
+      {
+        "nome": "Agência Brasil (recurso de Paes)",
+        "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/paes-recorre-ao-stf-para-barrar-anulacao-dos-votos-de-garotinho"
+      },
+      {
+        "nome": "Agência Brasil (Deltan)",
+        "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-adia-julgamento-sobre-candidatura-de-deltan-dallagnol-ao-senado"
+      }
+    ]
+  },
+  "brasil": [
+    {
+      "titulo": "Primeiro Datafolha do segundo turno mostra Flávio com 52% dos votos válidos e Lula com 48%",
+      "texto": [
+        "Na pesquisa divulgada nesta quinta (8), feita para a Folha e a TV Globo, Flávio Bolsonaro (PL) tem 49% dos votos totais e Lula (PT), 45%; 5% dizem que vão votar em branco ou anular, e 1% está indeciso. O Datafolha entrevistou 2.520 eleitores de 6 a 8 de outubro, com 95% de confiança; a margem de erro é de dois pontos, para mais ou para menos, e o registro no TSE é BR-02949/2026. No primeiro turno, Flávio teve 47,03% dos válidos, e Lula, 45,16%. Também nesta quinta, a PoderData/Aya, que ouviu 3.000 eleitores por telefone de 5 a 7 de outubro (margem de 1,8 ponto, registro BR-08134/2026), mostrou Flávio com 53% dos válidos e Lula com 47%."
+      ],
+      "fontes": [
+        {
+          "nome": "Folha de S.Paulo (Datafolha)",
+          "url": "https://www1.folha.uol.com.br/poder/2026/10/datafolha-flavio-bolsonaro-tem-52-e-lula-48-em-votos-validos-no-segundo-turno.shtml"
+        },
+        {
+          "nome": "CNN Brasil (Datafolha)",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/datafolha-flavio-tem-52-dos-votos-validos-lula-48/"
+        },
+        {
+          "nome": "CNN Brasil (PoderData/Aya)",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/poderdata-aya-flavio-tem-53-dos-votos-validos-no-2o-turno-lula-47/"
+        }
+      ]
+    },
+    {
+      "titulo": "Moraes manda prender Eduardo Bolsonaro para cumprir pena por coação e cancela seus passaportes",
+      "texto": [
+        "Com o fim dos recursos, em 3 de outubro, o ministro Alexandre de Moraes, do STF, determinou o início da execução da pena de quatro anos e dois meses, em regime inicial semiaberto, a que a Primeira Turma condenou o ex-deputado por coação no curso do processo: segundo o tribunal, ele articulou nos Estados Unidos sanções e o tarifaço contra o Brasil para tentar evitar a condenação do pai, Jair Bolsonaro, na ação da trama golpista. O mandado de prisão vai para a Polícia Federal, e a decisão também cancela os passaportes brasileiros de Eduardo. Ele mora nos Estados Unidos desde o ano passado e não constituiu advogado no processo, em que foi defendido pela Defensoria Pública da União; na prática, não deve cumprir a pena enquanto estiver no exterior."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/moraes-determina-emissao-de-mandado-de-prisao-contra-eduardo-bolsonaro"
+        },
+        {
+          "nome": "Migalhas",
+          "url": "https://www.migalhas.com.br/quentes/466212/moraes-manda-prender-eduardo-bolsonaro-e-cancelar-passaportes"
+        }
+      ]
+    },
+    {
+      "titulo": "Incêndio destrói andar de prédio de laboratórios da UFPE; reitor estima prejuízo de R$ 100 milhões",
+      "texto": [
+        "O fogo atingiu na noite de quarta (7) um prédio da Universidade Federal de Pernambuco, no Recife, que abrigava laboratórios de fármacos, genética e informática, e se espalhou rápido por causa dos produtos armazenados. Segundo o reitor, o andar superior foi perdido por completo, com cerca de R$ 100 milhões em equipamentos e materiais, além de dados de cerca de 80 dissertações e teses e de 20 anos de pesquisa. A Polícia Federal abriu inquérito; foi o terceiro incêndio em instalações da UFPE em menos de duas semanas, depois dos de 30 de setembro e de domingo (4), que ficaram restritos às salas atingidas."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil (prejuízo)",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/reitor-da-ufpe-estima-prejuizo-de-incendio-em-cerca-r-100-milhoes"
+        },
+        {
+          "nome": "Agência Brasil (incêndio)",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/incendio-causa-danos-predio-da-universidade-federal-de-pernambuco"
+        }
+      ]
+    }
+  ],
+  "momento": {
+    "titulo": "Como as democracias morrem",
+    "autor": "Steven Levitsky e Daniel Ziblatt · livro, 2018",
+    "texto": [
+      "Num só dia, o Tribunal Superior Eleitoral definiu sem segundo turno a eleição para governador do Rio, a coligação derrotada recorreu ao Supremo e um ministro do STF mandou executar a pena de um ex-deputado da oposição. Decisões assim costumam ser lidas de dois modos opostos: para uns, são as instituições aplicando a lei; para outros, são juízes interferindo na disputa. Um livro muito citado pelos dois lados ajuda a entender o que está em jogo nessa discussão.",
+      "Os cientistas políticos Steven Levitsky e Daniel Ziblatt, professores de Harvard, escreveram o livro depois da eleição de Donald Trump, em 2016, comparando casos da Europa e da América Latina. O argumento central é que hoje as democracias raramente caem por golpes militares: elas se desgastam aos poucos, por dentro, com governantes eleitos que capturam os árbitros (tribunais, órgãos de controle, polícia), tiram adversários do jogo e mudam as regras a seu favor, quase sempre dentro da legalidade. Os autores propõem quatro sinais de alerta de comportamento autoritário: rejeitar as regras do jogo, negar a legitimidade dos adversários, tolerar ou incentivar a violência e se dispor a restringir as liberdades de oponentes e da imprensa.",
+      "A parte mais útil para ler o momento brasileiro é a das \"grades de proteção\": duas normas não escritas que, segundo os autores, sustentam as constituições. A tolerância mútua é aceitar o adversário como legítimo; a reserva institucional é não usar até o limite os poderes que a lei dá, mesmo quando se pode. O critério vale para todos, governos, oposições e tribunais, e é justamente por isso que o livro serve a leituras opostas das mesmas decisões. Ele não diz quem tem razão num caso concreto, mas oferece perguntas para avaliar cada um.",
+      "O livro foi publicado no Brasil em 2018 pela Zahar, com tradução de Renato Aguiar, e não tem edição gratuita. Vale começar pelo primeiro capítulo, com os quatro sinais de alerta, e seguir para o das grades de proteção."
+    ],
+    "fontes": [
+      {
+        "nome": "Companhia das Letras/Zahar (ficha do livro)",
+        "url": "https://www.companhiadasletras.com.br/livro/9788537818008/como-as-democracias-morrem"
+      },
+      {
+        "nome": "Revista DRd (resenha)",
+        "url": "https://periodicos.unc.br/index.php/drd/article/view/2856/1335"
+      }
+    ]
+  },
+  "mundo": {
+    "titulo": "Bomba guiada russa atinge dois ônibus em Kramatorsk, na Ucrânia, e mata ao menos 30 pessoas",
+    "texto": [
+      "O ataque ocorreu na manhã desta quinta (8) numa rua da cidade, no leste do país, a cerca de 20 quilômetros da linha de frente, e deixou também 18 feridos, segundo as autoridades regionais. O chefe da administração regional, Vadym Filashkin, disse que os russos atacam civis de propósito e suspendeu todo o transporte público em Kramatorsk e na vizinha Sloviansk. O ataque se soma a uma ofensiva russa contra a infraestrutura de transporte da Ucrânia, de trens e micro-ônibus a postos de combustível, pontes e portos."
+    ],
+    "fontes": [
+      {
+        "nome": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/8/more-killed-in-kramatorsk-as-russia-targets-ukraines-transportation-system"
+      }
+    ]
+  },
+  "ia": {
+    "titulo": "Ações ligadas à IA caem depois de reportagem dizer que a receita da OpenAI é menor que a divulgada",
+    "texto": [
+      "Segundo o jornal Financial Times, a OpenAI informou a investidores que sua receita anualizada se aproximava de US$ 50 bilhões no fim de setembro, abaixo dos cerca de US$ 70 bilhões que vinham sendo noticiados com base em informações de investidores; uma fonte disse à CNN que o número maior não veio da empresa e somava receitas de forma diferente. Depois da publicação, o índice Nasdaq caiu 1,25%, a pior queda desde meados de agosto, com recuos de 2,9% da Nvidia, 5,3% da Intel e 5,5% da Oracle. Para analistas, o episódio aumenta a dúvida sobre se a demanda por IA vai justificar os gastos bilionários do setor com infraestrutura."
+    ],
+    "fontes": [
+      {
+        "nome": "CNN",
+        "url": "https://www.cnn.com/2026/10/08/investing/openai-nasdaq-stocks"
+      },
+      {
+        "nome": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html"
+      }
+    ]
+  },
+  "giro": [
+    {
+      "regiao": "América do Sul",
+      "itens": [
+        {
+          "titulo": "Venezuela: Nicolás Maduro e Cilia Flores passam a responder também por tortura na Justiça dos EUA",
+          "url": "https://www.aljazeera.com/news/2026/10/8/venezuelas-nicolas-maduro-and-his-wife-charged-over-torture-allegations"
+        }
+      ]
+    },
+    {
+      "regiao": "América do Norte e Central",
+      "itens": [
+        {
+          "titulo": "EUA suspendem Microsoft e Adobe de programa de vistos para trabalhadores estrangeiros",
+          "url": "https://www.aljazeera.com/economy/2026/10/8/us-suspends-microsoft-and-adobe-from-visa-programme-amid-fraud-claims"
+        }
+      ]
+    },
+    {
+      "regiao": "África",
+      "itens": [
+        {
+          "titulo": "Protestos contra imigrantes terminam em violência em Soweto e Durban, na África do Sul",
+          "url": "https://www.aljazeera.com/news/2026/10/8/south-africa-protests-turn-violent-amid-rage-over-asylum-ruling"
+        }
+      ]
+    },
+    {
+      "regiao": "Europa",
+      "itens": [
+        {
+          "titulo": "Estudantes franceses retomam protestos e bloqueios de escolas",
+          "url": "https://www.aljazeera.com/news/2026/10/8/school-protests-blockades-resume-in-france-despite-pms-promise-to-act"
+        }
+      ]
+    },
+    {
+      "regiao": "Oriente Médio",
+      "itens": [
+        {
+          "titulo": "Iraque desvaloriza o dinar, e parte do Parlamento quer reverter a medida",
+          "url": "https://www.aljazeera.com/economy/2026/10/8/why-has-iraq-devalued-its-currency-and-why-are-some-mps-against-it"
+        }
+      ]
+    },
+    {
+      "regiao": "Ásia",
+      "itens": [
+        {
+          "titulo": "Malásia promete ajudar Mianmar a voltar à Asean, apesar das críticas de direitos humanos",
+          "url": "https://www.aljazeera.com/news/2026/10/8/malaysia-to-help-myanmar-reintegrate-into-asean-despite-rights-concerns"
+        }
+      ]
+    }
+  ],
+  "ciencia": {
+    "titulo": "Temporada de ondas de calor ficou 39 dias mais longa em quatro décadas, mostra estudo",
+    "texto": [
+      "Uma análise de dados climáticos globais de 1979 a 2023, publicada na revista Nature Climate Change, mostra que a primeira onda de calor do ano passou a chegar, em média, 3,29 dias mais cedo a cada década, e a última passou a terminar 5,41 dias mais tarde. Somadas, as tendências alongaram a temporada de calor extremo em cerca de 39 dias, e 92,1% das áreas terrestres analisadas tiveram temporadas mais longas, com mudanças mais fortes nas regiões áridas. Os autores também encontraram mais ondas de calor que atingem o pico rapidamente, o que, segundo o autor principal, Wenfang Xu, reduz o tempo de preparação de sociedades e ecossistemas."
+    ],
+    "fontes": [
+      {
+        "nome": "Gizmodo Brasil",
+        "url": "https://www.gizmodo.com.br/ondas-de-calor-estao-comecando-mais-cedo-e-durando-39-dias-a-mais-alerta-estudo-70540"
+      }
+    ]
+  },
+  "entender_brasil": {
+    "titulo": "Teoria do medalhão",
+    "autor": "Machado de Assis · texto, 1881",
+    "texto": [
+      "Machado de Assis publicou \"Teoria do medalhão\" na Gazeta de Notícias, do Rio de Janeiro, em 18 de dezembro de 1881, no mesmo ano de Memórias póstumas de Brás Cubas, e o incluiu no ano seguinte no livro Papéis avulsos. É um conto curto, quase todo em diálogo: na noite em que o filho, Janjão, completa 21 anos, o pai o chama para uma conversa e lhe ensina a carreira que considera mais segura, a de \"medalhão\", o homem respeitado e influente que não tem uma ideia própria.",
+      "A ideia central está nos conselhos, dados com toda a seriedade. O rapaz deve evitar pensar por conta própria, decorar frases feitas e citações de segunda mão, preferir a chalaça à ironia, jogar dominó e whist, que acostumam ao silêncio, cultivar a publicidade e, no parlamento, preferir a \"metafísica política\" aos assuntos concretos. A sátira de Machado mira uma vida pública em que a reputação vale mais do que a substância, e a aparência de saber substitui o saber.",
+      "Envelheceram as referências do Rio do Segundo Reinado, dos salões à imprensa de então, e o modelo de carreira masculino e de elite que o pai tem em mente. Continua valendo o retrato de um mecanismo: o prestígio que se constrói pela repetição de lugares-comuns e pela visibilidade, e não pelo que se pensa. Em tempos de campanha e de redes sociais, a lição às avessas do pai de Janjão ainda serve de espelho.",
+      "O conto está em domínio público e pode ser lido gratuitamente na Biblioteca Virtual do Estudante Brasileiro, da USP, em arquivo hospedado pela Universidade Estadual de Londrina. A leitura leva cerca de 20 minutos."
+    ],
+    "fontes": [
+      {
+        "nome": "Biblioteca Virtual do Estudante Brasileiro (USP), texto integral",
+        "url": "https://projetos.uel.br/bibliotecacomum/bc-texto/obras/bv000232.pdf"
+      }
+    ]
+  },
+  "mercado": {
+    "texto": [
+      "O Ibovespa voltou a subir depois de duas quedas, 0,94%, aos 206.220 pontos, puxado pela Petrobras, que acompanhou a alta do petróleo no exterior; o dólar subiu 0,27%, a R$ 5,024. Durante o pregão, os investidores acompanharam a pesquisa PoderData/Aya do segundo turno, e em Nova York o Nasdaq caiu 1,25% e o S&P 500, 0,47%, com a queda das ações ligadas à IA. Nesta sexta (9), o IBGE divulga o IPCA de setembro."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-08102026/"
+      },
+      {
+        "nome": "SpaceMoney",
+        "url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/ibovespa-fecha-alta-petrobras-dolar"
+      }
+    ]
+  },
+  "ibovespa": {
+    "painel": [
+      [
+        "Fechamento",
+        "206.220"
+      ],
+      [
+        "Dia",
+        "+0,94%"
+      ],
+      [
+        "Mês",
+        "+10,6%"
+      ],
+      [
+        "Ano",
+        "+28,0%"
+      ]
+    ],
+    "texto": [
+      "Fechamento de quinta (8); oscilou entre 203.985 e 207.954 pontos. Variações no mês e no ano calculadas pela redação."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-08102026/"
+      },
+      {
+        "nome": "SpaceMoney",
+        "url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/ibovespa-fecha-alta-petrobras-dolar"
+      }
+    ]
+  },
+  "dolar": {
+    "painel": [
+      [
+        "Fechamento",
+        "R$ 5,02"
+      ],
+      [
+        "Dia",
+        "+0,27%"
+      ],
+      [
+        "Mês",
+        "−2,8%"
+      ],
+      [
+        "Ano",
+        "−8,6%"
+      ]
+    ],
+    "texto": [
+      "Dólar comercial a R$ 5,024 na quinta (8). Variações no mês e no ano calculadas pela redação."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-08102026/"
+      }
+    ]
+  },
+  "bitcoin": {
+    "painel": [
+      [
+        "US$",
+        "81.611"
+      ],
+      [
+        "R$",
+        "410.183"
+      ],
+      [
+        "24h",
+        "−2,1%"
+      ],
+      [
+        "7d / 30d",
+        "−3,5% / +4,0%"
+      ]
+    ],
+    "texto": [
+      "Cotação às 18h09 de Brasília."
+    ],
+    "fontes": [
+      {
+        "nome": "CoinGecko",
+        "url": "https://www.coingecko.com/pt/moedas/bitcoin"
+      }
+    ]
+  },
+  "tempo": {
+    "dia": "amanhã, sexta, 9",
+    "regioes": [
+      {
+        "regiao": "Norte",
+        "texto": "Pancadas de chuva com trovoadas no oeste da região, com aviso amarelo do Inmet para tempestades em Rondônia, no Acre, em grande parte do Amazonas e no noroeste de Roraima; sol e calor no restante, com aviso amarelo de baixa umidade no Tocantins e no sudeste do Pará, e máximas de 37 °C em Boa Vista e Manaus."
+      },
+      {
+        "regiao": "Nordeste",
+        "texto": "Sol e tempo firme em quase toda a região, com chuva isolada só no litoral pela manhã e no norte do Maranhão; aviso amarelo de baixa umidade do ar à tarde no interior de vários estados, de Maranhão e Piauí à Bahia, e máxima de 39 °C em Teresina."
+      },
+      {
+        "regiao": "Centro-Oeste",
+        "texto": "Chuva e trovoadas em Mato Grosso do Sul e no sul, oeste e noroeste de Mato Grosso, com aviso amarelo para tempestades; tempo quente e seco no restante, com aviso amarelo de baixa umidade no DF, em Goiás e no leste de Mato Grosso, e máximas de 33 °C em Brasília, 35 °C em Goiânia e 37 °C em Cuiabá."
+      },
+      {
+        "regiao": "Sudeste",
+        "texto": "Pancadas com trovoadas a partir da tarde em São Paulo, no sul de Minas e no sul do Rio de Janeiro, com aviso amarelo para tempestades; tempo firme no norte de Minas e no Espírito Santo, e máximas de 33 °C em São Paulo, no Rio e em Belo Horizonte e de 34 °C em Vitória."
+      },
+      {
+        "regiao": "Sul",
+        "texto": "Ciclone extratropical na costa traz tempestades: aviso vermelho do Inmet, de grande perigo, no oeste do Paraná, no centro e oeste de Santa Catarina e no noroeste e norte do Rio Grande do Sul, com chuva acima de 100 mm, ventos de mais de 100 km/h e granizo, e aviso laranja ou amarelo no restante; máximas de 29 °C em Curitiba e 20 °C em Porto Alegre."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Inmet",
+        "url": "https://portal.inmet.gov.br/noticias/previs%C3%A3o-para-sexta-feira-9-e-s%C3%A1bado-10"
+      },
+      {
+        "nome": "CNN Brasil (aviso vermelho)",
+        "url": "https://www.cnnbrasil.com.br/nacional/sul/inmet-emite-alerta-vermelho-de-grande-perigo-para-tempestade-na-regiao-sul/"
+      }
+    ]
+  }
+}

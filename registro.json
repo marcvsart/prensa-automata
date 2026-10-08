@@ -172,6 +172,10 @@
     {
       "data": "2026-10-08",
       "item": "Oliveira Vianna — Instituições políticas brasileiras (livro)"
+    },
+    {
+      "data": "2026-10-08",
+      "item": "Machado de Assis — Teoria do medalhão (texto, noite)"
     }
   ],
   "momento": [
@@ -254,8 +258,12 @@
     {
       "data": "2026-10-08",
       "item": "Marcos Nobre — Imobilismo em movimento"
+    },
+    {
+      "data": "2026-10-08",
+      "item": "Steven Levitsky e Daniel Ziblatt — Como as democracias morrem (noite)"
     }
   ],
   "tiragem": 10,
-  "tiragem_noite": 9
+  "tiragem_noite": 10
 }
