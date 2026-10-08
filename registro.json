@@ -40,6 +40,10 @@
     {
       "data": "2026-10-07",
       "item": "Cátia de França — 20 Palavras ao Redor do Sol (1979)"
+    },
+    {
+      "data": "2026-10-08",
+      "item": "Os Tincoãs — Os Tincoãs (1973)"
     }
   ],
   "poemas": [
@@ -82,6 +86,10 @@
     {
       "data": "2026-10-07",
       "item": "Augusto dos Anjos — Psicologia de um vencido"
+    },
+    {
+      "data": "2026-10-08",
+      "item": "Raimundo Correia — Mal secreto"
     }
   ],
   "entender_brasil": [
@@ -160,6 +168,10 @@
     {
       "data": "2026-10-07",
       "item": "Alberto Torres — A organização nacional (livro, noite)"
+    },
+    {
+      "data": "2026-10-08",
+      "item": "Oliveira Vianna — Instituições políticas brasileiras (livro)"
     }
   ],
   "momento": [
@@ -238,8 +250,12 @@
     {
       "data": "2026-10-07",
       "item": "Alexander Hamilton — O Federalista, nº 72 (noite)"
+    },
+    {
+      "data": "2026-10-08",
+      "item": "Marcos Nobre — Imobilismo em movimento"
     }
   ],
-  "tiragem": 9,
+  "tiragem": 10,
   "tiragem_noite": 9
 }
