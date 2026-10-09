@@ -87,7 +87,8 @@ MODULOS = dict(texto=m_texto, nota=m_nota, colunas=m_colunas, barras=m_barras, n
 # ---- cenas ----
 ab = c["abertura"]
 marca = "".join(f'<span class="letra" data-d="{0.45+i*0.035:.3f}">{ch if ch != " " else "&nbsp;"}</span>' for i, ch in enumerate("Prensa Autômata"))
-cenas = [dict(placa="", fantasma="PRENSA", dur=3.6, html=f'''<div class="abre"><div class="in icone-g" data-d="0.1" data-k="pop">{ICONE}</div><div class="marca">{marca}</div>
+# abertura sem palavra-fantasma: o contorno da serifa mostra linhas internas atrás da marca
+cenas = [dict(placa="", fantasma="", dur=3.6, html=f'''<div class="abre"><div class="in icone-g" data-d="0.1" data-k="pop">{ICONE}</div><div class="marca">{marca}</div>
  <div class="linha draw" data-d="1.1"></div><div class="in sub" data-d="1.3">{e(ab["edicao"])} Nº {cnt(ab["numero"], 1.3, 0.9)}</div>
  <div class="typ meta2" data-d="1.5" data-txt="{e(ab["data"])}" data-vel="1.7"></div></div>''')]
 for s in c["cenas"] + [dict(c["fecho"], fecho=True)]:
@@ -104,7 +105,8 @@ for s in c["cenas"] + [dict(c["fecho"], fecho=True)]:
     for m in s.get("modulos", []):
         mh, fim, w = MODULOS[m["tipo"]](m, d)
         h += mh; palavras += w; d = fim + 0.2
-    dur = s.get("dur") or round(min(8.5, max(4.4, d + 1.8, 1.6 + 0.10*palavras)), 1)
+    # duração: o tempo de entrada e de leitura (entre 4,4 e 8,5 s) mais 1 s de folga; "dur" no JSON substitui o cálculo
+    dur = s.get("dur") or round(min(8.5, max(4.4, d + 1.8, 1.6 + 0.10*palavras)) + 1.0, 1)
     cenas.append(dict(placa=s["rotulo"] if not s.get("fecho") else "A edição completa", fantasma=s.get("fantasma", ""), dur=dur, html=h))
 
 t = 0.0; secs = []; segs = []; finais = []
@@ -125,7 +127,8 @@ html,body{width:1080px;height:1920px;background:var(--bg);color:var(--ink);overf
 .fantasma{position:absolute;left:0;bottom:520px;font-weight:500;font-size:360px;line-height:1;white-space:nowrap;color:transparent;-webkit-text-stroke:2px var(--filete);letter-spacing:-.02em}
 .miolo{position:absolute;left:88px;right:88px;top:360px;bottom:520px;display:flex;flex-direction:column;justify-content:center}
 .rotulo{font-family:'Geist Mono',monospace;font-weight:500;font-size:28px;text-transform:uppercase;color:var(--azul);letter-spacing:.06em;margin-bottom:32px;min-height:34px}
-.typ.cur::after{content:'▍';margin-left:4px}
+/* o cursor fica por cima do texto e a data tem altura reservada, para a linha não pular durante a digitação */
+.typ{position:relative}.typ.cur::after{content:'▍';margin-left:4px;position:absolute}
 .h1{font-weight:500;font-size:100px;line-height:1.04;letter-spacing:-.015em;margin-bottom:52px}.h1.fecho{font-size:104px;margin-bottom:0}
 .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.14em;margin-bottom:-.14em}.wi{display:inline-block}
 .texto{font-size:46px;line-height:1.3;margin-bottom:8px}.texto.menor{font-size:38px;margin-top:26px}
@@ -136,7 +139,7 @@ b{font-weight:500}
 .marca{font-weight:500;font-size:116px;line-height:1;letter-spacing:-.02em;margin-top:48px;white-space:nowrap}.letra{display:inline-block}
 .linha{height:3px;background:var(--azul);width:100%;margin-top:52px;transform-origin:left}
 .sub{font-family:'Geist Mono',monospace;font-size:38px;text-transform:uppercase;color:var(--azul);letter-spacing:.06em;margin-top:40px}
-.meta2{font-size:46px;margin-top:14px;white-space:nowrap}
+.meta2{font-size:46px;line-height:1.3;min-height:1.3em;margin-top:14px;white-space:nowrap}
 .colunas{display:grid;grid-template-columns:240px 240px 1fr;gap:36px;align-items:end;margin-bottom:10px}
 .col{display:flex;flex-direction:column;align-items:flex-start}
 .col-num{font-weight:500;font-size:116px;line-height:1;letter-spacing:-.03em;margin-bottom:18px;white-space:nowrap}.col-num small{font-size:58px;margin-left:4px;color:var(--cinza)}
