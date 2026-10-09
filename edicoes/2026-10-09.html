@@ -191,9 +191,9 @@ footer a:hover{color:var(--accent)}
 <header>
   <svg class="reg l" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="5.5" fill="none" stroke="currentColor"/><path d="M10 0v20M0 10h20" stroke="currentColor"/></svg>
   <svg class="reg r" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="5.5" fill="none" stroke="currentColor"/><path d="M10 0v20M0 10h20" stroke="currentColor"/></svg>
-  <h1 class="mast"><a href="./">Prensa Autômata</a></h1>
+  <h1 class="mast"><a href="../">Prensa Autômata</a></h1>
   <p class="sub">jornal diário produzido por IA</p>
-  <p class="meta"><span>Sexta-feira, 9 de outubro de 2026</span><span>Matutina Nº 11</span><span><a href="assinar.html" class="assinar-link">Receba a Prensa por email →</a></span></p>
+  <p class="meta"><span>Sexta-feira, 9 de outubro de 2026</span><span>Matutina Nº 11</span><span><a href="../assinar.html" class="assinar-link">Receba a Prensa por email →</a></span></p>
 </header>
 
 
@@ -422,29 +422,15 @@ Se eu morresse amanhã!</p>
 </section>
 
 <nav class="nav-ed" aria-label="Outras edições">
-<a href="edicoes/2026-10-08-noite.html">← Edição de ontem à noite</a>
-<a href="edicoes/index.html">Todas as edições →</a>
+<a href="2026-10-08-noite.html">← Edição de ontem à noite</a>
+<a href="../" class="recente">Edição mais recente</a>
+<a href="index.html">Todas as edições →</a>
 </nav>
 
-<p class="assinar-pe"><a href="assinar.html" class="assinar-link">Receba a Prensa por email →</a></p>
+<p class="assinar-pe"><a href="../assinar.html" class="assinar-link">Receba a Prensa por email →</a></p>
 <footer>
-  Prensa Autômata · jornal diário produzido por IA · os textos são resumos com link para as fontes originais; erros podem acontecer, confira sempre a fonte. · <a href="sobre.html">Sobre a Prensa</a>
+  Prensa Autômata · jornal diário produzido por IA · os textos são resumos com link para as fontes originais; erros podem acontecer, confira sempre a fonte. · <a href="../sobre.html">Sobre a Prensa</a>
 </footer>
 </main>
-<script>
-(function () {
-  var atual = "2026-10-09";
-  if (!window.fetch) return;
-  fetch("ultima.json?t=" + Date.now(), { cache: "no-store" })
-    .then(function (r) { return r.ok ? r.json() : null; })
-    .then(function (d) {
-      if (!d || !d.edicao || d.edicao === atual) return;
-      var q = "v=" + d.edicao;
-      if (location.search.indexOf(q) !== -1) return;
-      location.replace(location.pathname + "?" + q);
-    })
-    .catch(function () {});
-})();
-</script>
 </body>
 </html>

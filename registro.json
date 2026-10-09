@@ -44,6 +44,10 @@
     {
       "data": "2026-10-08",
       "item": "Os Tincoãs — Os Tincoãs (1973)"
+    },
+    {
+      "data": "2026-10-09",
+      "item": "Taiguara — Imyra, Tayra, Ipy - Taiguara (1976)"
     }
   ],
   "poemas": [
@@ -90,6 +94,10 @@
     {
       "data": "2026-10-08",
       "item": "Raimundo Correia — Mal secreto"
+    },
+    {
+      "data": "2026-10-09",
+      "item": "Álvares de Azevedo — Se eu morresse amanhã"
     }
   ],
   "entender_brasil": [
@@ -176,6 +184,10 @@
     {
       "data": "2026-10-08",
       "item": "Machado de Assis — Teoria do medalhão (texto, noite)"
+    },
+    {
+      "data": "2026-10-09",
+      "item": "Lima Barreto — O destino da literatura (texto)"
     }
   ],
   "momento": [
@@ -262,8 +274,12 @@
     {
       "data": "2026-10-08",
       "item": "Steven Levitsky e Daniel Ziblatt — Como as democracias morrem (noite)"
+    },
+    {
+      "data": "2026-10-09",
+      "item": "Hannah Arendt — Verdade e política"
     }
   ],
-  "tiragem": 10,
+  "tiragem": 11,
   "tiragem_noite": 10
 }

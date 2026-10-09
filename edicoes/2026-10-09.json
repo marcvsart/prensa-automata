@@ -1,0 +1,494 @@
+{
+  "data": "2026-10-09",
+  "numero": 11,
+  "manchete": {
+    "titulo": "Horário eleitoral volta hoje; Flávio reúne 14 governadores e promete PEC contra a reeleição, e Lula retoma atos de rua no DF e no RN",
+    "texto": [
+      "O horário eleitoral gratuito do segundo turno recomeça nesta sexta-feira (9) no rádio e na TV, com o tempo dividido igualmente entre Flávio Bolsonaro (PL) e Lula (PT) até 23 de outubro; a primeira peça é do senador, que teve mais votos no primeiro turno. Na quinta (8), Flávio reuniu em Brasília 14 governadores eleitos, entre eles Sergio Moro (PL-PR) e Douglas Ruas (PL-RJ), recebeu o apoio de Augusto Cury, terceiro colocado, com 2,89% dos votos válidos, e disse que, se eleito, vai usar o início do governo para tentar aprovar uma PEC que acabe com a reeleição; sobre ampliar o mandato de quatro para cinco anos, afirmou que a decisão caberá ao Congresso. Em transmissão nas redes, negou que vá acabar com o Bolsa Família e prometeu reajuste das aposentadorias acima da inflação, sob o novo mote da campanha, \"um novo presidente para um novo Brasil\". Lula, que passou a semana em Brasília reorganizando a campanha, faz nesta sexta uma caminhada em Ceilândia (DF) com Leandro Grass (PT), candidato ao governo do DF, e no sábado (10) vai a Natal com Cadu Xavier (PT); a campanha petista aposta na experiência do presidente e na defesa dos programas sociais. Flávio vai ao Rio nesta sexta, ao lado de Ruas, e prevê agendas no estado de São Paulo com Tarcísio de Freitas no fim de semana. No Datafolha divulgado na quinta, Flávio tem 52% dos votos válidos e Lula, 48% (2.520 entrevistas de 6 a 8 de outubro, margem de dois pontos, registro BR-02949/2026); a votação é em 25 de outubro."
+    ],
+    "fontes": [
+      {
+        "nome": "g1 (horário eleitoral)",
+        "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/09/horario-eleitoral-volta-nesta-sexta-feira-9-para-o-2o-turno.ghtml"
+      },
+      {
+        "nome": "Agência Brasil (governadores e Cury)",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/flavio-bolsonaro-recebe-apoios-de-governadores-eleitos-e-cury"
+      },
+      {
+        "nome": "g1 (fim da reeleição)",
+        "url": "https://g1.globo.com/politica/noticia/2026/10/09/flavio-bolsonaro-fala-em-acabar-com-reeleicao-e-aumentar-o-proprio-mandato-entenda-como-mudanca-pode-ocorrer.ghtml"
+      },
+      {
+        "nome": "CNN Brasil (atos de Lula)",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-adota-mote-de-renovacao-contra-lula-que-retoma-atos-no-df-e-no-rn/"
+      },
+      {
+        "nome": "CNN Brasil (agenda de Flávio)",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/embalado-por-ruas-no-rio-flavio-inicia-giro-pelo-sudeste-rumo-ao-2o-turno/"
+      }
+    ]
+  },
+  "brasil": [
+    {
+      "titulo": "Zanin nega pedido de Paes, que reconhece a derrota; TRE-RJ refaz a contagem no sábado e deve declarar Ruas eleito",
+      "texto": [
+        "O ministro Cristiano Zanin, do STF, negou na quinta (8) o pedido da campanha de Eduardo Paes (PSD) para suspender a decisão do TSE que anulou os 274.411 votos de Anthony Garotinho (Republicanos) na eleição para governador do Rio; para Zanin, não cabe ao Supremo intervir enquanto ainda houver recurso no próprio TSE. Com a retotalização, marcada pelo TRE-RJ para sábado (10), Douglas Ruas (PL), que teve 49,27% dos votos válidos, passa de 50% e fica eleito sem segundo turno. À noite, Paes publicou que vai respeitar a decisão: escreveu que a maioria dos eleitores votou para que a eleição fosse decidida no segundo turno, mas que a Justiça decidiu que não haverá. O TRE-RJ suspendeu até domingo (11) a propaganda eleitoral no rádio e na TV no estado, até que o resultado para governador seja definido oficialmente."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil (Zanin)",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/zanin-nega-pedido-feito-por-paes-de-determinar-segundo-turno-no-rio"
+        },
+        {
+          "nome": "Folha (Paes)",
+          "url": "https://www1.folha.uol.com.br/poder/2026/10/paes-reconhece-derrota-para-ruas-no-rj-e-diz-que-respeitara-decisao-da-justica.shtml"
+        },
+        {
+          "nome": "Agência Brasil (propaganda no RJ)",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tre-rj-suspende-propaganda-eleitoral-gratuita-no-rj-ate-domingo"
+        }
+      ]
+    },
+    {
+      "titulo": "TSE manda tirar do ar vídeo de Janones e Lindbergh contra Flávio; campanha de Lula pede ação contra site que paga com criptomoeda por posts pró-Flávio",
+      "texto": [
+        "O ministro André Mendonça, do TSE, mandou remover em até três horas um vídeo dos deputados André Janones e Lindbergh Farias que atribuía a Flávio Bolsonaro propostas como elevar a idade de aposentadoria e ampliar a jornada de trabalho; para o ministro, as afirmações não têm respaldo concreto, e a republicação terá multa de R$ 10 mil por dia. Do outro lado, a coligação de Lula pediu ao TSE que suspenda o site Brasil 22 Token, que distribui criptomoedas a quem publica conteúdo associando o voto 22 a doações para crianças em Uganda, e acusa Flávio, Pablo Marçal e outros dois envolvidos de propaganda paga. A equipe jurídica de Flávio disse desconhecer a autoria do site, negou relação com ele e afirmou que vai à Justiça para derrubá-lo."
+      ],
+      "fontes": [
+        {
+          "nome": "CNN Brasil (decisão de Mendonça)",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/mendonca-determina-remocao-de-video-de-janones-e-lindbergh-contra-flavio/"
+        },
+        {
+          "nome": "CNN Brasil (ação sobre criptomoedas)",
+          "url": "https://www.cnnbrasil.com.br/blogs/jussara-soares/eleicoes/lula-aciona-tse-contra-flavio-e-marcal-por-progaganda-paga-com-criptomoedas/"
+        }
+      ]
+    },
+    {
+      "titulo": "MEC pede à PF que investigue ameaças a universidades; perícia federal examina o prédio da UFPE",
+      "texto": [
+        "O ministro da Educação, Leonardo Barchini, disse que vai acionar a Diretoria de Combate a Crimes Cibernéticos da Polícia Federal por causa de ameaças publicadas em redes sociais contra universidades federais, e que a pasta teme \"que essa violência escale\". A Universidade Federal Fluminense informou na quinta (8) que recebeu denúncias de mensagens que falam em incendiar a instituição e agredir estudantes em atos políticos, e também acionou a PF. Em Pernambuco, peritos federais já examinam o prédio de laboratórios da UFPE atingido pelo fogo na quarta (7); o reitor, Alfredo Gomes, disse que não há ideia específica sobre a causa e que é preciso aguardar a perícia."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil (MEC)",
+          "url": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-10/mec-ira-pedir-investigacao-de-ameacas-universidades-em-redes-sociais"
+        },
+        {
+          "nome": "Agência Brasil (PF na UFPE)",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/pf-vai-investigar-incendio-na-universidade-federal-de-pernambuco"
+        }
+      ]
+    },
+    {
+      "titulo": "Fux pede acesso aos processos sigilosos contra Jair Bolsonaro para analisar pedido do PP de anular a operação que deu origem à trama golpista",
+      "texto": [
+        "O ministro Luiz Fux, do STF, determinou na quinta (8) que a secretaria do tribunal envie ao seu gabinete todos os volumes, anexos e mídias dos inquéritos das fake news, das milícias digitais e da trama golpista que envolvem o ex-presidente Jair Bolsonaro. A medida foi tomada numa ação em que o Progressistas pede a anulação da Operação Tempus Veritatis, deflagrada pela PF em 2024 por ordem do ministro Alexandre de Moraes, que deu início às investigações que terminaram na condenação de Bolsonaro e aliados. A petição, assinada por advogados de Bolsonaro, sustenta que as buscas foram autorizadas só a pedido da PF, sem manifestação da Procuradoria-Geral da República; ela chegou ao Supremo em abril de 2024 e estava parada."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/fux-pede-acesso-processos-contra-jair-bolsonaro-no-stf"
+        }
+      ]
+    },
+    {
+      "titulo": "Durigan diz que a MP do Imposto Seletivo só vai ao Congresso depois do segundo turno",
+      "texto": [
+        "O ministro da Fazenda, Dario Durigan, afirmou que o governo fechou nesta semana um acordo com os setores afetados e vai enviar ao Congresso, depois das eleições, a medida provisória com as alíquotas do Imposto Seletivo, que substitui o IPI de alguns produtos a partir de 2027. Como o texto não foi enviado até 2 de outubro, a cobrança só poderá começar no fim de janeiro ou início de fevereiro de 2027, e a proposta mantém a carga hoje cobrada pelo IPI desses setores. Durigan também defendeu o split payment, a cobrança do tributo no momento do pagamento, que segundo ele começa de forma opcional e gradual nas operações entre empresas."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/durigan-preve-envio-de-mp-do-imposto-seletivo-apos-eleicoes"
+        }
+      ]
+    }
+  ],
+  "momento": {
+    "titulo": "Verdade e política",
+    "autor": "Hannah Arendt · 1967",
+    "texto": [
+      "Numa semana em que o TSE mandou tirar do ar um vídeo por atribuir a um candidato propostas sem respaldo e em que uma campanha acusa a outra de propaganda paga com criptomoedas, vale ler o ensaio que a filósofa alemã Hannah Arendt publicou em 1967 na revista The New Yorker. Arendt distingue a verdade dos fatos, que depende de testemunhos e registros e por isso é frágil, das opiniões, que são matéria legítima da disputa política, e mostra como a mentira organizada tenta transformar fatos em opiniões. O texto não trata de nenhum lado em particular: é um guia para separar o que se pode discutir do que precisa ser checado. Está em português no livro Entre o passado e o futuro (Perspectiva)."
+    ],
+    "fontes": [
+      {
+        "nome": "The New Yorker (Truth and Politics, 1967)",
+        "url": "https://www.newyorker.com/magazine/1967/02/25/truth-and-politics"
+      }
+    ]
+  },
+  "mundo": {
+    "titulo": "Jurista sul-africana Navi Pillay, ex-alta comissária da ONU para direitos humanos, ganha o Nobel da Paz",
+    "texto": [
+      "O Comitê Norueguês do Nobel anunciou nesta sexta (9) que o Nobel da Paz de 2026 vai para Navanethem \"Navi\" Pillay, \"por seus esforços para promover a paz e o direito internacional\". Nascida em Durban, numa família de origem tâmil indiana, sob o apartheid, Pillay defendeu Nelson Mandela e outros opositores do regime e depois foi juíza da Alta Corte da África do Sul, do Tribunal Penal Internacional para Ruanda e do Tribunal Penal Internacional. Foi alta comissária da ONU para os direitos humanos de 2008 a 2014, presidiu até recentemente a comissão de inquérito da ONU sobre o território palestino ocupado e hoje é juíza da Corte Internacional de Justiça no caso em que Mianmar é acusado de genocídio. Segundo o comitê, ela foi decisiva para que crimes de guerra, crimes contra a humanidade e genocídio fossem julgados; houve 287 indicados neste ano, e o prêmio será entregue em Oslo em 10 de dezembro."
+    ],
+    "fontes": [
+      {
+        "nome": "Comitê Norueguês do Nobel (comunicado)",
+        "url": "https://www.nobelprize.org/prizes/peace/2026/press-release/"
+      },
+      {
+        "nome": "Folha",
+        "url": "https://www1.folha.uol.com.br/mundo/2026/10/nobel-da-paz-premia-navanethem-pillay.shtml"
+      },
+      {
+        "nome": "CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/internacional/nobel-da-paz-2026-vencedor-anuncio/"
+      }
+    ]
+  },
+  "ia": {
+    "titulo": "OpenAI divulga centenas de demonstrações matemáticas feitas por IA, e especialistas veem avanço inédito, ainda por verificar",
+    "texto": [
+      "A OpenAI publicou na terça (6) mais de 700 manuscritos com demonstrações, soluções e avanços em 372 problemas em aberto de matemática, ciência da computação teórica e física, gerados por seus sistemas de IA, segundo a Scientific American. O resultado mais comentado é a demonstração da chamada hipótese de quase Riemann, ligada à hipótese de Riemann, um dos Problemas do Prêmio do Milênio; Alex Kontorovich, chefe do departamento de matemática da Universidade Rutgers, escreveu que, se um humano tivesse feito isso, ganharia na hora uma Medalha Fields, e Martin Bridson, presidente do Clay Mathematics Institute, chamou a divulgação de \"de tirar o fôlego\". Nenhuma demonstração resolve por completo um dos Problemas do Milênio, nem todas foram certificadas pelo verificador formal Lean, algumas já foram retiradas depois que pesquisadores de fora acharam erros, e a empresa não publicou os comandos completos usados pelos seus agentes."
+    ],
+    "fontes": [
+      {
+        "nome": "Scientific American",
+        "url": "https://www.scientificamerican.com/article/the-most-exciting-claims-from-openais-heap-of-new-proofs/"
+      },
+      {
+        "nome": "Folha/The New York Times",
+        "url": "https://www1.folha.uol.com.br/ciencia/2026/10/matematicos-veem-anuncio-da-openai-como-devastador-e-de-tirar-o-folego.shtml"
+      }
+    ]
+  },
+  "giro": [
+    {
+      "regiao": "América do Sul",
+      "itens": [
+        {
+          "titulo": "Justiça do Equador absolve 32 pescadores atacados pelos Estados Unidos no Pacífico",
+          "url": "https://elpais.com/america/2026-10-09/la-justicia-de-ecuador-absuelve-a-32-pescadores-atacados-por-estados-unidos-en-el-pacifico.html"
+        },
+        {
+          "titulo": "Governo Milei privatiza o serviço de água de Buenos Aires, 20 anos depois da reestatização",
+          "url": "https://elpais.com/argentina/2026-10-08/el-gobierno-de-milei-privatiza-el-servicio-de-agua-de-buenos-aires-20-anos-despues-de-su-reestatizacion.html"
+        },
+        {
+          "titulo": "Foto de planta na selva colombiana leva à descoberta de uma vitória-régia gigante",
+          "url": "https://www.theguardian.com/environment/2026/oct/09/plant-selfie-jaw-dropping-giant-waterlily-discovery-colombia"
+        }
+      ]
+    },
+    {
+      "regiao": "América do Norte e Central",
+      "itens": [
+        {
+          "titulo": "Agente do ICE atira em homem que estava com criança de 5 anos em Nova York; prefeito Mamdani pede a saída da agência",
+          "url": "https://www.france24.com/en/americas/20261009-new-york-mayor-calls-for-ice-removal-after-man-shot-with-5-year-old-nearby"
+        },
+        {
+          "titulo": "Confronto em presídio de Sinaloa, no México, deixa 10 mortos",
+          "url": "https://www.aljazeera.com/news/2026/10/9/mexico-prison-clash-in-strife-torn-sinaloa-state-leaves-10-dead"
+        },
+        {
+          "titulo": "Pentágono vai transmitir a primeira execução por fuzilamento em décadas",
+          "url": "https://elpais.com/us/2026-10-09/el-pentagono-retransmitira-la-primera-ejecucion-por-fusilamiento-desde-1945.html"
+        }
+      ]
+    },
+    {
+      "regiao": "África",
+      "itens": [
+        {
+          "titulo": "ONU prorroga embargo de armas a Darfur, mas barra sanções mais amplas ao Sudão",
+          "url": "https://www.aljazeera.com/news/2026/10/9/un-extends-darfur-arms-embargo-blocks-broader-sudan-sanctions-proposal"
+        },
+        {
+          "titulo": "África do Sul recua de diretriz sobre asilo depois de protestos violentos contra imigrantes",
+          "url": "https://allafrica.com/stories/202610090210.html"
+        },
+        {
+          "titulo": "Guiné-Bissau diz que não há condições para a eleição de 6 de dezembro",
+          "url": "https://allafrica.com/stories/202610090140.html"
+        }
+      ]
+    },
+    {
+      "regiao": "Europa",
+      "itens": [
+        {
+          "titulo": "Enviados de Trump e autoridades europeias discutem em Miami \"novas ideias\" para a paz na Ucrânia",
+          "url": "https://www.france24.com/en/europe/20261008-trump-envoys-ukraine-peace-talks-miami"
+        },
+        {
+          "titulo": "Dezenas de milhares marcham em Madri em homenagem a Maricarmen, aposentada cujo despejo virou símbolo da crise de moradia",
+          "url": "https://www.theguardian.com/world/2026/oct/08/thousands-to-march-in-madrid-after-death-of-evicted-pensioner-maricarmen"
+        },
+        {
+          "titulo": "Sinn Féin, na Irlanda do Norte, é alvo de investigação policial em meio a tensões em protestos",
+          "url": "https://www.aljazeera.com/news/2026/10/9/northern-irelands-sinn-fein-faces-police-probe-as-protest-tensions-fester"
+        }
+      ]
+    },
+    {
+      "regiao": "Oriente Médio",
+      "itens": [
+        {
+          "titulo": "Trump diz que os EUA não vão atacar o Irã antes das eleições de meio de mandato",
+          "url": "https://www.aljazeera.com/news/2026/10/9/trump-says-us-will-not-strike-iran-before-midterm-elections"
+        },
+        {
+          "titulo": "Companhias aéreas suspendem voos para Riad depois de ataque dos houthis ao aeroporto",
+          "url": "https://www.theguardian.com/world/2026/oct/09/riyadh-airport-flights-suspended-houthis-claim-attack"
+        },
+        {
+          "titulo": "Jornalistas egípcios planejam protesto contra a prisão de seis colegas",
+          "url": "https://www.theguardian.com/global-development/2026/oct/09/egypt-six-journalists-matsadaash-protest-over-detentions"
+        }
+      ]
+    },
+    {
+      "regiao": "Ásia",
+      "itens": [
+        {
+          "titulo": "Coreia do Sul testa sua primeira arma hipersônica de fabricação nacional",
+          "url": "https://www.scmp.com/news/asia/east-asia/article/3370218/south-korea-test-flies-its-first-home-grown-hypersonic-weapon"
+        },
+        {
+          "titulo": "Fumaça deixa o ar de Singapura como o pior do mundo e fecha escolas na Malásia",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3370091/singapores-air-pollution-worst-world-haze-shuts-malaysia-schools"
+        },
+        {
+          "titulo": "Movimento \"barata\", da Índia, diz que integrantes foram detidos com a continuação dos protestos",
+          "url": "https://www.aljazeera.com/news/2026/10/8/indias-cockroach-movement-says-members-detained-as-protests-continue"
+        }
+      ]
+    }
+  ],
+  "ciencia": {
+    "titulo": "Astrônomos acham planeta \"fênix\", nascido dos restos de uma estrela que morreu",
+    "texto": [
+      "Um estudo publicado na segunda (5) na revista Nature Astronomy descreve um gigante gasoso, talvez um pouco mais massivo que Júpiter, que parece ter se formado com o material expelido por uma estrela um pouco maior que o Sol nos estágios finais de sua morte, e que hoje orbita o que restou dela, uma anã branca a cerca de 250 anos-luz da Terra, perto da constelação de Cetus. O planeta dá uma volta a cada 4,4 dias, a 4% da distância entre a Terra e o Sol, tão perto que a radiação da anã branca evapora parte de sua atmosfera. A pista da origem está na composição, rica em nióbio, cobre e zinco, elementos que certas estrelas lançam ao espaço ao morrer; \"é o primeiro exemplo de um planeta se formando ao redor de uma anã branca\", disse o autor principal, Jamie Williams, doutorando da Universidade de Warwick, na Inglaterra."
+    ],
+    "fontes": [
+      {
+        "nome": "Folha/Reuters",
+        "url": "https://www1.folha.uol.com.br/ciencia/2026/10/astronomos-descobrem-planeta-fenix-que-surgiu-das-cinzas-de-estrela-moribunda.shtml"
+      }
+    ]
+  },
+  "disco": {
+    "artista": "Taiguara",
+    "titulo": "Imyra, Tayra, Ipy - Taiguara",
+    "ficha": "1976 · EMI-Odeon",
+    "texto": [
+      "Taiguara gravou em 1976 um disco ambicioso, com arranjos dele e de Hermeto Pascoal, produção de Wagner Tiso e músicos como Toninho Horta e Nivaldo Ornelas, e viu o LP ser recolhido às pressas pela ditadura logo depois de chegar às lojas, mesmo tendo passado pela censura prévia, segundo pesquisadores do Laboratório de Musicologia da USP. O álbum ficou quase 30 anos sem edição no Brasil: saiu em CD no Japão em 2002 e só voltou ao país em 2013, pela Kuarup, depois de uma campanha da filha do cantor, Imyra. São 14 faixas que vão da \"pecinha sinfônica\" de abertura a títulos como \"Terra das Palmeiras\" e \"Aquarela de um País na Lua\". Comece por \"Três Pontas\", de Milton Nascimento e Ronaldo Bastos, a única que não é de Taiguara, e depois ouça o disco do início, na ordem."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (ficha e faixas)",
+        "url": "https://en.wikipedia.org/wiki/Imyra,_Tayra,_Ipy_-_Taiguara"
+      },
+      {
+        "nome": "LAMUS/USP (artigo sobre Taiguara e a censura)",
+        "url": "https://sites.usp.br/lamus-each/?p=1378"
+      }
+    ]
+  },
+  "poema": {
+    "autor": "Álvares de Azevedo",
+    "titulo": "Se eu morresse amanhã",
+    "ficha": "De Poesias diversas, publicação póstuma (o poeta morreu em 1852)",
+    "texto": "Se eu morresse amanhã, viria ao menos\nFechar meus olhos minha triste irmã;\nMinha mãe de saudades morreria\nSe eu morresse amanhã!\n\nQuanta glória pressinto em meu futuro!\nQue aurora de porvir e que manhã!\nEu perdera chorando essas coroas\nSe eu morresse amanhã!\n\nQue sol! que céu azul! que doce n'alva\nAcorda a natureza mais louçã!\nNão me batera tanto amor no peito\nSe eu morresse amanhã!\n\nMas essa dor da vida que devora\nA ânsia de glória, o dolorido afã...\nA dor no peito emudecera ao menos\nSe eu morresse amanhã!",
+    "comentario": [
+      "Álvares de Azevedo morreu em abril de 1852, aos 20 anos, e este foi um dos últimos poemas que escreveu; os versos foram lidos em seu enterro. Na semana em que um incêndio na UFPE levou dados de cerca de 80 dissertações e teses e de 20 anos de pesquisa, o poema lembra o que se perde quando o trabalho de quem ainda está começando é interrompido: \"Quanta glória pressinto em meu futuro!\"."
+    ],
+    "fontes": [
+      {
+        "nome": "Toda Matéria (texto, a partir das Poesias Completas, Ediouro)",
+        "url": "https://www.todamateria.com.br/alvares-de-azevedo/"
+      },
+      {
+        "nome": "Wikipedia (Álvares de Azevedo)",
+        "url": "https://en.wikipedia.org/wiki/%C3%81lvares_de_Azevedo"
+      }
+    ]
+  },
+  "entender_brasil": {
+    "titulo": "O destino da literatura",
+    "autor": "Lima Barreto · texto, 1921",
+    "texto": [
+      "Escrito como conferência e publicado na Revista Souza Cruz em outubro e novembro de 1921, um ano antes da morte do autor, o texto é a defesa mais direta que Lima Barreto fez de uma literatura com função social. Ele começa ironizando o gosto carioca pelas conferências literárias como espetáculo de elegância e, a partir de exemplos como Crime e castigo, de Dostoiévski, recusa a ideia de que a beleza literária esteja na forma polida. Para Lima, a literatura reforça \"o nosso natural sentimento de solidariedade com os nossos semelhantes\", explica defeitos, realça qualidades e zomba \"dos fúteis motivos que nos separam uns dos outros\". É uma chave para ler o escritor mulato e suburbano que a elite literária da Primeira República tratou como marginal. A revista Literatura e Sociedade, da USP, republicou o texto integral em acesso aberto."
+    ],
+    "fontes": [
+      {
+        "nome": "Literatura e Sociedade/USP (texto integral, PDF)",
+        "url": "https://revistas.usp.br/ls/article/view/217384"
+      }
+    ]
+  },
+  "mercado": {
+    "texto": [
+      "O Ibovespa voltou a subir na quinta (8), depois de duas quedas, 0,94%, aos 206.220 pontos, e o dólar comercial avançou 0,27%, a R$ 5,024; os juros futuros recuaram em toda a curva, com os investidores atentos às pesquisas do segundo turno. Nesta sexta (9), o IBGE divulga o IPCA de setembro, e na segunda-feira (12), feriado de Nossa Senhora Aparecida, bancos e INSS não abrem."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-08102026/"
+      },
+      {
+        "nome": "Folha (feriado)",
+        "url": "https://www1.folha.uol.com.br/mercado/2026/10/bancos-e-inss-fecham-na-segunda-feira-12-feriado-de-nossa-senhora-aparecida.shtml"
+      }
+    ]
+  },
+  "ibovespa": {
+    "painel": [
+      [
+        "Fechamento",
+        "206.220"
+      ],
+      [
+        "Dia",
+        "+0,94%"
+      ],
+      [
+        "Mês",
+        "+10,6%"
+      ],
+      [
+        "Ano",
+        "+28,0%"
+      ]
+    ],
+    "texto": [
+      "Fechamento de quinta (8), com ganho de 1.917 pontos. Variações no mês e no ano calculadas pela redação."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-08102026/"
+      }
+    ]
+  },
+  "dolar": {
+    "painel": [
+      [
+        "Fechamento",
+        "R$ 5,02"
+      ],
+      [
+        "Dia",
+        "+0,27%"
+      ],
+      [
+        "Mês",
+        "−2,8%"
+      ],
+      [
+        "Ano",
+        "−8,6%"
+      ]
+    ],
+    "texto": [
+      "Dólar comercial a R$ 5,024 na quinta (8). Variações no mês e no ano calculadas pela redação."
+    ],
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-08102026/"
+      }
+    ]
+  },
+  "bitcoin": {
+    "painel": [
+      [
+        "US$",
+        "82.512"
+      ],
+      [
+        "R$",
+        "414.064"
+      ],
+      [
+        "24h",
+        "−0,5%"
+      ],
+      [
+        "7d / 30d",
+        "−4,3% / +3,6%"
+      ]
+    ],
+    "texto": [
+      "Recua 4,3% na semana. Cotação às 6h14 de Brasília."
+    ],
+    "fontes": [
+      {
+        "nome": "CoinGecko",
+        "url": "https://www.coingecko.com/pt/moedas/bitcoin"
+      }
+    ]
+  },
+  "esporte": {
+    "titulo": "Neymar volta com dois gols, Santos empata com o Flamengo, e Palmeiras fica a um ponto da liderança",
+    "texto": [
+      "O Flamengo abriu 2 a 0 na Vila Belmiro na quinta (8), com Danilo e Lucas Paquetá, mas Neymar, que voltou a jogar depois de mais de um mês, entrou no segundo tempo e empatou com dois gols de pênalti, num jogo com expulsão de Jorginho. Na mesma noite, o Palmeiras venceu o Bahia por 1 a 0, gol de cabeça de Flaco López aos seis minutos, e chegou a 60 pontos, um a menos que o líder Flamengo, com 61. No domingo (11), às 17h30, o Palmeiras recebe o Corinthians, que luta contra o rebaixamento."
+    ],
+    "fontes": [
+      {
+        "nome": "CNN Brasil (Santos x Flamengo)",
+        "url": "https://www.cnnbrasil.com.br/esportes/brasileirao/com-dois-gols-de-neymar-santos-e-flamengo-empatam-em-jogo-polemico-na-vila/"
+      },
+      {
+        "nome": "CNN Brasil (Palmeiras x Bahia)",
+        "url": "https://www.cnnbrasil.com.br/esportes/brasileirao/palmeiras-domina-o-bahia-vence-e-fica-a-um-ponto-do-lider-flamengo/"
+      },
+      {
+        "nome": "Folha",
+        "url": "https://www1.folha.uol.com.br/esporte/2026/10/palmeiras-aproveita-vacilo-do-flamengo-e-cola-na-lideranca-do-brasileiro.shtml"
+      }
+    ]
+  },
+  "tempo": {
+    "dia": "sexta-feira, 9",
+    "regioes": [
+      {
+        "regiao": "Norte",
+        "texto": "Calor forte no Pará e no Tocantins, com máximas que podem chegar a 40 °C; no oeste da região, pancadas com trovoadas e aviso amarelo do Inmet para tempestades no Acre, em Rondônia e no Amazonas."
+      },
+      {
+        "regiao": "Nordeste",
+        "texto": "Sol e calor na maior parte da região, com até 41 °C em Teresina, e aviso laranja do Inmet para baixa umidade no interior do Maranhão, do Piauí, do Ceará, de Pernambuco e da Bahia; no litoral, chuva passageira."
+      },
+      {
+        "regiao": "Centro-Oeste",
+        "texto": "Calor e tempo seco em Goiás e no Distrito Federal, com aviso laranja de baixa umidade em Goiás; Mato Grosso e Mato Grosso do Sul têm aviso amarelo para tempestades."
+      },
+      {
+        "regiao": "Sudeste",
+        "texto": "Sol e calor no Rio de Janeiro, no Espírito Santo e em Minas Gerais, onde o norte do estado tem aviso laranja de baixa umidade; São Paulo tem aviso amarelo do Inmet para tempestades."
+      },
+      {
+        "regiao": "Sul",
+        "texto": "Aviso vermelho, de grande perigo, para tempestades em 529 municípios do oeste do Paraná e de Santa Catarina e do centro-norte do Rio Grande do Sul, com risco de mais de 100 mm de chuva no dia, ventos acima de 100 km/h e granizo; um ciclone deve se formar no sábado (10)."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Inmet (aviso de grande perigo no Sul)",
+        "url": "https://avisos.inmet.gov.br/56007"
+      },
+      {
+        "nome": "Inmet (aviso de baixa umidade)",
+        "url": "https://avisos.inmet.gov.br/56008"
+      },
+      {
+        "nome": "Inmet (aviso de tempestades)",
+        "url": "https://avisos.inmet.gov.br/56005"
+      },
+      {
+        "nome": "g1 (aviso no Sul)",
+        "url": "https://g1.globo.com/meio-ambiente/noticia/2026/10/08/inmet-aviso-grande-perigo-tempestade-sul.ghtml"
+      },
+      {
+        "nome": "g1/Climatempo (previsão)",
+        "url": "https://g1.globo.com/meio-ambiente/noticia/2026/10/09/feriado-prolongado-de-12-de-outubro-previsao.ghtml"
+      }
+    ]
+  }
+}
