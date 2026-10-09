@@ -188,6 +188,10 @@
     {
       "data": "2026-10-09",
       "item": "Lima Barreto — O destino da literatura (texto)"
+    },
+    {
+      "data": "2026-10-09",
+      "item": "Raymundo Faoro — Os donos do poder (livro, noite)"
     }
   ],
   "momento": [
@@ -278,8 +282,12 @@
     {
       "data": "2026-10-09",
       "item": "Hannah Arendt — Verdade e política"
+    },
+    {
+      "data": "2026-10-09",
+      "item": "William Nordhaus — The Political Business Cycle (noite)"
     }
   ],
   "tiragem": 11,
-  "tiragem_noite": 10
+  "tiragem_noite": 11
 }
