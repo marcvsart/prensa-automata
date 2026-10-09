@@ -1,0 +1,194 @@
+{
+ "slug": "2026-10-08-noite",
+ "meta": "Noturna Nº 10 · Quinta-feira, 8 out 2026",
+ "abertura": {
+  "edicao": "Noturna",
+  "numero": 10,
+  "data": "Quinta-feira, 8 de outubro de 2026"
+ },
+ "cenas": [
+  {
+   "rotulo": "Manchete",
+   "fantasma": "DATAFOLHA",
+   "titulo": "Primeiro Datafolha do 2º turno",
+   "modulos": [
+    {
+     "tipo": "colunas",
+     "itens": [
+      {
+       "nome": "Flávio Bolsonaro",
+       "valor": 52
+      },
+      {
+       "nome": "Lula",
+       "valor": 48
+      }
+     ],
+     "lado": [
+      {
+       "k": "votos válidos",
+       "v": "Em votos totais, 49% a 45%"
+      },
+      {
+       "k": "no 1º turno",
+       "v": "Flávio 47,03% · Lula 45,16%"
+      }
+     ]
+    },
+    {
+     "tipo": "nota",
+     "texto": "2.520 entrevistas de 6 a 8 de outubro · margem de dois pontos · BR-02949/2026"
+    }
+   ]
+  },
+  {
+   "rotulo": "Brasil",
+   "fantasma": "RIO",
+   "titulo": "TSE anula votos de Garotinho, e Ruas vence no Rio",
+   "modulos": [
+    {
+     "tipo": "placar",
+     "titulo": "Placar no TSE",
+     "cheios": 5,
+     "total": 7,
+     "legenda": "5 a 2 para tirar da conta 274.411 votos"
+    },
+    {
+     "tipo": "limiar",
+     "titulo": "Douglas Ruas (PL), % dos votos válidos",
+     "min": 45,
+     "max": 55,
+     "min_rotulo": "45%",
+     "max_rotulo": "55%",
+     "de": 49.27,
+     "para": 50.9,
+     "marco": 50,
+     "marco_rotulo": "50%",
+     "legenda": "49,27% → cerca de 50,9%: vence no 1º turno; falta o TRE-RJ proclamar. Paes recorreu ao STF."
+    }
+   ]
+  },
+  {
+   "rotulo": "Mundo",
+   "fantasma": "UCRÂNIA",
+   "titulo": "Bomba russa atinge dois ônibus em Kramatorsk",
+   "modulos": [
+    {
+     "tipo": "numeros",
+     "lado_a_lado": true,
+     "itens": [
+      {
+       "prefixo": "≥ ",
+       "valor": 30,
+       "rotulo": "mortos"
+      },
+      {
+       "valor": 18,
+       "rotulo": "feridos"
+      }
+     ]
+    },
+    {
+     "tipo": "distancia",
+     "origem": "Kramatorsk",
+     "destino": "linha de frente",
+     "rotulo": "cerca de 20 km"
+    }
+   ]
+  },
+  {
+   "rotulo": "Inteligência artificial",
+   "fantasma": "OPENAI",
+   "titulo": "Ações de IA caem após reportagem sobre a OpenAI",
+   "modulos": [
+    {
+     "tipo": "barras",
+     "titulo": "Receita anualizada da OpenAI",
+     "escala_max": 70,
+     "itens": [
+      {
+       "nome": "Noticiada antes",
+       "valor": 70,
+       "rotulo": "US$ 70 bi",
+       "tracejado": true
+      },
+      {
+       "nome": "Informada a investidores, segundo o FT",
+       "valor": 50,
+       "rotulo": "≈ US$ 50 bi"
+      }
+     ]
+    },
+    {
+     "tipo": "numeros",
+     "itens": [
+      {
+       "prefixo": "−",
+       "valor": 1.25,
+       "decimais": 2,
+       "sufixo": "%",
+       "rotulo": "Nasdaq, pior queda desde meados de agosto"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rotulo": "Mercados",
+   "fantasma": "B3",
+   "modulos": [
+    {
+     "tipo": "numeros",
+     "itens": [
+      {
+       "antes": "Ibovespa",
+       "valor": 206220,
+       "de": 190000,
+       "rotulo": "▲ +0,94% no dia"
+      },
+      {
+       "antes": "Dólar",
+       "prefixo": "R$ ",
+       "valor": 5.02,
+       "de": 4.8,
+       "decimais": 2,
+       "rotulo": "▲ +0,27% no dia"
+      }
+     ]
+    },
+    {
+     "tipo": "fita",
+     "texto": "IBOVESPA 206.220 ▲ +0,94% · MÊS +10,6% · ANO +28,0%   /   DÓLAR R$ 5,02 ▲ +0,27% · MÊS −2,8% · ANO −8,6%"
+    }
+   ]
+  },
+  {
+   "rotulo": "Para ler com calma",
+   "fantasma": "LEITURA",
+   "modulos": [
+    {
+     "tipo": "livros",
+     "itens": [
+      {
+       "titulo": "Como as democracias morrem",
+       "autor": "Steven Levitsky e Daniel Ziblatt · 2018"
+      },
+      {
+       "titulo": "Teoria do medalhão",
+       "autor": "Machado de Assis · 1881"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "fecho": {
+  "rotulo": "A edição completa",
+  "fantasma": "PRENSA",
+  "itens": [
+   "Moraes manda prender Eduardo Bolsonaro",
+   "Incêndio na UFPE: prejuízo de R$ 100 milhões",
+   "Temporada de calor extremo cerca de 39 dias mais longa"
+  ]
+ }
+}
