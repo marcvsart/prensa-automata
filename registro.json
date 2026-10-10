@@ -48,6 +48,10 @@
     {
       "data": "2026-10-09",
       "item": "Taiguara — Imyra, Tayra, Ipy - Taiguara (1976)"
+    },
+    {
+      "data": "2026-10-10",
+      "item": "Flaviola e o Bando do Sol — Flaviola e o Bando do Sol (1976)"
     }
   ],
   "poemas": [
@@ -98,6 +102,10 @@
     {
       "data": "2026-10-09",
       "item": "Álvares de Azevedo — Se eu morresse amanhã"
+    },
+    {
+      "data": "2026-10-10",
+      "item": "Casimiro de Abreu — Meus oito anos"
     }
   ],
   "entender_brasil": [
@@ -192,6 +200,10 @@
     {
       "data": "2026-10-09",
       "item": "Raymundo Faoro — Os donos do poder (livro, noite)"
+    },
+    {
+      "data": "2026-10-10",
+      "item": "Perdigão Malheiro — A escravidão no Brasil: ensaio histórico-jurídico-social (livro)"
     }
   ],
   "momento": [
@@ -286,8 +298,12 @@
     {
       "data": "2026-10-09",
       "item": "William Nordhaus — The Political Business Cycle (noite)"
+    },
+    {
+      "data": "2026-10-10",
+      "item": "Bruno Carazza — Dinheiro, eleições e poder"
     }
   ],
-  "tiragem": 11,
+  "tiragem": 12,
   "tiragem_noite": 11
 }
