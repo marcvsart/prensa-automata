@@ -1,0 +1,375 @@
+{
+  "data": "2026-10-10",
+  "numero": 12,
+  "manchete": {
+    "titulo": "TSE dá 48 horas para a Meta provar que tratou Lula e Flávio da mesma forma; candidatos fazem campanha em Natal e em São Gonçalo",
+    "texto": [
+      "O ministro Marco Aurélio Bellizze, do TSE, deu neste sábado (10) 48 horas para a Meta, dona do Instagram e do Facebook, demonstrar que distribuiu da mesma forma as publicações de Lula (PT) e de Flávio Bolsonaro (PL), atendendo a um pedido da coligação do presidente, que alega \"seletividade algorítmica\" e diz que a empresa deixou de remover 255 perfis inautênticos geridos por inteligência artificial; o tribunal também pediu, no mesmo prazo, a metodologia de levantamentos da Agência Lupa e do Instituto Democracia em Xeque. Mais cedo, a campanha de Lula acusou a Meta de tentar interferir na eleição em favor do adversário, citou a retirada do ar da conta de anúncios do presidente e o bloqueio do impulsionamento de posts entre a tarde de sexta e a manhã de sábado, e anunciou que também vai à Autoridade Nacional de Proteção de Dados. A Meta disse que as alegações \"são simplesmente falsas\", que muitos dos problemas técnicos não afetaram só o Brasil ou contas específicas e que cumpre as normas eleitorais. Nas ruas, Lula fez passeata em Natal, criticou o \"tesouraço\" de Flávio, que, segundo ele, cortaria programas como Bolsa Família e Pé-de-Meia, e pediu que apoiadores convençam quem faltou no primeiro turno, quando a abstenção chegou a 33 milhões de eleitores; Flávio, que nega cortes em programas sociais e diz que a economia virá de reforma administrativa e redução de cargos comissionados, fez carreata em São Gonçalo (RJ), prometeu reduzir a maioridade penal para 16 anos e declarar \"guerra contra o narcotráfico\" e disse que o pai, Jair Bolsonaro, preso por condenação na trama golpista, colocará nele a faixa presidencial em 6 de janeiro de 2027."
+    ],
+    "fontes": [
+      {
+        "nome": "CNN Brasil (TSE e Meta)",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/tse-da-48h-para-meta-provar-que-tratou-lula-e-flavio-de-forma-igual/"
+      },
+      {
+        "nome": "g1 (campanha de Lula e Meta)",
+        "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/10/campanha-de-lula-acusa-meta-de-tentar-interferir-nas-eleicoes-e-diz-que-acionara-tse-e-anpd.ghtml"
+      },
+      {
+        "nome": "g1 RN (Lula em Natal)",
+        "url": "https://g1.globo.com/rn/rio-grande-do-norte/eleicoes/2026/noticia/2026/10/10/no-rn-lula-diz-que-tesouraco-de-flavio-sera-feito-em-cima-de-programas-sociais-e-que-candidato-do-pl-beija-a-bandeira-dos-eua.ghtml"
+      },
+      {
+        "nome": "CNN Brasil (Lula)",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/lula-critica-tesouraco-de-flavio-de-onde-vai-sair-esse-corte/"
+      },
+      {
+        "nome": "g1 Rio (Flávio em São Gonçalo)",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/10/flavio-bolsonaro-agenda-rj.ghtml"
+      },
+      {
+        "nome": "CNN Brasil (Flávio)",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-defende-guerra-contra-o-crime-menor-vai-pagar-como-gente-grande/"
+      }
+    ]
+  },
+  "brasil": [
+    {
+      "titulo": "Ipespe mostra Flávio com 52,7% dos votos válidos e Lula com 47,3% no segundo turno",
+      "texto": [
+        "Na primeira rodada do Ipespe para o segundo turno, divulgada neste sábado (10), Flávio Bolsonaro (PL) tem 52,7% dos votos válidos, e Lula (PT), 47,3%; em votos totais, 49% a 44%, com 5% de brancos e nulos e 3% que não sabem ou não responderam. Foram 1.500 entrevistas, de 6 a 8 de outubro, por recrutamento digital aleatório, com margem de erro de 2,6 pontos, pesquisa paga pelo próprio instituto e registrada no TSE sob o número BR-00933/2026. Dos entrevistados, 46% dizem que não votariam de jeito nenhum em Flávio, e 49%, em Lula; no primeiro turno, Flávio teve 47,03% dos válidos, e Lula, 45,16%."
+      ],
+      "fontes": [
+        {
+          "nome": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/ipespe-flavio-tem-527-dos-votos-validos-no-2o-turno-lula-473/"
+        },
+        {
+          "nome": "SBT News",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/ipespe-flavio-tem-52-7-dos-votos-validos-e-lula-47-3"
+        },
+        {
+          "nome": "Brasil em Folhas (votos totais e rejeição)",
+          "url": "https://www.brasilemfolhas.com.br/2026/10/flavio-abre-5-4-pontos-sobre-lula-no-segundo-turno-diz-ipespe/"
+        }
+      ]
+    },
+    {
+      "titulo": "Com os votos de Garotinho anulados, Douglas Ruas passa de 49,27% para 50,88% e é declarado eleito governador do Rio",
+      "texto": [
+        "O TRE do Rio refez neste sábado (10) a contagem do primeiro turno para governador depois que a Justiça Eleitoral declarou inválidos os 274.411 votos de Anthony Garotinho (Republicanos), e Douglas Ruas (PL) passou de 49,27% para 50,88% dos votos válidos, o suficiente para vencer sem segundo turno; Eduardo Paes (PSD) ficou com 44,16%. \"Não há voto novo\", disse o presidente do TRE-RJ, Cláudio Mello Tavares: muda só a base de cálculo. Paes disse em nota que a decisão deve ser respeitada e desistiu da disputa; depois do prazo para recursos, a proclamação de Ruas, de 37 anos, o governador mais jovem do estado desde 1959, está marcada para 15 de outubro."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/apos-retotalizacao-dos-votos-douglas-ruas-tem-5088-dos-votos-no-rj"
+        },
+        {
+          "nome": "g1 Rio",
+          "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/10/douglas-ruas-quem-e-o-policial-civil-e-deputado-eleito-governador-do-rj.ghtml"
+        }
+      ]
+    },
+    {
+      "titulo": "Fumaça encobre Manaus pelo terceiro dia, e governo federal manda aviões; ministério diz que o Amazonas havia dispensado ajuda",
+      "texto": [
+        "A fumaça das queimadas cobriu Manaus pela terceira vez seguida neste sábado (10), com qualidade do ar péssima em três pontos da capital, e as primeiras aeronaves enviadas pela União chegaram à cidade; segundo o Ministério do Meio Ambiente, 229 incêndios já foram apagados no estado, 20 focos seguem ativos, e 290 brigadistas, quatro aviões e dois helicópteros reforçam o combate. O comandante dos bombeiros do Amazonas, coronel Orleilso Muniz, disse na sexta que o pedido de ajuda federal tinha sido negado; o ministério respondeu que recebeu o pedido em 23 de setembro, mobilizou equipes e que, em 30 de setembro, o governo estadual dispensou os brigadistas, alegando que as chuvas tinham ajudado a controlar o fogo. Desde setembro, o estado registrou 4.508 focos."
+      ],
+      "fontes": [
+        {
+          "nome": "g1 AM",
+          "url": "https://g1.globo.com/am/amazonas/noticia/2026/10/10/governo-do-am-pediu-ajuda-federal-contra-queimadas-mas-desistiu-diz-ministerio.ghtml"
+        },
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/ibama-extingue-229-incendios-no-amazonas-e-segue-no-combate-ao-fogo"
+        }
+      ]
+    }
+  ],
+  "momento": {
+    "titulo": "O filtro invisível: o que a internet está escondendo de você",
+    "autor": "Eli Pariser · 2011",
+    "texto": [
+      "O dia da campanha foi dominado por uma disputa sobre algoritmos: a coligação de Lula acusa a Meta de reduzir o alcance do presidente nas redes, a empresa nega, e o TSE deu 48 horas para que ela demonstre que tratou os dois candidatos da mesma forma. Seja qual for o desfecho, o caso põe no centro da eleição uma pergunta que vale para todos os lados: quem decide o que cada eleitor vê na tela, e com que critérios? O livro do ativista e empresário americano Eli Pariser, publicado nos EUA em 2011 e no Brasil pela Zahar em 2012, é a obra que popularizou a expressão \"bolha de filtros\" para descrever esse problema.",
+      "Pariser parte da história de dois mecanismos que moldaram a internet: o PageRank do Google, que media a importância das páginas pelas citações entre elas, e o EdgeRank do Facebook, que ordenava o que cada pessoa via a partir de suas interações. Daí veio a personalização, que entrega a cada usuário resultados e postagens diferentes conforme seu histórico. O argumento central é que a internet não eliminou os intermediários entre o leitor e a informação; ela os multiplicou e os tornou invisíveis. Como não escolhemos os critérios dos filtros, tendemos a tomar por neutro o que chega até nós, quando, de dentro da bolha, é quase impossível medir seu grau de parcialidade.",
+      "O livro ajuda a ler o noticiário de hoje em duas direções. Explica por que campanhas de qualquer lado dependem de decisões técnicas que não controlam nem enxergam, como o alcance de uma postagem ou a liberação de um anúncio, e por que acusações de favorecimento são difíceis de provar ou de refutar sem acesso aos dados das empresas, que é justamente o que o TSE pediu. E lembra que o efeito mais amplo da bolha não depende de manipulação deliberada: ao mostrar a cada um mais do que já confirma suas preferências, ela dificulta que eleitores de lados opostos partam dos mesmos fatos.",
+      "Escrito antes da ascensão do TikTok e da IA generativa, o livro envelheceu em exemplos, mas não na pergunta. Vale começar pela introdução e pelo primeiro capítulo, que apresentam a ideia de bolha com casos concretos, e seguir até o fim, onde Pariser propõe o que usuários, empresas e governos poderiam fazer para tornar os filtros visíveis. A resenha publicada na revista InCID, da USP, é um bom resumo antes da leitura."
+    ],
+    "fontes": [
+      {
+        "nome": "Companhia das Letras (edição da Zahar)",
+        "url": "https://www.companhiadasletras.com.br/livro/9788537808030/o-filtro-invisivel"
+      },
+      {
+        "nome": "Resenha na revista InCID (USP)",
+        "url": "https://periodicos.usp.br/incid/article/download/59109/62109/75930"
+      }
+    ]
+  },
+  "mundo": {
+    "titulo": "Trump diz que é hora de a Ucrânia ter um novo presidente, depois que Zelensky critica o acordo do diesel com a Rússia",
+    "texto": [
+      "O presidente dos EUA, Donald Trump, disse neste sábado (10), na Casa Branca, que \"é hora de a Ucrânia ter um novo presidente\", capaz de \"fazer um acordo\", em resposta às críticas de Volodimir Zelensky ao acordo que suspende até 7 de abril as sanções ao diesel russo; Trump também mandou o ucraniano parar de atacar refinarias russas, o que, segundo ele, agrava um problema mundial de combustíveis desde o fechamento do estreito de Ormuz na guerra contra o Irã. Horas antes, cinco bombas planadoras russas atingiram prédios residenciais em Zaporíjia e mataram ao menos 20 pessoas, entre elas crianças, segundo autoridades locais citadas pela BBC; Zelensky disse que foi a forma de a Rússia \"agradecer\" pelo fim das sanções. O enviado de Vladimir Putin Kirill Dmitriev chamou a fala de Trump de \"histórica\", e o governo americano disse ter tido conversas \"produtivas\" com representantes europeus e ucranianos para encerrar a guerra."
+    ],
+    "fontes": [
+      {
+        "nome": "BBC (Trump e Zelensky)",
+        "url": "https://www.bbc.com/news/articles/cqe8r5l7n92jo"
+      },
+      {
+        "nome": "BBC (ataque a Zaporíjia)",
+        "url": "https://www.bbc.com/news/articles/cwvgdpv642g5o"
+      },
+      {
+        "nome": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/10/us-hosts-productive-trilateral-talks-to-end-russia-ukraine-war"
+      },
+      {
+        "nome": "Agência Brasil (Reuters)",
+        "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/ataque-russo-mata-17-na-ucrania-apos-alivio-de-sancoes-dos-eua"
+      }
+    ]
+  },
+  "ia": {
+    "titulo": "OpenAI diz ter derrubado operação russa que usava o ChatGPT para interferir na política da América Latina",
+    "texto": [
+      "Num relatório divulgado na quinta (8), a OpenAI informou ter banido contas, operadas da Rússia por meio de VPN, que usavam o ChatGPT sobretudo para redigir relatórios internos de uma campanha de influência na América Latina, com três frentes: desacreditar a Ucrânia, interferir na política interna, especialmente da Bolívia e da Argentina, e administrar um centro de pesquisa de fachada, o Social Research Center, cujos funcionários locais, segundo a empresa, não sabiam trabalhar para um grupo russo. Os relatórios descreviam ações como um áudio falso de um funcionário da companhia de água de La Paz anunciando cortes no abastecimento e e-mails falsos que levaram escolas no Peru e no Equador a realizar eventos; a OpenAI diz ter achado coberturas e desmentidos correspondentes na imprensa local, mas ressalva que os operadores também reivindicavam fatos em que não tiveram participação, como uma reportagem brasileira. A empresa classificou a operação no nível 5 de uma escala de impacto que vai até 6, disse ter avisado as autoridades e, no mesmo relatório, contou ter banido uma operação iraniana que usava falsos jornalistas para emplacar artigos em sites de notícias."
+    ],
+    "fontes": [
+      {
+        "nome": "OpenAI (relatório)",
+        "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations/"
+      },
+      {
+        "nome": "Unite.AI",
+        "url": "https://www.unite.ai/?p=482150"
+      }
+    ]
+  },
+  "giro": [
+    {
+      "regiao": "América do Sul",
+      "itens": [
+        {
+          "titulo": "A imprensa se apaga no Equador de Noboa",
+          "url": "https://elpais.com/america/2026-10-10/la-prensa-se-apaga-en-el-ecuador-de-noboa.html"
+        }
+      ]
+    },
+    {
+      "regiao": "América do Norte e Central",
+      "itens": [
+        {
+          "titulo": "Furacão Simón chega à categoria 4 e ameaça a costa do Pacífico do México",
+          "url": "https://elpais.com/mexico/2026-10-10/el-huracan-simon-se-intensifica-a-categoria-4-en-su-rumbo-hacia-la-costa-del-pacifico-de-mexico.html"
+        }
+      ]
+    },
+    {
+      "regiao": "África",
+      "itens": [
+        {
+          "titulo": "Ataque de drone de paramilitares no Sudão mata 41 perto da fronteira com a Etiópia, diz grupo de direitos humanos",
+          "url": "https://www.bbc.com/news/articles/c8vgx9ew571wo"
+        }
+      ]
+    },
+    {
+      "regiao": "Europa",
+      "itens": [
+        {
+          "titulo": "Polônia tem o terceiro ataque a faca em escola em uma semana; mulher fere três pessoas",
+          "url": "https://www.bbc.com/news/articles/cv8ezd246z1wo"
+        }
+      ]
+    },
+    {
+      "regiao": "Oriente Médio",
+      "itens": [
+        {
+          "titulo": "Ataques de Israel matam oito em Gaza, entre eles uma criança, no aniversário de um ano do cessar-fogo",
+          "url": "https://www.aljazeera.com/news/2026/10/10/israeli-forces-kill-six-in-gaza-including-a-child"
+        }
+      ]
+    },
+    {
+      "regiao": "Ásia",
+      "itens": [
+        {
+          "titulo": "Presidente de Taiwan diz que aumento dos gastos militares serve para \"dissuadir a guerra\"",
+          "url": "https://www.aljazeera.com/news/2026/10/10/taiwan-president-says-defence-spending-boost-aims-to-deter-war"
+        }
+      ]
+    }
+  ],
+  "ciencia": {
+    "titulo": "Anvisa autoriza o primeiro teste em humanos de vacina brasileira contra a malária causada pelo Plasmodium vivax",
+    "texto": [
+      "A Anvisa liberou o início dos testes clínicos da Vivaxin, desenvolvida pelo Centro de Tecnologia de Vacinas da UFMG, que segundo o Ministério da Saúde é a primeira vacina do mundo contra a malária causada pelo Plasmodium vivax, parasita responsável pela maioria dos casos no Brasil, que registrou 118.037 casos da doença em 2025. A fase 1 vai avaliar a segurança e a resposta imune em 48 voluntários de 18 a 59 anos sem infecção prévia, acompanhados por 360 dias, e o ministério prevê R$ 12 milhões para as fases 1, 2 e 3. As duas vacinas contra a malária hoje recomendadas foram feitas para o Plasmodium falciparum, que predomina na África, e não para o vivax, mais comum nas Américas e na Ásia."
+    ],
+    "fontes": [
+      {
+        "nome": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-10/malaria-anvisa-autoriza-teste-em-humanos-de-vacina-100-brasileira"
+      }
+    ]
+  },
+  "entender_brasil": {
+    "titulo": "O jornal e o livro",
+    "autor": "Machado de Assis · texto, 1859",
+    "texto": [
+      "Em janeiro de 1859, um Machado de Assis de 19 anos, ainda tipógrafo, revisor e aprendiz de cronista, publicou em duas partes no Correio Mercantil, do Rio de Janeiro, o artigo \"O jornal e o livro\". O Brasil do Segundo Reinado tinha poucos leitores e uma imprensa que crescia na Corte, levada às províncias por navios a vapor e, logo, pelas ferrovias. Inspirado em autores franceses como Victor Hugo e Eugène Pelletan, o jovem escritor fez a pergunta que o texto anuncia: o jornal vai matar o livro?",
+      "A resposta é uma defesa entusiasmada do jornal. Para Machado, o espírito humano precisa de movimento e de discussão, e o livro, lento e fechado, não atende a essa necessidade como a folha diária. O jornal seria \"a verdadeira forma da república do pensamento\", \"a locomotiva intelectual em viagem para mundos desconhecidos\", uma \"literatura comum, universal, altamente democrática\", uma tribuna aberta a todos. Por isso, previa, o livro tenderia a desaparecer diante dele.",
+      "Muita coisa envelheceu. O livro não morreu, e o próprio Machado construiu sua obra maior em romances; a profecia é hoje lida como entusiasmo juvenil, e pesquisadores apontam a retórica liberal emprestada dos franceses. Também envelheceu a ideia de que bastaria multiplicar os meios de publicação para ter debate democrático: os jornais do século 19 eram de partido, e a esfera pública que o rapaz imaginava excluía a imensa maioria dos brasileiros, então analfabetos ou escravizados.",
+      "O que continua valendo é a pergunta de fundo, que reaparece a cada novo meio: o que muda na vida pública quando muda a forma como as pessoas leem e discutem? Lido num dia em que a campanha discute o alcance de postagens e o papel das plataformas, o texto mostra que a esperança depositada em cada nova tecnologia de comunicação é antiga, e que a pergunta sobre quem controla a \"tribuna comum\" acompanha a imprensa brasileira desde o Império. O original pode ser lido na Hemeroteca Digital da Biblioteca Nacional, nas páginas do Correio Mercantil de 10 e 12 de janeiro de 1859."
+    ],
+    "fontes": [
+      {
+        "nome": "Hemeroteca Digital Brasileira (Correio Mercantil, 1859)",
+        "url": "http://memoria.bn.br/DocReader/docreader.aspx?bib=217280&pesq=&pagfis=15667"
+      },
+      {
+        "nome": "Revista Alceu/PUC-Rio (análise do texto)",
+        "url": "https://revistaalceu-acervo.com.puc-rio.br/media/Artigo12%20Jeana%20Santos.pdf"
+      },
+      {
+        "nome": "Revista Palimpsesto/UERJ",
+        "url": "https://www.e-publicacoes.uerj.br/palimpsesto/article/download/60123/42059/235909"
+      }
+    ]
+  },
+  "mercado": {
+    "texto": [
+      "Sábado não tem pregão, e os números de bolsa e câmbio são os do fechamento de sexta (9): o Ibovespa subiu 1,38%, para 209.067 pontos, recorde de fechamento, e acumulou alta de 8,82% na semana; o dólar caiu 0,78%, a R$ 4,985, com queda de 4,44% na semana. Na segunda (12), feriado de Nossa Senhora Aparecida, também não há pregão, e a Bolsa só reabre na terça (13). O bitcoin passou o sábado perto de US$ 83 mil."
+    ],
+    "fontes": [
+      {
+        "nome": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-498-e-acumula-perda-de-444-na-semana"
+      },
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-09102026/"
+      }
+    ]
+  },
+  "ibovespa": {
+    "painel": [
+      [
+        "Fechamento",
+        "209.067"
+      ],
+      [
+        "Dia",
+        "+1,38%"
+      ],
+      [
+        "Mês",
+        "+12,2%"
+      ],
+      [
+        "Ano",
+        "+29,8%"
+      ]
+    ],
+    "texto": [
+      "Fechamento de sexta (9); não há pregão no fim de semana nem no feriado de segunda (12). Variações no mês e no ano calculadas pela redação."
+    ],
+    "fontes": [
+      {
+        "nome": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-498-e-acumula-perda-de-444-na-semana"
+      }
+    ]
+  },
+  "dolar": {
+    "painel": [
+      [
+        "Fechamento",
+        "R$ 4,99"
+      ],
+      [
+        "Dia",
+        "−0,78%"
+      ],
+      [
+        "Mês",
+        "−3,6%"
+      ],
+      [
+        "Ano",
+        "−9,2%"
+      ]
+    ],
+    "texto": [
+      "Fechamento de sexta (9), a R$ 4,985."
+    ],
+    "fontes": [
+      {
+        "nome": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-498-e-acumula-perda-de-444-na-semana"
+      }
+    ]
+  },
+  "bitcoin": {
+    "painel": [
+      [
+        "US$",
+        "82.964"
+      ],
+      [
+        "R$",
+        "413.762"
+      ],
+      [
+        "24h",
+        "+0,5%"
+      ],
+      [
+        "7d / 30d",
+        "−2,1% / +7,4%"
+      ]
+    ],
+    "texto": [
+      "Cotação às 18h14 de Brasília."
+    ],
+    "fontes": [
+      {
+        "nome": "CoinGecko",
+        "url": "https://www.coingecko.com/pt/moedas/bitcoin"
+      }
+    ]
+  },
+  "tempo": {
+    "dia": "amanhã, domingo, 11",
+    "regioes": [
+      {
+        "regiao": "Norte",
+        "texto": "Chuva e trovoadas isoladas no Acre, em Rondônia, em Roraima e em grande parte do Amazonas, com aviso amarelo do Inmet para tempestades; aviso amarelo de baixa umidade no leste do Amazonas, incluindo Manaus, no sul do Pará e no Tocantins, e máximas de 37 °C em Boa Vista e Manaus e 38 °C em Palmas."
+      },
+      {
+        "regiao": "Nordeste",
+        "texto": "Sol e calor, com chuva isolada só no litoral do Maranhão; aviso amarelo de baixa umidade em quase todo o interior e máximas de 32 °C em João Pessoa, Fortaleza e São Luís e 39 °C em Teresina."
+      },
+      {
+        "regiao": "Centro-Oeste",
+        "texto": "Pancadas com trovoadas em Mato Grosso, Mato Grosso do Sul e no sul de Goiás, com aviso amarelo para tempestades; seco no centro e norte de Goiás e no DF, com aviso de baixa umidade, e máximas de 33 °C em Brasília, 35 °C em Goiânia e 28 °C em Campo Grande."
+      },
+      {
+        "regiao": "Sudeste",
+        "texto": "Chuva em São Paulo, no Triângulo Mineiro, no sul de Minas e no sul do Rio, incluindo a capital fluminense, com aviso amarelo para tempestades; a capital paulista não passa de 25 °C, e Belo Horizonte chega a 35 °C, com tempo seco no norte e leste de Minas e no Espírito Santo."
+      },
+      {
+        "regiao": "Sul",
+        "texto": "Dia instável e mais frio, com chuva e trovoadas no Paraná, no norte de Santa Catarina e no norte do Rio Grande do Sul, sob aviso amarelo para tempestades; Porto Alegre tem mínima de 11 °C e máxima de 17 °C, e Curitiba e Florianópolis não passam de 20 °C."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Inmet (previsão de sábado a terça)",
+        "url": "https://portal.inmet.gov.br/noticias/previs%C3%A3o-para-s%C3%A1bado-10-domingo-11-segunda-feira-12-e-ter%C3%A7a-feira-13"
+      }
+    ]
+  }
+}

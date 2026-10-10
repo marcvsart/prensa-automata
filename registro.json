@@ -204,6 +204,10 @@
     {
       "data": "2026-10-10",
       "item": "Perdigão Malheiro — A escravidão no Brasil: ensaio histórico-jurídico-social (livro)"
+    },
+    {
+      "data": "2026-10-10",
+      "item": "Machado de Assis — O jornal e o livro (texto, noite)"
     }
   ],
   "momento": [
@@ -302,8 +306,12 @@
     {
       "data": "2026-10-10",
       "item": "Bruno Carazza — Dinheiro, eleições e poder"
+    },
+    {
+      "data": "2026-10-10",
+      "item": "Eli Pariser — O filtro invisível (noite)"
     }
   ],
   "tiragem": 12,
-  "tiragem_noite": 11
+  "tiragem_noite": 12
 }
