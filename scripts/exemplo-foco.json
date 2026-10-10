@@ -1,0 +1,103 @@
+{
+ "slug": "2026-10-10-foco-hepatite-b",
+ "meta": "Em foco · Matutina Nº 12 · 10 out 2026",
+ "abertura": {
+  "chapeu": "Em foco · Saúde global",
+  "titulo": "Estudo vai adiar a vacina contra hepatite B para 7 mil recém-nascidos na Guiné-Bissau",
+  "local": "Guiné-Bissau · aprovado nesta semana",
+  "tiragem": "Prensa Autômata · Matutina Nº 12"
+ },
+ "cenas": [
+  {
+   "rotulo": "O estudo",
+   "fantasma": "BISSAU",
+   "titulo": "Metade dos bebês só recebe a vacina com 6 semanas",
+   "modulos": [
+    {
+     "tipo": "barras",
+     "escala_max": 14000,
+     "itens": [
+      {
+       "nome": "Bebês no estudo",
+       "valor": 14000,
+       "rotulo": "14 mil"
+      },
+      {
+       "nome": "Sem a dose ao nascer",
+       "valor": 7000,
+       "rotulo": "7 mil"
+      }
+     ]
+    },
+    {
+     "tipo": "texto",
+     "texto": "Pelo novo protocolo, as mães serão testadas, e os filhos de mães com o vírus serão vacinados e ficarão fora do estudo."
+    }
+   ]
+  },
+  {
+   "rotulo": "O risco",
+   "fantasma": "HEPATITE B",
+   "titulo": "Quase um em cada cinco adultos no país tem o vírus",
+   "modulos": [
+    {
+     "tipo": "numeros",
+     "itens": [
+      {
+       "valor": 18,
+       "sufixo": "%",
+       "rotulo": "dos adultos da Guiné-Bissau carregam o vírus"
+      },
+      {
+       "valor": 90,
+       "sufixo": "%",
+       "rotulo": "dos bebês expostos ao nascer, sem vacina, desenvolvem a forma crônica"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rotulo": "A aprovação",
+   "fantasma": "ÉTICA",
+   "titulo": "Comitê na Dinamarca aprova, e quatro membros renunciam",
+   "modulos": [
+    {
+     "tipo": "texto",
+     "texto": "O governo da Guiné-Bissau, que tinha suspendido o estudo, também deu aval. \"Vocês estão inscrevendo recém-nascidos numa loteria\", disse um dos membros que saíram."
+    }
+   ]
+  },
+  {
+   "rotulo": "Quem apoia",
+   "fantasma": "CDC",
+   "titulo": "Verba do CDC e elogios de Robert F. Kennedy Jr.",
+   "modulos": [
+    {
+     "tipo": "numeros",
+     "itens": [
+      {
+       "prefixo": "US$ ",
+       "valor": 1.6,
+       "decimais": 1,
+       "sufixo": " mi",
+       "rotulo": "reservados pelo CDC neste ano, segundo o Guardian"
+      }
+     ]
+    },
+    {
+     "tipo": "texto",
+     "texto": "A OMS recomenda a dose nas primeiras 24 horas de vida. CDC e pesquisadores não responderam ao Guardian."
+    }
+   ]
+  }
+ ],
+ "fecho": {
+  "rotulo": "Fontes",
+  "fantasma": "PRENSA",
+  "fontes": [
+   "The Guardian, 9 de outubro de 2026",
+   "CIDRAP News, Universidade de Minnesota"
+  ]
+ }
+}
