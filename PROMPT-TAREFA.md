@@ -67,3 +67,5 @@ Ordem da edição e o que vai em cada bloco:
 8. Esta sessão roda sozinha, sem ninguém para retomá-la. Nunca encerre o turno para esperar uma notícia, pesquisa ou dado que ainda vai sair: publique com o que estiver disponível agora e, se for o caso, diga no texto quando o dado será divulgado. Só termine depois do push e da conferência do passo 6.
 
 Ao terminar, responda com uma linha: número da tiragem, manchete do dia e o link prensaautomata.com.
+
+Se, depois da edição, houver a tarefa da animação para redes, leia antes `scripts/ANIMACAO.md`: as regras acumuladas da animação ficam lá e complementam as instruções da tarefa.
