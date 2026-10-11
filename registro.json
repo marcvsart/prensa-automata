@@ -52,6 +52,10 @@
     {
       "data": "2026-10-10",
       "item": "Flaviola e o Bando do Sol — Flaviola e o Bando do Sol (1976)"
+    },
+    {
+      "data": "2026-10-11",
+      "item": "Tom Zé — Todos os Olhos (1973)"
     }
   ],
   "poemas": [
@@ -106,6 +110,10 @@
     {
       "data": "2026-10-10",
       "item": "Casimiro de Abreu — Meus oito anos"
+    },
+    {
+      "data": "2026-10-11",
+      "item": "Alphonsus de Guimaraens — A catedral"
     }
   ],
   "entender_brasil": [
@@ -208,6 +216,10 @@
     {
       "data": "2026-10-10",
       "item": "Machado de Assis — O jornal e o livro (texto, noite)"
+    },
+    {
+      "data": "2026-10-11",
+      "item": "Euclides da Cunha — Impressões gerais (Na Amazônia — Terra sem história) (texto)"
     }
   ],
   "momento": [
@@ -310,8 +322,12 @@
     {
       "data": "2026-10-10",
       "item": "Eli Pariser — O filtro invisível (noite)"
+    },
+    {
+      "data": "2026-10-11",
+      "item": "Caco Barcellos — Rota 66: a história da polícia que mata"
     }
   ],
-  "tiragem": 12,
+  "tiragem": 13,
   "tiragem_noite": 12
 }

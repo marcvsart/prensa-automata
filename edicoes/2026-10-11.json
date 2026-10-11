@@ -1,0 +1,466 @@
+{
+  "data": "2026-10-11",
+  "numero": 13,
+  "manchete": {
+    "titulo": "Reta final: e-mails obtidos pela PF ligam Flávio a conta de suspeito do caso INSS, e campanha de Lula acusa a Meta de interferir na eleição; os citados negam",
+    "texto": [
+      "E-mails obtidos pela Polícia Federal indicam que o senador Flávio Bolsonaro (PL), candidato à Presidência, compartilhava uma conta no Santander com o advogado e empresário Willer Tomaz, alvo em agosto da Operação Sem Desconto, que investiga lavagem de dinheiro ligada às fraudes no INSS, segundo reportagem do UOL confirmada pela Folha no sábado (10). Uma das trocas de mensagens, entre uma funcionária de Willer e o banco, trata de uma conta ligada à Alcazar Holdings, empresa do advogado com sede na Ilha da Madeira, em Portugal; em maio de 2025, a funcionária pediu que Flávio fosse desvinculado dela. A assessoria do senador disse que ele \"nunca manteve conta tendo como usuário master o sr. Willer Tomaz ou qualquer de suas empresas\", chamou a informação de falsa e afirmou que os responsáveis pela divulgação serão processados; a defesa de Willer negou qualquer relação financeira com Flávio (\"entre os dois há apenas amizade\") e disse que a PF abriu investigação sobre o vazamento de informações sigilosas. No mesmo sábado, a campanha de Lula (PT) acusou a Meta, dona do Instagram e do Facebook, de tentar interferir na eleição em benefício de Flávio e anunciou que vai acionar o TSE e a Autoridade Nacional de Proteção de Dados (ANPD), citando a retirada do ar da conta de anúncios do presidente, quedas de alcance e o bloqueio de impulsionamento no Instagram entre a tarde do dia 9 e a manhã do dia 10. A Meta classificou as alegações como \"simplesmente falsas\", disse que parte dos problemas técnicos não afetou só o Brasil nem contas específicas e afirmou cumprir as normas eleitorais. O segundo turno é em 25 de outubro."
+    ],
+    "fontes": [
+      {
+        "nome": "Folha (e-mails da PF)",
+        "url": "https://www1.folha.uol.com.br/poder/2026/10/emails-indicam-que-flavio-bolsonaro-dividia-conta-com-suspeito-de-lavar-dinheiro-do-inss.shtml"
+      },
+      {
+        "nome": "Estado de Minas (Operação Sem Desconto)",
+        "url": "https://www.em.com.br/politica/2026/08/7473338-amigo-de-flavio-bolsonaro-e-advogado-veja-quem-e-willer-tomaz-alvo-da-pf.html"
+      },
+      {
+        "nome": "g1 (campanha de Lula e Meta)",
+        "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/10/campanha-de-lula-acusa-meta-de-tentar-interferir-nas-eleicoes-e-diz-que-acionara-tse-e-anpd.ghtml"
+      }
+    ]
+  },
+  "brasil": [
+    {
+      "titulo": "PMs fazem 45 disparos e matam com ao menos 27 tiros jovem de 20 anos em São Paulo; policiais dizem ter confundido celular com arma",
+      "texto": [
+        "Gustavo Munis de Santana, de 20 anos, foi morto por policiais militares na madrugada de sábado (10), no bairro de Moema, na zona sul da capital paulista; segundo o boletim de ocorrência, quatro PMs fizeram 45 disparos, e a perícia contou ao menos 27 ferimentos. A PM havia sido chamada por volta das 2h35 para atender um homem que estaria em surto e ameaçava tirar a própria vida; os policiais disseram que o jovem saiu de uma área escura com os braços estendidos, segurando um objeto que interpretaram como arma, e era um celular, encontrado pela perícia ao lado do corpo. Gustavo não tinha antecedentes criminais e, segundo a família, fazia tratamento psiquiátrico desde o ano passado. As pistolas, o celular e as câmeras corporais dos agentes foram apreendidos; o caso é investigado pelas polícias Civil e Militar, e um inquérito policial militar vai apurar a conduta dos policiais."
+      ],
+      "fontes": [
+        {
+          "nome": "g1 (o que se sabe)",
+          "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/10/11/o-que-se-sabe-e-o-que-falta-saber-sobre-o-caso-de-jovem-morto-com-27-tiros-por-pms-apos-celular-ser-confundido-com-arma-em-sp.ghtml"
+        },
+        {
+          "nome": "Folha",
+          "url": "https://www1.folha.uol.com.br/cotidiano/2026/10/pms-matam-jovem-com-27-tiros-em-moema-na-zona-sul-de-sp-45-disparos-foram-feitos.shtml"
+        }
+      ]
+    },
+    {
+      "titulo": "Caso Master completa um mês parado na presidência do STF, com pedidos da PF e de soltura à espera de decisão",
+      "texto": [
+        "Em 12 de setembro, o presidente do STF, Edson Fachin, mandou o ministro André Mendonça enviar à Presidência todos os processos do caso Master, que apura supostas fraudes financeiras, corrupção, lavagem de dinheiro e o envolvimento de autoridades com o banqueiro Daniel Vorcaro; a medida veio depois que Mendonça pediu à PF um relatório sobre as conexões de Vorcaro com o ministro Alexandre de Moraes. Segundo o g1, desde então pedidos da Polícia Federal que dependem de aval judicial e a análise da manutenção de prisões estão parados: em 25 de setembro, Fachin pediu que a PGR se manifestasse sobre revogações de prisões e sigilos e sobre quem deve decidir essas demandas, e na quarta (7) a defesa de Vorcaro reforçou o pedido de liberdade. O gabinete de Mendonça, que segue relator, diz aguardar a devolução dos autos; no tribunal, a expectativa é que as investigações retomem o fluxo normal depois da eleição."
+      ],
+      "fontes": [
+        {
+          "nome": "g1",
+          "url": "https://g1.globo.com/politica/noticia/2026/10/11/caso-master-completa-um-mes-suspenso-na-presidencia-do-stf-com-pedidos-de-soltura-e-apuracao-aguardando-analise.ghtml"
+        }
+      ]
+    },
+    {
+      "titulo": "Ala do STF vê julgamento da Lei da Dosimetria como alternativa às revisões criminais pedidas por Jair Bolsonaro",
+      "texto": [
+        "Ministros do STF ouvidos pela TV Globo defendem julgar depois da eleição as ações contra a Lei da Dosimetria, aprovada em 2025, que muda regras de progressão de regime e de remição de pena para condenados por crimes contra o Estado Democrático de Direito, entre eles os réus do 8 de Janeiro e da trama golpista. Para essa ala, haveria maioria para manter a lei, com eventuais ajustes, o que reduziria o tempo de cumprimento da pena de Jair Bolsonaro sem anular a condenação a 27 anos e 3 meses, como pedem as revisões criminais da defesa; pelos cálculos dos advogados, a redução seria de 2 anos e 5 meses a 3 anos. Lula vetou a lei integralmente, o Congresso derrubou parte do veto, e o relator, Alexandre de Moraes, suspendeu sua aplicação em maio até o julgamento no plenário; em junho, a PGR se manifestou contra a suspensão."
+      ],
+      "fontes": [
+        {
+          "nome": "g1",
+          "url": "https://g1.globo.com/politica/noticia/2026/10/11/ala-do-stf-ve-lei-da-dosimetria-como-alternativa-a-revisao-criminal-de-bolsonaro.ghtml"
+        }
+      ]
+    },
+    {
+      "titulo": "Amazonas tem 1.380 focos de incêndio em dez dias de outubro, alta de 271%; governo federal manda 290 brigadistas e mais seis aeronaves",
+      "texto": [
+        "O Amazonas registrou 1.380 focos de incêndio de 1º a 10 de outubro, ante 372 no mesmo período de 2025, segundo o Painel do Fogo do Censipam; 1.186 estavam em áreas públicas, entre eles 246 em assentamentos federais, 116 em terras indígenas e 97 em unidades de conservação, e 174 foram associados a desmatamento. O Ibama informou ter apagado 229 incêndios no estado e seguia no combate a outros 20 focos ativos; o Ministério do Meio Ambiente mobilizou 290 brigadistas e anunciou o envio de mais seis aeronaves, quatro aviões para lançamento de água e dois helicópteros. Em Itacoatiara, a secretaria municipal de Meio Ambiente identificou oito suspeitos de provocar queimadas, um deles ligado ao incêndio no Lago do Canaçari, investigado como criminoso."
+      ],
+      "fontes": [
+        {
+          "nome": "g1 (Painel do Fogo)",
+          "url": "https://g1.globo.com/am/amazonas/noticia/2026/10/11/amazonas-registra-13-mil-focos-de-incendio-em-dez-dias-alta-de-271percent-em-relacao-ao-mesmo-periodo-de-2025.ghtml"
+        },
+        {
+          "nome": "Agência Brasil (Ibama)",
+          "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/ibama-apaga-229-incendios-no-amazonas-e-segue-no-combate-ao-fogo"
+        }
+      ]
+    },
+    {
+      "titulo": "José Sarney, de 96 anos, passa por cirurgia abdominal e está na UTI em São Luís, estável",
+      "texto": [
+        "O ex-presidente José Sarney, de 96 anos, foi internado na tarde de sexta (9) no UDI Hospital, em São Luís, com dor abdominal e, depois de exames de imagem, passou por um procedimento cirúrgico que, segundo boletim da Rede D'Or, transcorreu sem intercorrências; ele está estável, em pós-operatório na UTI, sem previsão de alta. Em setembro, Sarney havia sido internado no Hospital Sírio-Libanês para um check-up depois de tratar uma pneumonia. Primeiro presidente da redemocratização, de 1985 a 1990, ele foi depois senador por três mandatos, até 2015."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-10/jose-sarney-e-internado-em-uti-apos-procedimento-abdominal"
+        }
+      ]
+    }
+  ],
+  "momento": {
+    "titulo": "Rota 66: a história da polícia que mata",
+    "autor": "Caco Barcellos · 1992",
+    "texto": [
+      "Com a morte de um jovem de 20 anos por policiais militares em São Paulo, depois de 45 disparos, vale ler o livro-reportagem em que o jornalista Caco Barcellos investigou a Rota, a tropa de elite da PM paulista, entre os anos 1970 e 1990. O ponto de partida é o caso de três jovens de classe média perseguidos e mortos por policiais; a partir dele, Barcellos sustenta que a unidade matou pessoas inocentes apresentadas como criminosas e que superiores encobriram essas mortes. Premiado com o Jabuti e adaptado para série em 2022, o livro é referência do jornalismo investigativo no país e ajuda a entender por que perícia, câmeras e investigação independente pesam tanto na apuração de mortes em ações policiais."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Caco Barcellos)",
+        "url": "https://en.wikipedia.org/wiki/Caco_Barcellos"
+      },
+      {
+        "nome": "UFPel (Arte no Sul)",
+        "url": "https://wp.ufpel.edu.br/artenosul/2022/10/18/rota-66-classico-de-caco-barcellos-vira-serie-de-tv/"
+      }
+    ]
+  },
+  "mundo": {
+    "titulo": "Ataque ao aeroporto de Riad mata 12 e fere cerca de 300, o mais letal na Arábia Saudita desde 2015; Trump diz avaliar entrar na ofensiva contra os houthis",
+    "texto": [
+      "Um ataque a um dos terminais de passageiros do Aeroporto Internacional Rei Khalid, em Riad, matou 12 pessoas e feriu cerca de 300 no sábado (10), segundo a autoridade de aviação civil saudita; entre os mortos há quatro sauditas, dois cidadãos de Bangladesh e um de cada um destes países: Estados Unidos, Jordânia, Palestina, Síria, Sudão e Egito. Foi o ataque mais letal no reino desde maio de 2015, segundo a BBC, e o terceiro contra o aeroporto da capital na semana; a coalizão liderada pelos sauditas atribuiu a ação aos houthis do Iêmen, apoiados pelo Irã, chamou-a de \"crime de guerra\" e prometeu resposta, e o grupo, que assumiu o ataque de quinta (8), não havia comentado o de sábado. O secretário-geral da ONU, António Guterres, disse que ataques a civis violam o direito internacional e \"devem cessar imediatamente\"; o secretário de Estado dos EUA, Marco Rubio, confirmou a morte de um americano, e o presidente Donald Trump disse que vai decidir \"muito rápido\" se os EUA se juntam à Arábia Saudita contra os houthis. As operações do aeroporto foram suspensas, companhias do Golfo cancelaram voos, e a guerra no Iêmen se intensificou depois que os houthis tomaram trechos da costa do Mar Vermelho."
+    ],
+    "fontes": [
+      {
+        "nome": "BBC",
+        "url": "https://www.bbc.com/news/articles/cw33x4y8k82no"
+      },
+      {
+        "nome": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+      },
+      {
+        "nome": "Folha",
+        "url": "https://www1.folha.uol.com.br/mundo/2026/10/explosao-em-aeroporto-da-arabia-saudita-deixa-feridos-e-voos-sao-cancelados-diz-agencia.shtml"
+      }
+    ]
+  },
+  "ia": {
+    "titulo": "Nvidia negocia compra da Reflection AI, startup americana de modelos abertos que o governo Trump quer como rival das alternativas chinesas",
+    "texto": [
+      "A Nvidia, empresa mais valiosa do mundo, negocia a aquisição da Reflection AI, startup americana que desenvolve modelos de IA de pesos abertos, segundo o Financial Times, em reportagem publicada no Brasil pela Folha no sábado (10). As conversas estão em estágio inicial e podem resultar numa operação de \"acqui-hire\", em que a Nvidia contrataria funcionários e licenciaria a tecnologia sem a longa análise regulatória de uma compra integral, ou num novo aporte de capital ou acordo de fornecimento de chips; a Reflection foi avaliada em US$ 25 bilhões em março, e a Nvidia já é uma de suas maiores acionistas. Modelos de pesos abertos podem ser adaptados e rodados no próprio hardware dos usuários, e o governo Trump espera que a Reflection rivalize com alternativas chinesas mais baratas, como as da DeepSeek; nesta semana, a startup lançou seu primeiro produto público, que diz estar no nível do GLM-5.2, da chinesa Z.ai. Em setembro, a Nvidia acertou a compra da plataforma Hugging Face por US$ 13 bilhões e, em dezembro, fechou um acordo de US$ 20 bilhões no mesmo formato de contratação e licença com a projetista de chips Groq."
+    ],
+    "fontes": [
+      {
+        "nome": "Folha / Financial Times",
+        "url": "https://c-level.folha.uol.com.br/ia/2026/10/nvidia-negocia-aquisicao-da-startup-americana-de-modelos-abertos-reflection-ai.shtml"
+      }
+    ]
+  },
+  "giro": [
+    {
+      "regiao": "América do Sul",
+      "itens": [
+        {
+          "titulo": "Chanceler do Uruguai diz à Folha que Delcy Rodríguez é tão ilegítima quanto Maduro",
+          "url": "https://www1.folha.uol.com.br/mundo/2026/10/delcy-e-tao-ilegitima-quanto-maduro-diz-chanceler-do-uruguai-a-folha.shtml"
+        },
+        {
+          "titulo": "Polícia da Bolívia prende em Santa Cruz integrante do PCC que usava identidade falsa",
+          "url": "https://www.infobae.com/america/america-latina/2026/10/11/la-policia-de-bolivia-detuvo-a-miembro-clave-de-la-banda-criminal-brasilena-pcc-durante-un-incidente-domestico/"
+        },
+        {
+          "titulo": "Como a Colômbia chegou a uma dívida pública tão alta, e por que De la Espriella terá de aumentá-la",
+          "url": "https://www.bbc.com/mundo/articles/c3n04dydq1lxo"
+        }
+      ]
+    },
+    {
+      "regiao": "América do Norte e Central",
+      "itens": [
+        {
+          "titulo": "Furacão Isaías mata quatro e deixa cerca de 670 mil sem energia nos Estados Unidos",
+          "url": "https://www1.folha.uol.com.br/mundo/2026/10/furacao-isaias-mata-quatro-e-deixa-cerca-de-670-mil-sem-energia-nos-estados-unidos.shtml"
+        },
+        {
+          "titulo": "Ataque a tiros numa casa na Pensilvânia deixa nove mortos, entre eles crianças",
+          "url": "https://www.theguardian.com/us-news/2026/oct/10/nine-people-mass-shooting-pennsylvania"
+        },
+        {
+          "titulo": "Departamento de Justiça dos EUA abre investigação antitruste contra redes de TV que suspenderam cobertura de Trump",
+          "url": "https://www.aljazeera.com/news/2026/10/11/us-opens-antitrust-probe-into-tv-networks-halting-trump-coverage"
+        }
+      ]
+    },
+    {
+      "regiao": "África",
+      "itens": [
+        {
+          "titulo": "Ebola avança no leste da República Democrática do Congo, e Quênia confirma caso importado",
+          "url": "https://www.aljazeera.com/news/2026/10/11/ebola-spreads-in-eastern-drc-as-kenya-confirms-imported-case"
+        },
+        {
+          "titulo": "Etiópia avisa a Eritreia que vai se defender depois da entrada de tropas eritreias no país",
+          "url": "https://www.bbc.com/news/articles/c65ynvw250y1o"
+        },
+        {
+          "titulo": "África do Sul suspende nova diretriz de asilo após protestos violentos em Joanesburgo e Durban",
+          "url": "https://www.dw.com/en/south-africa-pulls-asylum-directive-after-violent-protests-in-johannesburg-durban/a-79605037"
+        }
+      ]
+    },
+    {
+      "regiao": "Europa",
+      "itens": [
+        {
+          "titulo": "Bombas planadoras russas matam ao menos 20 em Zaporíjia, na Ucrânia",
+          "url": "https://www.bbc.com/news/articles/cwvgdpv642g5o"
+        },
+        {
+          "titulo": "Prisão de ex-chefe da espionagem alemã August Hanning provoca pedidos de reforma",
+          "url": "https://www.theguardian.com/world/2026/oct/11/stab-to-the-heart-arrest-of-german-ex-spymaster-sparks-calls-for-reform"
+        },
+        {
+          "titulo": "'Google russo' fecha centro de dados após ataque com drones, o terceiro caso em poucos dias",
+          "url": "https://g1.globo.com/mundo/noticia/2026/10/11/google-russo-fecha-centro-de-dados-apos-ataque-com-drones-e-o-3o-caso-em-poucos-dias.ghtml"
+        }
+      ]
+    },
+    {
+      "regiao": "Oriente Médio",
+      "itens": [
+        {
+          "titulo": "Hospitais de Taiz, no Iêmen, estão perto do colapso com o cerco dos houthis, diz governo",
+          "url": "https://www.aljazeera.com/news/2026/10/11/taiz-hospitals-near-collapse-as-houthis-tighten-siege-yemen-government"
+        },
+        {
+          "titulo": "Petroleiro explode após atingir mina no Estreito de Ormuz, segundo a Guarda Revolucionária do Irã",
+          "url": "https://g1.globo.com/mundo/noticia/2026/10/10/petroleiro-explode-apos-atingir-mina-no-estreito-de-ormuz-afirma-guarda-revolucionaria-do-ira.ghtml"
+        },
+        {
+          "titulo": "Governo de Israel busca apoio da ultradireita europeia para contornar isolamento",
+          "url": "https://www1.folha.uol.com.br/mundo/2026/10/governo-de-israel-busca-apoio-da-ultradireita-da-europa-apesar-de-legado-antissemita.shtml"
+        }
+      ]
+    },
+    {
+      "regiao": "Ásia",
+      "itens": [
+        {
+          "titulo": "Paquistão decreta estado de emergência na província governada pelo partido de Imran Khan",
+          "url": "https://www.aljazeera.com/news/2026/10/11/pakistan-imposes-emergency-rule-in-khyber-pakhtunkhwa"
+        },
+        {
+          "titulo": "Líderes do partido 'Barata' são soltos, e Nova Délhi se prepara para segundo dia de protestos",
+          "url": "https://www.theguardian.com/world/2026/oct/11/cockroach-party-leader-released-delhi-protests-second-day"
+        },
+        {
+          "titulo": "Jovens em Mianmar vivem com medo de ser capturados nas ruas e vendidos ao Exército",
+          "url": "https://www.bbc.com/news/articles/c680zlny0gk4o"
+        }
+      ]
+    }
+  ],
+  "ciencia": {
+    "titulo": "Perseverance encontra em Marte um campo de rochas claras que podem ter vindo das profundezas da crosta",
+    "texto": [
+      "Depois de seis meses explorando Lac de Charmes, região de rochas antigas além da borda oeste da cratera Jezero, o rover Perseverance, da Nasa, encontrou um extenso campo de rochas claras, raras num planeta dominado por rochas escuras de origem vulcânica. Os dados obtidos até aqui indicam que muitas delas são gabro, rocha ígnea rica em minerais de ferro e magnésio que costuma se formar quando o magma esfria lentamente nas profundezas da crosta, segundo atualização da missão. Para entender como esses fragmentos chegaram à superfície, o robô examinou um afloramento próximo, formado por pedaços angulosos claros e escuros, uma brecha, e a equipe investiga a hipótese de que impactos de asteroides, talvez o próprio que abriu a cratera Jezero, tenham escavado os blocos. A origem ainda não está definida, e o Perseverance segue analisando a composição e a estrutura das rochas."
+    ],
+    "fontes": [
+      {
+        "nome": "Nasa (blog da missão)",
+        "url": "https://science.nasa.gov/blog/a-journey-to-the-depths-of-ancient-mars/"
+      },
+      {
+        "nome": "g1",
+        "url": "https://g1.globo.com/ciencia/noticia/2026/10/11/robo-perseverance-encontra-rochas-raras-em-marte-que-podem-ter-vindo-das-profundezas-do-planeta-veja-fotos.ghtml"
+      }
+    ]
+  },
+  "disco": {
+    "artista": "Tom Zé",
+    "titulo": "Todos os Olhos",
+    "ficha": "1973 · Continental",
+    "texto": [
+      "Tom Zé completa 90 anos neste domingo (11), com exposição, biografia, shows e um álbum de inéditas a caminho, e é um bom dia para ouvir o disco que ficou à sombra da redescoberta do baiano pelo músico David Byrne, em 1989. Lançado em 1973 pela Continental, Todos os Olhos reúne canções curtas, experimentais e cheias de humor que desmontam formas conhecidas da canção brasileira: abre com uma versão breve de \"Complexo de Épico\" e fecha com outra, estendida; \"Brigitte Bardot\" começa como bossa nova e é interrompida por uma explosão súbita; \"Cademar\" dura menos de um minuto. A capa, concebida com o poeta concreto Décio Pignatari, ficou famosa pela imagem de duplo sentido. Comece por \"Augusta, Angélica e Consolação\", em que Tom Zé canta três ruas de São Paulo como se fossem mulheres."
+    ],
+    "fontes": [
+      {
+        "nome": "Folha (Tom Zé aos 90)",
+        "url": "https://www1.folha.uol.com.br/ilustrada/2026/10/tom-ze-chega-aos-90-diz-ser-dodecafonista-sertanejo-e-que-ja-superou-ostracismo.shtml"
+      },
+      {
+        "nome": "Jazz Journal (resenha da reedição)",
+        "url": "https://jazzjournal.co.uk/2024/06/07/tom-ze-todos-os-olhos/"
+      }
+    ]
+  },
+  "poema": {
+    "autor": "Alphonsus de Guimaraens",
+    "titulo": "A catedral",
+    "ficha": "De Pastoral aos crentes do amor e da morte (1923, póstumo); o poema está datado de 14 de julho de 1914",
+    "texto": "Entre brumas ao longe surge a aurora,\nO hialino orvalho aos poucos se evapora,\nAgoniza o arrebol.\nA catedral ebúrnea do meu sonho\nAparece na paz do céu risonho\nToda branca de sol.\n\nE o sino canta em lúgubres responsos:\nPobre Alphonsus! Pobre Alphonsus!\n\nO astro glorioso segue a eterna estrada.\nUma áurea seta lhe cintila em cada\nRefulgente raio de luz.\nA catedral ebúrnea do meu sonho,\nOnde os meus olhos tão cansados ponho,\nRecebe a bênção de Jesus.\n\nE o sino clama em lúgubres responsos:\nPobre Alphonsus! Pobre Alphonsus!\n\nPor entre lírios e lilases desce\nA tarde esquiva: amargurada prece\nPõe-se a lua a rezar.\nA catedral ebúrnea do meu sonho\nAparece na paz do céu tristonho\nToda branca de luar.\n\nE o sino chora em lúgubres responsos:\nPobre Alphonsus! Pobre Alphonsus!\n\nO céu é todo trevas: o vento uiva.\nDo relâmpago a cabeleira ruiva\nVem açoitar o rosto meu.\nE a catedral ebúrnea do meu sonho\nAfunda-se no caos do céu medonho\nComo um astro que já morreu.\n\nE o sino geme em lúgubres responsos:\nPobre Alphonsus! Pobre Alphonsus!",
+    "comentario": [
+      "Alphonsus de Guimaraens datou o poema em julho de 1914, e ele só saiu em livro em 1923, dois anos depois da morte do poeta, que passou as últimas décadas como juiz em Mariana (MG). Neste domingo em que Belém leva às ruas o Círio de Nazaré, na véspera do feriado de Nossa Senhora Aparecida, a catedral de marfim que o poeta vê da aurora à tempestade, enquanto o sino repete seu nome em quatro tons, lembra o lugar das igrejas e dos sinos na imaginação religiosa do país."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikisource (Pastoral aos crentes do amor e da morte, ed. 1923, fac-símile)",
+        "url": "https://pt.wikisource.org/wiki/Pastoral_aos_crentes_do_amor_e_da_morte_(1923)/A_Cathedral"
+      }
+    ]
+  },
+  "entender_brasil": {
+    "titulo": "Impressões gerais (Na Amazônia — Terra sem história)",
+    "autor": "Euclides da Cunha · texto, 1909",
+    "texto": [
+      "Primeiro capítulo de \"Terra sem história\", a parte amazônica de À margem da história, livro publicado em 1909, logo depois da morte do autor, e montado em boa parte com notas para uma obra sobre a Amazônia que ele não concluiu. O ensaio começa pela confissão de um desapontamento diante do rio real, menor do que o Amazonas idealizado pelos viajantes desde Humboldt, e chega à frase mais citada do texto: \"o homem, ali, é ainda um intruso impertinente\", que chegou \"quando a natureza ainda estava arrumando o seu mais vasto e luxuoso salão\". Euclides descreve uma natureza \"portentosa, mas incompleta\", de rios que mudam de leito a cada cheia. Lido numa semana de fumaça sobre Manaus e de focos de incêndio multiplicados no Amazonas, o texto mostra como a imagem de uma floresta grandiosa à espera do homem entrou cedo no pensamento brasileiro sobre a região, e permite medir o que mudou desde então. A leitura é gratuita na Wikisource."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikisource (Impressões gerais)",
+        "url": "https://pt.wikisource.org/wiki/Impress%C3%B5es_gerais"
+      },
+      {
+        "nome": "Wikisource (À margem da história, sumário)",
+        "url": "https://pt.wikisource.org/wiki/%C3%80_Margem_da_Hist%C3%B3ria"
+      }
+    ]
+  },
+  "mercado": {
+    "texto": [
+      "Sem pregão no fim de semana nem na segunda (12), feriado de Nossa Senhora Aparecida, as referências seguem as de sexta (9): o Ibovespa fechou em 209.067 pontos, recorde, com alta de 1,38% no dia e de 8,82% na primeira semana depois do primeiro turno, e o dólar caiu 0,78%, a R$ 4,985, com queda de 4,44% na semana. No exterior, o FMI divulgou estudo segundo o qual choques bruscos nos preços de alimentos e energia devem ficar mais frequentes e manter as expectativas de inflação elevadas por anos; o relatório Perspectiva Econômica Mundial do fundo sai na próxima semana. A B3 reabre na terça (13), e na quarta (14) o Senado vota em primeiro turno a PEC que acaba com a escala 6x1."
+    ],
+    "fontes": [
+      {
+        "nome": "Agência Brasil (fechamento de sexta)",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-498-e-acumula-perda-de-444-na-semana"
+      },
+      {
+        "nome": "g1 (estudo do FMI)",
+        "url": "https://g1.globo.com/economia/noticia/2026/10/11/fmi-alerta-disparadas-e-choques-de-precos-podem-ser-mais-frequentes-e-afetar-inflacao-por-anos.ghtml"
+      }
+    ]
+  },
+  "ibovespa": {
+    "painel": [
+      [
+        "Fechamento",
+        "209.067"
+      ],
+      [
+        "Dia",
+        "+1,38%"
+      ],
+      [
+        "Mês",
+        "+12,2%"
+      ],
+      [
+        "Ano",
+        "+29,8%"
+      ]
+    ],
+    "texto": [
+      "Recorde de fechamento na sexta (9), último pregão antes do feriado. Variações no mês e no ano calculadas pela redação."
+    ],
+    "fontes": [
+      {
+        "nome": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-498-e-acumula-perda-de-444-na-semana"
+      }
+    ]
+  },
+  "dolar": {
+    "painel": [
+      [
+        "Fechamento",
+        "R$ 4,99"
+      ],
+      [
+        "Dia",
+        "−0,78%"
+      ],
+      [
+        "Mês",
+        "−3,6%"
+      ],
+      [
+        "Ano",
+        "−9,2%"
+      ]
+    ],
+    "texto": [
+      "Dólar comercial a R$ 4,985 na sexta (9). Variação no ano segundo a Agência Brasil; no mês, calculada pela redação."
+    ],
+    "fontes": [
+      {
+        "nome": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-498-e-acumula-perda-de-444-na-semana"
+      }
+    ]
+  },
+  "bitcoin": {
+    "painel": [
+      [
+        "US$",
+        "82.967"
+      ],
+      [
+        "R$",
+        "413.779"
+      ],
+      [
+        "24h",
+        "+0,2%"
+      ],
+      [
+        "7d / 30d",
+        "−2,5% / +7,3%"
+      ]
+    ],
+    "texto": [
+      "Recua 2,5% em sete dias. Cotação às 6h19 de Brasília."
+    ],
+    "fontes": [
+      {
+        "nome": "CoinGecko",
+        "url": "https://www.coingecko.com/pt/moedas/bitcoin"
+      }
+    ]
+  },
+  "esporte": {
+    "titulo": "Seleção feminina vence a Argentina por 3 a 1 no Beira-Rio, estádio da Copa de 2027; domingo tem Palmeiras x Corinthians e Fla-Flu",
+    "texto": [
+      "Com gols de Luany, Geyse, de bicicleta, e da capitã Angelina, todos no primeiro tempo, a seleção brasileira feminina venceu a Argentina por 3 a 1 no sábado (10), em Porto Alegre, no primeiro jogo no Beira-Rio, um dos estádios da Copa do Mundo de 2027, que o Brasil sedia; Maricel Pereyra descontou aos seis minutos do segundo tempo. O time foi dirigido pelo auxiliar Rodrigo Iglesias, porque o técnico Arthur Elias cumpria suspensão, e volta a enfrentar as argentinas na terça (13), às 20h30, na Arena Pernambuco. Pelo Brasileirão, o São Paulo venceu o Vitória por 2 a 1 no Morumbis, com dois gols de Calleri, e neste domingo (11) o Palmeiras recebe o Corinthians, e o Flamengo enfrenta o Fluminense."
+    ],
+    "fontes": [
+      {
+        "nome": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-10/selecao-feminina-faz-3-1-na-argentina-em-primeiro-jogo-no-beira-rio"
+      },
+      {
+        "nome": "Folha (São Paulo x Vitória)",
+        "url": "https://www1.folha.uol.com.br/esporte/2026/10/lucas-volta-calleri-marca-dois-e-sao-paulo-derrota-o-vitoria-no-morumbis.shtml"
+      },
+      {
+        "nome": "ge (Flamengo x Fluminense)",
+        "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/noticia/2026/10/11/flamengo-x-fluminense-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml"
+      }
+    ]
+  },
+  "tempo": {
+    "dia": "domingo, 11",
+    "regioes": [
+      {
+        "regiao": "Norte",
+        "texto": "Chuva e trovoadas isoladas no Acre, em Rondônia, em Roraima e em grande parte do Amazonas, com aviso amarelo do Inmet para tempestades no Acre, em Rondônia e no sul, centro, oeste e noroeste do Amazonas; no leste do Amazonas, no sul do Pará e no Tocantins, aviso amarelo de baixa umidade. Calor intenso, com máximas de 37 °C em Boa Vista e Manaus e de 38 °C em Palmas."
+      },
+      {
+        "regiao": "Nordeste",
+        "texto": "Dia ensolarado e quente, com chuva isolada só no litoral do Maranhão; aviso amarelo de baixa umidade em quase todo o interior, do Maranhão à Bahia, fora da faixa litorânea. Máxima de 39 °C em Teresina."
+      },
+      {
+        "regiao": "Centro-Oeste",
+        "texto": "Pancadas com trovoadas no noroeste, oeste e sul de Mato Grosso, em Mato Grosso do Sul e no sul de Goiás, sob aviso amarelo para tempestades; no centro e norte de Goiás e no Distrito Federal não chove, e há aviso amarelo de baixa umidade à tarde, com máximas de 33 °C em Brasília e 35 °C em Goiânia."
+      },
+      {
+        "regiao": "Sudeste",
+        "texto": "Instabilidade em São Paulo, no Triângulo Mineiro, no sul de Minas Gerais e no sul do Rio de Janeiro, incluindo a capital fluminense, com aviso amarelo para tempestades; no norte e leste de Minas e no Espírito Santo o tempo fica firme, com aviso de baixa umidade e máxima de 35 °C em Belo Horizonte."
+      },
+      {
+        "regiao": "Sul",
+        "texto": "Muitas nuvens e chuva com trovoadas no Paraná, no norte de Santa Catarina e no norte do Rio Grande do Sul, sob aviso amarelo para tempestades. Volta a esfriar: a máxima não passa de 17 °C em Porto Alegre e de 20 °C em Curitiba e Florianópolis."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Inmet (previsão de sábado a terça)",
+        "url": "https://portal.inmet.gov.br/noticias/previs%C3%A3o-para-s%C3%A1bado-10-domingo-11-segunda-feira-12-e-ter%C3%A7a-feira-13"
+      }
+    ]
+  }
+}
