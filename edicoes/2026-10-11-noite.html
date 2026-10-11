@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Prensa Autômata · Edição da noite · Domingo, 11 de outubro de 2026</title>
+<meta name="description" content="TSE se divide sobre canal pró-Lula no WhatsApp: Nunes Marques manda suspender, corregedor libera, e o plenário vai decidir">
+<link rel="icon" type="image/svg+xml" href="https://prensaautomata.com/icone.svg">
+<link rel="apple-touch-icon" href="https://prensaautomata.com/apple-touch-icon.png">
+<meta property="og:site_name" content="Prensa Autômata">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Prensa Autômata · Edição da noite · Domingo, 11 de outubro de 2026">
+<meta property="og:description" content="TSE se divide sobre canal pró-Lula no WhatsApp: Nunes Marques manda suspender, corregedor libera, e o plenário vai decidir">
+<meta property="og:image" content="https://prensaautomata.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="O arauto da Prensa Autômata, uma linotipo em pixel art azul, ao lado do nome do jornal.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Geist+Mono:wght@400;500&display=swap">
+<style>
+/* Prensa Autômata — tema claro azul, sóbrio (set/2026). Só modo claro.
+   Fontes (no <head>):
+   https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Geist+Mono:wght@400;500&display=swap */
+:root{
+  --bg:#f6f8fb; --paper:#ffffff; --ink:#0f1a2c; --muted:#56627a; --rule:#d7deea; --grid:#e4eaf4;
+  --accent:#1e3a9e; --accent-soft:#1e3a9e0d;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --mono:"Geist Mono",ui-monospace,Menlo,monospace;
+  box-sizing:border-box;
+  color-scheme:light;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:18.5px/1.6 var(--serif);font-optical-sizing:auto;padding:28px 16px 64px;-webkit-font-smoothing:antialiased}
+main{max-width:720px;margin:0 auto;counter-reset:sec}
+::selection{background:var(--accent);color:#fff}
+a{color:var(--ink);text-decoration-color:var(--rule);text-underline-offset:3px;text-decoration-thickness:1px}
+a:hover{text-decoration-color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* masthead: chapa com grade de precisão e marcas de registro */
+header{position:relative;text-align:center;padding:34px 8px 16px;margin-bottom:12px;
+  border-top:1px solid var(--accent);border-bottom:1px solid var(--rule);
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:24px 24px;background-position:center -1px}
+header::before{content:"";position:absolute;left:0;right:0;top:3px;height:1px;background:var(--accent);opacity:.35}
+.reg{position:absolute;width:16px;height:16px;color:var(--accent);opacity:.6}
+.reg.l{top:12px;left:4px}.reg.r{top:12px;right:4px}
+.mast{margin:0;font-family:var(--serif);font-weight:500;font-size:clamp(2.8rem,11.5vw,5rem);line-height:.95;letter-spacing:-.03em;font-variation-settings:"opsz" 72;color:var(--ink)}
+.sub{margin:10px 0 14px;font:400 11px/1.4 var(--mono);letter-spacing:.22em;text-transform:uppercase;color:var(--accent)}
+.meta{display:flex;flex-wrap:wrap;justify-content:center;gap:2px 22px;margin:0;font:11.5px/1.5 var(--mono);letter-spacing:.03em;color:var(--muted)}
+.teste{font:11.5px/1.5 var(--mono);color:var(--accent);background:var(--accent-soft);border:1px solid var(--rule);padding:8px 12px;margin:14px 0 32px;text-align:center}
+
+/* seções: índice numerado e fio azul */
+section{padding-top:16px;margin-bottom:40px}
+section>h2{display:flex;align-items:baseline;gap:10px;margin:0 0 16px;counter-increment:sec;
+  font:500 11px/1.4 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+section>h2::before{content:counter(sec,decimal-leading-zero);color:var(--muted);letter-spacing:.04em}
+section>h2::after{content:"";flex:1;height:1px;background:var(--rule);transform:translateY(-3px)}
+h3{font-family:var(--serif);font-weight:500;font-size:1.6rem;line-height:1.16;letter-spacing:-.015em;font-variation-settings:"opsz" 48;margin:26px 0 6px;text-wrap:balance}
+section>h3:first-of-type{margin-top:2px}
+p{margin:0 0 12px}
+.src{font:11.5px/1.55 var(--mono);color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+
+/* manchete */
+.manchete{padding-top:6px}
+.manchete h3{font-weight:500;font-size:clamp(2.1rem,7.6vw,3.15rem);line-height:1.04;letter-spacing:-.028em;font-variation-settings:"opsz" 72;margin:0 0 16px}
+.manchete .lede{font-size:1.14rem;line-height:1.55}
+
+.leitura,.sp{background:var(--paper);border:1px solid var(--rule)}
+.leitura{padding:20px 20px 8px}
+.leitura h3{margin-top:0}
+.leitura .autor{font:12px/1.5 var(--mono);color:var(--muted);margin:0 0 12px}
+.sp{padding:12px 14px}
+
+/* giro pelo mundo */
+.giro{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:22px 28px}
+.giro h4{font:500 11px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink);margin:0 0 8px;padding-bottom:7px;border-bottom:1px solid var(--accent)}
+.giro ul{list-style:none;padding:0;margin:0}
+.giro li{font-size:.96rem;line-height:1.4;padding:8px 0;border-bottom:1px solid var(--rule)}
+.giro li:last-child{border-bottom:none}
+
+.album{margin-bottom:22px}
+.album h3{margin:0 0 2px;font-size:1.45rem}
+.album .y{font:11.5px/1.5 var(--mono);color:var(--muted);margin:0 0 8px}
+.poem{font-style:italic;white-space:pre-line;margin:10px 0 14px;padding-left:18px;border-left:1px solid var(--accent);line-height:1.6}
+
+.ticker{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:0 0 16px;font-variant-numeric:tabular-nums}
+.ticker div{border-top:1px solid var(--accent);padding-top:7px}
+.ticker b{display:block;font:500 1.12rem/1.25 var(--mono)}
+.ticker span{font:10.5px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+/* mercados: resumo + Ibovespa, dólar e bitcoin lado a lado */
+.resumo{margin:0 0 22px}
+.resumo p:not(.src){font-size:1.02rem}
+.mercados{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:26px 28px}
+.mercado h3{margin:0 0 10px;font-size:1.3rem}
+.mercado .ticker{display:block;margin:0 0 12px}
+.mercado .ticker div{display:flex;justify-content:space-between;align-items:baseline;gap:10px;border-top:1px solid var(--rule);padding:6px 0}
+.mercado .ticker div:first-child{border-top-color:var(--accent)}
+.mercado .ticker b{display:inline;font-size:.98rem}
+.mercado p:not(.src){font-size:.95rem;line-height:1.5}
+.aviso{margin-top:6px}
+.regioes{margin:0 0 16px;display:grid;gap:0}
+.regioes div{display:grid;grid-template-columns:7.5rem 1fr;gap:0 14px;padding:9px 0;border-bottom:1px solid var(--rule)}
+.regioes dt{font:500 12px/1.9 var(--mono);letter-spacing:.04em;color:var(--accent)}
+.regioes dd{margin:0;font-size:.98rem;line-height:1.5}
+
+footer{border-top:1px solid var(--accent);padding-top:12px;font:11.5px/1.65 var(--mono);color:var(--muted)}
+.arq{margin-top:40px}
+.arq ol{list-style:none;padding:0;margin:0;font:12.5px/1.6 var(--mono)}
+.arq li{border-bottom:1px solid var(--rule);padding:5px 0}
+.arq a{text-decoration:none}
+.arq section{margin:0 0 32px}
+.arq section>h2::before{content:none}
+.turnos{display:flex;gap:20px;margin:0 0 28px;font:500 12px/1.5 var(--mono);letter-spacing:.04em}
+.turnos a{color:var(--accent);text-decoration:none}
+.turno{margin:0 0 48px}
+.turno-t{font:500 1.6rem/1.2 var(--serif);letter-spacing:-.015em;margin:0 0 18px;padding-bottom:10px;border-bottom:1px solid var(--accent)}
+.arq li a{display:grid;grid-template-columns:9.5rem 3.5rem 1fr;gap:0 12px;align-items:baseline}
+.arq .d,.arq .n{color:var(--muted)}
+.arq .t{font:1rem/1.4 var(--serif);color:var(--ink)}
+.arq li a:hover .t{color:var(--accent)}
+.mais summary{cursor:pointer;list-style:none;display:inline-block;margin:0 0 24px;font:500 12px/1.5 var(--mono);letter-spacing:.04em;color:var(--accent)}
+.mais summary::-webkit-details-marker{display:none}
+.mais summary::before{content:"+ "}
+.mais[open] summary::before{content:"− "}
+.mais summary span{color:var(--muted)}
+.mast a{color:inherit;text-decoration:none}
+footer a{color:var(--muted)}
+footer a:hover{color:var(--accent)}
+
+/* sobre.html: arauto no topo, texto corrido e etapas em lista */
+.sobre{margin-top:28px}
+.arauto{margin:0 auto 28px;text-align:center}
+.arauto img{display:block;width:min(192px,48%);height:auto;margin:0 auto;image-rendering:pixelated}
+.sobre .intro{padding-top:0}
+.sobre .intro .lede{font-size:1.14rem;line-height:1.55}
+.etapas{margin:0;display:grid}
+.etapas div{display:grid;grid-template-columns:7.5rem 1fr;gap:0 14px;padding:10px 0;border-bottom:1px solid var(--rule)}
+.etapas div:first-child{border-top:1px solid var(--accent)}
+.etapas dt{font:500 12px/1.9 var(--mono);letter-spacing:.04em;text-transform:uppercase;color:var(--accent)}
+.etapas dd{margin:0;font-size:.98rem;line-height:1.5}
+.assina{font-style:italic;color:var(--muted);text-align:center;margin:8px 0 0}
+.nav-ed{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px;margin:40px 0 20px;padding:12px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);font:500 12px/1.5 var(--mono);letter-spacing:.04em}
+.nav-ed a{text-decoration:none;color:var(--accent)}
+.nav-ed a:last-child{margin-left:auto}
+.nav-ed a:only-child{margin-left:0}
+
+/* assinatura por email (Buttondown): link no cabeçalho e no pé, página assinar.html */
+.assinar-link{color:var(--accent);text-decoration:none}
+.assinar-link:hover{text-decoration:underline}
+.meta .assinar-link{white-space:nowrap}
+.assinar-pe{margin:32px 0 12px;text-align:center;font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase}
+.assinar{margin-top:36px}
+.assinar-t{font:500 clamp(1.9rem,6.5vw,2.6rem)/1.08 var(--serif);letter-spacing:-.02em;font-variation-settings:"opsz" 72;margin:0 0 14px;text-wrap:balance}
+.assinar .lede{font-size:1.14rem;line-height:1.55}
+.prensa-form{display:flex;flex-direction:column;gap:10px;box-sizing:border-box;max-width:480px;margin:28px auto;padding:20px;border:1px solid var(--rule);border-top:2px solid var(--ink);background:var(--paper);color:var(--ink);font:16px/1.4 var(--serif)}
+.prensa-form label{font:500 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.prensa-form__row{display:flex;flex-wrap:wrap;gap:8px}
+.prensa-form input[type="email"]{flex:1 1 220px;min-width:0;box-sizing:border-box;padding:10px 12px;border:1px solid var(--rule);border-radius:0;background:var(--bg);color:inherit;font:inherit}
+.prensa-form input[type="email"]:focus{outline:2px solid var(--accent);outline-offset:-1px;background:var(--paper)}
+.prensa-form input[type="submit"]{flex:0 0 auto;padding:10px 18px;border:0;border-radius:0;background:var(--accent);color:#fff;font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
+.prensa-form input[type="submit"]:hover{background:var(--ink)}
+.prensa-form p{margin:0;font:11px/1 var(--mono)}
+.prensa-form p a{color:var(--muted);text-decoration:none}
+
+@media (max-width:480px){body{font-size:17.5px}.reg{display:none}.regioes div,.etapas div{grid-template-columns:1fr}.arq li a{grid-template-columns:auto 1fr}.arq .t{grid-column:1/-1}}
+
+@media print{
+  :root{--bg:#fff;--paper:#fff;--ink:#000;--muted:#333;--rule:#bbb;--grid:#fff}
+  body{padding:0;font-size:11pt}
+  header{background:none}
+  section,.leitura,.album{break-inside:avoid-page}
+  a{text-decoration:none}
+  .assinar-link,.assinar-pe{display:none}
+}
+
+</style>
+<script data-goatcounter="https://prensaautomata.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</head>
+<body>
+<main>
+<header>
+  <svg class="reg l" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="5.5" fill="none" stroke="currentColor"/><path d="M10 0v20M0 10h20" stroke="currentColor"/></svg>
+  <svg class="reg r" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="5.5" fill="none" stroke="currentColor"/><path d="M10 0v20M0 10h20" stroke="currentColor"/></svg>
+  <h1 class="mast"><a href="../">Prensa Autômata</a></h1>
+  <p class="sub">jornal diário produzido por IA</p>
+  <p class="meta"><span>Domingo, 11 de outubro de 2026</span><span>Edição da noite</span><span>Noturna Nº 13</span><span><a href="../assinar.html" class="assinar-link">Receba a Prensa por email →</a></span></p>
+</header>
+
+
+<section id="manchete" class="manchete">
+<h3>TSE se divide sobre canal pró-Lula no WhatsApp: Nunes Marques manda suspender, corregedor libera, e o plenário vai decidir</h3>
+<p class="lede">O presidente do TSE, Kassio Nunes Marques, mandou suspender neste domingo (11), a pedido da campanha de Flávio Bolsonaro (PL), o canal de WhatsApp &quot;Exército do Lula&quot;, criado pelo deputado André Janones (Rede-MG) e com mais de 3 milhões de seguidores, por entender que ele reproduzia de forma coordenada conteúdos que a Justiça Eleitoral já considerou inverídicos, como os de que Flávio cortaria aposentadorias ou retiraria de Nossa Senhora Aparecida o título de padroeira do Brasil; a ordem dava três horas à plataforma e valeria até a homologação do segundo turno. À tarde, o corregedor-geral eleitoral, Ricardo Villas Bôas Cueva, que já relatava uma ação sobre o mesmo canal, suspendeu a decisão, disse que o pedido foi levado à Presidência 41 minutos depois de um despacho seu, com documentos que não constavam do processo, e afirmou que a suspensão integral de um canal exige provas de que a remoção de publicações específicas não basta; ele liberou o canal, proibiu os administradores de repetir conteúdos já declarados ilícitos e pediu que o plenário julgue o caso com urgência. Lula, que chamou a ordem de Nunes Marques de &quot;intromissão indevida da Justiça Eleitoral na eleição&quot; e falou em &quot;decisões tendenciosas&quot; contra sua candidatura, discursou num ato na Avenida Paulista e pediu aos eleitores que convençam quem faltou no primeiro turno, quando a abstenção foi de 21,08%, a maior já registrada. Flávio, que se reuniu com prefeitos paulistas ao lado do governador Tarcísio de Freitas e do prefeito Ricardo Nunes, disse que o canal divulga &quot;mentiras em massa&quot;, afirmou que vai manter o Bolsa Família e o reajuste do salário mínimo acima da inflação e pediu aos aliados que não &quot;baixem a guarda&quot; até 25 de outubro; sua defesa chamou de &quot;estarrecedora&quot; a decisão do corregedor, e Janones, que havia chamado a suspensão de &quot;censura&quot;, nega divulgar notícias falsas.</p>
+<p class="src"><a href="https://www.gazetadopovo.com.br/eleicoes/2026/nunes-marques-atende-flavio-derruba-canal-exercito-do-lula-janones/">Gazeta do Povo (decisão de Nunes Marques)</a> · <a href="https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/corregedor-derruba-decisao-que-suspendeu-canal-exercito-do-lula">Agência Brasil (decisão do corregedor)</a> · <a href="https://www.gazetadopovo.com.br/eleicoes/2026/corregedor-do-tse-derruba-decisao-de-nunes-marques-e-libera-canal-exercito-do-lula/">Gazeta do Povo (decisão do corregedor)</a> · <a href="https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/10/11/lula-faz-ato-de-campanha-com-aliados-politicos-e-apoiadores-na-avenida-paulista-em-sp.ghtml">g1 (Lula na Paulista)</a> · <a href="https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/11/flavio-bolsonaro-se-reune-com-prefeitos-de-sp-e-orienta-campanha-nas-cidades-nao-podemos-baixar-a-guarda.ghtml">g1 (Flávio com prefeitos)</a></p>
+</section>
+
+<section id="brasil">
+<h2>Brasil</h2>
+<h3>TSE suspende propaganda de Lula que diz que Flávio é investigado no caso Master, e Mendonça veta impulsionar vídeo sobre a escala 6x1</h3>
+<p>Nunes Marques também mandou suspender uma peça do horário eleitoral de Lula que diz que Flávio é investigado por corrupção e lavagem de dinheiro no caso Master e que o vice dele, Alfredo Gaspar, é alvo de investigação por estupro de vulnerável; para o ministro, a propaganda traz &quot;imputações criminais desprovidas de lastro mínimo&quot;. Flávio é investigado pela Polícia Federal num inquérito sobre o financiamento, pelo dono do Master, Daniel Vorcaro, do filme &quot;Dark Horse&quot;, sobre Jair Bolsonaro, e o pedido de investigação contra Gaspar foi arquivado pelo ministro Gilmar Mendes, do STF, por falta de elementos; o ministro da Secom, Sidônio Palmeira, disse que a campanha recorreu. Em outra decisão, o vice-presidente do TSE, André Mendonça, proibiu a campanha de Lula de voltar a impulsionar um vídeo que diz que Flávio é contra o fim da escala 6x1, cuja PEC o Senado vota na quarta (14).</p>
+<p class="src"><a href="https://g1.globo.com/politica/noticia/2026/10/11/tse-manda-suspender-propaganda-eleitoral-de-lula-que-diz-que-flavio-bolsonaro-e-investigado-no-caso-master.ghtml">g1 (propaganda sobre o caso Master)</a> · <a href="https://g1.globo.com/politica/noticia/2026/10/11/mendonca-proibe-pt-de-impulsionar-videos-que-dizem-que-flavio-bolsonaro-e-contra-a-escala-6x1.ghtml">g1 (vídeo sobre a 6x1)</a></p>
+
+<h3>Manaus tem o quarto dia seguido de fumaça, e 36 municípios do Amazonas entram em situação de emergência</h3>
+<p>Manaus e cinco cidades da região metropolitana amanheceram com qualidade do ar &quot;péssima&quot; neste domingo (11), o quarto dia seguido de fumaça na capital, onde 13 dos 15 sensores da Universidade do Estado do Amazonas marcavam mais de 140 µg/m³ de partículas; a Defesa Civil enviou alerta de risco severo e recomendou máscara, e a prefeitura suspendeu os eventos ao ar livre de domingo e segunda. O governo federal reconheceu a situação de emergência decretada pelo estado em 36 municípios, o que permite pedir recursos da União, e dois aviões KC-390 da FAB devem começar a operar na segunda (12), somando-se a 290 brigadistas. Depois da troca de versões sobre o pedido de ajuda federal, o ministro do Meio Ambiente, João Paulo Capobianco, e o governador Roberto Cidade (União Brasil) defenderam ação integrada.</p>
+<p class="src"><a href="https://g1.globo.com/am/amazonas/noticia/2026/10/11/manaus-e-outros-cinco-municipios-tem-qualidade-do-ar-pessima-neste-domingo.ghtml">g1 AM (qualidade do ar)</a> · <a href="https://g1.globo.com/am/amazonas/noticia/2026/10/11/ministro-do-meio-ambiente-ameniza-divergencia-com-governo-do-am-por-ajuda-no-combate-as-queimadas-e-defende-integracao.ghtml">g1 AM (governos federal e estadual)</a></p>
+
+<h3>PMs que mataram jovem com ao menos 27 tiros em São Paulo são afastados das ruas, e PM abre inquérito</h3>
+<p>A Secretaria da Segurança Pública de São Paulo informou neste domingo (11) que os quatro policiais militares que fizeram 45 disparos contra Gustavo Munis de Santana, de 20 anos, na madrugada de sábado, em Moema, foram afastados do trabalho nas ruas e que foi aberto um Inquérito Policial Militar; as polícias Civil e Militar investigam o caso, registrado no Departamento de Homicídios. Os policiais disseram ter confundido com uma arma o celular que o jovem segurava; as armas, o aparelho e as imagens das câmeras corporais foram enviados à perícia. Gustavo, que não tinha antecedentes criminais, trabalhava num hospital, e o corpo ficou mais de dez horas na rua até ser levado ao IML.</p>
+<p class="src"><a href="https://g1.globo.com/sp/sao-paulo/noticia/2026/10/11/pms-que-mataram-jovem-com-27-tiros-apos-confundirem-celular-com-arma-em-moema-sao-afastados-das-ruas.ghtml">g1 SP</a></p>
+</section>
+
+<section id="leitura">
+<h2>Para entender o momento</h2>
+<div class="leitura">
+<h3>Information Disorder: Toward an interdisciplinary framework for research and policymaking</h3>
+<p class="autor">Claire Wardle e Hossein Derakhshan · 2017</p>
+<p>O dia da campanha foi decidido, em boa parte, no TSE: um canal de WhatsApp pró-Lula com mais de 3 milhões de seguidores foi suspenso e liberado em poucas horas, e propagandas dos dois lados chegaram ao tribunal sob acusação de espalhar informação falsa. A pergunta por trás das decisões é a mesma em todas: o que conta como desinformação, quem a produz, como ela circula e qual a resposta proporcional? O relatório que a pesquisadora Claire Wardle, então à frente da organização First Draft, e o escritor iraniano-canadense Hossein Derakhshan escreveram para o Conselho da Europa, publicado em outubro de 2017, tornou-se uma das referências mais usadas para organizar esse debate.</p>
+<p>Os autores evitam a expressão &quot;fake news&quot;, que consideram insuficiente para descrever o fenômeno e cada vez mais usada por políticos contra veículos de imprensa de que discordam. Em seu lugar, propõem a ideia de &quot;desordem informacional&quot; e separam três tipos, conforme a falsidade e a intenção de causar dano: a informação errada compartilhada sem má-fé, a informação falsa criada ou espalhada deliberadamente, e a informação verdadeira usada para prejudicar alguém. Sugerem ainda olhar separadamente para os agentes, as mensagens e os intérpretes, e para as fases de criação, produção e distribuição, porque quem inventa uma mensagem nem sempre é quem a dissemina.</p>
+<p>Essa grade ajuda a ler o que se discutiu hoje sem tomar partido. Boa parte das decisões do TSE não trata da autoria de uma mentira, mas da distribuição: canais com milhões de membros, instruções para replicar conteúdos, impulsionamento pago. O relatório já apontava a ascensão dos aplicativos de mensagens fechados como uma das tendências a acompanhar e observava que o conteúdo que mais circula é o que mexe com emoções como raiva, medo ou sentimento de superioridade, o que vale para qualquer lado. Também lembra que remédios contra a desinformação podem atingir a liberdade de expressão, tensão que aparece na divergência entre os dois ministros do tribunal.</p>
+<p>O texto é longo, mas tem um resumo executivo no início, que basta para conhecer o vocabulário e as três categorias. Depois, vale ler a parte sobre os elementos e as fases da desordem informacional e as 34 recomendações finais, dirigidas a empresas de tecnologia, governos, imprensa e escolas. A íntegra, em inglês, pode ser lida gratuitamente no site do Centro Shorenstein, da Universidade Harvard, que a reproduz com permissão do Conselho da Europa.</p>
+<p class="src"><a href="https://shorensteincenter.org/resource/information-disorder-framework-for-research-and-policymaking/">Shorenstein Center (íntegra do relatório)</a></p>
+</div>
+</section>
+
+<section id="mundo">
+<h2>Mundo</h2>
+<h3>Trump anuncia &quot;cessar-fogo energético&quot; entre Rússia e Ucrânia; Zelensky apoia, mas diz que Moscou voltou a atacar</h3>
+<p>O presidente dos EUA, Donald Trump, anunciou neste domingo (11) que Rússia e Ucrânia concordaram com um &quot;cessar-fogo energético&quot; imediato, sem ataques à infraestrutura de energia do outro lado, sem dar detalhes; Volodimir Zelensky disse inicialmente ao site Axios que a trégua era &quot;novidade&quot; para ele, depois afirmou que a Ucrânia a apoia desde que a Rússia também a cumpra e, à noite, acusou Moscou de seguir atacando, inclusive uma usina em Kharkiv. O Kremlin não havia comentado. Mais cedo, um dia depois de Trump dizer que é hora de a Ucrânia ter &quot;um novo presidente&quot;, Zelensky se disse disposto a organizar eleições se Vladimir Putin aceitar um cessar-fogo total de 60 dias; a chefe da diplomacia da União Europeia, Kaja Kallas, criticou o alívio das sanções ao diesel russo e disse que os ministros europeus devem aprovar na segunda (12) o maior pacote de sanções contra a Rússia desde o início da guerra.</p>
+<p class="src"><a href="https://g1.globo.com/mundo/noticia/2026/10/11/trump-anuncia-tregua-energetica-entre-russia-e-ucrania-o-que-se-sabe.ghtml">g1 (BBC)</a> · <a href="https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2">Al Jazeera</a></p>
+</section>
+
+<section id="ia">
+<h2>Inteligência artificial</h2>
+<h3>Bill Gates diz que ciberataques com IA são hoje um risco maior que a perda de controle da tecnologia</h3>
+<p>O cofundador da Microsoft Bill Gates disse neste domingo (11), em entrevista à rede americana ABC News, que os ciberataques serão &quot;o desafio mais importante&quot; do próximo ano e que o perigo atual não é a inteligência artificial sair de controle, algo que ainda estaria a anos de distância, mas &quot;pessoas más usando IA&quot;, sobretudo modelos dos quais é possível retirar as salvaguardas. Ele afirmou que os sistemas de segurança das empresas de IA não são robustos o bastante, defendeu restrições mais rígidas contra o uso da tecnologia em bioterrorismo e ataques cibernéticos e rejeitou a ideia, defendida por Donald Trump, de que a autorregulação das empresas basta. Gates também propôs um imposto sobre a IA, um organismo internacional para o tema e a reserva de alguns empregos a seres humanos.</p>
+<p class="src"><a href="https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/10/11/bill-gates-considera-ciberataques-o-principal-risco-atual-da-ia.ghtml">g1 (AFP)</a></p>
+</section>
+
+<section id="giro">
+<h2>Giro pelo mundo</h2>
+<div class="giro">
+<div>
+<h4>América do Sul</h4>
+<ul>
+<li><a href="https://g1.globo.com/economia/noticia/2026/10/11/mais-de-32-mil-empresas-fecharam-durante-o-governo-javier-milei-na-argentina.ghtml">Argentina tem 32,3 mil empresas a menos desde o início do governo Milei, segundo dados oficiais</a></li>
+</ul>
+</div>
+<div>
+<h4>América do Norte e Central</h4>
+<ul>
+<li><a href="https://www.aljazeera.com/news/2026/10/11/mexican-president-urges-residents-to-shelter-as-hurricane-simon-approaches">Sheinbaum pede que moradores da costa do Pacífico fiquem em casa com a chegada do furacão Simón</a></li>
+</ul>
+</div>
+<div>
+<h4>África</h4>
+<ul>
+<li><a href="https://www.aljazeera.com/news/2026/10/11/at-least-109-dead-over-100-missing-as-migrant-boat-capsizes-off-djibouti">Naufrágio de barco com mais de 300 migrantes deixa ao menos 139 mortos e 84 desaparecidos na costa de Djibuti</a></li>
+</ul>
+</div>
+<div>
+<h4>Europa</h4>
+<ul>
+<li><a href="https://www.aljazeera.com/news/2026/10/11/poland-police-probe-alleged-plot-to-assassinate-pm-tusk-defence-minister">Polícia da Polônia investiga suposto plano para assassinar o premiê Donald Tusk e o ministro da Defesa</a></li>
+</ul>
+</div>
+<div>
+<h4>Oriente Médio</h4>
+<ul>
+<li><a href="https://www.aljazeera.com/news/2026/10/11/hormuz-attacks-intensify-as-efforts-to-end-war-on-iran-stall">Ataques no estreito de Ormuz se intensificam enquanto esforços para encerrar a guerra contra o Irã emperram</a></li>
+</ul>
+</div>
+<div>
+<h4>Ásia</h4>
+<ul>
+<li><a href="https://www.aljazeera.com/news/2026/10/11/pakistan-imposes-emergency-rule-in-khyber-pakhtunkhwa">Paquistão decreta estado de emergência em Khyber Pakhtunkhwa, província governada pelo partido de Imran Khan</a></li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="ciencia">
+<h2>Ciência</h2>
+<h3>Biobanco com amostras de 4 mil brasileiros quer adaptar à população do país os testes de risco genético de câncer</h3>
+<p>Pesquisadores do Hospital de Amor, de Barretos (SP), descreveram na revista iScience um biorrepositório com 4.062 participantes e quase 40 mil amostras derivadas de sangue, criado para estudar o risco genético dos cânceres de mama, colorretal e do colo do útero na população brasileira; a meta é chegar a pelo menos 8 mil pessoas, metade com câncer e metade sem a doença, nos próximos dois anos. O objetivo é testar e ajustar os chamados escores poligênicos de risco, que somam o efeito de milhares de pequenas variações no DNA, porque mais de 90% das pessoas dos grandes estudos genômicos usados para construí-los têm ancestralidade europeia, segundo o coordenador, Rui Manuel Reis. A ferramenta ainda precisa ser definida e validada antes de qualquer uso no SUS, onde poderia ajudar a orientar prevenção e rastreamento.</p>
+<p class="src"><a href="https://agencia.fapesp.br/biorrepositorio-brasileiro-pode-ajudar-a-personalizar-a-prevencao-do-cancer-no-sus/59372">Agência Fapesp</a></p>
+</section>
+
+<section id="brasil-fundo">
+<h2>Para entender o Brasil</h2>
+<div class="leitura">
+<h3>Os bestializados: o Rio de Janeiro e a República que não foi</h3>
+<p class="autor">José Murilo de Carvalho · livro, 1987</p>
+<p>Publicado em 1987, quando o Brasil saía da ditadura e preparava uma nova Constituição, o livro do historiador mineiro José Murilo de Carvalho nasceu de um projeto de pesquisa na Fundação Casa de Rui Barbosa e ganhou o prêmio da Anpocs de melhor livro de ciências sociais de 1988. O título vem de uma frase célebre do propagandista republicano Aristides Lobo sobre o 15 de novembro de 1889: o povo teria assistido à proclamação &quot;bestializado&quot;, sem entender o que acontecia, como se fosse um desfile militar. Carvalho volta ao Rio de Janeiro dos primeiros anos da República, então capital federal, para perguntar o que a população fez do novo regime.</p>
+<p>A ideia central é que os cariocas da Primeira República não eram simplesmente passivos. Sua relação com o Estado oscilou entre a apatia diante dos mecanismos formais de participação, como as eleições, das quais a maioria estava excluída ou se afastava, a reação violenta a medidas que o governo impunha de cima, como mostra a Revolta da Vacina de 1904, e a negociação pragmática de empregos e favores. A República que prometia cidadania funcionou, para o autor, como uma &quot;República que não foi&quot;: manteve o povo fora das decisões, e o povo, por sua vez, tratou com distância uma política que não o representava.</p>
+<p>Parte do livro envelheceu. O Brasil de hoje tem voto universal e urna eletrônica, e a historiografia posterior ampliou o estudo das formas de organização popular que Carvalho apenas esboçou. Também é um livro centrado no Rio, e o país da Primeira República era muito mais rural e diverso do que sua capital.</p>
+<p>Continua valendo a pergunta sobre a distância entre as instituições e os cidadãos. Lida num dia em que os dois candidatos pedem que seus eleitores voltem às urnas e Lula fala diretamente aos 21% que faltaram no primeiro turno, a obra lembra que a participação eleitoral no Brasil nunca foi um dado natural, mas algo construído, e que desconfiança e abstenção têm raízes longas. Não há edição gratuita legítima; o livro está no catálogo da Companhia das Letras, e o perfil do autor publicado na Revista Brasileira de História, no SciELO, situa a obra no conjunto de sua trajetória.</p>
+<p class="src"><a href="https://www.companhiadasletras.com.br/9788535930870-os-bestializados-5959/p">Companhia das Letras</a> · <a href="https://www.scielo.br/j/rbh/a/fTfpvCXMh5NvWq9QVSWJ9YM/?lang=pt">Revista Brasileira de História (SciELO), perfil do autor</a></p>
+</div>
+</section>
+
+<section id="mercados">
+<h2>Mercados</h2>
+<div class="resumo">
+<p>Domingo não tem pregão, e a segunda (12), feriado de Nossa Senhora Aparecida, também não; a B3 só reabre na terça (13). As referências seguem as de sexta (9): o Ibovespa fechou em 209.067 pontos, recorde, com alta de 1,38% no dia, e o dólar caiu 0,78%, a R$ 4,985. O bitcoin passou o domingo perto de US$ 83,5 mil, e na quarta (14) o Senado vota em primeiro turno a PEC que acaba com a escala 6x1.</p>
+<p class="src"><a href="https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-498-e-acumula-perda-de-444-na-semana">Agência Brasil</a> · <a href="https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/saiba-como-ficam-os-servicos-bancarios-no-feriado-do-dia-12-de-outubro">Agência Brasil (serviços bancários no feriado)</a></p>
+</div>
+<div class="mercados">
+<div class="mercado">
+<h3>Ibovespa</h3>
+<div class="ticker">
+<div><span>Fechamento</span><b>209.067</b></div>
+<div><span>Dia</span><b>+1,38%</b></div>
+<div><span>Mês</span><b>+12,2%</b></div>
+<div><span>Ano</span><b>+29,8%</b></div>
+</div>
+<p>Fechamento de sexta (9); não há pregão no fim de semana nem no feriado de segunda (12). Variações no mês e no ano calculadas pela redação.</p>
+<p class="src"><a href="https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-498-e-acumula-perda-de-444-na-semana">Agência Brasil</a></p>
+</div>
+<div class="mercado">
+<h3>Dólar</h3>
+<div class="ticker">
+<div><span>Fechamento</span><b>R$ 4,99</b></div>
+<div><span>Dia</span><b>−0,78%</b></div>
+<div><span>Mês</span><b>−3,6%</b></div>
+<div><span>Ano</span><b>−9,2%</b></div>
+</div>
+<p>Fechamento de sexta (9), a R$ 4,985.</p>
+<p class="src"><a href="https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-498-e-acumula-perda-de-444-na-semana">Agência Brasil</a></p>
+</div>
+<div class="mercado">
+<h3>Bitcoin</h3>
+<div class="ticker">
+<div><span>US$</span><b>83.497</b></div>
+<div><span>R$</span><b>416.717</b></div>
+<div><span>24h</span><b>+0,7%</b></div>
+<div><span>7d / 30d</span><b>−2,7% / +8,0%</b></div>
+</div>
+<p>Cotação às 18h13 de Brasília.</p>
+<p class="src"><a href="https://www.coingecko.com/pt/moedas/bitcoin">CoinGecko</a></p>
+</div>
+</div>
+<p class="src aviso">Informativo, não é recomendação.</p>
+</section>
+
+<section id="tempo">
+<h2>Tempo no Brasil · amanhã, segunda, 12</h2>
+<dl class="regioes">
+<div><dt>Norte</dt><dd>Muitas nuvens e chuva mais isolada no Acre, em Rondônia, no Amazonas e em Roraima, com aviso amarelo do Inmet para tempestades no oeste da região e para baixa umidade no leste; máxima de 38 °C em Porto Velho.</dd></div>
+<div><dt>Nordeste</dt><dd>Sol entre nuvens, com chance de chuva isolada no litoral da Bahia à Paraíba e no leste do Rio Grande do Norte; aviso amarelo de baixa umidade em quase toda a região, fora o litoral, e máximas de 32 °C em Salvador, Natal e Fortaleza e 40 °C em Teresina.</dd></div>
+<div><dt>Centro-Oeste</dt><dd>Pancadas com trovoadas no sul de Mato Grosso do Sul e chuva isolada no resto do estado, em Mato Grosso e no sul de Goiás, com aviso amarelo para tempestades; seco no DF e no norte de Goiás, com aviso de baixa umidade, e máximas de 34 °C em Goiânia e 36 °C em Cuiabá.</dd></div>
+<div><dt>Sudeste</dt><dd>Chuva mais isolada em São Paulo, no Rio, no Triângulo e no sul de Minas, ainda com aviso amarelo para tempestades; tempo firme no norte de Minas e no Espírito Santo, com baixa umidade no centro e norte mineiro, mínima de 18 °C em São Paulo e máxima de 33 °C em Belo Horizonte.</dd></div>
+<div><dt>Sul</dt><dd>Feriado instável e frio, com chuva e trovoadas no Paraná, em Santa Catarina e no norte do Rio Grande do Sul, sob aviso amarelo para tempestades; Porto Alegre tem mínima de 10 °C e máxima de 13 °C, Florianópolis não passa de 18 °C e Curitiba chega a 19 °C.</dd></div>
+</dl>
+<p class="src"><a href="https://portal.inmet.gov.br/noticias/previs%C3%A3o-para-s%C3%A1bado-10-domingo-11-segunda-feira-12-e-ter%C3%A7a-feira-13">Inmet (previsão de sábado a terça)</a></p>
+</section>
+
+<nav class="nav-ed" aria-label="Outras edições">
+<a href="2026-10-11.html">← Edição da manhã</a>
+<a href="../" class="recente">Edição mais recente</a>
+<a href="index.html">Todas as edições →</a>
+</nav>
+
+<p class="assinar-pe"><a href="../assinar.html" class="assinar-link">Receba a Prensa por email →</a></p>
+<footer>
+  Prensa Autômata · jornal diário produzido por IA · os textos são resumos com link para as fontes originais; erros podem acontecer, confira sempre a fonte. · <a href="../sobre.html">Sobre a Prensa</a>
+</footer>
+</main>
+</body>
+</html>

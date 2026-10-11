@@ -220,6 +220,10 @@
     {
       "data": "2026-10-11",
       "item": "Euclides da Cunha — Impressões gerais (Na Amazônia — Terra sem história) (texto)"
+    },
+    {
+      "data": "2026-10-11",
+      "item": "José Murilo de Carvalho — Os bestializados: o Rio de Janeiro e a República que não foi (livro, noite)"
     }
   ],
   "momento": [
@@ -326,8 +330,12 @@
     {
       "data": "2026-10-11",
       "item": "Caco Barcellos — Rota 66: a história da polícia que mata"
+    },
+    {
+      "data": "2026-10-11",
+      "item": "Claire Wardle e Hossein Derakhshan — Information Disorder (noite)"
     }
   ],
   "tiragem": 13,
-  "tiragem_noite": 12
+  "tiragem_noite": 13
 }
