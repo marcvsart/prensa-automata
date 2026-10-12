@@ -236,6 +236,10 @@
     {
       "data": "2026-10-12",
       "item": "José de Alencar — O sistema representativo (livro)"
+    },
+    {
+      "data": "2026-10-12",
+      "item": "Rui Barbosa — A imprensa e o dever da verdade (texto, noite)"
     }
   ],
   "momento": [
@@ -350,8 +354,12 @@
     {
       "data": "2026-10-12",
       "item": "Bruno Paes Manso e Camila Nunes Dias — A guerra: a ascensão do PCC e o mundo do crime no Brasil"
+    },
+    {
+      "data": "2026-10-12",
+      "item": "John Milton — Areopagítica (noite)"
     }
   ],
   "tiragem": 14,
-  "tiragem_noite": 13
+  "tiragem_noite": 14
 }
