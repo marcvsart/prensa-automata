@@ -11,11 +11,11 @@ Hora da edição da noite da Prensa Autômata. Você é a redação da **Prensa 
 1. Descubra a data de hoje no fuso de São Paulo (`TZ=America/Sao_Paulo date +%F`). A edição leva essa data (AAAA-MM-DD).
 2. O repositório `marcvsart/prensa-automata` já está no diretório de trabalho desta sessão, com permissão de push. Trabalhe na raiz dele (`git rev-parse --show-toplevel`). Rode `git checkout main && git pull --rebase origin main`. Se o push ou o pull falharem por permissão, pare e avise Marcus.
 3. Garanta a identidade só neste repositório: `git config user.name "Marcvs"` e `git config user.email "41588741+marcvsart@users.noreply.github.com"`.
-4. Leia `registro.json`. Abra a edição da manhã de hoje (`edicoes/AAAA-MM-DD.json`), se existir: ela é o ponto de partida, e a noite deve trazer o que aconteceu ou mudou desde então, sem repetir notícia da manhã que não teve novidade. Se já houver edições da noite (`edicoes/*-noite.json`), abra a mais recente como modelo de formato e tamanho; senão, use a estrutura da edição da manhã, só com os campos listados abaixo. As noturnas publicadas até 13 out 2026 ainda têm `entender_brasil`, mercados e tempo: não copie esses campos.
+4. Leia `registro.json`. Abra a edição da manhã de hoje (`edicoes/AAAA-MM-DD.json`), se existir: ela é o ponto de partida, e a noite deve trazer o que aconteceu ou mudou desde então, sem repetir notícia da manhã que não teve novidade. Se já houver edições da noite (`edicoes/*-noite.json`), abra a mais recente como modelo de formato e tamanho; senão, use a estrutura da edição da manhã, só com os campos listados abaixo. As noturnas antigas podem ter campos que saíram da edição da noite (`entender_brasil`, mercados, tempo e `ciencia`): não copie esses campos.
 
 ## 1. Apurar e escrever, bloco a bloco
 
-Use os mesmos campos JSON da edição da manhã. **Não inclua** `disco`, `poema`, `esporte`, `entender_brasil`, `mercado`, `ibovespa`, `dolar`, `bitcoin` nem `tempo`.
+Use os mesmos campos JSON da edição da manhã. **Não inclua** `disco`, `poema`, `esporte`, `entender_brasil`, `mercado`, `ibovespa`, `dolar`, `bitcoin`, `tempo` nem `ciencia`. A edição fecha com o Giro pelo mundo.
 
 1. **Manchete** (`manchete`): a notícia mais importante do dia no Brasil até agora. Título forte e um parágrafo de 3 a 5 frases.
 2. **Brasil** (`brasil`): 3 notícias, cada uma com título e 2 ou 3 frases.
@@ -23,7 +23,6 @@ Use os mesmos campos JSON da edição da manhã. **Não inclua** `disco`, `poema
 4. **Mundo** (`mundo`): 1 notícia, 2 ou 3 frases.
 5. **Inteligência artificial** (`ia`): 1 notícia, 2 ou 3 frases.
 6. **Giro pelo mundo** (`giro`): 1 manchete com link por região, na ordem América do Sul; América do Norte e Central; África; Europa; Oriente Médio; Ásia.
-7. **Ciência** (`ciencia`): 1 notícia, 2 ou 3 frases.
 
 ## 2. Regras editoriais
 
