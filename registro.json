@@ -60,6 +60,10 @@
     {
       "data": "2026-10-12",
       "item": "Hyldon — Na Rua, na Chuva, na Fazenda (1975)"
+    },
+    {
+      "data": "2026-10-13",
+      "item": "Ednardo, Rodger Rogério e Téti — Meu Corpo, Minha Embalagem, Todo Gasto na Viagem (1973)"
     }
   ],
   "poemas": [
@@ -122,6 +126,10 @@
     {
       "data": "2026-10-12",
       "item": "Olavo Bilac — A boneca"
+    },
+    {
+      "data": "2026-10-13",
+      "item": "Olavo Bilac — A um poeta"
     }
   ],
   "entender_brasil": [
@@ -240,6 +248,10 @@
     {
       "data": "2026-10-12",
       "item": "Rui Barbosa — A imprensa e o dever da verdade (texto, noite)"
+    },
+    {
+      "data": "2026-10-13",
+      "item": "Carl Friedrich Philipp von Martius — Como se deve escrever a história do Brasil (texto)"
     }
   ],
   "momento": [
@@ -358,8 +370,12 @@
     {
       "data": "2026-10-12",
       "item": "John Milton — Areopagítica (noite)"
+    },
+    {
+      "data": "2026-10-13",
+      "item": "E. P. Thompson — Tempo, disciplina de trabalho e capitalismo industrial"
     }
   ],
-  "tiragem": 14,
+  "tiragem": 15,
   "tiragem_noite": 14
 }

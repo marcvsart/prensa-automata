@@ -1,0 +1,498 @@
+{
+ "data": "2026-10-13",
+ "numero": 15,
+ "manchete": {
+  "titulo": "Senado retoma hoje a PEC do fim da escala 6x1, e oposição muda de estratégia e deve votar a favor; primeira votação está marcada para quarta",
+  "texto": [
+   "O Senado faz nesta terça-feira (13) mais uma sessão de discussão da PEC 221, que reduz a jornada máxima de 44 para 40 horas semanais e cria a escala 5x2, sem redução de salário, 14 meses depois de promulgada; aprovada pela Câmara em maio, a proposta precisa de 49 dos 81 votos em dois turnos, e o presidente da Casa, Davi Alcolumbre (União-AP), marcou a primeira votação para quarta (14), embora governistas e oposicionistas ouvidos pela CNN avaliem que ela pode ficar para quinta (15). Até a semana passada, a oposição tentava adiar a análise para depois do segundo turno ou alterar o texto para devolvê-lo à Câmara, mas, segundo a CNN, interlocutores da campanha de Flávio Bolsonaro (PL) passaram a avaliar que votar contra seria mais prejudicial eleitoralmente, e a direita no Senado deve votar a favor. O senador Wellington Fagundes (PL-MT) disse que o partido deve liberar a bancada, embora o coordenador da campanha, Rogério Marinho (PL-RN), defendesse a abstenção; uma reunião do PL nesta terça deve definir a orientação. O governo estima ter 57 votos, segundo o deputado Reginaldo Lopes (PT-MG), autor da proposta, e Lula desafiou Flávio a orientar os senadores do PL a apoiá-la. Flávio acusa o presidente de explorar a PEC eleitoralmente e defende a alternativa de Marinho, a PEC 12, que cria o regime por hora trabalhada, com salário, FGTS, férias e 13º proporcionais às horas. O relator, Omar Aziz (PSD-AM), rejeitou as 36 emendas apresentadas no Senado; o segundo turno da eleição presidencial é em 25 de outubro."
+  ],
+  "fontes": [
+   {
+    "nome": "CNN Brasil (mudança da oposição)",
+    "url": "https://www.cnnbrasil.com.br/politica/direita-decide-votar-a-favor-do-fim-da-escala-6x1/"
+   },
+   {
+    "nome": "CNN Brasil (PL e a bancada)",
+    "url": "https://www.cnnbrasil.com.br/blogs/julliana-lopes/eleicoes/pl-ve-maioria-para-aprovar-fim-da-6x1-com-votos-do-proprio-partido/"
+   },
+   {
+    "nome": "Folha (o que pode mudar)",
+    "url": "https://www1.folha.uol.com.br/mercado/2026/10/fim-da-escala-6x1-volta-ao-senado-nesta-terca-13-com-disputa-entre-governo-e-oposicao-veja-o-que-pode-mudar.shtml"
+   },
+   {
+    "nome": "Congresso em Foco (calendário e emendas)",
+    "url": "https://congressoemfoco.com.br/noticia/123154/senado-vota-fim-da-escala-6x1-em-meio-a-disputa-entre-lula-e-flavio"
+   },
+   {
+    "nome": "RIC (PL deve liberar a bancada)",
+    "url": "https://ric.com.br/politica/pl-deve-liberar-bancada-em-votacao-para-o-fim-da-escala-6x1/"
+   }
+  ]
+ },
+ "brasil": [
+  {
+   "titulo": "Nunes Marques reúne hoje as campanhas de Lula e Flávio no TSE, depois de 85 processos na primeira semana do segundo turno; Bellizze manda apagar posts dos dois lados",
+   "texto": [
+    "O presidente do TSE, Kassio Nunes Marques, recebe às 15h30 desta terça representantes jurídicos das duas campanhas, sem os candidatos, num encontro que, segundo a Gazeta do Povo, busca reduzir a tensão criada pela multiplicação de ações e reafirmar a imparcialidade da corte, alvo de críticas da campanha de Lula pelas decisões sobre o canal \"Exército do Lula\". Na segunda (12), o ministro Marco Aurélio Bellizze mandou Flávio Bolsonaro, o senador eleito Carlos Bolsonaro (PL-SC), Pablo Marçal e o deputado eleito Rony Gabriel (Podemos-RS) removerem em 24 horas um vídeo com a falsa acusação de que uma pessoa consumia cocaína no ato pró-Lula na Paulista; segundo a ação do PT, as imagens tinham sido publicadas por um usuário do Chile um dia antes do ato, e Bellizze viu possível \"grave manipulação por descontextualização\". No mesmo dia, a pedido da campanha de Flávio, Bellizze mandou o Fonasefe, fórum de entidades de servidores federais, apagar do Instagram posts contra o candidato do PL, por entender que o perfil funciona como canal de pessoas jurídicas, que não podem fazer propaganda eleitoral."
+   ],
+   "fontes": [
+    {
+     "nome": "Gazeta do Povo (reunião)",
+     "url": "https://www.gazetadopovo.com.br/republica/nunes-marques-se-reune-com-campanhas-de-lula-e-flavio-em-meio-a-criticas-ao-tse/"
+    },
+    {
+     "nome": "Estadão (vídeo falso)",
+     "url": "https://www.estadao.com.br/politica/eleicoes/tse-manda-flavio-carlos-bolsonaro-e-marcal-removerem-video-falso-sobre-drogas-em-ato-do-pt-em-sp/"
+    },
+    {
+     "nome": "CNN Brasil (posts do Fonasefe)",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/tse-manda-forum-de-servidores-apagar-posts-contra-flavio-bolsonaro/"
+    }
+   ]
+  },
+  {
+   "titulo": "Diretor da PF entrega hoje a Fachin material do caso Master que cita ministros do STF",
+   "texto": [
+    "O diretor-geral da Polícia Federal, Andrei Rodrigues, se reúne nesta terça com o presidente do STF, Edson Fachin, para entregar informações extraídas dos celulares de Daniel Vorcaro, ex-dono do Banco Master, e de seu cunhado, Fabiano Zettel, que mencionam integrantes da corte; segundo a CNN, há citações, em graus diferentes, a pelo menos seis dos dez ministros ou a parentes deles, além de referências a ministros do STJ. Fachin afirmou que nenhum fato e nenhuma pessoa devem ficar fora da apuração, e relatórios específicos sobre cada ministro só serão produzidos se o Supremo decidir assim. Em fevereiro, um primeiro levantamento com citações a Dias Toffoli levou o ministro a deixar a relatoria dos processos do Master."
+   ],
+   "fontes": [
+    {
+     "nome": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/politica/pf-deve-entregar-hoje-a-fachin-material-do-caso-master-que-cita-ministros/"
+    }
+   ]
+  },
+  {
+   "titulo": "FMI reduz para 2,2% a previsão de crescimento do Brasil em 2026 e eleva a da economia mundial",
+   "texto": [
+    "No relatório Perspectiva Econômica Global, divulgado na noite de segunda (12) nas reuniões anuais do FMI e do Banco Mundial, em Bangcoc, o fundo passou a prever expansão de 2,2% para o PIB brasileiro neste ano, ante 2,4% em julho, e de 1,9% em 2027, ante 2,2%, citando juros ainda restritivos para trazer a inflação à meta, a retirada de estímulos fiscais e a incerteza global. A projeção fica pouco acima da do Ministério da Fazenda, de 2%. Para o mundo, o FMI elevou a estimativa de 2026 de 3% para 3,1% e manteve 3,4% para 2027, mas alertou que os estoques de emergência de petróleo estão baixos e que a economia global \"pode em breve testar os limites da resiliência\"."
+   ],
+   "fontes": [
+    {
+     "nome": "Folha",
+     "url": "https://www1.folha.uol.com.br/mercado/2026/10/fmi-reduz-projecao-de-crescimento-do-brasil-mas-eleva-a-da-economia-global.shtml"
+    },
+    {
+     "nome": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/economia/fmi-reduz-projecao-do-pib-do-brasil-da-china-e-eleva-da-economia-global/"
+    },
+    {
+     "nome": "The Guardian",
+     "url": "https://www.theguardian.com/business/2026/oct/13/imf-global-economy-world-economic-outlook-uk-gdp-forecast-2026"
+    }
+   ]
+  },
+  {
+   "titulo": "Quase 65% das cidades do país têm vacinação contra o sarampo abaixo da meta",
+   "texto": [
+    "Dados do Ministério da Saúde obtidos pela CNN mostram que 3.589 dos 5.570 municípios ficaram abaixo de 95% de cobertura média na segunda dose da tríplice viral, que protege contra sarampo, caxumba e rubéola, entre janeiro e agosto. No país, a primeira dose alcança 94,66% das crianças de até um ano, mas a segunda cai para 79,78%; entre as capitais, Curitiba tem a melhor média, acima de 95%, e Belém a menor, 79,29%. A vacina é oferecida nas redes municipais: a primeira dose aos 12 meses e a segunda aos 15 meses, e adolescentes e adultos não vacinados também devem tomá-la."
+   ],
+   "fontes": [
+    {
+     "nome": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/saude/quase-65-das-cidades-do-brasil-tem-baixa-vacinacao-contra-sarampo/"
+    }
+   ]
+  },
+  {
+   "titulo": "Amazonas registra 540 focos de incêndio em 48 horas, e ministro atribui o fogo a ação humana",
+   "texto": [
+    "Segundo o painel Queimadas, do Inpe, o estado teve 540 novos focos entre sábado (10) e domingo (11), mais da metade dos 874 registrados em todo o mês de outubro de 2025; só no sábado foram 494, o maior número do mês. Depois de sobrevoar o estado, o ministro do Meio Ambiente, João Paulo Capobianco, disse que, como não há fogo espontâneo no bioma, os focos resultam de ação humana intencional, possivelmente para preparar desmatamentos. Há situação de emergência reconhecida em 36 municípios, e o Ibama enviou seis aeronaves e 290 brigadistas, reforçados por dois aviões KC-390 da FAB."
+   ],
+   "fontes": [
+    {
+     "nome": "Agência Brasil",
+     "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/amazonas-tem-540-focos-de-incendio-nas-ultimas-48-horas"
+    }
+   ]
+  }
+ ],
+ "momento": {
+  "titulo": "Tempo, disciplina de trabalho e capitalismo industrial",
+  "autor": "E. P. Thompson · 1967",
+  "texto": [
+   "Com o Senado prestes a votar a redução da jornada, vale ler o ensaio em que o historiador inglês E. P. Thompson mostra como o relógio passou a governar o trabalho. Publicado na revista Past & Present em 1967 e reunido no Brasil no livro Costumes em comum, o texto acompanha a passagem de um trabalho orientado pela tarefa, como o do camponês que colhe enquanto há luz, para outro medido em horas, controlado por relógios, sinos e multas. Thompson não escreve sobre escalas ou feriados de hoje, mas ajuda a entender por que o tempo de trabalho e o tempo livre se tornaram um dos terrenos centrais da disputa entre empregados, empregadores e Estado, e por que a contagem das horas continua a ser, dois séculos depois, uma questão política."
+  ],
+  "fontes": [
+   {
+    "nome": "LEHMT/UFRJ (O fazer do tempo e da história: à sombra de E. P. Thompson)",
+    "url": "https://lehmt.org/?p=10354"
+   }
+  ]
+ },
+ "mundo": {
+  "titulo": "Navio afunda em novo ataque de drones na costa da Bulgária, e premiê convoca embaixadora russa",
+  "texto": [
+   "Um navio mercante afundou nesta terça-feira (13) depois que drones atingiram duas embarcações no Mar Negro, na zona econômica da Bulgária, país da Otan, segundo o primeiro-ministro Rumen Radev; um tripulante foi resgatado do navio que afundou, a cerca de 31 km de Krapets, e os 15 tripulantes do outro, de propriedade ucraniana, foram salvos. Radev convocou a embaixadora russa, Eleonora Mitrofanova, e disse que, embora não haja prova conclusiva sobre a autoria, \"a lógica sugere\" que o resultado beneficia a Rússia; a Ucrânia culpou Moscou diretamente, e a presidente da Comissão Europeia, Ursula von der Leyen, disse que o Mar Negro se torna \"outra frente de escalada\" da guerra. É o segundo ataque em uma semana: em 6 de outubro, outro navio afundou na mesma área, e os 10 tripulantes são dados como mortos. A Rússia não comentou; Moscou diz atacar navios que levam armas e carga de uso duplo a portos ucranianos."
+  ],
+  "fontes": [
+   {
+    "nome": "BBC",
+    "url": "https://www.bbc.com/news/articles/cmn06w5x9g25o"
+   },
+   {
+    "nome": "The Guardian (ao vivo)",
+    "url": "https://www.theguardian.com/world/live/2026/oct/13/ships-hit-sunk-drones-bulgaria-black-sea-ukraine-russia-war-france-spains-sweden-pope-leo-europe-latest-news-updates"
+   }
+  ]
+ },
+ "ia": {
+  "titulo": "FMI alerta que uma queda das ações de IA pode ter efeitos globais e põe em risco a estabilidade financeira",
+  "texto": [
+   "No Relatório de Estabilidade Financeira Global, divulgado nesta terça (13), o FMI apontou a correção dos preços das ações ligadas à inteligência artificial como um dos três riscos mais salientes para o sistema financeiro, ao lado da alta do custo da dívida dos governos e de um grande ciberataque. O fundo cita avaliações elevadas, endividamento crescente das empresas, de fundos e de pequenos investidores e acordos de \"financiamento circular\": em três anos, as grandes empresas de nuvem fizeram US$ 300 bilhões em transações com empresas de IA mais frágeis, somados a US$ 650 bilhões em dívida, em troca de US$ 1,4 trilhão em compromissos futuros. As sete maiores empresas de tecnologia dos EUA já respondem por mais de 35% do índice S&P 500, ante 12% há uma década, e o FMI diz haver \"evidências crescentes\" de que a IA talvez não exija investimentos dessa escala; \"a exposição do resto do mundo a ativos dos EUA, especialmente de IA, é a maior que já houve\", disse o vice-diretor Athanasios Vamvakidis."
+  ],
+  "fontes": [
+   {
+    "nome": "The Guardian",
+    "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks"
+   }
+  ]
+ },
+ "giro": [
+  {
+   "regiao": "América do Sul",
+   "itens": [
+    {
+     "titulo": "Argentina fecha por um dia o acesso às Cataratas do Iguaçu com a vazão do rio seis vezes acima da média",
+     "url": "https://www.theguardian.com/world/2026/oct/13/argentina-iguazu-falls-temporarily-closed-el-nino-water-levels"
+    },
+    {
+     "titulo": "Milei deve se encontrar com Eduardo Bolsonaro em viagem aos EUA nesta semana",
+     "url": "https://www1.folha.uol.com.br/mundo/2026/10/milei-deve-se-encontrar-com-eduardo-bolsonaro-em-viagem-aos-eua.shtml"
+    },
+    {
+     "titulo": "Presidente da Bolívia, Rodrigo Paz, anuncia encontros com vizinhos para reforçar o combate ao narcotráfico",
+     "url": "https://www.infobae.com/america/america-latina/2026/10/12/paz-anuncio-encuentros-con-presidentes-de-paises-vecinos-para-reforzar-la-lucha-contra-el-narcotrafico/"
+    }
+   ]
+  },
+  {
+   "regiao": "América do Norte e Central",
+   "itens": [
+    {
+     "titulo": "Furacão Simon e tempestade Rachel atingem a costa do Pacífico do México, com duas mortes",
+     "url": "https://www.aljazeera.com/news/2026/10/12/two-deaths-reported-as-hurricane-simon-storm-rachel-batter-mexicos-coast"
+    },
+    {
+     "titulo": "Morte em montanha-russa de parque Six Flags na Geórgia leva ao fechamento de brinquedos em seis estados dos EUA",
+     "url": "https://www.theguardian.com/us-news/2026/oct/13/six-flags-georgia-death-rollercoaster"
+    },
+    {
+     "titulo": "Cuba abre a exploração de petróleo e gás a investidores com o agravamento da crise energética",
+     "url": "https://www.infobae.com/cuba/2026/10/13/regimen-cubano-abre-el-petroleo-y-gas-a-inversores-tras-profundizarse-la-crisis-energetica/"
+    }
+   ]
+  },
+  {
+   "regiao": "África",
+   "itens": [
+    {
+     "titulo": "Ex-presidente Joseph Kabila é apontado como líder de nova coalizão rebelde na República Democrática do Congo",
+     "url": "https://www.bbc.com/news/articles/c8y56re7ldqyo"
+    },
+    {
+     "titulo": "Conflito e seca aumentam o risco de fome no Sudão, alerta sistema de monitoramento",
+     "url": "https://www.aljazeera.com/news/2026/10/12/conflict-drought-increasing-risk-of-famine-in-sudan-monitor"
+    },
+    {
+     "titulo": "Ebola se espalha \"como fogo\" na África enquanto profissionais de saúde enfrentam a exaustão",
+     "url": "https://valor.globo.com/mundo/noticia/2026/10/11/ebola-se-espalha-como-fogo-na-africa-enquanto-agentes-de-saude-lutam-contra-a-exaustao.ghtml"
+    }
+   ]
+  },
+  {
+   "regiao": "Europa",
+   "itens": [
+    {
+     "titulo": "Ciberataque faz geladeiras de centenas de supermercados da França esquentarem e causa perdas milionárias",
+     "url": "https://www.bbc.com/mundo/articles/c6wydn1pvznqo"
+    },
+    {
+     "titulo": "Polônia prende dois turcos por incêndio em estação da Starlink ligado à Rússia",
+     "url": "https://www.aljazeera.com/news/2026/10/12/poland-says-two-turks-arrested-over-russia-linked-starlink-station-fire"
+    },
+    {
+     "titulo": "Reis da Espanha visitam Ceuta em meio à crise migratória e à tensão diplomática com o Marrocos",
+     "url": "https://www.infobae.com/espana/2026/10/13/los-reyes-comienzan-una-historica-visita-a-ceuta-y-melilla-de-imprevisibles-consecuencias-en-las-elecciones-generales-y-en-marruecos/"
+    }
+   ]
+  },
+  {
+   "regiao": "Oriente Médio",
+   "itens": [
+    {
+     "titulo": "Arábia Saudita estende até sábado o fechamento do aeroporto de Riad após ataques dos houthis",
+     "url": "https://www.infobae.com/america/mundo/2026/10/13/arabia-saudita-extendio-hasta-el-sabado-el-cierre-del-aeropuerto-de-riad-tras-los-ataques-huties-que-dejaron-13-muertos-y-300-heridos/"
+    },
+    {
+     "titulo": "Reino Unido desaconselha usar qualquer aeroporto saudita, exceto o de Medina",
+     "url": "https://www.middleeasteye.net/news/uk-advises-against-travel-jeddah-or-use-any-saudi-airport-except-medina"
+    },
+    {
+     "titulo": "Com eleição em Israel se aproximando, Trump evita se comprometer com Netanyahu",
+     "url": "https://www.aljazeera.com/news/2026/10/13/despite-long-history-with-netanyahu-trump-hedges-as-israel-vote-nears"
+    }
+   ]
+  },
+  {
+   "regiao": "Ásia",
+   "itens": [
+    {
+     "titulo": "Líderes do protesto das \"baratas\" são detidos na Índia ao entrar em área bloqueada em Nova Délhi",
+     "url": "https://www.bbc.com/news/articles/cqz0v11n2vj5o"
+    },
+    {
+     "titulo": "Kim Jong Un exibe o míssil Hwasong-20, capaz de alcançar os Estados Unidos",
+     "url": "https://www.infobae.com/america/mundo/2026/10/13/el-dictador-norcoreano-kim-jong-un-exhibio-el-misil-hwasong-20-con-capacidad-para-alcanzar-estados-unidos/"
+    },
+    {
+     "titulo": "Mais de 100 trekkers estrangeiros ficam ilhados por enchentes na região de Gorkha, no Nepal",
+     "url": "https://www.aljazeera.com/news/2026/10/13/more-than-100-foreign-trekkers-stranded-by-floods-in-nepals-gorkha-region"
+    }
+   ]
+  }
+ ],
+ "ciencia": {
+  "titulo": "Satélites medem o afundamento do solo em 465 grandes cidades, e partes da Cidade do México descem 21 cm por ano",
+  "texto": [
+   "Um estudo publicado na revista Nature Cities, liderado por Shengli Tao e Xie Hu, usou dados de radar orbital (InSAR) de 2014 a 2023 para medir o movimento do solo em 465 cidades de 107 países. As maiores taxas medianas estão na Ásia, como Medan, na Indonésia, com cerca de 33 mm por ano; o ponto mais rápido é a Cidade do México, onde algumas áreas afundam cerca de 217 mm por ano, embora a mediana da cidade seja de 8 mm. Entre as cidades estáveis estão Nova York, Londres, Tóquio e Montevidéu, a única sul-americana citada nos resumos do estudo. Os autores apontam a extração excessiva de água subterrânea, o peso das construções e a compactação de sedimentos em deltas e planícies como causas, e dizem que a falta de comparações globais dificultava políticas para as áreas de maior risco."
+  ],
+  "fontes": [
+   {
+    "nome": "Phys.org",
+    "url": "https://phys.org/news/2026-10-major-cities-worldwide-satellite-reveal.html"
+   },
+   {
+    "nome": "CNN Brasil",
+    "url": "https://www.cnnbrasil.com.br/ciencia/pesquisa-inedita-mapeia-rebaixamento-do-solo-em-nivel-global-fenomeno-afeta-edificios-e-aumenta-riscos-de-inundacao/"
+   }
+  ]
+ },
+ "disco": {
+  "artista": "Ednardo, Rodger Rogério e Téti",
+  "titulo": "Meu Corpo, Minha Embalagem, Todo Gasto na Viagem",
+  "ficha": "1973 · Continental",
+  "texto": [
+   "O disco que ficou conhecido como \"Pessoal do Ceará\" reuniu pela primeira vez em vinil as vozes de Ednardo, Rodger Rogério e Téti, e ajudou a apresentar ao país a geração de compositores cearenses de Belchior e Fagner. Gravado em 1972, com regência do maestro Hareton Salvanini e produção de Walter Silva, que sugeriu o nome do grupo, mistura referências que vão de Lauro Maia aos Beatles; o título vem de um verso do agitador cultural Augusto Pontes. Comece por \"Inganzeiras\", que abre o disco falando de uma turma pronta para pegar a estrada, e siga até \"Terral\" e \"Cavalo Ferro\"."
+  ],
+  "fontes": [
+   {
+    "nome": "O Povo (50 anos do disco)",
+    "url": "https://mais.opovo.com.br/jornal/vidaearte/2023/06/25/meu-corpo-minha-embalagem-todo-gasto-na-viagem-disco-lancado-ha-50-anos-contempla-geracoes.html"
+   },
+   {
+    "nome": "Rádio Senado (Rodger Rogério)",
+    "url": "https://www12.senado.leg.br/radio/1/som-brasilis-1/2024/08/02/rodger-rogerio-ceara"
+   }
+  ]
+ },
+ "poema": {
+  "autor": "Olavo Bilac",
+  "titulo": "A um poeta",
+  "ficha": "De Tarde (1919)",
+  "texto": "Longe do estéril turbilhão da rua,\nBeneditino, escreve! No aconchego\nDo claustro, na paciência e no sossego,\nTrabalha, e teima, e lima, e sofre, e sua!\n\nMas que na forma se disfarce o emprego\nDo esforço; e a trama viva se construa\nDe tal modo, que a imagem fique nua,\nRica mas sóbria, como um templo grego.\n\nNão se mostre na fábrica o suplício\nDo mestre. E, natural, o efeito agrade,\nSem lembrar os andaimes do edifício:\n\nPorque a Beleza, gêmea da Verdade,\nArte pura, inimiga do artifício,\nÉ a força e a graça na simplicidade.",
+  "comentario": [
+   "Publicado no livro póstumo de Bilac, o soneto é uma receita de ofício: o poeta deve trabalhar, teimar, limar e suar, mas esconder do leitor os andaimes do edifício. Num dia em que o Senado discute quantas horas cabem numa semana de trabalho, o quarto verso, todo feito de verbos de esforço, lembra que todo trabalho tem um tempo que não aparece no resultado. A grafia foi atualizada."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikisource (A um poeta, de Tarde)",
+    "url": "https://pt.wikisource.org/wiki/A_um_poeta_(Olavo_Bilac)"
+   }
+  ]
+ },
+ "entender_brasil": {
+  "titulo": "Como se deve escrever a história do Brasil",
+  "autor": "Carl Friedrich Philipp von Martius · texto, 1845",
+  "texto": [
+   "Escrita para um concurso do Instituto Histórico e Geográfico Brasileiro sobre como escrever a história do país, e depois premiada, a dissertação do naturalista alemão von Martius, que havia percorrido o Brasil entre 1817 e 1820, saiu na Revista do IHGB, número 24, em 1845. Martius propôs que a história nacional fosse contada a partir da mistura de três povos, o indígena, o português e o africano, ideia que atravessaria o ensaísmo brasileiro por mais de um século. Como mostra a antropóloga Lilia Moritz Schwarcz, a proposta vinha acompanhada da aposta no \"branqueamento\" da população e da defesa da monarquia contra movimentos republicanos e separatistas, e por isso é lida hoje como a versão de base do mito da democracia racial. Ler o original ajuda a reconhecer de onde vêm muitas das frases feitas sobre a formação do país. O artigo de Schwarcz, com o contexto e citações do texto, está disponível gratuitamente na revista do instituto."
+  ],
+  "fontes": [
+   {
+    "nome": "Revista do IHGB (Lilia Moritz Schwarcz sobre o texto de Martius)",
+    "url": "https://rihgb.emnuvens.com.br/revista/article/download/309/220/884"
+   }
+  ]
+ },
+ "mercado": {
+  "texto": [
+   "A B3 reabre nesta terça (13) depois do feriado de segunda, e as referências seguem as de sexta (9), quando o Ibovespa fechou em 209.067 pontos, recorde, e o dólar caiu 0,78%, a R$ 4,985. No exterior, o petróleo Brent para dezembro subiu 1,84% na segunda, a US$ 106,65 o barril, com o tráfego no Estreito de Ormuz e no Mar Vermelho ainda prejudicado por ataques; o FMI cortou para 2,2% a projeção de crescimento do Brasil em 2026 e alertou para o risco de uma correção nas ações de inteligência artificial. Na quarta (14), o Senado pode votar em primeiro turno a PEC que acaba com a escala 6x1."
+  ],
+  "fontes": [
+   {
+    "nome": "Agência Brasil (fechamento de sexta)",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-498-e-acumula-perda-de-444-na-semana"
+   },
+   {
+    "nome": "Valor (petróleo)",
+    "url": "https://valor.globo.com/financas/noticia/2026/10/12/petroleo-fecha-em-alta-e-supera-us-106-com-tensoes-no-oriente-medio.ghtml"
+   },
+   {
+    "nome": "Folha (FMI)",
+    "url": "https://www1.folha.uol.com.br/mercado/2026/10/fmi-reduz-projecao-de-crescimento-do-brasil-mas-eleva-a-da-economia-global.shtml"
+   }
+  ]
+ },
+ "ibovespa": {
+  "painel": [
+   [
+    "Fechamento",
+    "209.067"
+   ],
+   [
+    "Dia",
+    "+1,38%"
+   ],
+   [
+    "Mês",
+    "+12,2%"
+   ],
+   [
+    "Ano",
+    "+29,8%"
+   ]
+  ],
+  "texto": [
+   "Fechamento de sexta (9); a B3 reabre nesta terça depois do feriado. Variações no mês e no ano calculadas pela redação."
+  ],
+  "fontes": [
+   {
+    "nome": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-498-e-acumula-perda-de-444-na-semana"
+   }
+  ]
+ },
+ "dolar": {
+  "painel": [
+   [
+    "Fechamento",
+    "R$ 4,99"
+   ],
+   [
+    "Dia",
+    "−0,78%"
+   ],
+   [
+    "Mês",
+    "−3,6%"
+   ],
+   [
+    "Ano",
+    "−9,2%"
+   ]
+  ],
+  "texto": [
+   "Dólar comercial a R$ 4,985 na sexta (9). Variação no ano segundo a Agência Brasil; no mês, calculada pela redação."
+  ],
+  "fontes": [
+   {
+    "nome": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-498-e-acumula-perda-de-444-na-semana"
+   }
+  ]
+ },
+ "bitcoin": {
+  "painel": [
+   [
+    "US$",
+    "83.480"
+   ],
+   [
+    "R$",
+    "416.324"
+   ],
+   [
+    "24h",
+    "0,0%"
+   ],
+   [
+    "7d / 30d",
+    "−2,9% / +8,7%"
+   ]
+  ],
+  "texto": [
+   "Estável em 24 horas e em queda de 2,9% em sete dias. Cotação às 6h15 de Brasília."
+  ],
+  "fontes": [
+   {
+    "nome": "CoinGecko",
+    "url": "https://www.coingecko.com/pt/moedas/bitcoin"
+   }
+  ]
+ },
+ "esporte": {
+  "titulo": "Bragantino goleia o Cruzeiro, que perde a chance de entrar no G-4; Palmeiras e Fluminense abrem na quarta a semifinal da Libertadores",
+  "texto": [
+   "Na segunda (12), pela 30ª rodada do Brasileirão, o Bragantino abriu 3 a 0 em 30 minutos e venceu o Cruzeiro por 4 a 2 em Bragança Paulista; o time mineiro, com 48 pontos, desperdiçou a chance de entrar no G-4. O Athletico goleou a lanterna Chapecoense por 4 a 1 na Arena Condá e reassumiu o terceiro lugar, com 53 pontos. Na quarta (14), às 21h30, Fluminense e Palmeiras fazem no Maracanã o jogo de ida da semifinal da Libertadores; a volta é em 21 de outubro, em São Paulo."
+  ],
+  "fontes": [
+   {
+    "nome": "ge (Bragantino x Cruzeiro)",
+    "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/10/13/analise-cruzeiro-escancara-descontrole-defensivo-e-oscilacao-perigosa-na-briga-pela-libertadores.ghtml"
+   },
+   {
+    "nome": "ge (Athletico)",
+    "url": "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/10/13/analise-athletico-cumpre-obrigacao-e-leva-alertas-de-goleada-sobre-lanterna.ghtml"
+   },
+   {
+    "nome": "Acessa (datas das semifinais)",
+    "url": "https://www.acessa.com/esporte/2026/09/340341-conmebol-anuncia-datas-e-horarios-das-semifinais-da-copa-libertadores.html"
+   }
+  ]
+ },
+ "tempo": {
+  "dia": "terça, 13",
+  "regioes": [
+   {
+    "regiao": "Norte",
+    "texto": "Muitas nuvens e chuva isolada no Amazonas, no Acre, em Rondônia, no Amapá e no nordeste do Pará, com avisos do Inmet para tempestade e baixa umidade em diferentes trechos; Tocantins e Roraima ficam mais secos. Máximas de 38 °C em Palmas, Boa Vista e Porto Velho, 35 °C em Manaus e Belém, e picos acima de 40 °C no interior do Tocantins e do Pará."
+   },
+   {
+    "regiao": "Nordeste",
+    "texto": "Predomínio de muitas nuvens e umidade baixa em trechos de todos os estados, com aviso do Inmet de baixa umidade até esta terça; o Sertão e o Matopiba seguem sem chuva, com máximas que podem chegar a 40 °C, como em Teresina. Nas capitais do litoral, máximas de 32 °C a 33 °C."
+   },
+   {
+    "regiao": "Centro-Oeste",
+    "texto": "Calor forte, com 38 °C em Cuiabá e até 42 °C em Canarana (MT), e 34 °C em Goiânia e Brasília; o Inmet mantém aviso de tempestade em partes de Mato Grosso e Mato Grosso do Sul, com alerta laranja no sudoeste sul-mato-grossense, e aviso de baixa umidade, entre 20% e 30%, em Goiás, no Distrito Federal e no norte de Mato Grosso."
+   },
+   {
+    "regiao": "Sudeste",
+    "texto": "Dia abafado com pancadas fortes à tarde em São Paulo, sob aviso amarelo do Inmet, e alerta laranja no Litoral Sul paulista e na região de Itapetininga; a capital paulista vai de 17 °C a 26 °C, com risco de alagamentos. Chuva isolada em Minas e no Espírito Santo; Belo Horizonte chega a 34 °C, com umidade perto de 30%."
+   },
+   {
+    "regiao": "Sul",
+    "texto": "Alerta laranja do Inmet para tempestade em quase todo o Paraná, no oeste, norte, Vale do Itajaí e Serra de Santa Catarina e no norte do Rio Grande do Sul, com até 100 mm no dia, ventos de até 100 km/h e granizo. Dia fresco: mínima de 10 °C em Porto Alegre e máxima de 20 °C em Curitiba."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "CNN Brasil (alerta laranja no Sul)",
+    "url": "https://www.cnnbrasil.com.br/nacional/sul/pr/inmet-emite-alerta-laranja-de-tempestade-para-regiao-sul-nesta-terca-feira/"
+   },
+   {
+    "nome": "Maurício Araya (Inmet, Norte)",
+    "url": "https://mauricioaraya.com/2026/10/12/o-tempo-e-a-temperatura-regiao-norte-tem-chuva-isolada-alerta-de-tempestade-e-aviso-de-baixa-umidade-na-terca-feira-13/"
+   },
+   {
+    "nome": "Imirante (Inmet, Nordeste)",
+    "url": "https://imirante.com/noticias/maranhao/2026/10/12/nordeste-muitas-nuvens-baixa-umidade-nesta-terca-13"
+   },
+   {
+    "nome": "Brasil em Destaque (Inmet, Centro-Oeste)",
+    "url": "https://www.brasilemdestaque.com.br/o-tempo-e-a-temperatura-pancadas-de-chuva-e-alertas-de-tempestade-e-baixa-umidade-atingem-o-centro-oeste-na-terca-feira-13/"
+   },
+   {
+    "nome": "CenárioMT (Mato Grosso)",
+    "url": "https://cenariomt.com.br/clima/calor-de-ate-42c-marca-mato-grosso-nesta-terca-feira-13"
+   },
+   {
+    "nome": "Folha (São Paulo e Sudeste)",
+    "url": "https://www1.folha.uol.com.br/cotidiano/2026/10/sao-paulo-seguira-com-chuvas-e-prefeitura-alerta-para-riscos-de-alagamento.shtml"
+   },
+   {
+    "nome": "O Tempo (Belo Horizonte)",
+    "url": "https://otempo.com.br/cidades/2026/10/13/bh-pode-ter-chuva-em-meio-a-calor-forte-nesta-terca-feira-veja-a-previsao"
+   }
+  ]
+ }
+}
