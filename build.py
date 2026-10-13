@@ -64,6 +64,13 @@ def mercado(nome, m):
 REG = ('<svg class="reg {lado}" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="5.5" '
        'fill="none" stroke="currentColor"/><path d="M10 0v20M0 10h20" stroke="currentColor"/></svg>')
 
+# Ícones do cabeçalho: sol na matutina, lua na noturna (traço na cor do texto)
+SOL = ('<svg class="icone-turno" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3" fill="none" '
+       'stroke="currentColor" stroke-width="1.3"/><path d="M8 1v2M8 13v2M1 8h2M13 8h2M3 3l1.4 1.4M11.6 11.6L13 13'
+       'M3 13l1.4-1.4M11.6 4.4L13 3" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>')
+LUA = ('<svg class="icone-turno" viewBox="0 0 16 16" aria-hidden="true"><path d="M13 10.2A5.5 5.5 0 0 1 5.8 3 5.5 5.5 0 1 0 13 10.2z" '
+       'fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>')
+
 def dia(slug):
     """'2026-09-30-noite' -> '2026-09-30'."""
     return slug[:10]
@@ -93,13 +100,13 @@ def navegacao(atual, arquivo):
     itens.append('<a href="edicoes/index.html">Todas as edições →</a>')
     return f'<nav class="nav-ed" aria-label="Outras edições">\n' + "\n".join(itens) + "\n</nav>"
 
-def cabeca(titulo, descricao, css):
+def cabeca(titulo, descricao, css, escuro=False):
     return f"""<!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR"{' class="noite"' if escuro else ''}>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="color-scheme" content="light">
+<meta name="color-scheme" content="{'dark' if escuro else 'light'}">
 <title>{e(titulo)}</title>
 <meta name="description" content="{e(descricao)}">
 <link rel="icon" type="image/svg+xml" href="https://prensaautomata.com/icone.svg">
@@ -274,11 +281,11 @@ def montar(ed, arquivo, slug):
     numero = e(str(ed.get("numero", "")))
     if noturna(slug):
         titulo = f"Prensa Autômata · Edição da noite · {data_extenso(ed['data'])}"
-        meta = f"<span>{e(data_extenso(ed['data']))}</span><span>Edição da noite</span><span>Noturna Nº {numero}</span>{ASSINAR_META}"
+        meta = f"<span>{e(data_extenso(ed['data']))}</span><span>Edição da noite</span><span>{LUA}Noturna Nº {numero}</span>{ASSINAR_META}"
     else:
         titulo = f"Prensa Autômata · {data_extenso(ed['data'])}"
-        meta = f"<span>{e(data_extenso(ed['data']))}</span><span>Matutina Nº {numero}</span>{ASSINAR_META}"
-    return f"""{cabeca(titulo, m['titulo'], css)}
+        meta = f"<span>{e(data_extenso(ed['data']))}</span><span>{SOL}Matutina Nº {numero}</span>{ASSINAR_META}"
+    return f"""{cabeca(titulo, m['titulo'], css, noturna(slug))}
 <body>
 <main>
 <header>
