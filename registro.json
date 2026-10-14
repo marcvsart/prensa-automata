@@ -64,6 +64,10 @@
     {
       "data": "2026-10-13",
       "item": "Ednardo, Rodger Rogério e Téti — Meu Corpo, Minha Embalagem, Todo Gasto na Viagem (1973)"
+    },
+    {
+      "data": "2026-10-14",
+      "item": "Alceu Valença e Geraldo Azevedo — Quadrafônico (1972)"
     }
   ],
   "poemas": [
@@ -130,6 +134,10 @@
     {
       "data": "2026-10-13",
       "item": "Olavo Bilac — A um poeta"
+    },
+    {
+      "data": "2026-10-14",
+      "item": "Cruz e Sousa — Sorriso interior"
     }
   ],
   "entender_brasil": [
@@ -252,6 +260,10 @@
     {
       "data": "2026-10-13",
       "item": "Carl Friedrich Philipp von Martius — Como se deve escrever a história do Brasil (texto)"
+    },
+    {
+      "data": "2026-10-14",
+      "item": "Tavares Bastos — A Província: estudo sobre a descentralização no Brasil (livro)"
     }
   ],
   "momento": [
@@ -378,8 +390,12 @@
     {
       "data": "2026-10-13",
       "item": "Edmund Burke — Discurso aos eleitores de Bristol (noite)"
+    },
+    {
+      "data": "2026-10-14",
+      "item": "Pierre Bourdieu — A opinião pública não existe"
     }
   ],
-  "tiragem": 15,
+  "tiragem": 16,
   "tiragem_noite": 15
 }
