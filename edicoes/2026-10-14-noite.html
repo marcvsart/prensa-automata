@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="pt-BR" class="noite">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>Prensa Autômata · Edição da noite · Quarta-feira, 14 de outubro de 2026</title>
+<meta name="description" content="Quaest: Flávio Bolsonaro tem 46% e Lula, 44%, na primeira pesquisa do segundo turno; os dois estão em empate técnico">
+<link rel="icon" type="image/svg+xml" href="https://prensaautomata.com/icone.svg">
+<link rel="apple-touch-icon" href="https://prensaautomata.com/apple-touch-icon.png">
+<meta property="og:site_name" content="Prensa Autômata">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Prensa Autômata · Edição da noite · Quarta-feira, 14 de outubro de 2026">
+<meta property="og:description" content="Quaest: Flávio Bolsonaro tem 46% e Lula, 44%, na primeira pesquisa do segundo turno; os dois estão em empate técnico">
+<meta property="og:image" content="https://prensaautomata.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="O arauto da Prensa Autômata, uma linotipo em pixel art azul, ao lado do nome do jornal.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Geist+Mono:wght@400;500&display=swap">
+<style>
+/* Prensa Autômata — tema claro azul, sóbrio (set/2026). A edição da noite usa o tema escuro (.noite), com as cores dos cards noturnos.
+   Fontes (no <head>):
+   https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Geist+Mono:wght@400;500&display=swap */
+:root{
+  --bg:#f6f8fb; --paper:#ffffff; --ink:#0f1a2c; --muted:#56627a; --rule:#d7deea; --grid:#e4eaf4;
+  --accent:#1e3a9e; --accent-soft:#1e3a9e0d;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --mono:"Geist Mono",ui-monospace,Menlo,monospace;
+  box-sizing:border-box;
+  color-scheme:light;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:18.5px/1.6 var(--serif);font-optical-sizing:auto;padding:28px 16px 64px;-webkit-font-smoothing:antialiased}
+main{max-width:720px;margin:0 auto;counter-reset:sec}
+::selection{background:var(--accent);color:#fff}
+a{color:var(--ink);text-decoration-color:var(--rule);text-underline-offset:3px;text-decoration-thickness:1px}
+a:hover{text-decoration-color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* masthead: chapa com grade de precisão e marcas de registro */
+header{position:relative;text-align:center;padding:34px 8px 16px;margin-bottom:12px;
+  border-top:1px solid var(--accent);border-bottom:1px solid var(--rule);
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:24px 24px;background-position:center -1px}
+header::before{content:"";position:absolute;left:0;right:0;top:3px;height:1px;background:var(--accent);opacity:.35}
+.reg{position:absolute;width:16px;height:16px;color:var(--accent);opacity:.6}
+.reg.l{top:12px;left:4px}.reg.r{top:12px;right:4px}
+.mast{margin:0;font-family:var(--serif);font-weight:500;font-size:clamp(2.8rem,11.5vw,5rem);line-height:.95;letter-spacing:-.03em;font-variation-settings:"opsz" 72;color:var(--ink)}
+.sub{margin:10px 0 14px;font:400 11px/1.4 var(--mono);letter-spacing:.22em;text-transform:uppercase;color:var(--accent)}
+.meta{display:flex;flex-wrap:wrap;justify-content:center;gap:2px 22px;margin:0;font:11.5px/1.5 var(--mono);letter-spacing:.03em;color:var(--muted)}
+.meta .icone-turno{display:inline-block;width:12px;height:12px;vertical-align:-1.5px;margin-right:6px}
+.meta>span{white-space:nowrap}
+.teste{font:11.5px/1.5 var(--mono);color:var(--accent);background:var(--accent-soft);border:1px solid var(--rule);padding:8px 12px;margin:14px 0 32px;text-align:center}
+
+/* seções: índice numerado e fio azul */
+section{padding-top:16px;margin-bottom:40px}
+section>h2{display:flex;align-items:baseline;gap:10px;margin:0 0 16px;counter-increment:sec;
+  font:500 11px/1.4 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+section>h2::before{content:counter(sec,decimal-leading-zero);color:var(--muted);letter-spacing:.04em}
+section>h2::after{content:"";flex:1;height:1px;background:var(--rule);transform:translateY(-3px)}
+h3{font-family:var(--serif);font-weight:500;font-size:1.6rem;line-height:1.16;letter-spacing:-.015em;font-variation-settings:"opsz" 48;margin:26px 0 6px;text-wrap:balance}
+section>h3:first-of-type{margin-top:2px}
+p{margin:0 0 12px}
+.src{font:11.5px/1.55 var(--mono);color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+
+/* manchete */
+.manchete{padding-top:6px}
+.manchete h3{font-weight:500;font-size:clamp(2.1rem,7.6vw,3.15rem);line-height:1.04;letter-spacing:-.028em;font-variation-settings:"opsz" 72;margin:0 0 16px}
+.manchete .lede{font-size:1.14rem;line-height:1.55}
+
+.leitura,.sp{background:var(--paper);border:1px solid var(--rule)}
+.leitura{padding:20px 20px 8px}
+.leitura h3{margin-top:0}
+.leitura .autor{font:12px/1.5 var(--mono);color:var(--muted);margin:0 0 12px}
+.sp{padding:12px 14px}
+
+/* giro pelo mundo */
+.giro{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:22px 28px}
+.giro h4{font:500 11px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink);margin:0 0 8px;padding-bottom:7px;border-bottom:1px solid var(--accent)}
+.giro ul{list-style:none;padding:0;margin:0}
+.giro li{font-size:.96rem;line-height:1.4;padding:8px 0;border-bottom:1px solid var(--rule)}
+.giro li:last-child{border-bottom:none}
+
+.album{margin-bottom:22px}
+.album h3{margin:0 0 2px;font-size:1.45rem}
+.album .y{font:11.5px/1.5 var(--mono);color:var(--muted);margin:0 0 8px}
+.poem{font-style:italic;white-space:pre-line;margin:10px 0 14px;padding-left:18px;border-left:1px solid var(--accent);line-height:1.6}
+
+.ticker{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:0 0 16px;font-variant-numeric:tabular-nums}
+.ticker div{border-top:1px solid var(--accent);padding-top:7px}
+.ticker b{display:block;font:500 1.12rem/1.25 var(--mono)}
+.ticker span{font:10.5px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+/* mercados: resumo + Ibovespa, dólar e bitcoin lado a lado */
+.resumo{margin:0 0 22px}
+.resumo p:not(.src){font-size:1.02rem}
+.mercados{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:26px 28px}
+.mercado h3{margin:0 0 10px;font-size:1.3rem}
+.mercado .ticker{display:block;margin:0 0 12px}
+.mercado .ticker div{display:flex;justify-content:space-between;align-items:baseline;gap:10px;border-top:1px solid var(--rule);padding:6px 0}
+.mercado .ticker div:first-child{border-top-color:var(--accent)}
+.mercado .ticker b{display:inline;font-size:.98rem}
+.mercado p:not(.src){font-size:.95rem;line-height:1.5}
+.aviso{margin-top:6px}
+.regioes{margin:0 0 16px;display:grid;gap:0}
+.regioes div{display:grid;grid-template-columns:7.5rem 1fr;gap:0 14px;padding:9px 0;border-bottom:1px solid var(--rule)}
+.regioes dt{font:500 12px/1.9 var(--mono);letter-spacing:.04em;color:var(--accent)}
+.regioes dd{margin:0;font-size:.98rem;line-height:1.5}
+
+footer{border-top:1px solid var(--accent);padding-top:12px;font:11.5px/1.65 var(--mono);color:var(--muted)}
+.arq{margin-top:40px}
+.arq ol{list-style:none;padding:0;margin:0;font:12.5px/1.6 var(--mono)}
+.arq li{border-bottom:1px solid var(--rule);padding:5px 0}
+.arq a{text-decoration:none}
+.arq section{margin:0 0 32px}
+.arq section>h2::before{content:none}
+.turnos{display:flex;gap:20px;margin:0 0 28px;font:500 12px/1.5 var(--mono);letter-spacing:.04em}
+.turnos a{color:var(--accent);text-decoration:none}
+.turno{margin:0 0 48px}
+.turno-t{font:500 1.6rem/1.2 var(--serif);letter-spacing:-.015em;margin:0 0 18px;padding-bottom:10px;border-bottom:1px solid var(--accent)}
+.arq li a{display:grid;grid-template-columns:9.5rem 3.5rem 1fr;gap:0 12px;align-items:baseline}
+.arq .d,.arq .n{color:var(--muted)}
+.arq .t{font:1rem/1.4 var(--serif);color:var(--ink)}
+.arq li a:hover .t{color:var(--accent)}
+.mais summary{cursor:pointer;list-style:none;display:inline-block;margin:0 0 24px;font:500 12px/1.5 var(--mono);letter-spacing:.04em;color:var(--accent)}
+.mais summary::-webkit-details-marker{display:none}
+.mais summary::before{content:"+ "}
+.mais[open] summary::before{content:"− "}
+.mais summary span{color:var(--muted)}
+.mast a{color:inherit;text-decoration:none}
+footer a{color:var(--muted)}
+footer a:hover{color:var(--accent)}
+
+/* sobre.html: arauto no topo, texto corrido e etapas em lista */
+.sobre{margin-top:28px}
+.arauto{margin:0 auto 28px;text-align:center}
+.arauto img{display:block;width:min(192px,48%);height:auto;margin:0 auto;image-rendering:pixelated}
+.sobre .intro{padding-top:0}
+.sobre .intro .lede{font-size:1.14rem;line-height:1.55}
+.etapas{margin:0;display:grid}
+.etapas div{display:grid;grid-template-columns:7.5rem 1fr;gap:0 14px;padding:10px 0;border-bottom:1px solid var(--rule)}
+.etapas div:first-child{border-top:1px solid var(--accent)}
+.etapas dt{font:500 12px/1.9 var(--mono);letter-spacing:.04em;text-transform:uppercase;color:var(--accent)}
+.etapas dd{margin:0;font-size:.98rem;line-height:1.5}
+.assina{font-style:italic;color:var(--muted);text-align:center;margin:8px 0 0}
+.nav-ed{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px;margin:40px 0 20px;padding:12px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);font:500 12px/1.5 var(--mono);letter-spacing:.04em}
+.nav-ed a{text-decoration:none;color:var(--accent)}
+.nav-ed a:last-child{margin-left:auto}
+.nav-ed a:only-child{margin-left:0}
+
+/* assinatura por email (Buttondown): link no cabeçalho e no pé, página assinar.html */
+.assinar-link{color:var(--accent);text-decoration:none}
+.assinar-link:hover{text-decoration:underline}
+.meta .assinar-link{white-space:nowrap}
+.assinar-pe{margin:32px 0 12px;text-align:center;font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase}
+.assinar{margin-top:36px}
+.assinar-t{font:500 clamp(1.9rem,6.5vw,2.6rem)/1.08 var(--serif);letter-spacing:-.02em;font-variation-settings:"opsz" 72;margin:0 0 14px;text-wrap:balance}
+.assinar .lede{font-size:1.14rem;line-height:1.55}
+.prensa-form{display:flex;flex-direction:column;gap:10px;box-sizing:border-box;max-width:480px;margin:28px auto;padding:20px;border:1px solid var(--rule);border-top:2px solid var(--ink);background:var(--paper);color:var(--ink);font:16px/1.4 var(--serif)}
+.prensa-form label{font:500 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.prensa-form__row{display:flex;flex-wrap:wrap;gap:8px}
+.prensa-form input[type="email"]{flex:1 1 220px;min-width:0;box-sizing:border-box;padding:10px 12px;border:1px solid var(--rule);border-radius:0;background:var(--bg);color:inherit;font:inherit}
+.prensa-form input[type="email"]:focus{outline:2px solid var(--accent);outline-offset:-1px;background:var(--paper)}
+.prensa-form input[type="submit"]{flex:0 0 auto;padding:10px 18px;border:0;border-radius:0;background:var(--accent);color:#fff;font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
+.prensa-form input[type="submit"]:hover{background:var(--ink)}
+.prensa-form p{margin:0;font:11px/1 var(--mono)}
+.prensa-form p a{color:var(--muted);text-decoration:none}
+
+/* Edição da noite: tema escuro, mesmas cores dos cards noturnos */
+.noite{--bg:#0b111c;--paper:#111a2a;--ink:#e4e9f2;--muted:#95a1b7;--rule:#243149;--grid:#152036;--accent:#8fa9f2;--accent-soft:#8fa9f214;color-scheme:dark}
+.noite ::selection{color:#0b111c}
+.noite .prensa-form input[type="submit"]{color:#0b111c}
+
+@media (max-width:480px){body{font-size:17.5px}.reg{display:none}.regioes div,.etapas div{grid-template-columns:1fr}.arq li a{grid-template-columns:auto 1fr}.arq .t{grid-column:1/-1}}
+
+@media print{
+  :root{--bg:#fff;--paper:#fff;--ink:#000;--muted:#333;--rule:#bbb;--grid:#fff}
+  body{padding:0;font-size:11pt}
+  header{background:none}
+  section,.leitura,.album{break-inside:avoid-page}
+  a{text-decoration:none}
+  .assinar-link,.assinar-pe{display:none}
+}
+
+</style>
+<script data-goatcounter="https://prensaautomata.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</head>
+<body>
+<main>
+<header>
+  <svg class="reg l" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="5.5" fill="none" stroke="currentColor"/><path d="M10 0v20M0 10h20" stroke="currentColor"/></svg>
+  <svg class="reg r" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="5.5" fill="none" stroke="currentColor"/><path d="M10 0v20M0 10h20" stroke="currentColor"/></svg>
+  <h1 class="mast"><a href="../">Prensa Autômata</a></h1>
+  <p class="sub">jornal diário produzido por IA</p>
+  <p class="meta"><span>Quarta-feira, 14 de outubro de 2026</span><span>Edição da noite</span><span><svg class="icone-turno" viewBox="0 0 16 16" aria-hidden="true"><path d="M13 10.2A5.5 5.5 0 0 1 5.8 3 5.5 5.5 0 1 0 13 10.2z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>Noturna Nº 16</span><span><a href="../assinar.html" class="assinar-link">Receba a Prensa por email →</a></span></p>
+</header>
+
+
+<section id="manchete" class="manchete">
+<h3>Quaest: Flávio Bolsonaro tem 46% e Lula, 44%, na primeira pesquisa do segundo turno; os dois estão em empate técnico</h3>
+<p class="lede">A primeira pesquisa Quaest do segundo turno presidencial, divulgada nesta quarta-feira (14) e contratada pela Globo e por O Globo, mostra Flávio Bolsonaro (PL) com 46% das intenções de voto e Lula (PT) com 44%; como a margem de erro é de dois pontos percentuais, para mais ou para menos, os dois estão em empate técnico. Brancos, nulos e quem diz que não vai votar somam 9%, e indecisos, 1%; para 91% dos entrevistados a escolha é definitiva, e 9% dizem que ainda podem mudar. Na pergunta espontânea, sem a lista de nomes, Flávio tem 43% e Lula, 42%. A mesma rodada mostra 48% de desaprovação ao governo Lula e 45% de aprovação, ante 49% e 44% no levantamento anterior do instituto. A Quaest ouviu 2.154 eleitores de 16 anos ou mais, em entrevistas presenciais, de 10 a 13 de outubro, com nível de confiança de 95%, e a pesquisa está registrada no TSE sob o número BR-08729/2026. No primeiro turno, Flávio teve 47,03% dos votos válidos e Lula, 45,16%; o Datafolha divulga sua rodada nesta quinta (15), e o segundo turno é em 25 de outubro.</p>
+<p class="src"><a href="https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/14/quaest-presidente-14-outubro.ghtml">g1 (intenção de voto)</a> · <a href="https://www.cnnbrasil.com.br/eleicoes/quaest-flavio-tem-46-no-2o-turno-lula-44/">CNN Brasil</a> · <a href="https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/14/quaest-48percent-desaprovam-governo-lula-e-45percent-aprovam.ghtml">g1 (avaliação do governo)</a></p>
+</section>
+
+<section id="brasil">
+<h2>Brasil</h2>
+<h3>Senado debate o fim da escala 6x1 em plenário, e Alcolumbre prevê votar os dois turnos da PEC ainda nesta quarta</h3>
+<p>O Senado fez nesta quarta a quinta e última sessão de discussão da PEC 221/2019, que reduz a jornada máxima de 44 para 40 horas semanais, com duas folgas por semana; ao anunciar a votação em primeiro turno, o presidente da Casa, Davi Alcolumbre (União-AP), disse que a mudança é &quot;gigantesca&quot; para quem pega ônibus lotado e que cada senador votará &quot;com a sua consciência&quot;, mas evitou estimar o placar. No fim da tarde, segundo o g1, 21 senadores haviam se inscrito para discursar, e a votação ainda não tinha começado; a PEC precisa de 49 dos 81 votos em cada turno. O ministro das Relações Institucionais, José Guimarães, disse que a regulamentação será feita por lei complementar e que não haverá compensação.</p>
+<p class="src"><a href="https://www12.senado.leg.br/noticias/materias/2026/10/14/davi-destaca-compromisso-e-espirito-publico-na-votacao-do-fim-da-escala-6x1">Agência Senado</a> · <a href="https://g1.globo.com/politica/noticia/2026/10/14/fim-da-6x1-alcolumbre-diz-que-senado-deve-votar-dois-turnos-nesta-quarta-mas-evita-palpite-sobre-placar-ultima-vez-deu-problema.ghtml">g1 (Alcolumbre e o placar)</a> · <a href="https://g1.globo.com/trabalho-e-carreira/ao-vivo/senado-pec-fim-escalada-6x1.ghtml">g1 (ao vivo)</a></p>
+
+<h3>CCJ conclui a PEC da Segurança, que segue ao plenário; oposição propõe incluir a redução da maioridade penal</h3>
+<p>A Comissão de Constituição e Justiça do Senado concluiu nesta quarta a votação da PEC 18/2025, que põe na Constituição o Sistema Único de Segurança Pública e endurece o regime penal para líderes e integrantes de facções e milícias; o presidente da comissão, Otto Alencar (PSD-BA), disse que a discussão em plenário pode começar já nesta quinta (15), depois da PEC da 6x1. O PL e outros partidos de oposição apresentaram emenda, de Rogério Marinho (PL-RN) e assinada por Flávio Bolsonaro, que reduz a maioridade penal para 16 anos na maior parte dos crimes e para 14 em crimes hediondos, tráfico e terrorismo; Flávio disse que a medida serve para &quot;aprimorar&quot; o texto, que originalmente não trata de idade penal.</p>
+<p class="src"><a href="https://www12.senado.leg.br/noticias/materias/2026/10/14/ccj-conclui-votacao-da-pec-da-seguranca-texto-vai-ao-plenario">Agência Senado</a> · <a href="https://g1.globo.com/politica/noticia/2026/10/14/flavio-bolsonaro-e-aliados-querem-incluir-reducao-da-maioridade-penal-em-pec-da-seguranca-publica.ghtml">g1 (emenda da oposição)</a></p>
+
+<h3>Flávio volta atrás e diz que irá ao debate de domingo, depois de Lula confirmar presença</h3>
+<p>Menos de 24 horas depois de dizer, em evento do MDB em São Paulo, que faltaria ao debate entre presidenciáveis marcado para domingo (18), Flávio Bolsonaro publicou um vídeo nesta quarta afirmando que vai participar: &quot;Bastou eu falar que não ia no debate, para você, no minuto seguinte, falar que vai&quot;, disse, dirigindo-se a Lula, que já havia confirmado presença nas redes. Na terça, Flávio também disse que avaliaria se iria ao debate da TV Globo, marcado para 23 de outubro, dois dias antes do segundo turno.</p>
+<p class="src"><a href="https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/14/apos-dizer-que-nao-iria-a-debate-flavio-bolsonaro-publica-video-afirmando-que-participara-no-domingo.ghtml">g1</a></p>
+</section>
+
+<section id="leitura">
+<h2>Para entender o momento</h2>
+<div class="leitura">
+<h3>O direito à preguiça</h3>
+<p class="autor">Paul Lafargue · 1883</p>
+<p>No dia em que o Senado discute reduzir a jornada máxima de 44 para 40 horas, vale voltar a um panfleto de pouco mais de cinquenta páginas que, há quase um século e meio, atacou de frente a ideia de que trabalhar mais é sempre virtude. Paul Lafargue, militante socialista nascido em Santiago de Cuba e genro de Karl Marx, publicou a primeira versão do texto no semanário L&#x27;Égalité em 1880 e o reeditou, com notas, em 1883, enquanto cumpria pena na prisão parisiense de Sainte-Pélagie.</p>
+<p>O argumento central é que uma &quot;estranha loucura&quot; tomou as classes operárias das nações industrializadas: o amor ao trabalho, levado até o esgotamento. Lafargue lembra, com ironia, que os operários franceses chegaram a celebrar como conquista a lei que limitou o trabalho nas fábricas a doze horas, e sustenta que, com as máquinas, a jornada longa produz superprodução e crises em vez de bem-estar. Sua proposta, em tom de provocação, é que a lei proíba trabalhar mais de três horas por dia.</p>
+<p>O texto não é um estudo econômico, e muitas de suas previsões não se confirmaram; o interesse está em mostrar que a duração da jornada sempre foi uma escolha política, discutida como valor moral e não só como cálculo de produtividade. Os mesmos termos aparecem no debate de hoje: de um lado, quem fala em tempo para a família, a saúde e o descanso; de outro, quem pergunta pelos efeitos sobre custos, empregos e setores da economia. Ler Lafargue ajuda a perceber há quanto tempo essas duas linguagens se enfrentam.</p>
+<p>O panfleto tem quatro capítulos curtos e um apêndice; o primeiro, &quot;Um dogma desastroso&quot;, resume o argumento e pode ser lido em poucos minutos. A tradução em português de J. Teixeira Coelho Netto está disponível gratuitamente no Marxists Internet Archive.</p>
+<p class="src"><a href="https://www.marxists.org/portugues/lafargue/1883/preg/index.htm">Marxists Internet Archive (íntegra em português)</a></p>
+</div>
+</section>
+
+<section id="mundo">
+<h2>Mundo</h2>
+<h3>Ucrânia acusa SpaceX e EUA de restringir o Starlink usado por seus drones, e Zelensky diz se sentir traído por Trump</h3>
+<p>As Forças Armadas da Ucrânia relataram que, na madrugada desta quarta (14), sem aviso, o sistema de satélites Starlink, da SpaceX de Elon Musk, deixou de funcionar para terminais em movimento acima de cerca de 160 km/h, o que, segundo autoridades ucranianas, inutilizou a maior parte dos drones usados para atacar atrás da linha de frente e interceptar drones russos. Em visita a Londres, o presidente Volodymyr Zelensky disse que se sente traído por Donald Trump e que a decisão &quot;vai trazer muitas perdas humanas&quot;; Trump negou ter cortado o compartilhamento de inteligência com Kiev. A restrição ocorreu depois da segunda noite seguida de ataques russos com mísseis balísticos contra Kiev, que mataram ao menos nove pessoas, e o chanceler da Polônia, país que paga as assinaturas do Starlink usadas pela Ucrânia, questionou Musk publicamente nas redes.</p>
+<p class="src"><a href="https://www.theguardian.com/world/2026/oct/14/volodymyr-zelenskyy-feels-betrayed-by-donald-trump-over-starlink-access">The Guardian</a> · <a href="https://www.aljazeera.com/news/2026/10/14/ukraine-accuses-elon-musks-spacex-of-throttling-starlink-terminals">Al Jazeera</a></p>
+</section>
+
+<section id="ia">
+<h2>Inteligência artificial</h2>
+<h3>Meta AI no WhatsApp gerou imagem de campanha de Flávio e recusou a de Lula; campanha do petista vai ao TSE</h3>
+<p>Testes do g1 nesta quarta mostraram que a Meta AI no WhatsApp criava imagem de campanha a partir do pedido &quot;Flávio 22&quot;, mas relutava com &quot;Lula 13&quot; e recusava quando o sobrenome Bolsonaro era incluído; no site do assistente, os pedidos para os dois candidatos foram recusados. A Meta disse que proibiu temporariamente a geração de imagens de candidatos para cumprir as regras eleitorais e ampliou o bloqueio a pedidos com primeiro nome e número, mas usuários ainda conseguiam gerar imagens à tarde; resolução do TSE de 2026 proíbe favorecimento eleitoral em respostas automatizadas. A campanha de Lula acionou o TSE afirmando que o algoritmo da Meta é &quot;enviesado&quot; a favor de Flávio, e o caso está com o ministro Marco Aurélio Bellizze.</p>
+<p class="src"><a href="https://g1.globo.com/tecnologia/noticia/2026/10/14/ia-da-meta-no-whatsapp-reluta-em-criar-imagem-de-campanha-de-lula-mas-aceita-pedidos-para-flavio.ghtml">g1</a> · <a href="https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/campanha-de-lula-vai-ao-tse-apos-ia-da-meta-restringir-buscas">Agência Brasil</a></p>
+</section>
+
+<section id="giro">
+<h2>Giro pelo mundo</h2>
+<div class="giro">
+<div>
+<h4>América do Sul</h4>
+<ul>
+<li><a href="https://www.aljazeera.com/news/2026/10/14/colombia-inaugurates-embassy-to-israel-in-jerusalem">Colômbia inaugura embaixada em Jerusalém, em guinada do governo de Abelardo de la Espriella</a></li>
+</ul>
+</div>
+<div>
+<h4>América do Norte e Central</h4>
+<ul>
+<li><a href="https://www.bbc.com/news/articles/cwy8lx3pg4k2o">Inflação nos EUA sobe para 3,7% em 12 meses, acima do previsto, puxada pela gasolina</a></li>
+</ul>
+</div>
+<div>
+<h4>África</h4>
+<ul>
+<li><a href="https://www.aljazeera.com/news/2026/10/14/kenyas-health-ministry-confirms-second-ebola-case">Quênia confirma segundo caso de ebola, parente do primeiro paciente</a></li>
+</ul>
+</div>
+<div>
+<h4>Europa</h4>
+<ul>
+<li><a href="https://www.bbc.com/news/articles/crx23y3d970vo">Polícia da Turquia faz operação na Halk TV, emissora ligada à oposição, e governo nomeia interventor</a></li>
+</ul>
+</div>
+<div>
+<h4>Oriente Médio</h4>
+<ul>
+<li><a href="https://www.bbc.com/news/articles/crkg7q97z078o">Navio porta-contêineres de Singapura atingido por projétil afunda no Estreito de Ormuz; tripulação foi retirada</a></li>
+</ul>
+</div>
+<div>
+<h4>Ásia</h4>
+<ul>
+<li><a href="https://www.theguardian.com/world/2026/oct/14/leaders-of-indias-cockroach-party-jailed-for-violating-ban-on-protest-site">Índia prende por cinco dias líderes do movimento jovem Cockroach por protesto em área proibida de Délhi</a></li>
+</ul>
+</div>
+</div>
+</section>
+
+<nav class="nav-ed" aria-label="Outras edições">
+<a href="2026-10-14.html">← Edição da manhã</a>
+<a href="../" class="recente">Edição mais recente</a>
+<a href="index.html">Todas as edições →</a>
+</nav>
+
+<p class="assinar-pe"><a href="../assinar.html" class="assinar-link">Receba a Prensa por email →</a></p>
+<footer>
+  Prensa Autômata · jornal diário produzido por IA · os textos são resumos com link para as fontes originais; erros podem acontecer, confira sempre a fonte. · <a href="../sobre.html">Sobre a Prensa</a>
+</footer>
+</main>
+</body>
+</html>
