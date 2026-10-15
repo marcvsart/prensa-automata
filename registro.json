@@ -68,6 +68,10 @@
     {
       "data": "2026-10-14",
       "item": "Alceu Valença e Geraldo Azevedo — Quadrafônico (1972)"
+    },
+    {
+      "data": "2026-10-15",
+      "item": "Pedro Santos — Krishnanda (1968)"
     }
   ],
   "poemas": [
@@ -138,6 +142,10 @@
     {
       "data": "2026-10-14",
       "item": "Cruz e Sousa — Sorriso interior"
+    },
+    {
+      "data": "2026-10-15",
+      "item": "Raimundo Correia — O vinho de Hebe"
     }
   ],
   "entender_brasil": [
@@ -264,6 +272,10 @@
     {
       "data": "2026-10-14",
       "item": "Tavares Bastos — A Província: estudo sobre a descentralização no Brasil (livro)"
+    },
+    {
+      "data": "2026-10-15",
+      "item": "Monteiro Lobato — A propósito da exposição Malfatti (Paranoia ou mistificação?) (texto)"
     }
   ],
   "momento": [
@@ -398,8 +410,12 @@
     {
       "data": "2026-10-14",
       "item": "Paul Lafargue — O direito à preguiça (noite)"
+    },
+    {
+      "data": "2026-10-15",
+      "item": "Luiz Eduardo Soares — Desmilitarizar: segurança pública e direitos humanos"
     }
   ],
-  "tiragem": 16,
+  "tiragem": 17,
   "tiragem_noite": 16
 }
