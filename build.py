@@ -85,6 +85,13 @@ def dia(slug):
 def noturna(slug):
     return slug.endswith("-noite")
 
+# Edição especial de domingo (manhã), com a paleta quente, a partir desta data.
+DOMINGO_DESDE = "2026-10-18"
+
+def especial_domingo(slug):
+    return (not noturna(slug) and slug >= DOMINGO_DESDE
+            and date.fromisoformat(slug[:10]).weekday() == 6)
+
 RECENTE = '<a href="./" class="recente">Edição mais recente</a>'
 
 def navegacao(atual, arquivo):
@@ -107,9 +114,10 @@ def navegacao(atual, arquivo):
     itens.append('<a href="edicoes/index.html">Todas as edições →</a>')
     return f'<nav class="nav-ed" aria-label="Outras edições">\n' + "\n".join(itens) + "\n</nav>"
 
-def cabeca(titulo, descricao, css, escuro=False):
+def cabeca(titulo, descricao, css, escuro=False, domingo=False):
+    classe = ' class="noite"' if escuro else (' class="domingo"' if domingo else '')
     return f"""<!doctype html>
-<html lang="pt-BR"{' class="noite"' if escuro else ''}>
+<html lang="pt-BR"{classe}>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -300,10 +308,13 @@ def montar(ed, arquivo, slug):
     if noturna(slug):
         titulo = f"Prensa Autômata · Edição da noite · {data_extenso(ed['data'])}"
         meta = f"<span>{e(data_extenso(ed['data']))}</span><span>Edição da noite</span><span>{LUA}Noturna Nº {numero}</span>{ASSINAR_META}"
+    elif especial_domingo(slug):
+        titulo = f"Prensa Autômata · Edição especial de domingo · {data_extenso(ed['data'])}"
+        meta = f"<span>{e(data_extenso(ed['data']))}</span><span class='especial'>Edição especial de domingo</span><span>{SOL}Matutina Nº {numero}</span>{ASSINAR_META}"
     else:
         titulo = f"Prensa Autômata · {data_extenso(ed['data'])}"
         meta = f"<span>{e(data_extenso(ed['data']))}</span><span>{SOL}Matutina Nº {numero}</span>{ASSINAR_META}"
-    return f"""{cabeca(titulo, m['titulo'], css, noturna(slug))}
+    return f"""{cabeca(titulo, m['titulo'], css, noturna(slug), especial_domingo(slug))}
 <body>
 <main>
 <header>
@@ -356,7 +367,7 @@ def pagina_sobre(css):
 
 <section id="edicoes">
 <h2>Duas edições</h2>
-<p>A edição da manhã traz as notícias do Brasil e do mundo, um giro pelo país, inteligência artificial, ciência, mercados, esporte, previsão do tempo, uma leitura para entender o momento e, a cada dia, uma sugestão cultural: um disco, um poema, um filme, um estudo sobre tecnologia ou um livro. Aos domingos, as Leituras da semana revisitam essas sugestões, e um texto seminal ajuda a entender o Brasil. A edição da noite é mais curta, com notícias enxutas e uma leitura aprofundada.</p>
+<p>A edição da manhã traz as notícias do Brasil e do mundo, um giro pelo país, inteligência artificial, ciência, mercados, esporte, previsão do tempo, uma leitura para entender o momento e, a cada dia, uma sugestão cultural: um disco, um poema, um filme, um estudo sobre tecnologia ou um livro. Aos domingos, numa edição especial, as Leituras da semana revisitam essas sugestões, e um texto seminal ajuda a entender o Brasil. A edição da noite é mais curta, com notícias enxutas e uma leitura aprofundada.</p>
 </section>
 
 <section id="limites">

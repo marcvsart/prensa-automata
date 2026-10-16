@@ -2,19 +2,23 @@
 # Uso: python3 scripts/gerar_animacao.py /tmp/animacao.json   (rode na raiz do repositório)
 # Formato do JSON: veja scripts/exemplo-animacao.json (Noturna Nº 10, 8 out 2026).
 # Gera saida-animacao/<slug>.mp4 (1080x1920, 9:16, 30 fps, H.264) e <slug>-quadros.jpg (folha de conferência).
-# Tema escuro se o slug terminar em "-noite"; claro nos demais.
-import json, html, sys, pathlib, subprocess, shutil, re
+# Tema escuro se o slug terminar em "-noite"; quente (papel e terracota) na edição especial de domingo da manhã; claro nos demais.
+import json, html, sys, pathlib, subprocess, shutil, re, datetime
 from playwright.sync_api import sync_playwright
 
 W, H, FPS = 1080, 1920, 30
 c = json.load(open(sys.argv[1]))
 noturna = c["slug"].endswith("-noite")
+domingo = (not noturna and c["slug"][:10] >= "2026-10-18"       # mesma data de estreia do build.py
+           and datetime.date.fromisoformat(c["slug"][:10]).weekday() == 6)
 e = html.escape
 svg = pathlib.Path("icone.svg").read_text()
-svg_claro = svg.replace('fill="#0f1a2c"', 'fill="#e4e9f2"')
+if domingo: svg = svg.replace('fill="#0f1a2c"', 'fill="#2a1f17"')
+svg_claro = svg.replace('fill="#2a1f17"' if domingo else 'fill="#0f1a2c"', 'fill="#fbf7ef"' if domingo else 'fill="#e4e9f2"')
 ICONE = svg_claro if noturna else svg            # ícone sobre o fundo
 ICONE_PLACA = svg if noturna else svg_claro       # ícone sobre a placa azul
-CORES = ("--bg:#0b111c;--ink:#e4e9f2;--azul:#8fa9f2;--cinza:#95a1b7;--filete:#243149;--papel:#121a2a;--sombra:rgba(5,8,14,.85)" if noturna
+CORES = ("--bg:#f4ede1;--ink:#2a1f17;--azul:#b4532a;--cinza:#7a6a5c;--filete:#e2d6c3;--papel:#fbf7ef;--sombra:rgba(42,31,23,.12)" if domingo else
+         "--bg:#0b111c;--ink:#e4e9f2;--azul:#8fa9f2;--cinza:#95a1b7;--filete:#243149;--papel:#121a2a;--sombra:rgba(5,8,14,.85)" if noturna
          else "--bg:#f6f8fb;--ink:#0f1a2c;--azul:#1e3a9e;--cinza:#56627a;--filete:#d7deea;--papel:#ffffff;--sombra:rgba(15,26,44,.10)")
 
 def nwords(s): return len(re.sub(r"<[^>]+>", " ", s).split())
@@ -90,7 +94,7 @@ marca = "".join(f'<span class="letra" data-d="{0.45+i*0.035:.3f}">{ch if ch != "
 # abertura sem palavra-fantasma: o contorno da serifa mostra linhas internas atrás da marca
 cenas = [dict(placa="", fantasma="", dur=3.6, html=f'''<div class="abre"><div class="in icone-g" data-d="0.1" data-k="pop">{ICONE}</div><div class="marca">{marca}</div>
  <div class="linha draw" data-d="1.1"></div><div class="in sub" data-d="1.3">{e(ab["edicao"])} Nº {cnt(ab["numero"], 1.3, 0.9)}</div>
- <div class="typ meta2" data-d="1.5" data-txt="{e(ab["data"])}" data-vel="1.7"></div></div>''')]
+ <div class="typ meta2" data-d="1.5" data-txt="{e(ab["data"])}" data-vel="1.7"></div>{'<div class="in sub" data-d="2.4">Edição especial de domingo</div>' if domingo else ''}</div>''')]
 for s in c["cenas"] + [dict(c["fecho"], fecho=True)]:
     d = 0.45; h = f'<div class="rotulo typ" data-d="0.35" data-txt="{e(s["rotulo"])}"></div>'
     palavras = nwords(s["rotulo"])
@@ -226,7 +230,7 @@ render(0);""".replace("@DUR@", str(DUR))
 FONTES = '<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Geist+Mono:wght@400;500&display=block" rel="stylesheet">'
 PAGE = (f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">{FONTES}<style>{CSS}</style></head><body><div id="retic"></div><div id="vinheta"></div>'
         f'<div class="topo" id="topo">{ICONE}<div><div class="nome">Prensa Autômata</div><div class="meta">{e(c["meta"])}</div></div></div>{"".join(secs)}'
-        f'<div class="pe" id="pe"><div class="segs">{"".join(segs)}</div><div class="rod"><span>prensaautomata.com</span><span>{"Edição da noite" if noturna else "Edição da manhã"}</span></div></div>'
+        f'<div class="pe" id="pe"><div class="segs">{"".join(segs)}</div><div class="rod"><span>prensaautomata.com</span><span>{"Edição da noite" if noturna else "Edição especial de domingo" if domingo else "Edição da manhã"}</span></div></div>'
         f'<div class="placa" id="placa2"></div><div class="placa" id="placa">{ICONE_PLACA}<div id="placa-txt"></div></div><script>{JS}</script></body></html>')
 
 saida = pathlib.Path("saida-animacao"); saida.mkdir(exist_ok=True)

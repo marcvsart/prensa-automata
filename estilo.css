@@ -157,6 +157,9 @@ footer a:hover{color:var(--accent)}
 .noite{--bg:#0b111c;--paper:#111a2a;--ink:#e4e9f2;--muted:#95a1b7;--rule:#243149;--grid:#152036;--accent:#8fa9f2;--accent-soft:#8fa9f214;color-scheme:dark}
 .noite ::selection{color:#0b111c}
 .noite .prensa-form input[type="submit"]{color:#0b111c}
+/* Edição especial de domingo (manhã): paleta quente, papel creme e terracota */
+.domingo{--bg:#f4ede1;--paper:#fbf7ef;--ink:#2a1f17;--muted:#7a6a5c;--rule:#e2d6c3;--grid:#ebe1d0;--accent:#b4532a;--accent-soft:#b4532a12}
+.domingo .meta .especial{color:var(--accent)}
 
 @media (max-width:480px){body{font-size:17.5px}.reg{display:none}.regioes div,.etapas div{grid-template-columns:1fr}.arq li a{grid-template-columns:auto 1fr}.arq .t{grid-column:1/-1}}
 
