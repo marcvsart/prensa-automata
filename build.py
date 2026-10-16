@@ -66,7 +66,7 @@ def ticker(painel):
 
 def mercado(nome, m):
     return (f'<div class="mercado">\n<h3>{e(nome)}</h3>\n{ticker(m["painel"])}\n'
-            f'{paragrafos(m["texto"])}\n{fontes(m.get("fontes"))}\n</div>')
+            f'{paragrafos(m.get("texto", ""))}\n{fontes(m.get("fontes"))}\n</div>')
 
 REG = ('<svg class="reg {lado}" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="5.5" '
        'fill="none" stroke="currentColor"/><path d="M10 0v20M0 10h20" stroke="currentColor"/></svg>')
@@ -356,7 +356,7 @@ def pagina_sobre(css):
 
 <section id="edicoes">
 <h2>Duas edições</h2>
-<p>A edição da manhã traz as notícias do Brasil e do mundo, um giro pelo país, inteligência artificial, ciência, mercados, esporte, previsão do tempo, indicações de leitura para entender o país e, a cada dia, uma sugestão cultural: um disco, um poema, um filme, um estudo sobre tecnologia ou um livro. Aos domingos, as Leituras da semana revisitam essas sugestões. A edição da noite é mais curta, com notícias enxutas e uma leitura aprofundada.</p>
+<p>A edição da manhã traz as notícias do Brasil e do mundo, um giro pelo país, inteligência artificial, ciência, mercados, esporte, previsão do tempo, uma leitura para entender o momento e, a cada dia, uma sugestão cultural: um disco, um poema, um filme, um estudo sobre tecnologia ou um livro. Aos domingos, as Leituras da semana revisitam essas sugestões, e um texto seminal ajuda a entender o Brasil. A edição da noite é mais curta, com notícias enxutas e uma leitura aprofundada.</p>
 </section>
 
 <section id="limites">
