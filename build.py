@@ -53,13 +53,20 @@ def leitura(l):
     return (f'<div class="leitura">\n<h3>{e(l["titulo"])}</h3>\n'
             f'<p class="autor">{e(l["autor"])}</p>\n{paragrafos(l["texto"])}\n{fontes(l.get("fontes"))}\n</div>')
 
+def obra(o, autor_chave):
+    """Item cultural do dia (disco, filme, estudo, livro): "Autor — Título", ficha, texto e fontes."""
+    return (f'<div class="album">\n<h3>{e(o[autor_chave])} — {e(o["titulo"])}</h3>\n'
+            f'<p class="y">{e(o["ficha"])}</p>\n{paragrafos(o["texto"])}\n{fontes(o.get("fontes"))}\n</div>')
+
+SEMANA_ABRE = "Revisitamos, no domingo, as sugestões culturais da Prensa da semana."
+
 def ticker(painel):
     celulas = "\n".join(f"<div><span>{e(k)}</span><b>{e(v)}</b></div>" for k, v in painel)
     return f'<div class="ticker">\n{celulas}\n</div>'
 
 def mercado(nome, m):
     return (f'<div class="mercado">\n<h3>{e(nome)}</h3>\n{ticker(m["painel"])}\n'
-            f'{paragrafos(m["texto"])}\n{fontes(m.get("fontes"))}\n</div>')
+            f'{paragrafos(m.get("texto", ""))}\n{fontes(m.get("fontes"))}\n</div>')
 
 REG = ('<svg class="reg {lado}" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="5.5" '
        'fill="none" stroke="currentColor"/><path d="M10 0v20M0 10h20" stroke="currentColor"/></svg>')
@@ -221,6 +228,16 @@ def montar(ed, arquivo, slug):
         "manchete"))
 
     partes.append(secao("brasil", "Brasil", "\n\n".join(noticia(n) for n in ed["brasil"])))
+    if ed.get("giro_brasil"):
+        itens = "\n".join(f'<li><span class="lugar">{e(i["lugar"])}</span><a href="{e(i["url"], quote=True)}">{e(i["titulo"])}</a></li>'
+                          for i in ed["giro_brasil"])
+        partes.append(secao("giro-brasil", "Giro pelo Brasil", f'<div class="giro giro-br">\n<ul>\n{itens}\n</ul>\n</div>'))
+    if ed.get("semana"):
+        blocos = "\n".join(f'<div class="album">\n<p class="y">{e(i["dia"])} · {e(i["tipo"])}</p>\n<h3>{e(i["titulo"])}</h3>\n'
+                           f'{paragrafos(i["texto"])}\n{fontes(i.get("fontes"))}\n'
+                           + (f'<p class="src"><a href="edicoes/{e(i["data"], quote=True)}.html">Ler na edição de {e(i["dia"].lower())} →</a></p>\n' if i.get("data") else "")
+                           + '</div>' for i in ed["semana"]["itens"])
+        partes.append(secao("semana", "Leituras da semana", f'<p class="lede">{e(SEMANA_ABRE)}</p>\n{blocos}'))
     if "momento" in ed:
         partes.append(secao("leitura", "Para entender o momento", leitura(ed["momento"])))
     if "mundo" in ed:
@@ -239,16 +256,17 @@ def montar(ed, arquivo, slug):
         partes.append(secao("ciencia", "Ciência", noticia(ed["ciencia"])))
 
     if "disco" in ed:
-        d = ed["disco"]
-        partes.append(secao("disco", "Um disco",
-            f'<div class="album">\n<h3>{e(d["artista"])} — {e(d["titulo"])}</h3>\n'
-            f'<p class="y">{e(d["ficha"])}</p>\n{paragrafos(d["texto"])}\n{fontes(d.get("fontes"))}\n</div>'))
+        partes.append(secao("disco", "Um disco", obra(ed["disco"], "artista")))
 
     if "poema" in ed:
         p = ed["poema"]
         partes.append(secao("poema", "Poema",
             f'<h3>{e(p["autor"])}, "{e(p["titulo"])}"</h3>\n<p class="y src">{e(p["ficha"])}</p>\n'
             f'<p class="poem">{e(p["texto"])}</p>\n{paragrafos(p["comentario"])}\n{fontes(p.get("fontes"))}'))
+
+    for chave, rotulo, autor in [("filme", "Um filme", "diretor"), ("estudo", "Um estudo", "autor"), ("livro", "Um livro", "autor")]:
+        if chave in ed:
+            partes.append(secao(chave, rotulo, obra(ed[chave], autor)))
 
     if "entender_brasil" in ed:
         partes.append(secao("brasil-fundo", "Para entender o Brasil", leitura(ed["entender_brasil"])))
@@ -338,7 +356,7 @@ def pagina_sobre(css):
 
 <section id="edicoes">
 <h2>Duas edições</h2>
-<p>A edição da manhã traz as notícias do Brasil e do mundo, inteligência artificial, ciência, mercados, esporte, previsão do tempo, um disco, um poema e indicações de leitura para entender o país. A edição da noite é mais curta, com notícias enxutas e leituras mais aprofundadas.</p>
+<p>A edição da manhã traz as notícias do Brasil e do mundo, um giro pelo país, inteligência artificial, ciência, mercados, esporte, previsão do tempo, uma leitura para entender o momento e, a cada dia, uma sugestão cultural: um disco, um poema, um filme, um estudo sobre tecnologia ou um livro. Aos domingos, as Leituras da semana revisitam essas sugestões, e um texto seminal ajuda a entender o Brasil. A edição da noite é mais curta, com notícias enxutas e uma leitura aprofundada.</p>
 </section>
 
 <section id="limites">

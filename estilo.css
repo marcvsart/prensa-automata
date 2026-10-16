@@ -65,6 +65,9 @@ p{margin:0 0 12px}
 .giro ul{list-style:none;padding:0;margin:0}
 .giro li{font-size:.96rem;line-height:1.4;padding:8px 0;border-bottom:1px solid var(--rule)}
 .giro li:last-child{border-bottom:none}
+.giro-br{display:block}
+.giro-br .lugar{display:block;font:500 11px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:2px}
+#semana .album+.album{margin-top:28px}
 
 .album{margin-bottom:22px}
 .album h3{margin:0 0 2px;font-size:1.45rem}
