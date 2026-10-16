@@ -1,6 +1,6 @@
 /* Prensa Autômata — tema claro azul, sóbrio (set/2026). A edição da noite usa o tema escuro (.noite), com as cores dos cards noturnos.
    Fontes (no <head>):
-   https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Geist+Mono:wght@400;500&display=swap */
+   https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Geist+Mono:wght@400;500;600&display=swap */
 :root{
   --bg:#f6f8fb; --paper:#ffffff; --ink:#0f1a2c; --muted:#56627a; --rule:#d7deea; --grid:#e4eaf4;
   --accent:#1e3a9e; --accent-soft:#1e3a9e0d;
@@ -159,7 +159,7 @@ footer a:hover{color:var(--accent)}
 .noite .prensa-form input[type="submit"]{color:#0b111c}
 /* Edição especial de domingo (manhã): paleta quente, papel creme e terracota */
 .domingo{--bg:#f4ede1;--paper:#fbf7ef;--ink:#2a1f17;--muted:#7a6a5c;--rule:#e2d6c3;--grid:#ebe1d0;--accent:#b4532a;--accent-soft:#b4532a12}
-.domingo .meta .especial{color:var(--accent)}
+.domingo .meta .especial{color:var(--accent);font-weight:600}
 
 @media (max-width:480px){body{font-size:17.5px}.reg{display:none}.regioes div,.etapas div{grid-template-columns:1fr}.arq li a{grid-template-columns:auto 1fr}.arq .t{grid-column:1/-1}}
 
