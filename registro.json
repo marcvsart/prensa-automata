@@ -72,6 +72,10 @@
     {
       "data": "2026-10-15",
       "item": "Pedro Santos — Krishnanda (1968)"
+    },
+    {
+      "data": "2026-10-16",
+      "item": "Tony Bizarro — Nesse Inverno (1977)"
     }
   ],
   "poemas": [
@@ -146,6 +150,10 @@
     {
       "data": "2026-10-15",
       "item": "Raimundo Correia — O vinho de Hebe"
+    },
+    {
+      "data": "2026-10-16",
+      "item": "Cruz e Sousa — Vida obscura"
     }
   ],
   "entender_brasil": [
@@ -276,6 +284,10 @@
     {
       "data": "2026-10-15",
       "item": "Monteiro Lobato — A propósito da exposição Malfatti (Paranoia ou mistificação?) (texto)"
+    },
+    {
+      "data": "2026-10-16",
+      "item": "Joaquim Nabuco — Minha formação (livro)"
     }
   ],
   "momento": [
@@ -418,8 +430,12 @@
     {
       "data": "2026-10-15",
       "item": "Cesare Beccaria — Dos delitos e das penas (noite)"
+    },
+    {
+      "data": "2026-10-16",
+      "item": "Ludmila Costhek Abílio — Uberização: do empreendedorismo para o autogerenciamento subordinado"
     }
   ],
-  "tiragem": 17,
+  "tiragem": 18,
   "tiragem_noite": 17
 }
