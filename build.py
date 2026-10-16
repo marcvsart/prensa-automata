@@ -234,7 +234,9 @@ def montar(ed, arquivo, slug):
         partes.append(secao("giro-brasil", "Giro pelo Brasil", f'<div class="giro giro-br">\n<ul>\n{itens}\n</ul>\n</div>'))
     if ed.get("semana"):
         blocos = "\n".join(f'<div class="album">\n<p class="y">{e(i["dia"])} · {e(i["tipo"])}</p>\n<h3>{e(i["titulo"])}</h3>\n'
-                           f'{paragrafos(i["texto"])}\n{fontes(i.get("fontes"))}\n</div>' for i in ed["semana"]["itens"])
+                           f'{paragrafos(i["texto"])}\n{fontes(i.get("fontes"))}\n'
+                           + (f'<p class="src"><a href="edicoes/{e(i["data"], quote=True)}.html">Ler na edição de {e(i["dia"].lower())} →</a></p>\n' if i.get("data") else "")
+                           + '</div>' for i in ed["semana"]["itens"])
         partes.append(secao("semana", "Leituras da semana", f'<p class="lede">{e(SEMANA_ABRE)}</p>\n{blocos}'))
     if "momento" in ed:
         partes.append(secao("leitura", "Para entender o momento", leitura(ed["momento"])))
