@@ -79,8 +79,11 @@ def m_distancia(m, d):
             f'<div class="esq-lab1">{e(m["origem"])}</div><div class="esq-lab2">{e(m["destino"])}</div><div class="esq-med">{e(m["rotulo"])}</div></div>'), d+1.0, nwords(m["origem"]+" "+m["destino"]+" "+m["rotulo"])
 def m_fita(m, d): return f'<div class="fita in" data-d="{d:.2f}"><div class="fita-i">{e(m["texto"]+"   /   ")*5}</div></div>', d+0.5, 0
 def m_livros(m, d):
-    out = "".join(f'<div class="livro" data-d="{d+i*0.5:.2f}" data-k="{i%2}"><i class="lombada"></i><div class="lv-t">{e(it["titulo"])}</div><div class="lv-a">{e(it["autor"])}</div></div>' for i, it in enumerate(m["itens"]))
-    return f'<div class="livros">{out}</div>', d+1.4+0.5*len(m["itens"]), sum(nwords(x["titulo"]+" "+x["autor"]) for x in m["itens"])
+    # "texto" opcional: uma linha curta sob o título (usada nas Leituras da semana, duas obras por cena)
+    out = "".join(f'<div class="livro" data-d="{d+i*0.5:.2f}" data-k="{i%2}"><i class="lombada"></i><div class="lv-t">{e(it["titulo"])}</div>'
+                  + (f'<div class="lv-x">{e(it["texto"])}</div>' if it.get("texto") else "")
+                  + f'<div class="lv-a">{e(it["autor"])}</div></div>' for i, it in enumerate(m["itens"]))
+    return f'<div class="livros">{out}</div>', d+1.4+0.5*len(m["itens"]), sum(nwords(x["titulo"]+" "+x["autor"]+" "+x.get("texto","")) for x in m["itens"])
 def m_lista(m, d):
     out = f'<div class="in mod-k" data-d="{d:.2f}">{e(m["titulo"])}</div>' if m.get("titulo") else ""
     out += "".join(f'<div class="in tb" data-d="{d+0.2+i*0.2:.2f}">{e(x)}</div>' for i, x in enumerate(m["itens"]))
@@ -181,6 +184,7 @@ b{font-weight:500}
 .livro:nth-child(even){margin-left:44px;width:calc(100% - 44px)}.lombada{position:absolute;left:0;top:0;bottom:0;width:28px;background:var(--azul);display:block}
 .lv-t{font-size:72px;line-height:1.05;font-weight:500;letter-spacing:-.01em}
 .lv-a{font-family:'Geist Mono',monospace;font-size:23px;color:var(--cinza);margin-top:26px;text-transform:uppercase;letter-spacing:.03em}
+.lv-x{font-size:36px;line-height:1.3;margin-top:22px}
 .url-l{font-size:92px;font-weight:500;line-height:1.1;letter-spacing:-.02em;min-height:104px;white-space:nowrap}.url{color:var(--azul)}
 .lista{margin-top:56px}.tb{font-size:40px;line-height:1.3;padding:14px 0 14px 36px;position:relative;border-bottom:1px solid var(--filete)}
 .tb::before{content:'';position:absolute;left:4px;top:34px;width:13px;height:13px;background:var(--azul)}
