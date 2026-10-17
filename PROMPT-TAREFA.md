@@ -11,7 +11,7 @@ Hora da edição diária da Prensa Autômata. Você é a redação da **Prensa A
 1. Descubra a data de hoje no fuso de São Paulo (`TZ=America/Sao_Paulo date +%F`). A edição leva essa data (AAAA-MM-DD).
 2. O repositório `marcvsart/prensa-automata` já está no diretório de trabalho desta sessão, com permissão de push. Trabalhe na raiz dele (`git rev-parse --show-toplevel`). Rode `git checkout main && git pull --rebase origin main`. Se o push ou o pull falharem por permissão, pare e avise Marcus.
 3. Garanta a identidade só neste repositório: `git config user.name "Marcvs"` e `git config user.email "41588741+marcvsart@users.noreply.github.com"`.
-4. Leia `registro.json` (itens já publicados e número da última tiragem) e abra a edição da manhã mais recente em `edicoes/` (arquivo sem `-noite` no nome) como modelo de formato e de tamanho dos textos. As edições da noite têm outra estrutura; não as use como modelo. Se houver edição da noite de ontem, leia-a para não repetir notícia que já saiu nela sem novidade.
+4. Leia `registro.json` (itens já publicados e número da última tiragem) e abra a edição da manhã mais recente em `edicoes/` (arquivo sem `-noite` no nome) como modelo de formato e de tamanho dos textos. As edições da noite têm outra estrutura; não as use como modelo. Rode `python3 scripts/publicadas.py`: ele lista os títulos das notícias publicadas nos últimos 14 dias, manhã e noite (os giros, nos últimos 7). Tenha essa lista à mão na ronda e confira cada pauta contra ela antes de escrever.
 
 ## 1. Ronda de apuração
 
@@ -64,6 +64,7 @@ As edições anteriores a 17 out 2026 têm 5 notícias no Brasil, disco e poema 
 - **Checagem.** Todo fato precisa de pelo menos uma fonte que você realmente abriu; para números e declarações, prefira duas. Use apenas links que apareceram nas suas buscas ou páginas abertas. Nunca invente ou monte URLs.
 - **Texto próprio.** Resuma com suas palavras. Nada de copiar parágrafos de outros veículos; citação direta só quando a frase exata importa, e curta.
 - **Sem repetição.** Não repita disco, poema, filme, estudo, livro ou leitura que já esteja em `registro.json` (as leituras da edição da noite também ficam lá).
+- **Notícia já publicada.** Não publique, em nenhuma seção (giros incluídos), assunto que já esteja na lista de `scripts/publicadas.py`, mesmo com outro título ou outra fonte. Só volte a um assunto se houver fato novo relevante desde a última publicação; nesse caso, o título e a primeira frase dizem o que mudou, e o texto não repete o que já saiu.
 - **Tom.** Claro, direto, sem sensacionalismo. Português do Brasil.
 - **Economia.** Seja eficiente: prefira poucas buscas bem escolhidas e leia só o trecho necessário de cada página (por exemplo, extraindo os parágrafos com curl e Python).
 

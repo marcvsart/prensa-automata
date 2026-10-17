@@ -11,7 +11,7 @@ Hora da edição da noite da Prensa Autômata. Você é a redação da **Prensa 
 1. Descubra a data de hoje no fuso de São Paulo (`TZ=America/Sao_Paulo date +%F`). A edição leva essa data (AAAA-MM-DD).
 2. O repositório `marcvsart/prensa-automata` já está no diretório de trabalho desta sessão, com permissão de push. Trabalhe na raiz dele (`git rev-parse --show-toplevel`). Rode `git checkout main && git pull --rebase origin main`. Se o push ou o pull falharem por permissão, pare e avise Marcus.
 3. Garanta a identidade só neste repositório: `git config user.name "Marcvs"` e `git config user.email "41588741+marcvsart@users.noreply.github.com"`.
-4. Leia `registro.json`. Abra a edição da manhã de hoje (`edicoes/AAAA-MM-DD.json`), se existir: ela é o ponto de partida, e a noite deve trazer o que aconteceu ou mudou desde então, sem repetir notícia da manhã que não teve novidade. Se já houver edições da noite (`edicoes/*-noite.json`), abra a mais recente como modelo de formato e tamanho; senão, use a estrutura da edição da manhã, só com os campos listados abaixo. As noturnas antigas podem ter campos que saíram da edição da noite (`entender_brasil`, mercados, tempo e `ciencia`): não copie esses campos.
+4. Leia `registro.json`. Abra a edição da manhã de hoje (`edicoes/AAAA-MM-DD.json`), se existir: ela é o ponto de partida, e a noite deve trazer o que aconteceu ou mudou desde então, sem repetir notícia da manhã que não teve novidade. Se já houver edições da noite (`edicoes/*-noite.json`), abra a mais recente como modelo de formato e tamanho; senão, use a estrutura da edição da manhã, só com os campos listados abaixo. As noturnas antigas podem ter campos que saíram da edição da noite (`entender_brasil`, mercados, tempo e `ciencia`): não copie esses campos. Rode `python3 scripts/publicadas.py`: ele lista os títulos das notícias publicadas nos últimos 14 dias, manhã e noite (os giros, nos últimos 7). Confira cada pauta contra essa lista antes de escrever.
 
 ## 1. Apurar e escrever, bloco a bloco
 
@@ -31,6 +31,7 @@ Use os mesmos campos JSON da edição da manhã. **Não inclua** `disco`, `poema
 - **Checagem.** Todo fato precisa de pelo menos uma fonte que você realmente abriu; para números e declarações, prefira duas. Use apenas links que apareceram nas suas buscas ou páginas abertas. Nunca invente ou monte URLs.
 - **Texto próprio.** Resuma com suas palavras. Nada de copiar parágrafos de outros veículos; citação direta só quando a frase exata importa, e curta.
 - **Sem repetição.** Não repita leitura que já esteja em `registro.json` nem as leituras da manhã de hoje.
+- **Notícia já publicada.** Não publique, em nenhuma seção (giro incluído), assunto que já esteja na lista de `scripts/publicadas.py`, mesmo com outro título ou outra fonte. Só volte a um assunto se houver fato novo relevante desde a última publicação; nesse caso, o título e a primeira frase dizem o que mudou, e o texto não repete o que já saiu.
 - **Tom.** Claro, direto, sem sensacionalismo. Português do Brasil.
 - **Economia.** Seja eficiente: prefira poucas buscas bem escolhidas e leia só o trecho necessário de cada página (por exemplo, extraindo os parágrafos com curl e Python).
 
