@@ -76,6 +76,10 @@
     {
       "data": "2026-10-16",
       "item": "Tony Bizarro — Nesse Inverno (1977)"
+    },
+    {
+      "data": "2026-10-17",
+      "item": "Sibylle Baier — Colour Green (2006)"
     }
   ],
   "poemas": [
@@ -438,8 +442,12 @@
     {
       "data": "2026-10-16",
       "item": "Karl Marx — O capital, Livro I, cap. 8: A jornada de trabalho (noite)"
+    },
+    {
+      "data": "2026-10-17",
+      "item": "Jairo Nicolau — O sistema eleitoral de lista aberta no Brasil"
     }
   ],
-  "tiragem": 18,
+  "tiragem": 19,
   "tiragem_noite": 18
 }
