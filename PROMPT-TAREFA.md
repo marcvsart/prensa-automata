@@ -40,7 +40,7 @@ Ordem da edição e o que vai em cada bloco. Descubra o dia da semana em São Pa
 5. **Para entender o momento** (`momento`): um livro, ensaio, reportagem longa ou artigo que ajude a entender o assunto do bloco Brasil. Título, autor e ano, e um parágrafo explicando por que ler agora.
 6. **Mundo** (`mundo`): 1 notícia, a mais relevante da cobertura internacional.
 7. **Inteligência artificial** (`ia`): 1 notícia. Se a notícia envolver a Anthropic, termine o texto com "(A Prensa é escrita com o Claude, modelo da Anthropic.)".
-8. **Giro pelo mundo** (`giro`): 3 manchetes curtas com link para cada região, nesta ordem: América do Sul; América do Norte e Central; África; Europa; Oriente Médio; Ásia. Só título e link, sem texto. Varie as fontes: no máximo uma manchete por região vinda do mesmo agregador.
+8. **Giro pelo mundo** (`giro`): 2 manchetes curtas com link para cada região, nesta ordem: América do Sul; América do Norte e Central; África; Europa; Oriente Médio; Ásia. Só título e link, sem texto. Varie as fontes: no máximo uma manchete por região vinda do mesmo agregador.
 9. **Ciência** (`ciencia`): 1 notícia de pesquisa ou descoberta do dia.
 10. **Item cultural do dia**: um só por edição, conforme o dia da semana. Busque pérolas escondidas, nada de clássicos óbvios. Use o mesmo formato do disco nas edições anteriores (título, ficha e um parágrafo que dê vontade de conhecer a obra, com por onde começar).
     - **Segunda — um disco brasileiro** (`disco`): sempre brasileiro e pouco conhecido. `artista`, `titulo`, `ficha` (ano e selo quando souber com segurança), `texto` (indicando uma faixa por onde começar) e `fontes`.
